@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
-import { headers } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { Ticker, Masthead, Footer, Newsletter } from "@/components/Chrome";
 import { Story, SkylineArt, BarsArt, LineArt, ParliamentArt, DocumentArt, PenArt, IslandLine } from "@/components/Story";
 import { allItems, allReports, bandIndicators, itemsByIsland, loc, relTime, sourcesByIsland } from "@/lib/data";
@@ -17,19 +17,19 @@ export default async function Home({ params, searchParams }: { params: Promise<{
   const d = t(lang);
   const x = extra[lang];
   const items = allItems();
-  // Visitors on Aruba, Curaçao or Bonaire see their own island first (Vercel geo header). ?all=1 shows the neutral page.
+  // Visitors on Aruba, Curaçao or Bonaire only see their own island (Vercel geo header).
+  // They can switch to all islands; that choice is kept in a cookie (set by /api/view).
   const sp = await searchParams;
   const country = (sp.geo || (await headers()).get("x-vercel-ip-country") || "").toUpperCase();
-  const home = sp.all ? null : COUNTRY_ISLAND[country] ?? null;
-  const newest = items[0] ? new Date(items[0].published_at).getTime() : 0;
-  const homeItems = home ? items.filter((i) => i.island === home && newest - new Date(i.published_at).getTime() < 48 * 36e5) : [];
-  const lead = homeItems[0] ?? items[0];
-  const rest = items.filter((i) => i.id !== lead.id);
-  const brief = home
-    ? [...rest.filter((i) => i.island === home).slice(0, 3), ...rest.filter((i) => i.island !== home)].slice(0, 5)
-    : rest.slice(0, 5);
-  const islandOrder = home ? [home, ...ISLANDS.filter((i) => i !== home)] : [...ISLANDS];
-  const byTopic = (topic: string) => items.filter((i) => i.topic === topic);
+  const geoIsland = COUNTRY_ISLAND[country] ?? null;
+  const wantsAll = sp.all === "1" || (await cookies()).get("ns_view")?.value === "all";
+  const scoped = geoIsland ? items.filter((i) => i.island === geoIsland) : [];
+  const home = geoIsland && !wantsAll && scoped.length >= 3 ? geoIsland : null;
+  const feed = home ? scoped : items;
+  const lead = feed[0];
+  const brief = feed.slice(1, 6);
+  const islandOrder = geoIsland ? [geoIsland, ...ISLANDS.filter((i) => i !== geoIsland)] : [...ISLANDS];
+  const byTopic = (topic: string) => feed.filter((i) => i.topic === topic);
   const reports = allReports().slice(0, 4);
   const band = bandIndicators();
   const analysis = (await analysisFor(lang)).slice(0, 2);
@@ -38,16 +38,9 @@ export default async function Home({ params, searchParams }: { params: Promise<{
   return (
     <>
       <Ticker lang={lang} />
-      <Masthead lang={lang} path="" />
+      <Masthead lang={lang} path="" geo={geoIsland && scoped.length >= 3 ? { island: geoIsland, scoped: Boolean(home) } : undefined} />
       <main className="wrap page">
         {hasSample && <span className="sample">{d.sampleNotice}</span>}
-        {home && (
-          <div className={`geo-bar c-${home}`}>
-            <span>{lang === "nl" ? `${d.islands[home]} eerst, omdat je op ${d.islands[home]} bent.` : `${d.islands[home]} first, because you are on ${d.islands[home]}.`}</span>
-            <a href={`/${lang}?all=1`}>{lang === "nl" ? "Toon alle eilanden gelijk" : "Show all islands equally"}</a>
-          </div>
-        )}
-
         <section className="hero">
           <article className="lead">
             <div className="art">
@@ -80,6 +73,7 @@ export default async function Home({ params, searchParams }: { params: Promise<{
           </aside>
         </section>
 
+        {!home && (
         <section>
           <div className="rule-h" style={{ marginBottom: 20 }}>
             <h2>{d.threeIslands}</h2>
@@ -110,6 +104,7 @@ export default async function Home({ params, searchParams }: { params: Promise<{
             })}
           </div>
         </section>
+        )}
 
         <section className="cols">
           {(["business", "economy", "politics"] as const).map((topic) => {
