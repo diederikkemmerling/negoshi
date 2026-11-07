@@ -44,12 +44,13 @@
     "island": "aruba",
     "type": "press",
     "url": "https://bondia.com",
-    "feed": "https://bondia.com/feed/",
+    "feed": null,
     "lang": "pap",
     "listings": [
-      "https://bondia.com/"
+      "https://www.bondia.com/category/politica/",
+      "https://www.bondia.com/category/local/"
     ],
-    "pattern": "^https://bondia\\.com/[a-z0-9-]{15,}$"
+    "pattern": "^https://www\\.bondia\\.com/[a-z0-9-]{20,}/?$"
   },
   {
     "id": "gov-aw",
@@ -122,9 +123,10 @@
     "feed": null,
     "lang": "en",
     "listings": [
+      "https://curacaochronicle.com/",
       "https://www.curacaochronicle.com/"
     ],
-    "pattern": "^https://www\\.curacaochronicle\\.com/post/[a-z0-9-]+/[a-z0-9-]{15,}$"
+    "pattern": "^https://(www\\.)?curacaochronicle\\.com/post/[a-z0-9-]+/[a-z0-9-]{15,}$"
   },
   {
     "id": "extra",
@@ -132,7 +134,7 @@
     "island": "curacao",
     "type": "press",
     "url": "https://extra.cw",
-    "feed": "https://extra.cw/feed/",
+    "feed": null,
     "lang": "pap",
     "listings": [
       "https://extra.cw/"
@@ -149,7 +151,7 @@
     "lang": "nl",
     "listings": [
       "https://www.curacao.nu/economie",
-      "https://www.curacao.nu/politiek-en-bestuur"
+      "https://www.curacao.nu/nieuws"
     ],
     "pattern": "^https://www\\.curacao\\.nu/nieuws/(economie|politiek-bestuur|overheid|koninkrijk|toerisme)/\\d+/[a-z0-9-]+$"
   },
@@ -199,7 +201,6 @@
     "lang": "nl",
     "listings": [
       "https://www.bonaire.nu/economie",
-      "https://www.bonaire.nu/politiek-en-bestuur",
       "https://www.bonaire.nu/nieuws"
     ],
     "pattern": "^https://www\\.bonaire\\.nu/nieuws/(economie|politiek-bestuur|overheid|koninkrijk|toerisme|nieuws-uit-nederland|luchtvaart-reizen)/\\d+/[a-z0-9-]+$"
