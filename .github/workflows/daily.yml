@@ -1,0 +1,47 @@
+name: Negoshi indicators and reports
+
+on:
+  schedule:
+    - cron: "41 10 * * *" # daily, 10:41 UTC (06:41 Aruba)
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "Dry run (fetch sources, no Claude calls, nothing written)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - name: Indicators
+        run: node scripts/indicators.mjs ${{ inputs.dry && '--dry' || '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Reports
+        if: ${{ always() }}
+        run: node scripts/reports.mjs ${{ inputs.dry && '--dry' || '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Commit
+        if: ${{ always() && !inputs.dry }}
+        run: |
+          git config user.name "negoshi-bot"
+          git config user.email "bot@negoshi.news"
+          git add data/indicators.json data/reports.json data/reports-seen.json
+          git diff --cached --quiet || git commit -m "daily: indicators and reports $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main || true
+          git push
