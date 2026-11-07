@@ -115,7 +115,7 @@ for (const pub of PUBLISHERS) {
 
 const live = reports.filter((r) => !r.sample);
 const final = (live.length >= 4 ? live : reports).sort((a, b) => (a.published_at < b.published_at ? 1 : -1)).slice(0, MAX_REPORTS);
-if (!DRY) {
+if (!DRY && process.exitCode !== 2) { // on a billing stop nothing is written, so the next run starts clean
   fs.writeFileSync(OUT, JSON.stringify(final, null, 2) + "\n");
   fs.writeFileSync(SEEN_PATH, JSON.stringify(seen) + "\n");
 }
