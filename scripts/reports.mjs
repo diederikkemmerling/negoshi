@@ -33,7 +33,7 @@ const PDF = /\.pdf(\?|$)/i;
  */
 const PUBLISHERS = [
   { id: "cba", name: "Centrale Bank van Aruba", island: "aruba",
-    listings: ["https://www.cbaruba.org/monthly-bulletins/", "https://www.cbaruba.org/state-of-the-economy/", "https://www.cbaruba.org/economic-outlook/", "https://www.cbaruba.org/quarterly-bulletins/", "https://www.cbaruba.org/tables-selected-economic-indicators/", "https://www.cbaruba.org/getDocumentList.do"],
+    listings: ["https://www.cbaruba.org/monthly-bulletins/", "https://www.cbaruba.org/state-of-the-economy/", "https://www.cbaruba.org/economic-outlook/", "https://www.cbaruba.org/quarterly-economic-bulletins/", "https://www.cbaruba.org/press-releases/", "https://www.cbaruba.org/annual-statistical-digest-asd/", "https://www.cbaruba.org/tables-selected-economic-indicators/", "https://www.cbaruba.org/getDocumentList.do"],
     doc: /readBlob\.do\?id=\d+|\.pdf(\?|$)/i, follow: /cbaruba\.org\/(getDocument\.do|document\/)/i },
   { id: "cbcs", name: "CBCS", island: "curacao",
     listings: ["https://www.centralbank.cw/publications", "https://www.centralbank.cw/publications/press-releases", "https://www.centralbank.cw/publications/economic-bulletins", "https://www.centralbank.cw/publications/financial-stability-reports", "https://www.centralbank.cw/publications/research"],
@@ -45,8 +45,8 @@ const PUBLISHERS = [
     listings: ["https://www.cbs.cw/", "https://www.cbs.cw/inflationprices", "https://www.cbs.cw/publications", "https://www.cbs.cw/press-releases", "https://digitallibrary.cbs.cw/"],
     doc: PDF, follow: /cbs\.cw\/[a-z0-9-]{20,}$/i },
   { id: "cft", name: "College financieel toezicht", island: "kingdom",
-    listings: ["https://www.cft.cw/en/documents/", "https://www.cft.cw/documenten/"],
-    doc: /cft\.cw\/publication\/[^/]+\/[^/]+-pdf\/?$|\.pdf(\?|$)/i, follow: /cft\.cw\/(en\/)?publication\/[^/]+\/?$/i },
+    listings: ["https://www.cft.cw/publicaties-zoeken/", "https://www.cft.cw/en/documents/"],
+    doc: /cft\.cw\/(en\/)?publication\/[^/]+\/[^/]+\/?$|\.pdf(\?|$)/i, follow: /cft\.cw\/(en\/)?publication\/[^/]+\/?$/i, onePerPage: true },
   { id: "ctb", name: "Curaçao Tourist Board", island: "curacao",
     listings: ["https://www.curacaotouristboard.com/monthly-statistics/"], doc: PDF },
   { id: "ata", name: "Aruba Tourism Authority", island: "aruba",
@@ -72,11 +72,13 @@ async function collect(pub) {
     try {
       const html = await get(sp);
       const title = (html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || "").replace(/\s+/g, " ").trim();
-      for (const a of anchors(html, sp)) if (pub.doc.test(a.url) && !found.has(a.url)) found.set(a.url, a.text && a.text.length > 8 && !/download|pdf|english|dutch|nederlands|papiamentu/i.test(a.text) ? a.text : title);
+      let took = 0;
+      for (const a of anchors(html, sp)) if (pub.doc.test(a.url) && !found.has(a.url) && !(pub.onePerPage && took++)) found.set(a.url, a.text && a.text.length > 8 && !/download|pdf|english|dutch|nederlands|papiamentu/i.test(a.text) ? a.text : title);
       seen[sp] = "scanned";
     } catch (e) { console.log(`sub err  ${pub.id} ${sp}: ${e.message}`); }
   }
-  return [...found].map(([url, title]) => ({ url, title: (title || "").trim() || prettify(url) }));
+  const JUNK = /reproduction|disclaimer|privacy|cookie|terms of use|copyright|unusual transactions|reporting form/i;
+  return [...found].map(([url, title]) => ({ url, title: (title || "").trim() || prettify(url) })).filter((d) => !JUNK.test(d.title));
 }
 
 const SYSTEM = `You curate a reports library for Negoshi, a business and economy news site for Aruba, Curaçao and Bonaire. You get a list of documents (publisher, link text, URL). For each, decide if it is a substantive publication worth listing: economic bulletins, statistical reports, press releases with data, annual reports, financial stability reports, supervisory advice, budgets, outlooks, tourism statistics. Drop forms, privacy statements, brochures, job vacancies, event flyers, duplicates in another language of the same document (keep the English one if present, else Dutch), and anything older than 2023 if a year is visible.

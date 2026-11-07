@@ -26,7 +26,7 @@ const DEFS = [
   { id: "awg-usd", en: "AWG/USD", nl: "AWG/USD", unit: "", fixed: "1.79", note_en: "fixed", note_nl: "vast", source: "CBA", url: "https://www.cbaruba.org" },
   { id: "xcg-usd", en: "XCG/USD", nl: "XCG/USD", unit: "", fixed: "1.79", note_en: "fixed", note_nl: "vast", source: "CBCS", url: "https://www.centralbank.cw" },
   { id: "usd-eur", en: "USD/EUR", nl: "USD/EUR", unit: "", source: "ECB", url: "https://www.ecb.europa.eu" },
-  { id: "brent", en: "Brent", nl: "Brent", unit: "$/bbl", source: "ICE", url: "https://stooq.com/q/?s=cb.f" },
+  { id: "brent", en: "Brent", nl: "Brent", unit: "$/bbl", source: "FRED / EIA", url: "https://fred.stlouisfed.org/series/DCOILBRENTEU" },
   { id: "cpi-aw", en: "Aruba inflation", nl: "Inflatie Aruba", unit: "% y/y", band: true, source: "CBS Aruba", url: "https://cbs.aw/wp/index.php/category/business-economy/inflation-prices/" },
   { id: "cpi-cw", en: "Curaçao inflation", nl: "Inflatie Curaçao", unit: "% y/y", band: true, source: "CBS Curaçao", url: "https://www.cbs.cw/inflation-rates" },
   { id: "arrivals-aw", en: "Aruba stay-over arrivals", nl: "Verblijfsgasten Aruba", unit: "% y/y", band: true, source: "ATA", url: "https://www.ata.aw" },
@@ -44,11 +44,13 @@ try {
   console.log("ok   usd-eur", results["usd-eur"].value);
 } catch (e) { console.log("err  usd-eur", e.message); }
 try {
-  const csv = await get("https://stooq.com/q/l/?s=cb.f&f=sd2t2ohlcv&h&e=csv", { accept: "text/csv,*/*" });
-  const row = csv.trim().split("\n")[1]?.split(",");
-  const close = Number(row?.[6]);
-  if (Number.isFinite(close) && close > 0) { results.brent = { value: close.toFixed(2), period: row[1] }; console.log("ok   brent", close); }
-  else throw new Error("no close in csv");
+  // FRED daily Brent spot (EIA), public CSV, last non-empty row wins
+  const csv = await get("https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU", { accept: "text/csv,*/*" });
+  const rows = csv.trim().split("\n").slice(1).map((l) => l.split(",")).filter((r) => r[1] && r[1] !== ".");
+  const last = rows[rows.length - 1];
+  const close = Number(last?.[1]);
+  if (Number.isFinite(close) && close > 0) { results.brent = { value: close.toFixed(2), period: last[0] }; console.log("ok   brent", close, last[0]); }
+  else throw new Error("no value in csv");
 } catch (e) { console.log("err  brent", e.message); }
 
 // 2. Official pages -> Claude extraction (one call)
