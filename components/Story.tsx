@@ -21,7 +21,7 @@ export function Story({ item, lang, big, art }: { item: Item; lang: Lang; big?: 
       {big && <Kicker item={item} lang={lang} />}
       <h3><a href={`/${lang}/brief/${item.slug}`}>{l.title}</a></h3>
       <span className="m">
-        <b className={`tag-${item.island}`}>{d.islands[item.island]}</b> · {item.source_name} · {relTime(item.published_at, lang)}
+        <b className={`tag-${item.island}`}>{d.islands[item.island]}</b> · {relTime(item.published_at, lang)}
       </span>
     </article>
   );
@@ -38,9 +38,7 @@ export function FeedItem({ item, lang }: { item: Item; lang: Lang }) {
       <h3><a href={`/${lang}/brief/${item.slug}`}>{l.title}</a></h3>
       <p>{l.standfirst}</p>
       <div className="meta">
-        <b>{item.source_name}</b>
-        <a className="link" href={item.source_url} target="_blank" rel="noopener">{d.readOriginal} →</a>
-        {item.also_covered.length > 0 && <span>{d.alsoCovered} {item.also_covered.join(", ")}</span>}
+        <a className="link" href={`/${lang}/brief/${item.slug}`}>{d.readBrief} →</a>
       </div>
     </article>
   );

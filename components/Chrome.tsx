@@ -9,15 +9,14 @@ export function Ticker({ lang }: { lang: Lang }) {
   const rows: [string, string, string][] = live.length
     ? live.map((i) => [i[lang], `${i.value}${i.unit && !i.unit.startsWith("%") && i.unit !== "" ? " " + i.unit : i.unit.startsWith("%") ? "%" : ""}`, (lang === "nl" ? i.note_nl : i.note_en) || i.period || ""])
     : [
-        ["AWG/USD", "1.79", lang === "nl" ? "vast" : "fixed"],
-        ["XCG/USD", "1.79", lang === "nl" ? "vast" : "fixed"],
+        ["USD/EUR", "", ""],
       ];
   return (
     <div className="ticker">
       <div className="wrap">
         <span className="label">{d.ticker}</span>
         <div className="items">
-          {rows.map(([k, v, n]) => (
+          {rows.filter(([, v]) => v).map(([k, v, n]) => (
             <span key={k}>
               <span className="k">{k}</span>
               <span className="v">{v}</span>
@@ -96,6 +95,7 @@ export function Footer({ lang }: { lang: Lang }) {
           <b>{lang === "nl" ? "Over" : "About"}</b>
           <a href={`/${lang}/about`}>{d.nav.about}</a>
           <a href={`/${lang}/about#sources`}>{d.sourcesMonitored}</a>
+          <a href="/studio">{lang === "nl" ? "Auteurs login" : "Contributor login"}</a>
           <a href={`/${lang}/analysis#contribute`}>{x.contribute}</a>
           <a href="mailto:hello@negoshi.news">Contact</a>
         </div>
