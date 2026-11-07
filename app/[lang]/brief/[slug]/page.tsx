@@ -60,17 +60,6 @@ export default async function BriefPage({ params }: { params: Promise<{ lang: st
               {l.body.map((p, i) => <p key={i}>{p}</p>)}
               {item.sample && <p style={{ color: "var(--muted)", fontSize: 14 }}>{d.sampleBody}</p>}
             </div>
-            <div className="srcbox">
-              <div>
-                <div className="k">{lang === "nl" ? "Originele bron" : "Original source"}</div>
-                <div className="t">{item.source_name}</div>
-                <div className="s">
-                  {item.also_covered.length > 0 && <>{d.alsoCovered} {item.also_covered.join(", ")}. </>}
-                  {lang === "nl" ? "Dit bericht is door Negoshi geschreven op basis van de publicatie; de brontekst is niet overgenomen." : "This brief was written by Negoshi from the publication; it does not reproduce the source text."}
-                </div>
-              </div>
-              <a className="btn" href={item.source_url} target="_blank" rel="noopener">{d.readOriginal} →</a>
-            </div>
           </article>
           <aside className="side">
             <div className="box dark">
