@@ -361,3 +361,20 @@ footer.foot .legal { border-top: 1px solid #2f3035; padding: 16px 0; font-size: 
 /* keep side padding on every .wrap container (some rules above reset it to 0 on phones) */
 html body .wrap.page, html body .wrap.in, html body .wrap.inner, html body .wrap.legal, html body .wrap.nav, html body .wrap.top, html body .wrap.filters { padding-left: 20px; padding-right: 20px; }
 @media (min-width: 900px) { html body .wrap.page, html body .wrap.in, html body .wrap.inner, html body .wrap.legal, html body .wrap.nav, html body .wrap.top, html body .wrap.filters { padding-left: 36px; padding-right: 36px; } }
+/* island view switcher */
+.geo-bar { gap: 8px; padding-top: 4px; }
+.geo-bar span::before { display: none; }
+.geo-bar span { margin-right: 4px; }
+.geo-bar a { font-weight: 600; font-size: 13px; padding: 6px 12px; border: 1px solid var(--line-2); color: var(--ink); text-decoration: none; background: #fff; }
+.geo-bar a:hover { border-color: var(--ink); }
+.geo-bar a.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.geo-bar.c-aruba a.on:first-of-type { background: var(--aruba); border-color: var(--aruba); }
+.geo-bar.c-curacao a.on:first-of-type { background: var(--curacao); border-color: var(--curacao); }
+.geo-bar.c-bonaire a.on:first-of-type { background: var(--bonaire); border-color: var(--bonaire); }
+.islandnav a[data-i="aruba"].on { border-bottom-color: var(--aruba); }
+.islandnav a[data-i="curacao"].on { border-bottom-color: var(--curacao); }
+.islandnav a[data-i="bonaire"].on { border-bottom-color: var(--bonaire); }
+/* active island tab: inset underline so the scroll container does not clip it on phones */
+.islandnav a { margin-bottom: 0; border-bottom: 0; }
+.islandnav a.on { box-shadow: inset 0 -3px 0 var(--ink); }
+.islandnav a[data-i].on { box-shadow: inset 0 -3px 0 currentColor; }
