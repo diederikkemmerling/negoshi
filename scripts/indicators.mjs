@@ -23,9 +23,9 @@ const prevById = Object.fromEntries((prev.items || []).map((i) => [i.id, i]));
 
 /** Indicator definitions. `band: true` also shows in the homepage numbers band. */
 const DEFS = [
-  { id: "awg-usd", en: "AWG/USD", nl: "AWG/USD", unit: "", fixed: "1.79", note_en: "fixed", note_nl: "vast", source: "CBA", url: "https://www.cbaruba.org" },
-  { id: "xcg-usd", en: "XCG/USD", nl: "XCG/USD", unit: "", fixed: "1.79", note_en: "fixed", note_nl: "vast", source: "CBCS", url: "https://www.centralbank.cw" },
   { id: "usd-eur", en: "USD/EUR", nl: "USD/EUR", unit: "", source: "ECB", url: "https://www.ecb.europa.eu" },
+  { id: "eur-awg", en: "EUR/AWG", nl: "EUR/AWG", unit: "", source: "ECB, AWG peg 1.79", url: "https://www.cbaruba.org" },
+  { id: "usd-cop", en: "USD/COP", nl: "USD/COP", unit: "", source: "open.er-api.com", url: "https://www.exchangerate-api.com" },
   { id: "brent", en: "Brent", nl: "Brent", unit: "$/bbl", source: "FRED / EIA", url: "https://fred.stlouisfed.org/series/DCOILBRENTEU" },
   { id: "cpi-aw", en: "Aruba inflation", nl: "Inflatie Aruba", unit: "% y/y", band: true, source: "CBS Aruba", url: "https://cbs.aw/wp/index.php/category/business-economy/inflation-prices/" },
   { id: "cpi-cw", en: "Curaçao inflation", nl: "Inflatie Curaçao", unit: "% y/y", band: true, source: "CBS Curaçao", url: "https://www.cbs.cw/inflation-rates" },
@@ -42,7 +42,17 @@ try {
   const fx = JSON.parse(await get("https://api.frankfurter.app/latest?from=USD&to=EUR", { accept: "application/json" }));
   results["usd-eur"] = { value: Number(fx.rates.EUR).toFixed(3), period: fx.date };
   console.log("ok   usd-eur", results["usd-eur"].value);
+  // AWG is pegged at 1.79 per USD, so EUR/AWG follows from the ECB rate
+  results["eur-awg"] = { value: (1.79 / Number(fx.rates.EUR)).toFixed(3), period: fx.date };
+  console.log("ok   eur-awg", results["eur-awg"].value);
 } catch (e) { console.log("err  usd-eur", e.message); }
+try {
+  const er = JSON.parse(await get("https://open.er-api.com/v6/latest/USD", { accept: "application/json" }));
+  const cop = Number(er?.rates?.COP);
+  if (!(cop > 0)) throw new Error("no COP rate");
+  results["usd-cop"] = { value: Math.round(cop).toLocaleString("en-US"), period: new Date(er.time_last_update_unix * 1000).toISOString().slice(0, 10) };
+  console.log("ok   usd-cop", results["usd-cop"].value);
+} catch (e) { console.log("err  usd-cop", e.message); }
 try {
   // FRED daily Brent spot (EIA), public CSV, last non-empty row wins
   const csv = await get("https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU", { accept: "text/csv,*/*" });
