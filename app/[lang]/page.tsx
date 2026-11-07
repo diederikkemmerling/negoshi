@@ -61,7 +61,6 @@ export default async function Home({ params, searchParams }: { params: Promise<{
             <p className="standfirst">{loc(lead, lang).standfirst}</p>
             <div className="meta">
               <b>{d.negoshiBrief}</b>
-              <span>{d.source}: {lead.source_name}</span>
               <span>{relTime(lead.published_at, lang)}</span>
               <a className="link" href={`/${lang}/brief/${lead.slug}`}>{d.readBrief} →</a>
             </div>
@@ -69,7 +68,7 @@ export default async function Home({ params, searchParams }: { params: Promise<{
           <aside className="brief">
             <div className="h"><h2>{d.theBrief}</h2><span>{d.fiveToKnow}</span></div>
             {brief.map((it, i) => (
-              <a key={it.id} className="row" href={`/${lang}/brief/${it.slug}`}>
+              <a key={it.id} className={`row c-${it.island}`} href={`/${lang}/brief/${it.slug}`}>
                 <span className="n">{i + 1}</span>
                 <span>
                   <span className="t">{loc(it, lang).title}</span>
