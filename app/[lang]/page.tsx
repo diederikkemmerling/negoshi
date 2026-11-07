@@ -1,11 +1,15 @@
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
+import { headers } from "next/headers";
 import { Ticker, Masthead, Footer, Newsletter } from "@/components/Chrome";
 import { Story, SkylineArt, BarsArt, LineArt, ParliamentArt, DocumentArt, PenArt, IslandLine } from "@/components/Story";
-import { allItems, allReports, allAnalysis, bandIndicators, itemsByIsland, loc, relTime, sourcesByIsland } from "@/lib/data";
+import { allItems, allReports, bandIndicators, itemsByIsland, loc, relTime, sourcesByIsland } from "@/lib/data";
 import { isLang, ISLANDS, t, extra, type Lang } from "@/lib/i18n";
+import { analysisFor } from "@/lib/analysis";
 
-export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
+const COUNTRY_ISLAND: Record<string, "aruba" | "curacao" | "bonaire"> = { AW: "aruba", CW: "curacao", BQ: "bonaire" };
+
+export default async function Home({ params, searchParams }: { params: Promise<{ lang: string }>; searchParams: Promise<{ all?: string; geo?: string }> }) {
   await connection();
   const { lang: raw } = await params;
   if (!isLang(raw)) notFound();
@@ -13,12 +17,22 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const d = t(lang);
   const x = extra[lang];
   const items = allItems();
-  const lead = items[0];
-  const brief = items.slice(1, 6);
+  // Visitors on Aruba, Curaçao or Bonaire see their own island first (Vercel geo header). ?all=1 shows the neutral page.
+  const sp = await searchParams;
+  const country = (sp.geo || (await headers()).get("x-vercel-ip-country") || "").toUpperCase();
+  const home = sp.all ? null : COUNTRY_ISLAND[country] ?? null;
+  const newest = items[0] ? new Date(items[0].published_at).getTime() : 0;
+  const homeItems = home ? items.filter((i) => i.island === home && newest - new Date(i.published_at).getTime() < 48 * 36e5) : [];
+  const lead = homeItems[0] ?? items[0];
+  const rest = items.filter((i) => i.id !== lead.id);
+  const brief = home
+    ? [...rest.filter((i) => i.island === home).slice(0, 3), ...rest.filter((i) => i.island !== home)].slice(0, 5)
+    : rest.slice(0, 5);
+  const islandOrder = home ? [home, ...ISLANDS.filter((i) => i !== home)] : [...ISLANDS];
   const byTopic = (topic: string) => items.filter((i) => i.topic === topic);
   const reports = allReports().slice(0, 4);
   const band = bandIndicators();
-  const analysis = allAnalysis().slice(0, 2);
+  const analysis = (await analysisFor(lang)).slice(0, 2);
   const hasSample = items.some((i) => i.sample);
 
   return (
@@ -27,6 +41,12 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <Masthead lang={lang} path="" />
       <main className="wrap page">
         {hasSample && <span className="sample">{d.sampleNotice}</span>}
+        {home && (
+          <div className={`geo-bar c-${home}`}>
+            <span>{lang === "nl" ? `${d.islands[home]} eerst, omdat je op ${d.islands[home]} bent.` : `${d.islands[home]} first, because you are on ${d.islands[home]}.`}</span>
+            <a href={`/${lang}?all=1`}>{lang === "nl" ? "Toon alle eilanden gelijk" : "Show all islands equally"}</a>
+          </div>
+        )}
 
         <section className="hero">
           <article className="lead">
@@ -67,7 +87,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <span className="sub">{d.threeIslandsSub}</span>
           </div>
           <div className="trio">
-            {ISLANDS.map((i) => {
+            {islandOrder.map((i) => {
               const list = itemsByIsland(i);
               return (
                 <div key={i} className={`icard c-${i}`}>
@@ -115,10 +135,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <div className="cols">
               {analysis.map((a) => (
                 <article className="story big" key={a.id}>
-                  <div className="art"><PenArt seed={a.slug} /></div>
+                  <div className="art">{a.cover ? <img src={a.cover} alt="" className="cover" loading="lazy" /> : <PenArt seed={a.slug} />}</div>
                   <div className="kicker"><span className="tag-aruba">{x.guest}</span></div>
-                  <h3><a href={`/${lang}/analysis/${a.slug}`}>{a[lang].title}</a></h3>
-                  <span className="m">{x.byAuthor} <b>{a.author.name}</b>, {lang === "nl" ? a.author.title_nl : a.author.title_en}</span>
+                  <h3><a href={`/${lang}/analysis/${a.slug}`}>{a.title}</a></h3>
+                  <span className="m">{x.byAuthor} <b>{a.author.name}</b>{a.author.title ? `, ${a.author.title}` : ""}</span>
                 </article>
               ))}
               <article className="story big" id="contribute">
