@@ -32,7 +32,7 @@ const MAX_JUDGED_PER_RUN = Number(process.env.MAX_JUDGED_PER_RUN || 45);
 const MAX_PER_SOURCE = Number(process.env.MAX_PER_SOURCE || 12);
 const MODEL = process.env.NEGOSHI_MODEL || "claude-sonnet-5-5";
 const DRY = process.argv.includes("--dry");
-const UA = "Mozilla/5.0 (compatible; NegoshiBot/1.0; +https://negoshi.news)";
+const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 NegoshiBot/1.0 (+https://negoshi.news)";
 
 const parser = new Parser({ timeout: 15000, headers: { "user-agent": UA } });
 const client = DRY ? null : new Anthropic();
