@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { Ticker, Masthead, Footer } from "@/components/Chrome";
-import { IslandShape } from "@/components/Logo";
+import { IslandLine } from "@/components/Art";
 import { FeedItem } from "@/components/Story";
 import { itemsByIsland, sourcesByIsland } from "@/lib/data";
-import { isIsland, isLang, ISLANDS, LANGS, ISLAND_COLOR, t, type Lang } from "@/lib/i18n";
+import { isIsland, isLang, ISLANDS, LANGS, t, type Lang } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => ISLANDS.map((island) => ({ lang, island })));
@@ -30,14 +30,14 @@ export default async function IslandPage({ params }: { params: Promise<{ lang: s
     <>
       <Ticker lang={lang} />
       <Masthead lang={lang} island={island} path={`/${island}`} />
-      <div className="ibanner" style={{ background: ISLAND_COLOR[island] }}>
+      <div className={`ibanner c-${island}`}>
         <div className="wrap in">
           <div>
             <span className="k">{d.islandSection}</span>
             <h1>{d.islands[island]}</h1>
             <div className="s">{d.sourcesLine(sources.length)}</div>
           </div>
-          <IslandShape island={island} className="shape" />
+          <IslandLine island={island} className="shape" />
           <a href={`/${lang}#subscribe`} className="btn">{d.subscribe}</a>
         </div>
       </div>
