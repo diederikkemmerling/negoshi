@@ -29,7 +29,7 @@ export function Ticker({ lang }: { lang: Lang }) {
   );
 }
 
-export function Masthead({ lang, island, path }: { lang: Lang; island?: Island; path: string }) {
+export function Masthead({ lang, island, path, geo }: { lang: Lang; island?: Island; path: string; geo?: { island: Island; scoped: boolean } }) {
   const d = t(lang);
   const x = extra[lang];
   const date = new Date().toLocaleDateString(lang === "nl" ? "nl-NL" : "en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
@@ -51,9 +51,10 @@ export function Masthead({ lang, island, path }: { lang: Lang; island?: Island; 
       </div>
       <div className="wrap nav">
         <nav className="islandnav" aria-label="Islands">
-          <a href={`/${lang}`} className={!island ? "on" : ""}>{d.allIslands}</a>
+          {/* On the homepage a visitor on an island toggles between "their island" and all islands. */}
+          <a href={geo ? `/api/view?mode=all&lang=${lang}` : `/${lang}`} className={(!island && !geo) || (geo && !geo.scoped) ? "on" : ""}>{d.allIslands}</a>
           {ISLANDS.map((i) => (
-            <a key={i} href={`/${lang}/${i}`} data-i={i} className={island === i ? "on" : ""}>{d.islands[i]}</a>
+            <a key={i} href={geo && geo.island === i ? `/api/view?mode=island&lang=${lang}` : `/${lang}/${i}`} data-i={i} className={island === i || (geo && geo.scoped && geo.island === i) ? "on" : ""}>{d.islands[i]}</a>
           ))}
         </nav>
         <nav className="sections" aria-label="Sections">
