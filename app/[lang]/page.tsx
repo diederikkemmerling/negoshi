@@ -3,7 +3,7 @@ import { connection } from "next/server";
 import { Ticker, Masthead, Footer, Newsletter } from "@/components/Chrome";
 import { Story, SkylineArt, BarsArt, LineArt, ParliamentArt, DocumentArt, PenArt, IslandLine } from "@/components/Story";
 import { allItems, allReports, allAnalysis, bandIndicators, itemsByIsland, loc, relTime, sourcesByIsland } from "@/lib/data";
-import { isLang, ISLANDS, ISLAND_COLOR, t, extra, type Lang } from "@/lib/i18n";
+import { isLang, ISLANDS, t, extra, type Lang } from "@/lib/i18n";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   await connection();
@@ -31,7 +31,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <section className="hero">
           <article className="lead">
             <div className="art">
-              <SkylineArt island={lead.island} accent={ISLAND_COLOR[lead.island]} />
+              <SkylineArt island={lead.island} seed={lead.slug} />
               <div className="pill">
                 <span className="pill-y">{d.leadStory}</span>
                 <span className="pill-k">{d.islands[lead.island]} · {d.topics[lead.topic]}</span>
@@ -99,7 +99,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             return (
               <div className="col" key={topic} id={topic}>
                 <h2 className="label-h">{d.topics[topic]}</h2>
-                {list[0] && <Story item={list[0]} lang={lang} big art={<Art />} />}
+                {list[0] && <Story item={list[0]} lang={lang} big art={<Art island={list[0].island} seed={list[0].slug} />} />}
                 {list.slice(1, 5).map((it) => <Story key={it.id} item={it} lang={lang} />)}
               </div>
             );
@@ -115,7 +115,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <div className="cols">
               {analysis.map((a) => (
                 <article className="story big" key={a.id}>
-                  <div className="art"><PenArt /></div>
+                  <div className="art"><PenArt seed={a.slug} /></div>
                   <div className="kicker"><span className="tag-aruba">{x.guest}</span></div>
                   <h3><a href={`/${lang}/analysis/${a.slug}`}>{a[lang].title}</a></h3>
                   <span className="m">{x.byAuthor} <b>{a.author.name}</b>, {lang === "nl" ? a.author.title_nl : a.author.title_en}</span>
@@ -160,7 +160,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {reports.map((r) => (
               <a key={r.id} href={r.url} target="_blank" rel="noopener" className={`rcard c-${r.island}`}>
                 <div className="cover">
-                  <DocumentArt accent={ISLAND_COLOR[r.island]} />
+                  <DocumentArt island={r.island} seed={r.id} />
                 </div>
                 <span className="k">{d.islands[r.island]} · {r[lang].category}</span>
                 <span className="t">{r[lang].title}</span>
