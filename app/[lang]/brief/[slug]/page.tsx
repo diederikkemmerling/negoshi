@@ -2,8 +2,9 @@ import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import type { Metadata } from "next";
 import { Ticker, Masthead, Footer } from "@/components/Chrome";
+import { BarsArt, LineArt, ParliamentArt } from "@/components/Art";
 import { allItems, itemBySlug, fmtDate, loc, itemsByIsland } from "@/lib/data";
-import { isLang, LANGS, t, type Lang } from "@/lib/i18n";
+import { isLang, LANGS, ISLAND_COLOR, t, type Lang } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => allItems().map((i) => ({ lang, slug: i.slug })));
@@ -43,6 +44,9 @@ export default async function BriefPage({ params }: { params: Promise<{ lang: st
             <div className="kicker"><span className={`tag-${item.island}`}>{d.islands[item.island]}</span><span className="sep">/</span><span style={{ color: "var(--muted)" }}>{d.topics[item.topic]}</span></div>
             <h1>{l.title}</h1>
             <p className="standfirst">{l.standfirst}</p>
+            <div className="art">
+              {item.topic === "business" ? <BarsArt accent={ISLAND_COLOR[item.island]} /> : item.topic === "economy" ? <LineArt accent={ISLAND_COLOR[item.island]} /> : <ParliamentArt accent={ISLAND_COLOR[item.island]} />}
+            </div>
             <div className="byline">
               <span style={{ display: "flex", alignItems: "center", gap: 8 }}><span className="n">N</span><b style={{ color: "var(--ink)" }}>{d.negoshiBrief}</b></span>
               <span>{d.published} {fmtDate(item.published_at, lang)}</span>
