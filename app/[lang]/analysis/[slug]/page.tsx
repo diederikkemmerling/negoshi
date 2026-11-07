@@ -1,11 +1,18 @@
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
+import type { Metadata } from "next";
 import { Ticker, Masthead, Footer } from "@/components/Chrome";
-import { allAnalysis, analysisBySlug, fmtDate } from "@/lib/data";
-import { isLang, LANGS, t, extra, type Lang } from "@/lib/i18n";
+import { PenArt } from "@/components/Art";
+import { fmtDate } from "@/lib/data";
+import { analysisBySlugFor, ORIGINAL_NOTE } from "@/lib/analysis";
+import { isLang, t, extra, type Lang } from "@/lib/i18n";
 
-export function generateStaticParams() {
-  return LANGS.flatMap((lang) => allAnalysis().map((a) => ({ lang, slug: a.slug })));
+export async function generateMetadata({ params }: { params: Promise<{ lang: string; slug: string }> }): Promise<Metadata> {
+  const { lang, slug } = await params;
+  if (!isLang(lang)) return {};
+  const a = await analysisBySlugFor(lang, slug);
+  if (!a) return {};
+  return { title: `${a.title} | Negoshi`, description: a.standfirst, openGraph: { title: a.title, description: a.standfirst, images: a.cover ? [a.cover] : undefined } };
 }
 
 export default async function AnalysisArticle({ params }: { params: Promise<{ lang: string; slug: string }> }) {
@@ -13,11 +20,11 @@ export default async function AnalysisArticle({ params }: { params: Promise<{ la
   const { lang: raw, slug } = await params;
   if (!isLang(raw)) notFound();
   const lang: Lang = raw;
-  const a = analysisBySlug(slug);
+  const a = await analysisBySlugFor(lang, slug);
   if (!a) notFound();
   const d = t(lang);
   const x = extra[lang];
-  const l = a[lang];
+  const note = a.lang !== lang ? ORIGINAL_NOTE[lang][a.lang] : "";
   return (
     <>
       <Ticker lang={lang} />
@@ -28,17 +35,28 @@ export default async function AnalysisArticle({ params }: { params: Promise<{ la
             <nav className="crumbs" aria-label="Breadcrumb"><a href={`/${lang}`}>Home</a><span>/</span><a href={`/${lang}/analysis`}>{x.analysis}</a></nav>
             {a.sample && <span className="sample">{d.sampleNotice}</span>}
             <div className="kicker"><span className="tag-aruba">{x.guest}</span></div>
-            <h1>{l.title}</h1>
-            <p className="standfirst">{l.standfirst}</p>
+            <h1 lang={a.lang}>{a.title}</h1>
+            <p className="standfirst" lang={a.lang}>{a.standfirst}</p>
             <div className="byline">
-              <span><b style={{ color: "var(--ink)" }}>{a.author.name}</b>, {lang === "nl" ? a.author.title_nl : a.author.title_en}</span>
+              {a.author.photo && <img src={a.author.photo} alt="" className="avatar" />}
+              <span>{a.author.slug ? <a href={`/${lang}/analysis/author/${a.author.slug}`}><b style={{ color: "var(--ink)" }}>{a.author.name}</b></a> : <b style={{ color: "var(--ink)" }}>{a.author.name}</b>}{a.author.title ? `, ${a.author.title}` : ""}</span>
               <span>{d.published} {fmtDate(a.published_at, lang)}</span>
+              {note && <span>{note}</span>}
             </div>
-            <div className="prose">{l.body.map((p, i) => <p key={i}>{p}</p>)}</div>
-            <div className="keypoints">
-              <span className="k">{lang === "nl" ? "Over de auteur" : "About the author"}</span>
-              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6 }}>{lang === "nl" ? a.author.bio_nl : a.author.bio_en}</p>
-            </div>
+            {a.cover ? <div className="art photo"><img src={a.cover} alt="" /></div> : <div className="art"><PenArt seed={a.slug} /></div>}
+            {a.html
+              ? <div className="prose rich" lang={a.lang} dangerouslySetInnerHTML={{ __html: a.html }} />
+              : <div className="prose">{(a.paragraphs || []).map((p, i) => <p key={i}>{p}</p>)}</div>}
+            {(a.author.bio || a.author.photo) && (
+              <div className="keypoints author-box">
+                {a.author.photo && <img src={a.author.photo} alt="" className="avatar lg" />}
+                <div>
+                  <span className="k">{lang === "nl" ? "Over de auteur" : "About the author"}</span>
+                  <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6 }}>{a.author.bio}</p>
+                  {a.author.slug && <a href={`/${lang}/analysis/author/${a.author.slug}`} style={{ fontSize: 14 }}>{lang === "nl" ? "Meer van deze auteur →" : "More from this author →"}</a>}
+                </div>
+              </div>
+            )}
           </article>
           <aside className="side">
             <div className="box sand">
