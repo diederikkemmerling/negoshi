@@ -1,157 +1,272 @@
 /**
- * Negoshi illustration set. Monoline vector art in the house style:
- * ink strokes on sand, one signal-yellow fill, an optional island accent.
+ * Negoshi illustration set, flat-vector house style (same formula as The Lab's blog visuals):
+ * sand background, one large soft pastel circle, one flat icon centred in it
+ * (main shape in the island colour or ink, one signal-yellow accent, white interior details,
+ * a soft shadow ellipse), and brand "confetti" scattered around the circle.
+ * Everything is deterministic from a seed so the same story always gets the same picture.
  */
 const INK = "#141415";
 const SAND = "#F3EEE2";
 const SIGNAL = "#F5C518";
+const WHITE = "#FFFFFF";
+const SHADOW = "rgba(20,20,21,.10)";
 
-type ArtProps = { accent?: string; className?: string };
+export const ISLAND_HEX: Record<string, string> = { aruba: "#1F5FBF", curacao: "#D9562B", bonaire: "#0F8F7E", kingdom: INK, abc: INK };
+const TINT: Record<string, string> = { aruba: "#DCE6F7", curacao: "#F9E2D7", bonaire: "#D5EDE8", kingdom: "#E9E4D6", abc: "#FBEFC4" };
+const DARK: Record<string, string> = { aruba: "#174A96", curacao: "#B5431F", bonaire: "#0B6E61", kingdom: "#000000", abc: "#000000" };
 
-const base = { fill: "none", stroke: INK, strokeWidth: 2.5, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };
+export type IconKey = "bars" | "line" | "parliament" | "document" | "pen" | "mail" | "hotel" | "house" | "flamingo" | "ship" | "coins" | "handshake";
 
-/** Lead illustration: a different skyline per island. */
-export function SkylineArt({ island = "aruba", accent = "#1F5FBF" }: { island?: string; accent?: string }) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 800 420" preserveAspectRatio="xMidYMid slice">
-      <rect width="800" height="420" fill={SAND} />
-      <circle cx="610" cy="120" r="64" fill={SIGNAL} />
-      <g {...base} strokeWidth={2}>
-        <path d="M40 332 H760" />
-        <path d="M60 372 q22 -12 44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0" />
-        <path d="M100 396 q22 -12 44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0" opacity=".5" />
-      </g>
-      {island === "aruba" && (
-        <g {...base}>
-          <path d="M90 332 V222 H170 V332" /><path d="M110 246 h40 M110 270 h40 M110 294 h40 M110 318 h40" />
-          <path d="M200 332 V190 H250 V332" /><path d="M212 210 h26 M212 234 h26 M212 258 h26 M212 282 h26 M212 306 h26" />
-          <path d="M290 332 V250 H400 V332" /><path d="M310 272 h70 M310 296 h70 M310 318 h70" />
-          <path d="M440 332 V206 H490 V332" /><path d="M452 226 h26 M452 250 h26 M452 274 h26 M452 298 h26" />
-          <path d="M530 332 V266 H600 V332" /><path d="M548 288 h34 M548 310 h34" />
-          <path d="M660 332 V300 M660 300 c-30 -10 -50 -30 -52 -58 c20 8 40 26 52 58 c10 -30 30 -48 56 -56 c-4 30 -24 48 -56 56 c-6 -26 -2 -50 14 -68" />
-          <path d="M700 332 V282 H740 V332" />
+function rng(seed: string) {
+  let h = 2166136261;
+  for (let i = 0; i < seed.length; i++) { h ^= seed.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return () => { h ^= h << 13; h ^= h >>> 17; h ^= h << 5; return ((h >>> 0) % 10000) / 10000; };
+}
+
+/** Confetti around the circle: dots, rings, plus signs, triangles, squiggles, zigzags. */
+function Confetti({ seed, cx, cy, r, w, h, main }: { seed: string; cx: number; cy: number; r: number; w: number; h: number; main: string }) {
+  const rand = rng(seed);
+  const palette = [main, SIGNAL, INK, "#B8B3A6", main];
+  const items: React.ReactNode[] = [];
+  const n = 22;
+  for (let i = 0; i < n; i++) {
+    const a = (i / n) * Math.PI * 2 + rand() * 0.5;
+    const d = r + 40 + rand() * Math.min(w, h) * 0.22;
+    const x = cx + Math.cos(a) * d * (w / h > 1.2 ? 1.25 : 1);
+    const y = cy + Math.sin(a) * d * 0.85;
+    if (x < 16 || x > w - 16 || y < 16 || y > h - 16) continue;
+    const c = palette[Math.floor(rand() * palette.length)];
+    const k = Math.floor(rand() * 6);
+    const s = 5 + rand() * 7;
+    const key = `c${i}`;
+    if (k === 0) items.push(<circle key={key} cx={x} cy={y} r={s * 0.7} fill={c} />);
+    else if (k === 1) items.push(<circle key={key} cx={x} cy={y} r={s} fill="none" stroke={c} strokeWidth="3" />);
+    else if (k === 2) items.push(<path key={key} d={`M${x - s} ${y}h${s * 2}M${x} ${y - s}v${s * 2}`} stroke={c} strokeWidth="3.5" strokeLinecap="round" />);
+    else if (k === 3) items.push(<path key={key} d={`M${x} ${y - s}L${x + s} ${y + s * 0.8}L${x - s} ${y + s * 0.8}Z`} fill={c} />);
+    else if (k === 4) items.push(<path key={key} d={`M${x - s * 1.4} ${y}q${s * 0.7} -${s} ${s * 1.4} 0t${s * 1.4} 0`} fill="none" stroke={c} strokeWidth="3.5" strokeLinecap="round" />);
+    else items.push(<path key={key} d={`M${x - s * 1.5} ${y + s * 0.5}l${s * 0.75} -${s}l${s * 0.75} ${s}l${s * 0.75} -${s}l${s * 0.75} ${s}`} fill="none" stroke={c} strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />);
+  }
+  return <g>{items}</g>;
+}
+
+const Shadow = ({ cx, cy, rx = 120 }: { cx: number; cy: number; rx?: number }) => <ellipse cx={cx} cy={cy} rx={rx} ry={rx * 0.14} fill={SHADOW} />;
+const Sparkle = ({ x, y, s = 26 }: { x: number; y: number; s?: number }) => (
+  <path d={`M${x} ${y - s}Q${x} ${y} ${x + s} ${y}Q${x} ${y} ${x} ${y + s}Q${x} ${y} ${x - s} ${y}Q${x} ${y} ${x} ${y - s}Z`} fill={SIGNAL} stroke={INK} strokeWidth="3" strokeLinejoin="round" />
+);
+const Badge = ({ x, y, r = 30, children }: { x: number; y: number; r?: number; children?: React.ReactNode }) => (
+  <g><circle cx={x} cy={y} r={r} fill={SIGNAL} stroke={INK} strokeWidth="3" />{children}</g>
+);
+
+/** The icon library. Each is drawn in a 400x400 box centred at (0,0). */
+function Icon({ icon, main, dark }: { icon: IconKey; main: string; dark: string }) {
+  const S = { stroke: INK, strokeWidth: 3, strokeLinejoin: "round" as const, strokeLinecap: "round" as const };
+  switch (icon) {
+    case "bars":
+      return (
+        <g>
+          <Shadow cx={0} cy={150} />
+          <rect x="-150" y="20" width="60" height="120" rx="6" fill={main} {...S} />
+          <rect x="-70" y="-30" width="60" height="170" rx="6" fill={main} {...S} />
+          <rect x="10" y="30" width="60" height="110" rx="6" fill={main} {...S} />
+          <rect x="90" y="-90" width="60" height="230" rx="6" fill={dark} {...S} />
+          <path d="M-120 -10 L-40 -70 L40 -20 L120 -130" fill="none" stroke={WHITE} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+          <Badge x={120} y={-130} r={28}><path d="M108 -130 h24 M120 -142 v24" stroke={INK} strokeWidth="3.5" strokeLinecap="round" /></Badge>
         </g>
-      )}
-      {island === "curacao" && (
-        <g {...base}>
-          <path d="M80 332 V250 l30 -40 l30 40 V332" /><path d="M96 276 h28 M96 300 h28" />
-          <path d="M150 332 V240 l35 -48 l35 48 V332" /><path d="M170 266 h30 M170 290 h30 M170 312 h30" />
-          <path d="M230 332 V258 l24 -30 l24 30 V332" /><path d="M244 282 h20 M244 306 h20" />
-          <path d="M290 332 V236 l40 -40 l40 40 V332" /><path d="M310 256 h40 M310 280 h40 M310 304 h40" />
-          <path d="M380 332 V262 l22 -28 l22 28 V332" />
-          <path d="M440 332 c40 -90 180 -90 220 0" /><path d="M470 332 V290 M520 332 V268 M580 332 V268 M630 332 V290" />
-          <path d="M690 332 V246 H750 V332" /><path d="M706 268 h28 M706 292 h28 M706 314 h28" />
+      );
+    case "line":
+      return (
+        <g>
+          <Shadow cx={0} cy={150} />
+          <rect x="-160" y="-120" width="320" height="250" rx="14" fill={WHITE} {...S} />
+          <path d="M-130 20 h260 M-130 -40 h260 M-130 80 h260" stroke="#E6E2D8" strokeWidth="3" />
+          <path d="M-130 90 C-80 70 -60 60 -20 30 S40 -10 70 -30 S110 -70 130 -90" fill="none" stroke={main} strokeWidth="9" strokeLinecap="round" />
+          <circle cx="-20" cy="30" r="8" fill={dark} stroke={WHITE} strokeWidth="3" />
+          <Badge x={130} y={-90} r={26}><path d="M120 -86 l8 8 l14 -16" fill="none" stroke={INK} strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" /></Badge>
         </g>
-      )}
-      {island === "bonaire" && (
-        <g {...base}>
-          <path d="M70 332 l60 -110 l60 110 Z" /><path d="M200 332 l50 -90 l50 90 Z" /><path d="M320 332 l40 -70 l40 70 Z" />
-          <path d="M470 332 V236 H520 V332" /><path d="M482 236 l13 -26 l13 26" /><path d="M486 258 h18 M486 280 h18 M486 302 h18" />
-          <path d="M560 332 V276 H640 V332" /><path d="M580 298 h40 M580 318 h40" />
-          <path d="M680 332 V240" /><path d="M668 250 h24" /><path d="M670 240 a10 10 0 0 1 20 0" />
-          <path d="M700 332 c20 -40 60 -40 80 0" />
+      );
+    case "parliament":
+      return (
+        <g>
+          <Shadow cx={0} cy={160} rx={160} />
+          <rect x="-170" y="110" width="340" height="30" rx="4" fill={dark} {...S} />
+          <rect x="-150" y="90" width="300" height="22" fill={main} {...S} />
+          {[-120, -60, 0, 60, 120].map((x) => <rect key={x} x={x - 14} y="-20" width="28" height="110" rx="3" fill={WHITE} {...S} />)}
+          <rect x="-160" y="-50" width="320" height="30" rx="4" fill={main} {...S} />
+          <path d="M-170 -50 L0 -140 L170 -50 Z" fill={main} {...S} />
+          <circle cx="0" cy="-80" r="14" fill={WHITE} stroke={INK} strokeWidth="3" />
+          <Badge x={0} y={-150} r={26}><path d="M-9 -152 h18 M0 -161 v18" stroke={INK} strokeWidth="3.5" strokeLinecap="round" /></Badge>
         </g>
-      )}
-      <rect x="40" y="328" width="80" height="8" fill={accent} />
-    </svg>
-  );
+      );
+    case "document":
+      return (
+        <g>
+          <Shadow cx={0} cy={165} rx={110} />
+          <path d="M-110 -150 H60 L120 -90 V150 H-110 Z" fill={WHITE} {...S} />
+          <path d="M60 -150 V-90 H120" fill={main} {...S} />
+          <rect x="-80" y="-60" width="150" height="14" rx="7" fill={main} />
+          <rect x="-80" y="-24" width="150" height="14" rx="7" fill="#DDD7C8" />
+          <rect x="-80" y="12" width="110" height="14" rx="7" fill="#DDD7C8" />
+          <rect x="-80" y="48" width="150" height="14" rx="7" fill="#DDD7C8" />
+          <Badge x={80} y={110} r={34}><path d="M64 112 l10 10 l22 -24" fill="none" stroke={INK} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /></Badge>
+        </g>
+      );
+    case "pen":
+      return (
+        <g>
+          <Shadow cx={0} cy={160} rx={130} />
+          <rect x="-150" y="-110" width="300" height="230" rx="14" fill={WHITE} {...S} />
+          <rect x="-110" y="-60" width="110" height="14" rx="7" fill={main} />
+          <rect x="-110" y="-24" width="180" height="14" rx="7" fill="#DDD7C8" />
+          <rect x="-110" y="12" width="150" height="14" rx="7" fill="#DDD7C8" />
+          <rect x="-110" y="48" width="100" height="14" rx="7" fill="#DDD7C8" />
+          <g transform="rotate(-40 90 20)">
+            <rect x="70" y="-150" width="40" height="230" rx="8" fill={main} {...S} />
+            <rect x="70" y="-150" width="40" height="40" rx="8" fill={dark} {...S} />
+            <path d="M70 80 L90 130 L110 80 Z" fill={WHITE} {...S} />
+            <circle cx="90" cy="112" r="5" fill={INK} />
+          </g>
+          <Sparkle x={-120} y={-130} s={22} />
+        </g>
+      );
+    case "mail":
+      return (
+        <g>
+          <Shadow cx={0} cy={150} rx={150} />
+          <rect x="-170" y="-100" width="340" height="230" rx="16" fill={main} {...S} />
+          <path d="M-170 -84 L0 40 L170 -84" fill="none" stroke={WHITE} strokeWidth="8" strokeLinejoin="round" strokeLinecap="round" />
+          <path d="M-170 130 L-40 10 M170 130 L40 10" fill="none" stroke={dark} strokeWidth="5" strokeLinecap="round" />
+          <Badge x={150} y={-100} r={34}><path d="M150 -84 c-6 -6 -28 -16 -22 -30 c5 -10 18 -8 22 0 c4 -8 17 -10 22 0 c6 14 -16 24 -22 30z" fill={INK} /></Badge>
+        </g>
+      );
+    case "hotel":
+      return (
+        <g>
+          <Shadow cx={0} cy={165} rx={160} />
+          <rect x="-150" y="-110" width="200" height="270" rx="8" fill={main} {...S} />
+          <rect x="50" y="-40" width="110" height="200" rx="8" fill={dark} {...S} />
+          {[0, 1, 2, 3].map((r) => [0, 1, 2].map((c) => <rect key={`${r}${c}`} x={-130 + c * 60} y={-85 + r * 55} width="34" height="34" rx="4" fill={WHITE} opacity={0.92} />))}
+          {[0, 1, 2].map((r) => <rect key={r} x="75" y={-15 + r * 55} width="60" height="30" rx="4" fill={WHITE} opacity=".9" />)}
+          <path d="M-20 160 V110 H-80 V160" fill={INK} />
+          <path d="M-170 160 H190" stroke={INK} strokeWidth="3" strokeLinecap="round" />
+          <circle cx="135" cy="-120" r="42" fill={SIGNAL} stroke={INK} strokeWidth="3" />
+          <path d="M100 160 c0 -40 30 -60 60 -60 c-10 20 -20 40 -60 60z" fill={dark} />
+        </g>
+      );
+    case "house":
+      return (
+        <g>
+          <Shadow cx={0} cy={165} rx={160} />
+          <path d="M-170 160 V0 L-110 -60 L-50 0 V160 Z" fill={dark} {...S} />
+          <path d="M-50 160 V-40 L30 -130 L110 -40 V160 Z" fill={main} {...S} />
+          <path d="M110 160 V20 L150 -30 L190 20 V160 Z" fill={dark} {...S} />
+          <rect x="-130" y="30" width="36" height="40" rx="4" fill={WHITE} /><rect x="-130" y="95" width="36" height="40" rx="4" fill={WHITE} />
+          <rect x="-15" y="-30" width="40" height="46" rx="4" fill={WHITE} /><rect x="-15" y="40" width="40" height="46" rx="4" fill={WHITE} /><rect x="-15" y="110" width="40" height="50" rx="4" fill={INK} />
+          <rect x="132" y="50" width="30" height="36" rx="4" fill={WHITE} /><rect x="132" y="110" width="30" height="36" rx="4" fill={WHITE} />
+          <path d="M-190 160 H200" stroke={INK} strokeWidth="3" strokeLinecap="round" />
+          <Sparkle x={150} y={-110} s={24} />
+        </g>
+      );
+    case "flamingo":
+      return (
+        <g>
+          <Shadow cx={0} cy={165} rx={110} />
+          <path d="M-40 160 V40" stroke={INK} strokeWidth="5" strokeLinecap="round" />
+          <path d="M10 160 V40" stroke={INK} strokeWidth="5" strokeLinecap="round" />
+          <ellipse cx="-10" cy="0" rx="110" ry="70" fill={main} {...S} />
+          <path d="M60 -30 C110 -60 130 -120 90 -150 C60 -170 30 -150 40 -120 C50 -100 80 -100 90 -110" fill="none" stroke={main} strokeWidth="26" strokeLinecap="round" />
+          <circle cx="92" cy="-146" r="26" fill={main} {...S} />
+          <path d="M112 -140 L150 -120 L112 -118 Z" fill={INK} />
+          <circle cx="96" cy="-152" r="4" fill={WHITE} />
+          <path d="M-80 -10 c20 -30 60 -30 80 -10" fill="none" stroke={WHITE} strokeWidth="6" strokeLinecap="round" />
+          <Badge x={-120} y={-120} r={28}><circle cx="-120" cy="-120" r="10" fill={INK} /></Badge>
+        </g>
+      );
+    case "ship":
+      return (
+        <g>
+          <Shadow cx={0} cy={165} rx={170} />
+          <path d="M-180 60 H180 L140 140 H-140 Z" fill={dark} {...S} />
+          <rect x="-120" y="0" width="240" height="60" rx="6" fill={main} {...S} />
+          <rect x="-70" y="-60" width="140" height="60" rx="6" fill={WHITE} {...S} />
+          {[-90, -40, 10, 60].map((x) => <circle key={x} cx={x + 20} cy="30" r="10" fill={WHITE} />)}
+          <rect x="20" y="-110" width="24" height="50" rx="4" fill={INK} />
+          <path d="M-190 160 q20 -14 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0" fill="none" stroke={INK} strokeWidth="4" strokeLinecap="round" />
+          <Sparkle x={130} y={-100} s={24} />
+        </g>
+      );
+    case "coins":
+      return (
+        <g>
+          <Shadow cx={0} cy={160} rx={140} />
+          {[100, 70, 40].map((y, i) => <g key={i}><rect x="-120" y={y - 30} width="200" height="40" rx="20" fill={i === 1 ? dark : main} {...S} /><ellipse cx="-20" cy={y - 30} rx="100" ry="20" fill={i === 1 ? main : dark} {...S} /></g>)}
+          <ellipse cx="-20" cy="10" rx="100" ry="20" fill={WHITE} {...S} />
+          <circle cx="110" cy="-60" r="60" fill={SIGNAL} {...S} />
+          <circle cx="110" cy="-60" r="40" fill="none" stroke={INK} strokeWidth="3" />
+          <path d="M110 -84 v48 M98 -70 h24 M98 -50 h24" stroke={INK} strokeWidth="4" strokeLinecap="round" />
+        </g>
+      );
+    case "handshake":
+    default:
+      return (
+        <g>
+          <Shadow cx={0} cy={150} rx={150} />
+          <path d="M-180 -20 L-100 -80 L-10 10 L-60 60 Z" fill={main} {...S} />
+          <path d="M180 -20 L100 -80 L10 10 L60 60 Z" fill={dark} {...S} />
+          <rect x="-70" y="-10" width="140" height="90" rx="20" fill={WHITE} {...S} />
+          <path d="M-40 20 h80 M-40 45 h80" stroke={INK} strokeWidth="3" strokeLinecap="round" />
+          <Sparkle x={0} y={-110} s={26} />
+        </g>
+      );
+  }
 }
 
-export function BarsArt({ accent = "#1F5FBF" }: ArtProps) {
+/**
+ * Generic illustration. `ratio` picks the canvas: "wide" 2:1 (lead/article), "card" 3:2 (story cards),
+ * "cover" 4:3 (reports), "banner" 5:2 (analysis band).
+ */
+export function Illo({ icon, island = "abc", seed, ratio = "card", tint }: { icon: IconKey; island?: string; seed?: string; ratio?: "wide" | "card" | "cover" | "banner" | "square"; tint?: string }) {
+  const dims = { wide: [1200, 600], card: [900, 600], cover: [800, 600], banner: [1500, 600], square: [800, 800] }[ratio];
+  const [w, h] = dims;
+  const main = ISLAND_HEX[island] || INK;
+  const dark = DARK[island] || "#000";
+  const circle = tint || TINT[island] || TINT.abc;
+  const cx = w / 2, cy = h / 2 + (ratio === "square" ? -10 : 0);
+  const r = Math.min(w, h) * 0.38;
+  const scale = r / 230;
   return (
-    <svg aria-hidden="true" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
-      <rect width="300" height="200" fill={SAND} />
-      <g {...base}>
-        <path d="M30 170 H270" />
-        <rect x="52" y="104" width="36" height="66" />
-        <rect x="104" y="80" width="36" height="90" />
-        <rect x="156" y="118" width="36" height="52" />
-        <rect x="208" y="48" width="36" height="122" fill={SIGNAL} />
-        <path d="M58 92 L116 62 L170 98 L222 34" strokeDasharray="4 6" opacity=".6" />
-        <path d="M212 34 h12 v12" />
+    <svg aria-hidden="true" viewBox={`0 0 ${w} ${h}`} preserveAspectRatio="xMidYMid slice">
+      <rect width={w} height={h} fill={SAND} />
+      <Confetti seed={`${seed || icon}-${island}`} cx={cx} cy={cy} r={r} w={w} h={h} main={main} />
+      <circle cx={cx} cy={cy} r={r} fill={circle} />
+      <g transform={`translate(${cx} ${cy}) scale(${scale})`}>
+        <Icon icon={icon} main={main} dark={dark} />
       </g>
-      <rect x="30" y="178" width="40" height="5" fill={accent} />
     </svg>
   );
 }
 
-export function LineArt({ accent = "#D9562B" }: ArtProps) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
-      <rect width="300" height="200" fill={SAND} />
-      <g stroke="#DDD5C2" strokeWidth="1.5"><path d="M30 50 H270 M30 90 H270 M30 130 H270 M30 170 H270" /></g>
-      <g {...base}>
-        <path d="M30 170 V40 M30 170 H270" />
-        <path d="M40 160 C70 150 80 150 100 136 S140 112 160 110 S200 92 220 72 S250 52 262 46" strokeWidth={3} />
-      </g>
-      <circle cx="262" cy="46" r="9" fill={SIGNAL} stroke={INK} strokeWidth="2.5" />
-      <circle cx="160" cy="110" r="4" fill={INK} />
-      <rect x="30" y="178" width="40" height="5" fill={accent} />
-    </svg>
-  );
+/** Topic -> icon, with island flavour for the lead. */
+export function topicIcon(topic: string): IconKey {
+  return topic === "business" ? "bars" : topic === "economy" ? "line" : topic === "politics" ? "parliament" : "document";
+}
+export function islandIcon(island: string): IconKey {
+  return island === "aruba" ? "hotel" : island === "curacao" ? "house" : island === "bonaire" ? "flamingo" : "handshake";
 }
 
-export function ParliamentArt({ accent = "#0F8F7E" }: ArtProps) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
-      <rect width="300" height="200" fill={SAND} />
-      <g {...base}>
-        <path d="M40 170 H260" /><path d="M56 160 H244" /><path d="M64 150 V84 M104 150 V84 M144 150 V84 M184 150 V84 M224 150 V84" />
-        <path d="M52 84 H248" />
-        <path d="M44 84 L150 36 L256 84 Z" fill={SIGNAL} />
-      </g>
-      <rect x="30" y="178" width="40" height="5" fill={accent} />
-    </svg>
-  );
-}
+/* Thin wrappers kept for existing call sites */
+export const SkylineArt = ({ island = "aruba", seed }: { island?: string; accent?: string; seed?: string }) => <Illo icon={islandIcon(island)} island={island} seed={seed} ratio="wide" />;
+export const BarsArt = ({ island = "aruba", seed }: { island?: string; accent?: string; seed?: string }) => <Illo icon="bars" island={island} seed={seed} />;
+export const LineArt = ({ island = "curacao", seed }: { island?: string; accent?: string; seed?: string }) => <Illo icon="line" island={island} seed={seed} />;
+export const ParliamentArt = ({ island = "bonaire", seed }: { island?: string; accent?: string; seed?: string }) => <Illo icon="parliament" island={island} seed={seed} />;
+export const DocumentArt = ({ island = "aruba", seed }: { island?: string; accent?: string; seed?: string }) => <Illo icon="document" island={island} seed={seed} ratio="cover" />;
+export const PenArt = ({ seed }: { accent?: string; seed?: string }) => <Illo icon="pen" island="abc" seed={seed} ratio="banner" />;
+export const MailArt = () => (
+  <svg aria-hidden="true" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
+    <g transform="translate(200 200) scale(0.8)"><Icon icon="mail" main={INK} dark="#000" /></g>
+  </svg>
+);
 
-/** Report cover: a document with a stamp. */
-export function DocumentArt({ accent = "#1F5FBF" }: ArtProps) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-      <rect width="300" height="220" fill={SAND} />
-      <g {...base}>
-        <path d="M96 30 H176 L212 66 V190 H96 Z" fill="#fff" />
-        <path d="M176 30 V66 H212" />
-        <path d="M116 90 h74 M116 110 h74 M116 130 h52 M116 150 h74" />
-      </g>
-      <circle cx="196" cy="162" r="20" fill={SIGNAL} stroke={INK} strokeWidth="2.5" />
-      <path d="M187 162 l6 6 l12 -12" {...base} />
-      <rect x="96" y="194" width="56" height="6" fill={accent} />
-    </svg>
-  );
-}
-
-export function PenArt({ accent = "#141415" }: ArtProps) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 500 200" preserveAspectRatio="xMidYMid slice">
-      <rect width="500" height="200" fill={SAND} />
-      <g {...base}>
-        <path d="M70 150 L300 50 L320 94 L90 194" />
-        <path d="M70 150 L36 184 L90 194" fill={SIGNAL} />
-        <path d="M70 150 L82 174" />
-        <path d="M280 60 L300 104" />
-        <path d="M340 96 h120 M340 120 h90 M340 144 h110" opacity=".6" />
-      </g>
-      <rect x="30" y="178" width="40" height="5" fill={accent} />
-    </svg>
-  );
-}
-
-export function MailArt() {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 240 200" preserveAspectRatio="xMidYMid meet">
-      <g {...base} stroke={INK}>
-        <rect x="30" y="50" width="180" height="120" fill="#fff" />
-        <path d="M30 50 L120 120 L210 50" />
-        <path d="M30 170 L96 104 M210 170 L144 104" />
-      </g>
-      <circle cx="196" cy="54" r="18" fill={SIGNAL} stroke={INK} strokeWidth="2.5" />
-    </svg>
-  );
-}
-
-/** Island outline, monoline, in the island colour. */
+/** Island outline in the island colour (used in island cards and banners). */
 export function IslandLine({ island, className }: { island: string; className?: string }) {
   const d: Record<string, string> = {
     aruba: "M20 72 C14 58 30 40 50 32 C66 26 82 22 90 30 C94 38 80 50 64 58 C50 66 36 78 26 78 Z",
@@ -160,9 +275,9 @@ export function IslandLine({ island, className }: { island: string; className?: 
   };
   return (
     <svg aria-hidden="true" viewBox="0 0 100 100" className={className}>
+      <path d={d[island]} fill="currentColor" opacity=".18" />
       <path d={d[island]} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinejoin="round" />
-      {island === "bonaire" && <circle cx="22" cy="58" r="5" fill="none" stroke="currentColor" strokeWidth="2.5" />}
-      <path d="M22 86 q8 -6 16 0 t16 0 t16 0 t16 0" fill="none" stroke="currentColor" strokeWidth="2" opacity=".5" />
+      {island === "bonaire" && <circle cx="22" cy="58" r="5" fill="currentColor" opacity=".5" />}
     </svg>
   );
 }
