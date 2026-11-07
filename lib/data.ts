@@ -1,6 +1,7 @@
 import items from "@/data/items.json";
 import reports from "@/data/reports.json";
 import sources from "@/data/sources.json";
+import indicators from "@/data/indicators.json";
 import type { Island, Lang, Topic } from "./i18n";
 
 export type Localized = {
@@ -104,4 +105,28 @@ export function allAnalysis(): Analysis[] {
 }
 export function analysisBySlug(slug: string): Analysis | undefined {
   return allAnalysis().find((a) => a.slug === slug);
+}
+
+export type Indicator = {
+  id: string;
+  en: string;
+  nl: string;
+  unit: string;
+  band: boolean;
+  source: string;
+  url: string;
+  note_en: string | null;
+  note_nl: string | null;
+  value: string | null;
+  period?: string | null;
+  change?: string | null;
+  updated_at: string | null;
+};
+/** Live indicators with a value (ticker). */
+export function liveIndicators(): Indicator[] {
+  return ((indicators as { items: Indicator[] }).items || []).filter((i) => i.value);
+}
+/** Indicators for the homepage numbers band (band: true), with a value. */
+export function bandIndicators(): Indicator[] {
+  return liveIndicators().filter((i) => i.band).slice(0, 5);
 }
