@@ -9,15 +9,22 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.6.0",
+    "@tiptap/extension-image": "^3.33.0",
+    "@tiptap/pm": "^3.33.0",
+    "@tiptap/react": "^3.33.0",
+    "@tiptap/starter-kit": "^3.33.0",
+    "@vercel/blob": "^2.8.2",
     "next": "16.4.5",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "sanitize-html": "^2.18.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/sanitize-html": "^2.16.2",
     "typescript": "^5"
   }
 }
