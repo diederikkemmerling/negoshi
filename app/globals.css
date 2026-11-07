@@ -336,3 +336,28 @@ footer.foot .legal { border-top: 1px solid #2f3035; padding: 16px 0; font-size: 
 .geo-bar.c-curacao span::before { background: var(--curacao); }
 .geo-bar.c-bonaire span::before { background: var(--bonaire); }
 .geo-bar a { color: var(--ink); font-weight: 600; }
+
+/* ---------- light boxes (replaces the dark Brief, numbers band and side boxes) ---------- */
+.brief { background: var(--paper); color: var(--ink); border: 1px solid var(--line); border-top: 4px solid var(--signal); }
+.brief .h { border-bottom: 1px solid var(--line); }
+.brief .h span { color: var(--muted); }
+.brief a.row { color: var(--ink); border-bottom: 1px solid var(--line); }
+.brief a.row:hover { color: var(--ink); }
+.brief a.row:hover .t { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.brief .n { color: var(--ink); }
+.brief a.row.c-aruba .n { color: var(--aruba); }
+.brief a.row.c-curacao .n { color: var(--curacao); }
+.brief a.row.c-bonaire .n { color: var(--bonaire); }
+.brief .s { color: var(--muted); }
+.brief .more { color: var(--ink); }
+.numbers { background: var(--sand); color: var(--ink); }
+.numbers .sub, .num .k, .num .u { color: var(--muted); }
+.num .v { color: var(--ink); }
+.box.dark { background: var(--sand); color: var(--ink); border-top: 4px solid var(--signal); }
+.box.dark .k { color: var(--muted); }
+.box.dark input { border: 1.5px solid var(--ink); background: #fff; color: var(--ink); }
+.box.dark button { background: var(--ink); color: #fff; }
+
+/* keep side padding on every .wrap container (some rules above reset it to 0 on phones) */
+html body .wrap.page, html body .wrap.in, html body .wrap.inner, html body .wrap.legal, html body .wrap.nav, html body .wrap.top, html body .wrap.filters { padding-left: 20px; padding-right: 20px; }
+@media (min-width: 900px) { html body .wrap.page, html body .wrap.in, html body .wrap.inner, html body .wrap.legal, html body .wrap.nav, html body .wrap.top, html body .wrap.filters { padding-left: 36px; padding-right: 36px; } }
