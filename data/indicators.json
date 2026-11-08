@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:21:17.873Z",
+  "updated_at": "2026-11-08T16:47:32.074Z",
   "items": [
     {
       "id": "usd-eur",
@@ -14,7 +14,7 @@
       "value": "0.896",
       "period": "2026-11-06",
       "change": null,
-      "updated_at": "2026-11-07T21:21:17.873Z"
+      "updated_at": "2026-11-08T16:47:32.074Z"
     },
     {
       "id": "eur-awg",
@@ -26,10 +26,10 @@
       "url": "https://www.cbaruba.org",
       "note_en": null,
       "note_nl": null,
-      "value": "1.998",
+      "value": "1.999",
       "period": "2026-11-06",
       "change": null,
-      "updated_at": "2026-11-07T21:21:17.873Z"
+      "updated_at": "2026-11-08T16:47:32.074Z"
     },
     {
       "id": "usd-cop",
@@ -42,9 +42,9 @@
       "note_en": null,
       "note_nl": null,
       "value": "3,240",
-      "period": "2026-11-07",
+      "period": "2026-11-08",
       "change": null,
-      "updated_at": "2026-11-07T21:21:17.873Z"
+      "updated_at": "2026-11-08T16:47:32.074Z"
     },
     {
       "id": "brent",
@@ -59,7 +59,7 @@
       "value": "107.03",
       "period": "2026-11-03",
       "change": null,
-      "updated_at": "2026-11-07T21:21:17.873Z"
+      "updated_at": "2026-11-08T16:47:32.074Z"
     },
     {
       "id": "cpi-aw",
@@ -77,18 +77,18 @@
     },
     {
       "id": "cpi-cw",
-      "en": "Cura\u00e7ao inflation",
-      "nl": "Inflatie Cura\u00e7ao",
+      "en": "Curaçao inflation",
+      "nl": "Inflatie Curaçao",
       "unit": "% y/y",
       "band": true,
-      "source": "CBS Cura\u00e7ao",
+      "source": "CBS Curaçao",
       "url": "https://www.cbs.cw/inflation-rates",
       "note_en": null,
       "note_nl": null,
       "value": "1.5",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-07T21:21:17.873Z"
+      "updated_at": "2026-11-08T16:47:32.074Z"
     },
     {
       "id": "arrivals-aw",
@@ -107,8 +107,8 @@
     },
     {
       "id": "arrivals-cw",
-      "en": "Cura\u00e7ao stay-over arrivals",
-      "nl": "Verblijfsgasten Cura\u00e7ao",
+      "en": "Curaçao stay-over arrivals",
+      "nl": "Verblijfsgasten Curaçao",
       "unit": "% y/y",
       "band": true,
       "source": "CTB",
