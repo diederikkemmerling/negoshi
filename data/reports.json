@@ -240,6 +240,36 @@
     }
   },
   {
+    "id": "82ed099a1d",
+    "island": "curacao",
+    "publisher": "SER Curaçao",
+    "url": "https://ser.cw/en/2026/10/30/curacao-plans-a-tourism-tax-overhaul-as-ser-issues-report-on-entry-tax/",
+    "published_at": "2026-10-28",
+    "en": {
+      "title": "SER advice on the proposed tourist entry tax",
+      "category": "Policy"
+    },
+    "nl": {
+      "title": "SER-advies over de voorgestelde entreebelasting voor toeristen",
+      "category": "Beleid"
+    }
+  },
+  {
+    "id": "381251263b",
+    "island": "bonaire",
+    "publisher": "CBS Netherlands",
+    "url": "https://www.cbs.nl/en-gb/news/2026/44/economies-of-bonaire-and-st-eustatius-grew-in-2024-contraction-on-saba",
+    "published_at": "2026-10-26",
+    "en": {
+      "title": "Economy of Bonaire grew in 2024 (GDP)",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Economie van Bonaire groeide in 2024 (bbp)",
+      "category": "Statistiek"
+    }
+  },
+  {
     "id": "2fc8e574ab",
     "island": "aruba",
     "publisher": "College financieel toezicht",
@@ -266,6 +296,21 @@
     },
     "nl": {
       "title": "Consumentenprijsindex, augustus 2026",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "872007e4a3",
+    "island": "bonaire",
+    "publisher": "CBS Netherlands",
+    "url": "https://www.cbs.nl/en-gb/news/2026/43/inflation-up-on-bonaire-and-saba-down-on-statia",
+    "published_at": "2026-10-21",
+    "en": {
+      "title": "Inflation Caribbean Netherlands, Q3 2026: Bonaire 5.9%",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Inflatie Caribisch Nederland, Q3 2026: Bonaire 5,9%",
       "category": "Statistiek"
     }
   },
@@ -330,6 +375,36 @@
     }
   },
   {
+    "id": "bba81b7743",
+    "island": "kingdom",
+    "publisher": "Dutch government",
+    "url": "https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/09/15/iv-koninkrijksrelaties-en-h-bes-fonds-rijksbegroting-2027/4-koninkrijksrelaties-en-bes-fonds.pdf",
+    "published_at": "2026-09-15",
+    "en": {
+      "title": "Dutch 2027 budget: Kingdom Relations and BES Fund",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Rijksbegroting 2027: Koninkrijksrelaties en BES-fonds",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "6964cc7651",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=19209",
+    "published_at": "2026-09-07",
+    "en": {
+      "title": "Economic Outlook: Real Sector, September 2026",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "Economische vooruitzichten: reële sector, september 2026",
+      "category": "Vooruitzichten"
+    }
+  },
+  {
     "id": "55adfcb0db",
     "island": "aruba",
     "publisher": "Centrale Bank van Aruba",
@@ -357,6 +432,21 @@
     "nl": {
       "title": "Maandelijks economisch bulletin, juli 2026",
       "category": "Monetair"
+    }
+  },
+  {
+    "id": "1ccc442dfc",
+    "island": "aruba",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/advies-bij-de-ontwerpbegroting-2027-aruba/cft-202600071-advies-bij-de-ontwerpbegroting-2027-aruba/",
+    "published_at": "2026-09-03",
+    "en": {
+      "title": "CAft advice on the draft 2027 budget of Aruba",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "CAft-advies bij de ontwerpbegroting 2027 Aruba",
+      "category": "Overheidsfinanciën"
     }
   },
   {
@@ -435,6 +525,21 @@
     }
   },
   {
+    "id": "187623b42d",
+    "island": "bonaire",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/jaarrekening-2026-bonaire/cft-202600067-advies-bij-de-jaarrekening-2025-bonaire/",
+    "published_at": "2026-08-05",
+    "en": {
+      "title": "Cft advice on the 2025 annual accounts of Bonaire",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Cft-advies bij de jaarrekening 2025 Bonaire",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
     "id": "8c2b6d8cc1",
     "island": "aruba",
     "publisher": "Aruba Tourism Authority",
@@ -491,6 +596,51 @@
     },
     "nl": {
       "title": "Maandelijkse CPI-verandering per uitgavencategorie, januari 2025 – augustus 2026",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "89fcfca9f7",
+    "island": "bonaire",
+    "publisher": "CBS Netherlands",
+    "url": "https://www.cbs.nl/en-gb/background/2026/31/population-forecast-caribbean-netherlands-2026-2050",
+    "published_at": "2026-07-30",
+    "en": {
+      "title": "Population forecast Caribbean Netherlands 2026-2050",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Bevolkingsprognose Caribisch Nederland 2026-2050",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "7398f3ad95",
+    "island": "bonaire",
+    "publisher": "CBS Netherlands",
+    "url": "https://www.cbs.nl/en-gb/news/2026/30/inflation-in-the-caribbean-netherlands-up-again-in-q2-2026",
+    "published_at": "2026-07-22",
+    "en": {
+      "title": "Inflation Caribbean Netherlands, Q2 2026: Bonaire 3.3%",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Inflatie Caribisch Nederland, Q2 2026: Bonaire 3,3%",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "34000c183e",
+    "island": "bonaire",
+    "publisher": "CBS Netherlands",
+    "url": "https://www.cbs.nl/en-gb/news/2026/29/poverty-on-bonaire-st-eustatius-and-saba-declined-in-2024",
+    "published_at": "2026-07-15",
+    "en": {
+      "title": "Poverty in the Caribbean Netherlands, 2024",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Armoede in Caribisch Nederland, 2024",
       "category": "Statistiek"
     }
   },
@@ -686,6 +836,21 @@
     },
     "nl": {
       "title": "Economisch bulletin, maart 2026",
+      "category": "Vooruitzichten"
+    }
+  },
+  {
+    "id": "c5f2e0c250",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=18573",
+    "published_at": "2026-03-25",
+    "en": {
+      "title": "Economic Outlook: Fiscal Sector, March 2026",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "Economische vooruitzichten: fiscale sector, maart 2026",
       "category": "Vooruitzichten"
     }
   },
