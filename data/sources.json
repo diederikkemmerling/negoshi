@@ -32,9 +32,9 @@
     "feed": null,
     "lang": "pap",
     "listings": [
+      "https://noticiacla.com/",
       "https://noticiacla.com/more/Economia",
-      "https://noticiacla.com/more/Politica",
-      "https://noticiacla.com/"
+      "https://noticiacla.com/more/Politica"
     ],
     "pattern": "^https://noticiacla\\.com/news/\\d+$"
   },
