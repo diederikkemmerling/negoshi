@@ -95,7 +95,6 @@ export function Footer({ lang }: { lang: Lang }) {
         <div className="col">
           <b>{lang === "nl" ? "Over" : "About"}</b>
           <a href={`/${lang}/about`}>{d.nav.about}</a>
-          <a href={`/${lang}/about#sources`}>{d.sourcesMonitored}</a>
           <a href="/studio">{lang === "nl" ? "Auteurs login" : "Contributor login"}</a>
           <a href={`/${lang}/analysis#contribute`}>{x.contribute}</a>
           <a href="mailto:hello@negoshi.news">Contact</a>
