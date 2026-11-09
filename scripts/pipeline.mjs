@@ -153,6 +153,40 @@ Island: the island the story is mainly about (a Kingdom-wide or Caribbean Nether
 If relevant, write an ORIGINAL brief in plain business English and in Dutch. Never copy or closely paraphrase sentences from the source. State what happened, what changed and who it affects. Use figures only if they appear in the source; never estimate. Standfirst: 1-2 sentences. Key points: 3-4 bullets. Body: 2-3 short paragraphs (120-220 words total per language).
 Return ONLY JSON matching: {"keep": boolean, "island": "aruba"|"curacao"|"bonaire", "topic": "business"|"economy"|"politics", "en": {"title","standfirst","keypoints":[...],"body":[...]}, "nl": {"title","standfirst","keypoints":[...],"body":[...]}}`;
 
+
+// Duplicate guard: the same story often appears twice (two outlets, or one site publishing a
+// press release under two URLs). Compare English titles with recent briefs on the same island.
+const STOP = new Set(["the","a","an","of","for","to","in","on","and","or","as","at","by","with","from","is","are","be","its","new"]);
+const words = (t) => new Set(String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9% ]+/g, " ").split(/\s+/).filter((w) => w && !STOP.has(w)));
+function similarity(a, b) {
+  const A = words(a), B = words(b);
+  if (!A.size || !B.size) return 0;
+  let n = 0;
+  for (const w of A) if (B.has(w)) n++;
+  return n / Math.min(A.size, B.size);
+}
+const near = (a, b) => a.island === b.island && Math.abs(Date.parse(a.published_at) - Date.parse(b.published_at)) < 72 * 36e5 && similarity(a.en?.title, b.en?.title) >= 0.75;
+function findDuplicate(title, island, whenIso) {
+  const probe = { island, published_at: whenIso || new Date().toISOString(), en: { title } };
+  return items.find((i) => !i.sample && near(i, probe));
+}
+/** Drops later near-duplicates already in the feed; keeps the first-published brief. */
+function pruneDuplicates() {
+  const live = items.filter((i) => !i.sample).sort((a, b) => (a.published_at < b.published_at ? -1 : 1));
+  const drop = new Set();
+  for (let x = 0; x < live.length; x++) {
+    if (drop.has(live[x].id)) continue;
+    for (let y = x + 1; y < live.length; y++) {
+      if (drop.has(live[y].id) || !near(live[x], live[y])) continue;
+      drop.add(live[y].id);
+      (live[x].also_covered ||= []).push(live[y].source_url);
+      console.log(`dedupe   ${live[y].en.title} = ${live[x].en.title}`);
+    }
+  }
+  if (drop.size) { const keep = items.filter((i) => !drop.has(i.id)); items.length = 0; items.push(...keep); }
+  return drop.size;
+}
+
 async function brief(c) {
   if (DRY) return { keep: true, island: c.src.island, topic: "business", en: { title: c.title, standfirst: "", keypoints: [], body: [] }, nl: { title: c.title, standfirst: "", keypoints: [], body: [] } };
   const msg = await client.messages.create({
@@ -179,6 +213,13 @@ for (const c0 of candidates) {
     const r = await brief(c);
     seen[c.url] = r.keep ? "kept" : "skip";
     if (!r.keep) { console.log(`skip     ${c.src.id}: ${c.title.slice(0, 60)}`); continue; }
+    const dup = findDuplicate(r.en?.title, r.island || c.src.island, c.published_at);
+    if (dup) {
+      seen[c.url] = "dup";
+      (dup.also_covered ||= []).includes(c.url) || dup.also_covered.push(c.url);
+      console.log(`dup      ${c.src.id}: ${r.en.title} = ${dup.en.title}`);
+      continue;
+    }
     const id = crypto.createHash("sha1").update(c.url).digest("hex").slice(0, 12);
     const slug = `${slugify(r.en.title)}-${id.slice(0, 6)}`;
     items.unshift({
@@ -195,6 +236,9 @@ for (const c0 of candidates) {
     console.log(`error    ${c0.src.id}: ${m.slice(0, 300)}`);
   }
 }
+
+const pruned = pruneDuplicates();
+if (pruned) console.log(`removed ${pruned} duplicate briefs`);
 
 // once real items exist, drop the sample seed
 const live = items.filter((i) => !i.sample);
