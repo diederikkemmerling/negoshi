@@ -2,7 +2,7 @@ name: Negoshi content pipeline
 
 on:
   schedule:
-    - cron: "17 * * * *" # hourly
+    - cron: "*/20 * * * *" # backup; Vercel cron also dispatches hourly (app/api/cron/pipeline)
   workflow_dispatch:
     inputs:
       dry:
