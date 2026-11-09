@@ -178,7 +178,7 @@ export default async function Home({ params, searchParams }: { params: Promise<{
                 </div>
                 <span className="k">{d.islands[r.island]} · {r[lang].category}</span>
                 <span className="t">{r[lang].title}</span>
-                <span className="m">{r.publisher}{/imf\.org/.test(r.url) ? "" : " · PDF"}</span>
+                <span className="m">{r.publisher}{/imf\.org|cbs\.nl|ser\.cw/.test(r.url) ? "" : " · PDF"}</span>
               </a>
             ))}
           </div>
