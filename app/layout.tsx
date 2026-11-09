@@ -11,8 +11,11 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://negoshi.news"),
   title: "Negoshi",
   description: "Business, economy and politics of Aruba, Curaçao and Bonaire.",
+  openGraph: { siteName: "Negoshi", type: "website" },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
