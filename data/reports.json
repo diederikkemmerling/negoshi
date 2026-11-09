@@ -165,81 +165,6 @@
     }
   },
   {
-    "id": "367c86baca",
-    "island": "aruba",
-    "publisher": "Centrale Bank van Aruba",
-    "url": "https://www.cbaruba.org/readBlob.do?id=18747",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Quarterly Economic Bulletin 2026",
-      "category": "Monetary"
-    },
-    "nl": {
-      "title": "Kwartaal Economische Bulletin 2026",
-      "category": "Monetair"
-    }
-  },
-  {
-    "id": "55adfcb0db",
-    "island": "aruba",
-    "publisher": "Centrale Bank van Aruba",
-    "url": "https://www.cbaruba.org/readBlob.do?id=19206",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Quarterly Economic Bulletin 2026",
-      "category": "Monetary"
-    },
-    "nl": {
-      "title": "Kwartaal Economische Bulletin 2026",
-      "category": "Monetair"
-    }
-  },
-  {
-    "id": "206d2bf181",
-    "island": "aruba",
-    "publisher": "Centrale Bank van Aruba",
-    "url": "https://www.cbaruba.org/readBlob.do?id=19080",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Monthly Economic Bulletin 2026",
-      "category": "Monetary"
-    },
-    "nl": {
-      "title": "Maandelijkse Economische Bulletin 2026",
-      "category": "Monetair"
-    }
-  },
-  {
-    "id": "7ffebc0547",
-    "island": "aruba",
-    "publisher": "Centrale Bank van Aruba",
-    "url": "https://www.cbaruba.org/readBlob.do?id=19221",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Monthly Economic Bulletin 2026",
-      "category": "Monetary"
-    },
-    "nl": {
-      "title": "Maandelijkse Economische Bulletin 2026",
-      "category": "Monetair"
-    }
-  },
-  {
-    "id": "b81f7a6bd6",
-    "island": "aruba",
-    "publisher": "Centrale Bank van Aruba",
-    "url": "https://www.cbaruba.org/readBlob.do?id=19296",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Monthly Economic Bulletin 2026",
-      "category": "Monetary"
-    },
-    "nl": {
-      "title": "Maandelijkse Economische Bulletin 2026",
-      "category": "Monetair"
-    }
-  },
-  {
     "id": "069870e113",
     "island": "curacao",
     "publisher": "CBS Curaçao",
@@ -300,6 +225,21 @@
     }
   },
   {
+    "id": "ee367750cc",
+    "island": "aruba",
+    "publisher": "CBS Aruba",
+    "url": "https://cbs.aw/wp/wp-content/uploads/2026/03/09-Sep-2026-1.pdf",
+    "published_at": "2026-10-28",
+    "en": {
+      "title": "Consumer Price Index, September 2026",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Consumentenprijsindex, september 2026",
+      "category": "Statistiek"
+    }
+  },
+  {
     "id": "2fc8e574ab",
     "island": "aruba",
     "publisher": "College financieel toezicht",
@@ -312,6 +252,111 @@
     "nl": {
       "title": "CAft: \"Maak keuzes over toerisme nu de begroting het toelaat\", oktober 2026",
       "category": "Toerisme"
+    }
+  },
+  {
+    "id": "66587e2e90",
+    "island": "aruba",
+    "publisher": "CBS Aruba",
+    "url": "https://cbs.aw/wp/wp-content/uploads/2026/03/08-Aug-2026-1.pdf",
+    "published_at": "2026-10-21",
+    "en": {
+      "title": "Consumer Price Index, August 2026",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Consumentenprijsindex, augustus 2026",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "a466984f43",
+    "island": "curacao",
+    "publisher": "CBCS",
+    "url": "https://centralbank.cw/storage/app/media/monetary_policy_report/20261006_monetary_policy_report_-_september_2026.pdf",
+    "published_at": "2026-10-06",
+    "en": {
+      "title": "Monetary Policy Report, September 2026",
+      "category": "Monetary"
+    },
+    "nl": {
+      "title": "Monetair beleidsrapport, september 2026",
+      "category": "Monetair"
+    }
+  },
+  {
+    "id": "b81f7a6bd6",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=19296",
+    "published_at": "2026-10-02",
+    "en": {
+      "title": "Monthly Economic Bulletin, August 2026",
+      "category": "Monetary"
+    },
+    "nl": {
+      "title": "Maandelijks economisch bulletin, augustus 2026",
+      "category": "Monetair"
+    }
+  },
+  {
+    "id": "94fdea17c6",
+    "island": "aruba",
+    "publisher": "CBS Aruba",
+    "url": "https://cbs.aw/wp/wp-content/uploads/2026/09/LFS-2025-5.pdf",
+    "published_at": "2026-09-28",
+    "en": {
+      "title": "Labour Force Survey 2025: Results",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Arbeidskrachtenonderzoek 2025: resultaten",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "d1cb89d455",
+    "island": "curacao",
+    "publisher": "CBCS",
+    "url": "https://centralbank.cw/storage/app/media/Economic%20Bulletin%202026/20260925_economic_bulletin-september_2026_.pdf",
+    "published_at": "2026-09-25",
+    "en": {
+      "title": "Economic Bulletin, September 2026",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "Economisch bulletin, september 2026",
+      "category": "Vooruitzichten"
+    }
+  },
+  {
+    "id": "55adfcb0db",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=19206",
+    "published_at": "2026-09-03",
+    "en": {
+      "title": "Quarterly Economic Bulletin: Government Sector, 2026-II",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Kwartaalbulletin: overheidssector, 2026-II",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "7ffebc0547",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=19221",
+    "published_at": "2026-09-03",
+    "en": {
+      "title": "Monthly Economic Bulletin, July 2026",
+      "category": "Monetary"
+    },
+    "nl": {
+      "title": "Maandelijks economisch bulletin, juli 2026",
+      "category": "Monetair"
     }
   },
   {
@@ -342,6 +387,51 @@
     "nl": {
       "title": "Bezoekersaankomsten, september 2026",
       "category": "Toerisme"
+    }
+  },
+  {
+    "id": "6a5e42661d",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=19182",
+    "published_at": "2026-08-25",
+    "en": {
+      "title": "State of the Economy: 2025 Retrospective",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "Staat van de economie: terugblik 2025",
+      "category": "Vooruitzichten"
+    }
+  },
+  {
+    "id": "7cca5774bc",
+    "island": "curacao",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/advies-bij-de-ontwerpbegroting-2027-curacao/cft-202600077-advies-bij-de-ontwerpbegroting-2027-curacao-2/",
+    "published_at": "2026-08-20",
+    "en": {
+      "title": "Cft advice on the draft 2027 budget of Curaçao",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Cft-advies bij de ontwerpbegroting 2027 Curaçao",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "206d2bf181",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=19080",
+    "published_at": "2026-08-15",
+    "en": {
+      "title": "Monthly Economic Bulletin, June 2026",
+      "category": "Monetary"
+    },
+    "nl": {
+      "title": "Maandelijks economisch bulletin, juni 2026",
+      "category": "Monetair"
     }
   },
   {
@@ -405,6 +495,21 @@
     }
   },
   {
+    "id": "d36f4d3823",
+    "island": "curacao",
+    "publisher": "CBCS",
+    "url": "https://centralbank.cw/storage/app/media/monetary_policy_report/20260703_monetary_policy_report_june_2026.pdf",
+    "published_at": "2026-07-03",
+    "en": {
+      "title": "Monetary Policy Report, June 2026",
+      "category": "Monetary"
+    },
+    "nl": {
+      "title": "Monetair beleidsrapport, juni 2026",
+      "category": "Monetair"
+    }
+  },
+  {
     "id": "66c6f6ddc6",
     "island": "aruba",
     "publisher": "Aruba Tourism Authority",
@@ -435,6 +540,36 @@
     }
   },
   {
+    "id": "beb882f924",
+    "island": "curacao",
+    "publisher": "CBCS",
+    "url": "https://centralbank.cw/storage/app/media/Economic%20Bulletin%202026/20260624_economic_bulletin-june_2026.pdf",
+    "published_at": "2026-06-24",
+    "en": {
+      "title": "Economic Bulletin, June 2026",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "Economisch bulletin, juni 2026",
+      "category": "Vooruitzichten"
+    }
+  },
+  {
+    "id": "367c86baca",
+    "island": "aruba",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=18747",
+    "published_at": "2026-06-03",
+    "en": {
+      "title": "Quarterly Economic Bulletin: Government Sector, 2026-I",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Kwartaalbulletin: overheidssector, 2026-I",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
     "id": "74d22ca730",
     "island": "aruba",
     "publisher": "Aruba Tourism Authority",
@@ -462,6 +597,21 @@
     "nl": {
       "title": "Toeristische prestaties, juni 2026",
       "category": "Toerisme"
+    }
+  },
+  {
+    "id": "b5660935e1",
+    "island": "curacao",
+    "publisher": "CBCS",
+    "url": "https://centralbank.cw/storage/app/media/financial_stability/20260519_cbcs-fsr-2026-2.pdf",
+    "published_at": "2026-05-19",
+    "en": {
+      "title": "Financial Stability Report 2026",
+      "category": "Supervision"
+    },
+    "nl": {
+      "title": "Rapport financiële stabiliteit 2026",
+      "category": "Toezicht"
     }
   },
   {
@@ -525,6 +675,21 @@
     }
   },
   {
+    "id": "91948c07f5",
+    "island": "curacao",
+    "publisher": "CBCS",
+    "url": "https://centralbank.cw/storage/app/media/publications/Economic_Bulletin/20260327_economic_bulletin-march_2026.pdf",
+    "published_at": "2026-03-27",
+    "en": {
+      "title": "Economic Bulletin, March 2026",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "Economisch bulletin, maart 2026",
+      "category": "Vooruitzichten"
+    }
+  },
+  {
     "id": "ff5c1513ed",
     "island": "curacao",
     "publisher": "Curaçao Tourist Board",
@@ -552,6 +717,51 @@
     "nl": {
       "title": "Bezoekersaankomsten, februari 2026",
       "category": "Toerisme"
+    }
+  },
+  {
+    "id": "b287297645",
+    "island": "curacao",
+    "publisher": "Government of Curaçao",
+    "url": "https://gobiernu.cw/wp-content/uploads/2025/12/218.-Begroting-Curacao-dienstjaar-2026.pdf",
+    "published_at": "2025-12-29",
+    "en": {
+      "title": "Budget of Curaçao 2026",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Begroting Curaçao dienstjaar 2026",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "a0da8c128d",
+    "island": "aruba",
+    "publisher": "IMF",
+    "url": "https://www.imf.org/en/publications/cr/issues/2025/12/01/kingdom-of-the-netherlands-aruba-2025-article-iv-consultation-discussions-press-release-572146",
+    "published_at": "2025-12-01",
+    "en": {
+      "title": "IMF Article IV Consultation: Aruba 2025",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "IMF Artikel IV-consultatie: Aruba 2025",
+      "category": "Vooruitzichten"
+    }
+  },
+  {
+    "id": "4cd4ecfca3",
+    "island": "curacao",
+    "publisher": "IMF",
+    "url": "https://www.imf.org/en/publications/cr/issues/2025/09/09/kingdom-of-the-netherland-curaao-and-sint-maarten-2025-article-iv-consultation-discussions-570128",
+    "published_at": "2025-09-09",
+    "en": {
+      "title": "IMF Article IV Consultation: Curaçao and Sint Maarten 2025",
+      "category": "Outlook"
+    },
+    "nl": {
+      "title": "IMF Artikel IV-consultatie: Curaçao en Sint Maarten 2025",
+      "category": "Vooruitzichten"
     }
   }
 ]
