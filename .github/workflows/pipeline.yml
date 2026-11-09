@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: pipeline
@@ -40,3 +41,8 @@ jobs:
           git diff --cached --quiet || git commit -m "pipeline: new briefs $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main || true
           git push
+      - name: Schedule the next run in about an hour (keepalive)
+        if: ${{ always() && !inputs.dry }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run keepalive.yml -R "$GITHUB_REPOSITORY" --ref main || true

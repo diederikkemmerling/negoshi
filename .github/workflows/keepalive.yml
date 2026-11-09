@@ -1,0 +1,31 @@
+name: Negoshi hourly keepalive
+
+# Started by the content pipeline at the end of every run. Waits ~50 minutes, then starts the
+# pipeline again, unless another run (e.g. GitHub's own schedule) already happened in the meantime.
+# GitHub's scheduler alone fires only a few times a day; this keeps a steady hourly rhythm without
+# any extra token. Only one waiter exists at a time (cancel-in-progress).
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+concurrency:
+  group: keepalive
+  cancel-in-progress: true
+
+jobs:
+  wait:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - name: Wait about 50 minutes
+        run: sleep 3000
+      - name: Start the pipeline unless it ran recently
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh run list -R "$GITHUB_REPOSITORY" --workflow pipeline.yml --limit 1 --json createdAt -q '.[0].createdAt')
+          age=$(( $(date +%s) - $(date -d "$last" +%s) ))
+          if [ "$age" -lt 2400 ]; then echo "pipeline started ${age}s ago, it will schedule the next keepalive itself"; exit 0; fi
+          gh workflow run pipeline.yml -R "$GITHUB_REPOSITORY" --ref main
