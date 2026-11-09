@@ -111,7 +111,12 @@ async function fromListings(src) {
       console.log(`list err ${src.id} ${page}: ${err.message}`);
     }
   }
-  return [...urls].map((url) => ({ url, title: "", published_at: null, text: "" }));
+  // Newest first: listing pages often show older items first. When URLs end in a numeric id
+  // (e.g. noticiacla.com/news/42243) sort on that id; otherwise keep page order.
+  const list = [...urls];
+  const num = (u) => Number(u.match(/(\d+)$/)?.[1] ?? NaN);
+  if (list.length && list.every((u) => Number.isFinite(num(u)))) list.sort((a, b) => num(b) - num(a));
+  return list.map((url) => ({ url, title: "", published_at: null, text: "" }));
 }
 
 async function fetchCandidates() {
