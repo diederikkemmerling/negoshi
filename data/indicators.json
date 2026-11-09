@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T16:47:32.074Z",
+  "updated_at": "2026-11-09T21:06:09.585Z",
   "items": [
     {
       "id": "usd-eur",
@@ -11,10 +11,10 @@
       "url": "https://www.ecb.europa.eu",
       "note_en": null,
       "note_nl": null,
-      "value": "0.896",
-      "period": "2026-11-06",
+      "value": "0.893",
+      "period": "2026-11-09",
       "change": null,
-      "updated_at": "2026-11-08T16:47:32.074Z"
+      "updated_at": "2026-11-09T21:06:09.585Z"
     },
     {
       "id": "eur-awg",
@@ -26,10 +26,10 @@
       "url": "https://www.cbaruba.org",
       "note_en": null,
       "note_nl": null,
-      "value": "1.999",
-      "period": "2026-11-06",
+      "value": "2.004",
+      "period": "2026-11-09",
       "change": null,
-      "updated_at": "2026-11-08T16:47:32.074Z"
+      "updated_at": "2026-11-09T21:06:09.585Z"
     },
     {
       "id": "usd-cop",
@@ -41,10 +41,10 @@
       "url": "https://www.exchangerate-api.com",
       "note_en": null,
       "note_nl": null,
-      "value": "3,240",
-      "period": "2026-11-08",
+      "value": "3,244",
+      "period": "2026-11-09",
       "change": null,
-      "updated_at": "2026-11-08T16:47:32.074Z"
+      "updated_at": "2026-11-09T21:06:09.585Z"
     },
     {
       "id": "brent",
@@ -59,7 +59,7 @@
       "value": "107.03",
       "period": "2026-11-03",
       "change": null,
-      "updated_at": "2026-11-08T16:47:32.074Z"
+      "updated_at": "2026-11-09T21:06:09.585Z"
     },
     {
       "id": "cpi-aw",
@@ -88,7 +88,7 @@
       "value": "1.5",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-08T16:47:32.074Z"
+      "updated_at": "2026-11-09T21:06:09.585Z"
     },
     {
       "id": "arrivals-aw",
@@ -103,7 +103,7 @@
       "value": "+17.1",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-07T21:21:17.873Z"
+      "updated_at": "2026-11-09T21:06:09.585Z"
     },
     {
       "id": "arrivals-cw",
@@ -118,7 +118,7 @@
       "value": "+9.2",
       "period": "Aug 2026",
       "change": null,
-      "updated_at": "2026-11-07T21:21:17.873Z"
+      "updated_at": "2026-11-09T21:06:09.585Z"
     },
     {
       "id": "fuel-aw",
