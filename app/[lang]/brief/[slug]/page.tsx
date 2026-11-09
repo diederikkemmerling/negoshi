@@ -14,7 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang, slug } = await params;
   const item = itemBySlug(slug);
   if (!item || !isLang(lang)) return {};
-  return { title: `${loc(item, lang).title} · Negoshi`, description: loc(item, lang).standfirst };
+  const l = loc(item, lang);
+  return {
+    title: `${l.title} · Negoshi`,
+    description: l.standfirst,
+    alternates: { canonical: `/${lang}/brief/${slug}` },
+    openGraph: { type: "article", siteName: "Negoshi", title: l.title, description: l.standfirst, url: `/${lang}/brief/${slug}`, publishedTime: item.published_at, locale: lang === "nl" ? "nl_NL" : "en_US" },
+    twitter: { card: "summary_large_image", title: l.title, description: l.standfirst },
+  };
 }
 
 export default async function BriefPage({ params }: { params: Promise<{ lang: string; slug: string }> }) {
