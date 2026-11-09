@@ -70,10 +70,6 @@ export default async function IslandPage({ params }: { params: Promise<{ lang: s
                 <button type="submit">{d.subscribeShort}</button>
               </form>
             </div>
-            <div className="box sand">
-              <h2>{d.sourcesMonitored}</h2>
-              <div className="chips">{sources.map((s) => <span key={s.id}>{s.name}</span>)}</div>
-            </div>
             <div className="box">
               <h2>{lang === "nl" ? "Partner" : "Sponsored"}</h2>
               <div style={{ height: 120, border: "1px dashed #cfcbc0", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, color: "var(--muted)" }}>
