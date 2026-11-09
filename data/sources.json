@@ -47,10 +47,18 @@
     "feed": null,
     "lang": "pap",
     "listings": [
-      "https://www.bondia.com/category/politica/",
-      "https://www.bondia.com/category/local/"
+      "https://www.bondia.com/"
     ],
-    "pattern": "^https://www\\.bondia\\.com/[a-z0-9-]{20,}/?$"
+    "pattern": "^https://www\\.bondia\\.com/[a-z0-9-]{20,}/$"
+  },
+  {
+    "id": "masnoticia",
+    "name": "Masnoticia",
+    "island": "aruba",
+    "type": "press",
+    "url": "https://masnoticia.com",
+    "feed": "https://masnoticia.com/feed/",
+    "lang": "pap"
   },
   {
     "id": "gov-aw",
