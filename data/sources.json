@@ -61,6 +61,20 @@
     "lang": "pap"
   },
   {
+    "id": "aruba-nu",
+    "name": "Aruba.nu",
+    "island": "aruba",
+    "type": "press",
+    "url": "https://www.aruba.nu",
+    "feed": null,
+    "lang": "nl",
+    "listings": [
+      "https://www.aruba.nu/economie",
+      "https://www.aruba.nu/nieuws"
+    ],
+    "pattern": "^https://www\\.aruba\\.nu/nieuws/(economie|politiek-bestuur|overheid|koninkrijk|toerisme|luchtvaart-reizen|media)/\\d+/[a-z0-9-]+$"
+  },
+  {
     "id": "gov-aw",
     "name": "Gobierno di Aruba",
     "island": "aruba",
@@ -161,7 +175,7 @@
       "https://www.curacao.nu/economie",
       "https://www.curacao.nu/nieuws"
     ],
-    "pattern": "^https://www\\.curacao\\.nu/nieuws/(economie|politiek-bestuur|overheid|koninkrijk|toerisme)/\\d+/[a-z0-9-]+$"
+    "pattern": "^https://www\\.curacao\\.nu/nieuws/(economie|politiek-bestuur|overheid|koninkrijk|toerisme|luchtvaart-reizen|media)/\\d+/[a-z0-9-]+$"
   },
   {
     "id": "gov-cw",
