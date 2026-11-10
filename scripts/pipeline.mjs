@@ -17,6 +17,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import Parser from "rss-parser";
 import Anthropic from "@anthropic-ai/sdk";
+import { askJson } from "./util.mjs";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const SOURCES = JSON.parse(fs.readFileSync(path.join(ROOT, "data/sources.json"), "utf8"));
@@ -187,13 +188,56 @@ function pruneDuplicates() {
   return drop.size;
 }
 
+
+/** Headlines already published in the last 72h, so Claude can spot the same story told differently. */
+function recentList() {
+  const since = Date.now() - 72 * 36e5;
+  const recent = items.filter((i) => !i.sample && Date.parse(i.published_at) > since).slice(0, 80);
+  if (!recent.length) return "";
+  return `\n\nALREADY PUBLISHED (last 72 hours):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.en.title}`).join("\n")}\n\nIf this article reports the same news event as one of these (same decision, announcement, figure or incident, even if worded differently or with a different angle), do not write a brief: reply only with {"keep": false, "duplicate_of": "<id>"}. A genuinely new development on the same topic is not a duplicate.`;
+}
+
+/** Semantic clean-up: asks Claude which recent briefs cover the same news event and keeps only the first. */
+async function semanticDedupe() {
+  if (DRY) return 0;
+  const since = Date.now() - 72 * 36e5;
+  const recent = items.filter((i) => !i.sample && Date.parse(i.published_at) > since);
+  if (recent.length < 2) return 0;
+  let groups;
+  try {
+    groups = await askJson(client, {
+      model: MODEL,
+      max_tokens: 1500,
+      system: "You find duplicate news briefs. Two briefs are duplicates when they report the same news event (same decision, announcement, figure or incident), even if worded differently or from a different outlet. Follow-ups with genuinely new facts are not duplicates. Reply with JSON only.",
+      user: `Briefs (id | island | published | title):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.published_at.slice(0, 16)} | ${i.en.title}`).join("\n")}\n\nReturn {"groups": [["id1","id2"], ...]} listing only groups of 2 or more duplicates. Return {"groups": []} if there are none.`,
+    });
+  } catch (err) {
+    console.log(`dedupe check failed: ${String(err.message || err).slice(0, 200)}`);
+    return 0;
+  }
+  const byId = new Map(items.map((i) => [i.id, i]));
+  const drop = new Set();
+  for (const g of groups?.groups || []) {
+    const members = g.map((id) => byId.get(id)).filter(Boolean).sort((a, b) => (a.published_at < b.published_at ? -1 : 1));
+    if (members.length < 2) continue;
+    const [first, ...rest] = members;
+    for (const m of rest) {
+      drop.add(m.id);
+      (first.also_covered ||= []).push(m.source_url);
+      console.log(`dedupe   ${m.en.title} = ${first.en.title}`);
+    }
+  }
+  if (drop.size) { const keep = items.filter((i) => !drop.has(i.id)); items.length = 0; items.push(...keep); }
+  return drop.size;
+}
+
 async function brief(c) {
   if (DRY) return { keep: true, island: c.src.island, topic: "business", en: { title: c.title, standfirst: "", keypoints: [], body: [] }, nl: { title: c.title, standfirst: "", keypoints: [], body: [] } };
   const msg = await client.messages.create({
     model: MODEL,
     max_tokens: 1800,
     system: SYSTEM,
-    messages: [{ role: "user", content: `Source: ${c.src.name} (${c.src.island}, language ${c.src.lang})\nURL: ${c.url}\nTitle: ${c.title}\n\nText:\n${c.text || "(no text; judge from the title)"}` }],
+    messages: [{ role: "user", content: `Source: ${c.src.name} (${c.src.island}, language ${c.src.lang})\nURL: ${c.url}\nTitle: ${c.title}\n\nText:\n${c.text || "(no text; judge from the title)"}${recentList()}` }],
   });
   const raw = msg.content.map((b) => (b.type === "text" ? b.text : "")).join("");
   const json = raw.slice(raw.indexOf("{"), raw.lastIndexOf("}") + 1);
@@ -211,6 +255,13 @@ for (const c0 of candidates) {
     if (!c.title && !c.text) { seen[c.url] = "empty"; console.log(`empty    ${c.src.id}: ${c.url}`); continue; }
     judged++;
     const r = await brief(c);
+    if (r.duplicate_of) {
+      seen[c.url] = "dup";
+      const orig = items.find((i) => i.id === r.duplicate_of);
+      if (orig) (orig.also_covered ||= []).includes(c.url) || orig.also_covered.push(c.url);
+      console.log(`dup      ${c.src.id}: ${c.title.slice(0, 60)} = ${orig?.en.title || r.duplicate_of}`);
+      continue;
+    }
     seen[c.url] = r.keep ? "kept" : "skip";
     if (!r.keep) { console.log(`skip     ${c.src.id}: ${c.title.slice(0, 60)}`); continue; }
     const dup = findDuplicate(r.en?.title, r.island || c.src.island, c.published_at);
@@ -237,7 +288,7 @@ for (const c0 of candidates) {
   }
 }
 
-const pruned = pruneDuplicates();
+const pruned = pruneDuplicates() + (billingError ? 0 : await semanticDedupe());
 if (pruned) console.log(`removed ${pruned} duplicate briefs`);
 
 // once real items exist, drop the sample seed
