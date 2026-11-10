@@ -207,9 +207,9 @@ async function semanticDedupe() {
   try {
     groups = await askJson(client, {
       model: MODEL,
-      max_tokens: 1500,
+      max_tokens: 4000,
       system: "You find duplicate news briefs. Two briefs are duplicates when they report the same news event (same decision, announcement, figure or incident), even if worded differently or from a different outlet. Follow-ups with genuinely new facts are not duplicates. Reply with JSON only.",
-      user: `Briefs (id | island | published | title):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.published_at.slice(0, 16)} | ${i.en.title}`).join("\n")}\n\nReturn {"groups": [["id1","id2"], ...]} listing only groups of 2 or more duplicates. Return {"groups": []} if there are none.`,
+      user: `Briefs (id | island | published | title):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.published_at.slice(0, 16)} | ${i.en.title}`).join("\n")}\n\nReturn {"groups": [["id1","id2"], ...]} listing only groups of 2 or more duplicates. Return {"groups": []} if there are none. Output the JSON only, no explanation.`,
     });
   } catch (err) {
     console.log(`dedupe check failed: ${String(err.message || err).slice(0, 200)}`);
