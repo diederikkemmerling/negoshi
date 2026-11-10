@@ -1766,50 +1766,6 @@
     }
   },
   {
-    "id": "6f6b9ef4d118",
-    "slug": "mep-lawmaker-says-late-supplementary-budget-undermines-parliament-s-oversight-of-6f6b9e",
-    "island": "aruba",
-    "topic": "politics",
-    "published_at": "2026-11-09T16:13:42.000Z",
-    "source_id": "masnoticia",
-    "source_name": "Masnoticia",
-    "source_url": "https://masnoticia.com/shailiny-tromp-lee-mep-gobierno-ta-purba-crea-un-imagen-falso-e-realidad-ta-cu-e-proceso-presupuestario-a-sufri-un-tardansa-inaceptabel-y-alarmante/",
-    "also_covered": [
-      "https://diario.aw/categories/noticia/politica/ora-bo-traha-bruha-resultado-ta-bruha",
-      "https://diario.aw/categories/noticia/politica/realidad-ta-cu-e-proceso-presupuestario-a-sufri-un-tardansa-inaceptabel-y-alarmante"
-    ],
-    "en": {
-      "title": "MEP lawmaker says late supplementary budget undermines Parliament's oversight of Aruba's finances",
-      "standfirst": "MEP member Shailiny Tromp-Lee has criticised Finance Minister Geoffrey Wever for bringing the first 2026 supplementary budget to Parliament only in November. She says the delay leaves the fiscal year almost over before lawmakers can weigh in.",
-      "keypoints": [
-        "Parliament debated the first 2026 supplementary budget (OBW 2026) on 6 November, much later than the spring slot it would normally get before the July recess.",
-        "The document was submitted on 21 August 2026, and the government's written reply to Parliament's report followed on 11 October 2026.",
-        "Tromp-Lee argues that by November Parliament can only formalise spending already made or committed, which removes its preventive control.",
-        "She wants the minister to explain how the delay happened and how he will prevent a repeat in 2027."
-      ],
-      "body": [
-        "During the debate, Tromp-Lee said the timing of the first supplementary budget is alarming. The budget reflects the financial results and changes of the first half of the year, and Parliament would normally review it in spring. By November the fiscal year is nearly over, so lawmakers can only approve spending that has already taken place.",
-        "She rejected the minister's defence that the law was met because the Voorjaarsnota (spring report) was delivered in May. In her view that report is informative and does not replace the legal duty to present a supplementary budget for Parliament's authorisation. She recalled a 2018 motion that introduced interim reporting and mid-year budget amendments, which she said had worked well.",
-        "Tromp-Lee said Parliament lacked the information it needs for months. She added that the minister did not explain during the public meeting how the delay came about or what he will do to avoid it in 2027."
-      ]
-    },
-    "nl": {
-      "title": "MEP-Statenlid: late suppletoire begroting ondermijnt controle van Staten op Arubaanse financiën",
-      "standfirst": "MEP-parlementariër Shailiny Tromp-Lee bekritiseert minister van Financiën Geoffrey Wever, omdat de eerste suppletoire begroting 2026 pas in november in het Parlement werd behandeld. Volgens haar is het begrotingsjaar dan bijna voorbij, waardoor Parlement nauwelijks nog kan bijsturen.",
-      "keypoints": [
-        "Het Parlement behandelde de eerste suppletoire begroting 2026 (OBW 2026) op 6 november, veel later dan de gebruikelijke voorjaarsperiode vóór het zomerreces in juli.",
-        "Het stuk werd op 21 augustus 2026 ingediend; de nota naar aanleiding van het verslag volgde op 11 oktober 2026.",
-        "Volgens Tromp-Lee kan het Parlement in november alleen nog uitgaven formaliseren die al gedaan of aangegaan zijn, waardoor de preventieve controle verdwijnt.",
-        "Zij eist uitleg van de minister over hoe de vertraging ontstond en hoe herhaling in 2027 wordt voorkomen."
-      ],
-      "body": [
-        "Tromp-Lee noemde het tijdstip van de eerste suppletoire begroting tijdens het debat alarmerend. De begroting weerspiegelt de financiële realisatie en wijzigingen van de eerste jaarhelft en hoort normaal in het voorjaar te worden behandeld. In november is het begrotingsjaar bijna afgelopen en kan het Parlement alleen nog goedkeuren wat al is uitgegeven.",
-        "Zij wees het verweer van de minister af dat de wet is nageleefd omdat de Voorjaarsnota in mei werd aangeleverd. Die nota is volgens haar slechts informatief en vervangt niet de wettelijke plicht om een suppletoire begroting ter autorisatie voor te leggen. Ze herinnerde aan een motie uit 2018 die tussentijdse rapportages en suppletoire begrotingen tussen het jaar invoerde en volgens haar goed werkte.",
-        "Volgens Tromp-Lee miste het Parlement maandenlang de informatie die nodig is voor zijn controlerende taak. Ze voegde toe dat de minister in de openbare vergadering niet heeft toegelicht hoe de vertraging kon ontstaan en wat hij doet om dit in 2027 te voorkomen."
-      ]
-    }
-  },
-  {
     "id": "13277de5bd92",
     "slug": "aruba-opens-registration-for-short-term-holiday-rental-operators-13277d",
     "island": "aruba",
@@ -2821,7 +2777,9 @@
     "source_id": "aruba-nu",
     "source_name": "Aruba.nu",
     "source_url": "https://www.aruba.nu/nieuws/politiek-bestuur/98280/avp-betreurt-vertrek-mike-de-meza-maar-houdt-vast-aan-uitstel-minimumloonverhoging",
-    "also_covered": [],
+    "also_covered": [
+      "https://masnoticia.com/endy-croes-mep-avp-a-sacrifica-mike-de-meza-pa-salba-e-coalicion/"
+    ],
     "en": {
       "title": "AVP defends delaying Aruba's minimum wage rise after De Meza quits its caucus",
       "standfirst": "Aruba's AVP says its dispute with MP Mike De Meza was only about when the minimum wage rise should start. De Meza calls it a matter of principle and will sit as an independent.",
@@ -2947,7 +2905,9 @@
     "source_id": "diario",
     "source_name": "Diario",
     "source_url": "https://diario.aw/categories/noticia/politica/aruba-no-mester-mas-caos-pasobra-aruba-mester-accion",
-    "also_covered": [],
+    "also_covered": [
+      "https://masnoticia.com/shailiny-tromp-lee-mep-gobierno-ta-purba-crea-un-imagen-falso-e-realidad-ta-cu-e-proceso-presupuestario-a-sufri-un-tardansa-inaceptabel-y-alarmante/"
+    ],
     "en": {
       "title": "Opposition leader Wever-Croes attacks Aruba's late budget amendment",
       "standfirst": "MEP leader Evelyn Wever-Croes says the government is asking Parliament to approve spending that has already happened. She links the issue to weak oversight, rising living costs and the need for an economy less dependent on tourism.",
@@ -4810,47 +4770,6 @@
     }
   },
   {
-    "id": "b79aadc559cc",
-    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
-    "island": "curacao",
-    "topic": "economy",
-    "published_at": "2026-11-07T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
-    "also_covered": [],
-    "en": {
-      "title": "Aqualectra signs agreement to expand battery energy storage",
-      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
-      "keypoints": [
-        "Aqualectra has signed an agreement to expand its battery energy storage system.",
-        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
-        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
-        "The full report is behind a paywall at Extra."
-      ],
-      "body": [
-        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
-        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
-        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
-      ]
-    },
-    "nl": {
-      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
-      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
-      "keypoints": [
-        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
-        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
-        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
-        "Het volledige bericht van Extra staat achter een betaalmuur."
-      ],
-      "body": [
-        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
-        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
-        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
-      ]
-    }
-  },
-  {
     "id": "6223f31ac4bf",
     "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
     "island": "curacao",
@@ -4888,6 +4807,47 @@
         "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
         "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
         "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
+      ]
+    }
+  },
+  {
+    "id": "b79aadc559cc",
+    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
+    "island": "curacao",
+    "topic": "economy",
+    "published_at": "2026-11-07T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
+    "also_covered": [],
+    "en": {
+      "title": "Aqualectra signs agreement to expand battery energy storage",
+      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
+      "keypoints": [
+        "Aqualectra has signed an agreement to expand its battery energy storage system.",
+        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
+        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
+        "The full report is behind a paywall at Extra."
+      ],
+      "body": [
+        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
+        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
+        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
+      ]
+    },
+    "nl": {
+      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
+      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
+      "keypoints": [
+        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
+        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
+        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
+        "Het volledige bericht van Extra staat achter een betaalmuur."
+      ],
+      "body": [
+        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
+        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
+        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
       ]
     }
   },
