@@ -179,9 +179,11 @@ function pruneDuplicates() {
     if (drop.has(live[x].id)) continue;
     for (let y = x + 1; y < live.length; y++) {
       if (drop.has(live[y].id) || !near(live[x], live[y])) continue;
-      drop.add(live[y].id);
-      (live[x].also_covered ||= []).push(live[y].source_url);
-      console.log(`dedupe   ${live[y].en.title} = ${live[x].en.title}`);
+      // near-identical headlines: keep the later (usually updated) version
+      drop.add(live[x].id);
+      (live[y].also_covered ||= []).push(live[x].source_url);
+      console.log(`dedupe   ${live[x].en.title} -> keep ${live[y].en.title}`);
+      break;
     }
   }
   if (drop.size) { const keep = items.filter((i) => !drop.has(i.id)); items.length = 0; items.push(...keep); }
@@ -194,7 +196,7 @@ function recentList() {
   const since = Date.now() - 72 * 36e5;
   const recent = items.filter((i) => !i.sample && Date.parse(i.published_at) > since).slice(0, 80);
   if (!recent.length) return "";
-  return `\n\nALREADY PUBLISHED (last 72 hours):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.en.title}`).join("\n")}\n\nIf this article reports the same news event as one of these (same decision, announcement, figure or incident, even if worded differently or with a different angle), do not write a brief: reply only with {"keep": false, "duplicate_of": "<id>"}. A genuinely new development on the same topic is not a duplicate.`;
+  return `\n\nALREADY PUBLISHED (last 72 hours):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.en.title}`).join("\n")}\n\nIf this article reports the same news event as one of these (same decision, announcement, figure or incident, even if worded differently or with a different angle), check which version is better. If the listed brief is as good or better, do not write a brief: reply only with {"keep": false, "duplicate_of": "<id>"}. If this article is clearly better (confirmed facts instead of expectations, exact figures, more complete or more recent information), write the full brief as usual and add "replaces": "<id>" to your JSON. A genuinely new development on the same topic is not a duplicate.`;
 }
 
 /** Semantic clean-up: asks Claude which recent briefs cover the same news event and keeps only the first. */
@@ -209,7 +211,7 @@ async function semanticDedupe() {
       model: MODEL,
       max_tokens: 4000,
       system: "You find duplicate news briefs. Two briefs are duplicates when they report the same news event (same decision, announcement, figure or incident), even if worded differently or from a different outlet. Follow-ups with genuinely new facts are not duplicates. Reply with JSON only.",
-      user: `Briefs (id | island | published | title):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.published_at.slice(0, 16)} | ${i.en.title}`).join("\n")}\n\nReturn {"groups": [["id1","id2"], ...]} listing only groups of 2 or more duplicates. Return {"groups": []} if there are none. Output the JSON only, no explanation.`,
+      user: `Briefs (id | island | published | title):\n${recent.map((i) => `${i.id} | ${i.island} | ${i.published_at.slice(0, 16)} | ${i.en.title}`).join("\n")}\n\nReturn {"groups": [{"best": "id", "ids": ["id1","id2", ...]}, ...]} listing only groups of 2 or more duplicates. "best" is the strongest brief in the group: confirmed facts over expectations, exact figures, the most complete and most recent information. Return {"groups": []} if there are none. Output the JSON only, no explanation.`,
     });
   } catch (err) {
     console.log(`dedupe check failed: ${String(err.message || err).slice(0, 200)}`);
@@ -218,13 +220,16 @@ async function semanticDedupe() {
   const byId = new Map(items.map((i) => [i.id, i]));
   const drop = new Set();
   for (const g of groups?.groups || []) {
-    const members = g.map((id) => byId.get(id)).filter(Boolean).sort((a, b) => (a.published_at < b.published_at ? -1 : 1));
+    const ids = Array.isArray(g) ? g : g.ids || [];
+    const members = ids.map((id) => byId.get(id)).filter(Boolean);
     if (members.length < 2) continue;
-    const [first, ...rest] = members;
-    for (const m of rest) {
+    // keep the brief Claude rated best; fall back to the most recent one
+    const best = byId.get(g.best) && members.includes(byId.get(g.best)) ? byId.get(g.best) : members.sort((a, b) => (a.published_at < b.published_at ? 1 : -1))[0];
+    for (const m of members) {
+      if (m === best) continue;
       drop.add(m.id);
-      (first.also_covered ||= []).push(m.source_url);
-      console.log(`dedupe   ${m.en.title} = ${first.en.title}`);
+      (best.also_covered ||= []).push(m.source_url);
+      console.log(`dedupe   ${m.en.title} -> keep ${best.en.title}`);
     }
   }
   if (drop.size) { const keep = items.filter((i) => !drop.has(i.id)); items.length = 0; items.push(...keep); }
@@ -271,12 +276,21 @@ for (const c0 of candidates) {
       console.log(`dup      ${c.src.id}: ${r.en.title} = ${dup.en.title}`);
       continue;
     }
+    let carried = [];
+    if (r.replaces) {
+      const idx = items.findIndex((i) => i.id === r.replaces);
+      if (idx >= 0) {
+        const old = items.splice(idx, 1)[0];
+        carried = [old.source_url, ...(old.also_covered || [])];
+        console.log(`replace  ${old.en.title} -> ${r.en.title}`);
+      }
+    }
     const id = crypto.createHash("sha1").update(c.url).digest("hex").slice(0, 12);
     const slug = `${slugify(r.en.title)}-${id.slice(0, 6)}`;
     items.unshift({
       id, slug, island: r.island || c.src.island, topic: r.topic,
       published_at: c.published_at || new Date().toISOString(), source_id: c.src.id, source_name: c.src.name, source_url: c.url,
-      also_covered: [], en: r.en, nl: r.nl,
+      also_covered: carried, en: r.en, nl: r.nl,
     });
     known.add(c.url);
     added++;
