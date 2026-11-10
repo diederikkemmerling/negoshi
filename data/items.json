@@ -1,5 +1,46 @@
 [
   {
+    "id": "92b0089b5376",
+    "slug": "aruba-s-income-tax-return-goes-fully-digital-from-16-november-with-last-help-ses-92b008",
+    "island": "aruba",
+    "topic": "economy",
+    "published_at": "2026-11-10T21:15:42.000Z",
+    "source_id": "24ora",
+    "source_name": "24ora",
+    "source_url": "https://24ora.com/entrante-16-di-november-declaracion-di-inkomstenbelasting-2025-ta-disponibel-via-e-portal-bo-impuesto-boi/",
+    "also_covered": [],
+    "en": {
+      "title": "Aruba's income tax return goes fully digital from 16 November, with last help sessions announced",
+      "standfirst": "Aruba's Tax Department says the 2025 income tax return will be available only online through the Bo Impuesto portal from 16 November. Paper forms will no longer arrive by post, so every taxpayer needs an active account.",
+      "keypoints": [
+        "The 2025 income tax return opens on the Bo Impuesto (BOi) portal on 16 November.",
+        "All tax forms are now digital, and the familiar envelope will no longer be delivered.",
+        "Anyone paying income, land, vehicle or other taxes needs an active BOi account.",
+        "Five final in-person help sessions run from 10 November to 3 December."
+      ],
+      "body": [
+        "The Tax Department (DIMP) is reminding taxpayers that the move to digital filing is complete. The income tax return, previously sent as a paper form, will be available only through the BOi portal from 16 November. The requirement to hold an account applies to people paying income tax, property owners liable for land tax, vehicle owners and holders of other tax obligations.",
+        "To help residents register, DIMP has held sessions at community centres (MFAs), with more than 20 staff at each one. It says about 1,200 people received help in October alone. Opening an account requires a valid ID card or driving licence, a personal number and a personal email address.",
+        "Because demand remains high, DIMP will hold five last sessions. They take place on 10 November at MFA Noord, on 11 November at Teresita Center in San Nicolas, on 24 November at MFA Santa Cruz, on 25 November at MFA Paradera, and on 3 December at Teresita Center. Hours are 8:00-11:00 in the morning and 17:00-20:00 in the evening."
+      ]
+    },
+    "nl": {
+      "title": "Aanslag inkomstenbelasting Aruba vanaf 16 november volledig digitaal; laatste hulpsessies aangekondigd",
+      "standfirst": "De Arubaanse belastingdienst meldt dat de aangifte inkomstenbelasting 2025 vanaf 16 november alleen online beschikbaar is via het portaal Bo Impuesto. Papieren formulieren komen niet meer per post, dus iedere belastingplichtige heeft een actief account nodig.",
+      "keypoints": [
+        "De aangifte inkomstenbelasting 2025 opent op 16 november op het portaal Bo Impuesto (BOi).",
+        "Alle belastingformulieren zijn nu digitaal; de bekende envelop wordt niet meer bezorgd.",
+        "Wie inkomsten-, grond-, motorrijtuigen- of andere belasting betaalt, heeft een actief BOi-account nodig.",
+        "Van 10 november tot 3 december volgen vijf laatste hulpsessies."
+      ],
+      "body": [
+        "De belastingdienst (DIMP) herinnert belastingplichtigen eraan dat de overstap naar digitaal aangeven is voltooid. De aangifte inkomstenbelasting, voorheen een papieren formulier, is vanaf 16 november alleen beschikbaar via het BOi-portaal. De accountplicht geldt voor betalers van inkomstenbelasting, eigenaren van onroerend goed met grondbelasting, voertuigbezitters en anderen met belastingverplichtingen.",
+        "Om inwoners te helpen zich te registreren, hield DIMP sessies in buurthuizen (MFA's), met telkens meer dan 20 medewerkers. Alleen al in oktober kregen volgens de dienst ongeveer 1.200 mensen hulp. Voor een account zijn een geldig identiteitsbewijs of rijbewijs, een persoonsnummer en een persoonlijk e-mailadres nodig.",
+        "Vanwege de grote vraag houdt DIMP nog vijf laatste sessies: op 10 november in MFA Noord, op 11 november in Teresita Center in San Nicolas, op 24 november in MFA Santa Cruz, op 25 november in MFA Paradera en op 3 december in Teresita Center. De uren zijn 8.00-11.00 uur en 17.00-20.00 uur."
+      ]
+    }
+  },
+  {
     "id": "27b25cb1d583",
     "slug": "porter-airlines-starts-nonstop-toronto-and-ottawa-flights-to-aruba-27b25c",
     "island": "aruba",
@@ -8,7 +49,9 @@
     "source_id": "24ora",
     "source_name": "24ora",
     "source_url": "https://24ora.com/aruba-airport-authority-ta-yama-bonbini-na-porter-airlines-cu-vuelo-nonstop-for-di-toronto-y-ottawa/",
-    "also_covered": [],
+    "also_covered": [
+      "https://masnoticia.com/aruba-airport-authority-ta-yama-bonbini-na-porter-airlines-cu-vuelo-nonstop-for-di-toronto-y-ottawa/"
+    ],
     "en": {
       "title": "Porter Airlines starts nonstop Toronto and Ottawa flights to Aruba",
       "standfirst": "Canadian carrier Porter Airlines has become a new airline partner at Queen Beatrix International Airport. It now offers up to nine nonstop flights a week between Aruba and Canada.",
@@ -678,7 +721,8 @@
     "source_name": "Curaçao Chronicle",
     "source_url": "https://www.curacaochronicle.com/post/unknown/tax-office-employees-report-threats-as-silvania-trona-conflict-sparks-growing-unrest-and-security-concerns",
     "also_covered": [
-      "https://extra.cw/guera-publiko-di-palabra-ta-kousa-di-iritashon-i-tenshon-na-servisio-di-impuesto-2"
+      "https://extra.cw/guera-publiko-di-palabra-ta-kousa-di-iritashon-i-tenshon-na-servisio-di-impuesto-2",
+      "https://www.curacao.nu/nieuws/politiek-bestuur/98346/beveiliging-silvania-overkomt-mij-iets-dan-is-de-regering-verantwoordelijk"
     ],
     "en": {
       "title": "Curaçao tax staff report threats amid Silvania–Trona dispute",
@@ -1202,49 +1246,6 @@
         "Premier Mike Eman toonde zich tevreden over de voortgang van het wetsvoorstel tijdens de tweede informatiesessie, donderdagavond in MFA Paradera. Hij noemde het voorstel het resultaat van jarenlange voorbereiding en zei dat het financiële steun moet bieden aan gezinnen die extra verantwoordelijkheid dragen voor de zorg voor hun kinderen.",
         "De regering hoopt dat de steun in januari 2027 bij de gezinnen kan aankomen. Dat hangt af van goedkeuring door het Parlement en van tijdige afronding van de voorbereidingen. De input van ouders tijdens de sessies wordt gebruikt om de aanvraagformulieren aan te passen, bijvoorbeeld door mobiele telefoonnummers op te vragen voor betere communicatie.",
         "Zodra de wet van kracht is en aanvragen binnenkomen, krijgt de regering beter zicht op het aantal kinderen dat in aanmerking komt. Dat bepaalt de totale financiële impact van de maatregel. Eman zei dat een hogere bijdrage later kan worden overwogen, afhankelijk van ervaring, aantal begunstigden en begrotingsruimte. Hij plaatste het voorstel naast de algemene ziektekostenverzekering en het pensioenstelsel voor de private sector als stappen in de uitbouw van Arubaanse sociale bescherming. Zonder goedkeuring van het Parlement kunnen geen uitkeringen plaatsvinden."
-      ]
-    }
-  },
-  {
-    "id": "8baeed4e25ee",
-    "slug": "silvania-demands-protection-and-links-his-fears-to-his-tax-collector-probe-8baeed",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-10T09:50:57.000Z",
-    "source_id": "curacao-nu",
-    "source_name": "Curacao.nu",
-    "source_url": "https://www.curacao.nu/nieuws/politiek-bestuur/98346/beveiliging-silvania-overkomt-mij-iets-dan-is-de-regering-verantwoordelijk",
-    "also_covered": [
-      "https://www.curacaochronicle.com/post/unknown/mp-javier-silvania-demands-personal-protection-holds-government-leaders-responsible-if-harmed"
-    ],
-    "en": {
-      "title": "Silvania demands protection and links his fears to his tax collector probe",
-      "standfirst": "MFK member of parliament Javier Silvania has again asked the government for personal security. He says his push to expose alleged tax favouritism at Curaçao's tax collector has put him at risk.",
-      "keypoints": [
-        "Silvania wrote on 8 November to the prime minister, the justice minister and the parliament speaker, holding them responsible if anything happens to him.",
-        "The former finance minister says the 'Lachi di Trona' files name people allegedly given tax advantages, including politicians, union leaders, civil servants, heads of state companies and business people.",
-        "He says he commissioned the government accountancy bureau SOAB to monitor tax collection compliance and to look into an integrity complaint, which led to six reports.",
-        "He says an earlier request in February has not produced any protection so far."
-      ],
-      "body": [
-        "Javier Silvania, a member of Curaçao's parliament for MFK, has renewed his request for a personal bodyguard. In a letter dated 8 November he told Prime Minister Gilmar Pisas, Justice Minister Shalten Hato and parliament speaker Gino Brownbill that he holds them accountable if he is harmed.",
-        "Silvania links the threat to his time as finance minister. He says he ordered the SOAB to supervise how tax collection rules are applied and had an employee's integrity complaint investigated, resulting in six reports. He claims the files show that people with political, union, civil service and business ties were treated favourably by tax collector Alfonso Trona. These allegations are Silvania's own and are not independently confirmed in the letter.",
-        "Silvania says he first asked Hato for protection in February, and that Hato promised a threat analysis and advised him to file a police report. According to Silvania, no protection has followed. He says he will carry on his anti-corruption work regardless."
-      ]
-    },
-    "nl": {
-      "title": "Silvania eist beveiliging en koppelt zijn vrees aan onderzoek naar Landsontvanger",
-      "standfirst": "MFK-Statenlid Javier Silvania heeft opnieuw om persoonlijke beveiliging gevraagd. Volgens hem brengt zijn aanpak van vermeende fiscale bevoordeling bij de Landsontvanger hem in gevaar.",
-      "keypoints": [
-        "In een brief van 8 november houdt Silvania de premier, de minister van Justitie en de Statenvoorzitter verantwoordelijk als hem iets overkomt.",
-        "De oud-minister van Financiën zegt dat de dossiers 'Lachi di Trona' namen bevatten van personen die fiscaal zouden zijn bevoordeeld, onder wie politici, vakbondsleiders, ambtenaren, bestuurders van overheidsbedrijven en ondernemers.",
-        "Hij liet het overheidsaccountantsbureau SOAB toezien op de naleving van de invorderingsregels en een integriteitsmelding onderzoeken, wat zes rapporten opleverde.",
-        "Een eerder verzoek in februari heeft volgens hem nog niet tot beveiliging geleid."
-      ],
-      "body": [
-        "Javier Silvania, Statenlid voor MFK, heeft zijn verzoek om een persoonlijke bodyguard herhaald. In een brief van 8 november meldt hij aan premier Gilmar Pisas, minister Shalten Hato van Justitie en Statenvoorzitter Gino Brownbill dat hij hen aansprakelijk houdt als hem iets overkomt.",
-        "Silvania verbindt de dreiging aan zijn periode als minister van Financiën. Hij zegt dat hij de SOAB opdracht gaf toe te zien op de toepassing van de regels voor belastinginvordering en dat hij een integriteitsmelding van een medewerker liet onderzoeken, wat zes rapporten opleverde. Volgens hem blijkt uit de dossiers dat personen met politieke, vakbonds-, ambtelijke en zakelijke banden gunstig zijn behandeld door landsontvanger Alfonso Trona. Deze beschuldigingen zijn van Silvania zelf en worden in de brief niet onafhankelijk bevestigd.",
-        "Silvania vroeg in februari al om bescherming. Hato beloofde toen een dreigingsanalyse en adviseerde aangifte te doen. Volgens Silvania is er sindsdien geen beveiliging toegekend. Hij zegt zijn strijd tegen corruptie te zullen voortzetten."
       ]
     }
   },
@@ -1944,7 +1945,8 @@
     "source_name": "Noticia Cla",
     "source_url": "https://noticiacla.com/news/42270",
     "also_covered": [
-      "https://24ora.com/tres-instancia-ta-uni-lo-haci-encuesta-riba-mercado-laboral-na-aruba/"
+      "https://24ora.com/tres-instancia-ta-uni-lo-haci-encuesta-riba-mercado-laboral-na-aruba/",
+      "https://masnoticia.com/cbs-dao-y-banco-central-di-aruba-ta-anuncia-encuesta-laboral-2026/"
     ],
     "en": {
       "title": "Aruba surveys 4,000 households for its labour market study",
@@ -4808,47 +4810,6 @@
     }
   },
   {
-    "id": "6223f31ac4bf",
-    "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-07T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/lo-firma-pa-ehekushon-fase-4-proyekto-kunstrook-marie-pampoen",
-    "also_covered": [],
-    "en": {
-      "title": "Curaçao cabinet approves signing for phase 4 of Kunstrook Marie Pampoen project",
-      "standfirst": "Curaçao's Council of Ministers has cleared the way for the fourth phase of the Kunstrook Marie Pampoen project to be carried out. The decision was among those taken by the cabinet this week.",
-      "keypoints": [
-        "The Council of Ministers decided this week to allow signing for execution of phase 4.",
-        "The project is known as Kunstrook Marie Pampoen.",
-        "The step moves the project from planning toward implementation.",
-        "The available report does not give a contract value, contractor or timeline."
-      ],
-      "body": [
-        "Curaçao's Council of Ministers has agreed to the signing needed to carry out phase 4 of the Kunstrook Marie Pampoen project. The approval was one of several decisions announced after the cabinet's weekly meeting.",
-        "Signing for execution normally means the government is ready to commit to the work of a project phase. The fourth phase suggests the project is already well advanced.",
-        "The report available to Negoshi is only a short extract from a subscription article. It does not state the cost of this phase, who will carry it out, when work starts or how it is funded. Those details are needed to judge the effect on public finances and on local contractors, and Negoshi will update the story when they are published."
-      ]
-    },
-    "nl": {
-      "title": "Curaçaose ministerraad stemt in met ondertekening fase 4 project Kunstrook Marie Pampoen",
-      "standfirst": "De Curaçaose Raad van Ministers heeft de weg vrijgemaakt voor de uitvoering van de vierde fase van het project Kunstrook Marie Pampoen. Het besluit was een van de beslissingen die het kabinet deze week nam.",
-      "keypoints": [
-        "De Raad van Ministers besloot deze week tot ondertekening voor de uitvoering van fase 4.",
-        "Het project staat bekend als Kunstrook Marie Pampoen.",
-        "Met deze stap gaat het project van planning naar uitvoering.",
-        "Het beschikbare bericht noemt geen contractwaarde, aannemer of tijdlijn."
-      ],
-      "body": [
-        "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
-        "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
-        "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
-      ]
-    }
-  },
-  {
     "id": "b79aadc559cc",
     "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
     "island": "curacao",
@@ -4886,6 +4847,47 @@
         "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
         "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
         "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
+      ]
+    }
+  },
+  {
+    "id": "6223f31ac4bf",
+    "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
+    "island": "curacao",
+    "topic": "politics",
+    "published_at": "2026-11-07T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/lo-firma-pa-ehekushon-fase-4-proyekto-kunstrook-marie-pampoen",
+    "also_covered": [],
+    "en": {
+      "title": "Curaçao cabinet approves signing for phase 4 of Kunstrook Marie Pampoen project",
+      "standfirst": "Curaçao's Council of Ministers has cleared the way for the fourth phase of the Kunstrook Marie Pampoen project to be carried out. The decision was among those taken by the cabinet this week.",
+      "keypoints": [
+        "The Council of Ministers decided this week to allow signing for execution of phase 4.",
+        "The project is known as Kunstrook Marie Pampoen.",
+        "The step moves the project from planning toward implementation.",
+        "The available report does not give a contract value, contractor or timeline."
+      ],
+      "body": [
+        "Curaçao's Council of Ministers has agreed to the signing needed to carry out phase 4 of the Kunstrook Marie Pampoen project. The approval was one of several decisions announced after the cabinet's weekly meeting.",
+        "Signing for execution normally means the government is ready to commit to the work of a project phase. The fourth phase suggests the project is already well advanced.",
+        "The report available to Negoshi is only a short extract from a subscription article. It does not state the cost of this phase, who will carry it out, when work starts or how it is funded. Those details are needed to judge the effect on public finances and on local contractors, and Negoshi will update the story when they are published."
+      ]
+    },
+    "nl": {
+      "title": "Curaçaose ministerraad stemt in met ondertekening fase 4 project Kunstrook Marie Pampoen",
+      "standfirst": "De Curaçaose Raad van Ministers heeft de weg vrijgemaakt voor de uitvoering van de vierde fase van het project Kunstrook Marie Pampoen. Het besluit was een van de beslissingen die het kabinet deze week nam.",
+      "keypoints": [
+        "De Raad van Ministers besloot deze week tot ondertekening voor de uitvoering van fase 4.",
+        "Het project staat bekend als Kunstrook Marie Pampoen.",
+        "Met deze stap gaat het project van planning naar uitvoering.",
+        "Het beschikbare bericht noemt geen contractwaarde, aannemer of tijdlijn."
+      ],
+      "body": [
+        "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
+        "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
+        "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
       ]
     }
   },
