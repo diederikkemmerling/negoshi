@@ -41,6 +41,47 @@
     }
   },
   {
+    "id": "08d117bb2b26",
+    "slug": "aruba-s-premier-backs-a-long-term-national-dialogue-model-for-policy-making-08d117",
+    "island": "aruba",
+    "topic": "politics",
+    "published_at": "2026-11-10T20:11:13.000Z",
+    "source_id": "24ora",
+    "source_name": "24ora",
+    "source_url": "https://24ora.com/dialogo-nacional-perspectiva-pa-futuro-aruba/",
+    "also_covered": [],
+    "en": {
+      "title": "Aruba's premier backs a long-term national dialogue model for policy-making",
+      "standfirst": "Prime Minister Mike Eman has endorsed a new democratic dialogue method designed to involve citizens and stakeholders in long-term decisions on Aruba's future. Two outside advisers will now consult unions, business and other groups.",
+      "keypoints": [
+        "Eman met governance consultant Mildred Hofkes and Milton Ponson of the Rainbow Warriors Core foundation on 9 November.",
+        "The premier expressed enthusiastic support for the method, which Hofkes developed and which focuses on long-term policy.",
+        "Over the coming period the two will work with unions, youth representatives, UNESCO, the tourism sector, the business association and civil society.",
+        "The aim is to link tourism, quality of life, social justice, environment and economic development to lasting democratic participation."
+      ],
+      "body": [
+        "Aruba's government has signalled backing for a new approach to involving citizens, young people, civil society, business and politicians in decisions about the country's long-term direction. Prime Minister Mike Eman discussed the idea on 9 November with Mildred Hofkes, an independent governance consultant at the NieuwBestuur platform, and Milton Ponson of the Rainbow Warriors Core foundation.",
+        "Hofkes specialises in resilient models for long-term governance and in dialogue with stakeholders. Eman supported the dialogue method she developed, which centres on long-term policy, and said Aruba intends to pursue it.",
+        "In the coming period Ponson and Hofkes will work with several groups, including trade unions, youth representatives, UNESCO, the tourism sector, the business association and civil society organisations. They will look at how governance innovation could strengthen society and democracy. The source describes no budget, timetable or binding commitments. The stated aim is to connect key issues such as tourism, quality of life, social justice, the environment and economic development with lasting public participation."
+      ]
+    },
+    "nl": {
+      "title": "Arubaanse premier steunt nationale dialoogmethode voor langetermijnbeleid",
+      "standfirst": "Premier Mike Eman steunt een nieuwe democratische dialoogmethode om burgers en stakeholders te betrekken bij besluiten over de toekomst van Aruba. Twee externe adviseurs gaan nu in gesprek met vakbonden, bedrijfsleven en andere groepen.",
+      "keypoints": [
+        "Eman sprak op 9 november met bestuursadviseur Mildred Hofkes en Milton Ponson van de stichting Rainbow Warriors Core.",
+        "De premier sprak zijn enthousiaste steun uit voor de door Hofkes ontwikkelde methode, die gericht is op langetermijnbeleid.",
+        "De komende tijd werken zij samen met vakbonden, jongerenvertegenwoordigers, UNESCO, de toeristische sector, de kamer van koophandel en het maatschappelijk middenveld.",
+        "Doel is om thema's als toerisme, leefkwaliteit, sociale rechtvaardigheid, milieu en economische ontwikkeling te koppelen aan blijvende democratische participatie."
+      ],
+      "body": [
+        "De Arubaanse regering heeft haar steun uitgesproken voor een nieuwe manier om burgers, jongeren, maatschappelijke organisaties, bedrijfsleven en politiek te betrekken bij beslissingen over de lange termijn. Premier Mike Eman sprak hierover op 9 november met Mildred Hofkes, onafhankelijk bestuursadviseur van het platform NieuwBestuur, en Milton Ponson van de stichting Rainbow Warriors Core.",
+        "Hofkes is gespecialiseerd in veerkrachtige modellen voor bestuur op lange termijn en in dialoog met stakeholders. Eman steunde de door haar ontwikkelde dialoogmethode, die draait om langetermijnbeleid, en zei dat Aruba dit pad wil volgen.",
+        "De komende periode werken Ponson en Hofkes samen met diverse groepen, waaronder vakbonden, jongerenvertegenwoordigers, UNESCO, de toeristische sector, de kamer van koophandel en maatschappelijke organisaties. Zij onderzoeken hoe vernieuwing in het bestuur de samenleving en de democratie kan versterken. De bron noemt geen budget, tijdpad of bindende afspraken. Het doel is kwesties als toerisme, leefkwaliteit, sociale rechtvaardigheid, milieu en economische ontwikkeling te verbinden met duurzame publieke participatie."
+      ]
+    }
+  },
+  {
     "id": "968bcfc7bf18",
     "slug": "court-voids-curacao-tax-assessments-after-inspectorate-cannot-prove-timely-deliv-968bcf",
     "island": "curacao",
@@ -636,7 +677,9 @@
     "source_id": "curacao-chronicle",
     "source_name": "Curaçao Chronicle",
     "source_url": "https://www.curacaochronicle.com/post/unknown/tax-office-employees-report-threats-as-silvania-trona-conflict-sparks-growing-unrest-and-security-concerns",
-    "also_covered": [],
+    "also_covered": [
+      "https://extra.cw/guera-publiko-di-palabra-ta-kousa-di-iritashon-i-tenshon-na-servisio-di-impuesto-2"
+    ],
     "en": {
       "title": "Curaçao tax staff report threats amid Silvania–Trona dispute",
       "standfirst": "Staff at Curaçao's Tax Department met during working hours on 9 November over threats and tension linked to the public clash between MP Javier Silvania and Tax Collector Alfonso Trona. The civil servants' union ABVO wants government and management to step in.",
@@ -2768,47 +2811,6 @@
     }
   },
   {
-    "id": "e637542b26df",
-    "slug": "union-abvo-urges-action-over-public-feud-at-curacao-s-tax-service-e63754",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-09T11:35:16.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/guera-publiko-di-palabra-ta-kousa-di-iritashon-i-tenshon-na-servisio-di-impuesto-2",
-    "also_covered": [],
-    "en": {
-      "title": "Union ABVO urges action over public feud at Curaçao's Tax Service",
-      "standfirst": "Public sector union ABVO has called on those responsible to deal with rising tension at the Servisio di Impuesto, Curaçao's tax service. A war of words in the press and on social media is reported to be continuing.",
-      "keypoints": [
-        "ABVO is urging the responsible parties to address the situation at the Tax Service.",
-        "The dispute is being fought publicly, in the media and on social media.",
-        "The union points to irritation and tension among staff at the department.",
-        "The available report does not give details of the underlying issues or of any response from management or government."
-      ],
-      "body": [
-        "ABVO, the union representing public servants in Curaçao, has appealed to those in charge to step in at the Tax Service in Willemstad. According to the report, a public exchange of accusations in the press and on social media has continued, and it is creating irritation and tension within the organisation.",
-        "The Tax Service collects a large share of government revenue, so a prolonged conflict inside the department is a concern for its day-to-day functioning and for public confidence in it. The report does not say who is involved or what the dispute is about, and it gives no indication of how the responsible officials have reacted.",
-        "Further developments will show whether the appeal leads to mediation or to any change in how the department is managed."
-      ]
-    },
-    "nl": {
-      "title": "Vakbond ABVO dringt aan op ingrijpen bij Curaçaose belastingdienst vanwege publieke ruzie",
-      "standfirst": "Ambtenarenbond ABVO roept de verantwoordelijken op de situatie bij de Servisio di Impuesto, de Curaçaose belastingdienst, aan te pakken. Een woordenstrijd in de pers en op sociale media zou doorgaan.",
-      "keypoints": [
-        "ABVO dringt er bij de verantwoordelijken op aan de situatie bij de belastingdienst aan te pakken.",
-        "Het conflict wordt openlijk uitgevochten in de media en op sociale media.",
-        "Volgens de bond zorgt dit voor irritatie en spanning bij het personeel.",
-        "Het bericht geeft geen details over de achterliggende kwesties of over reacties van directie of overheid."
-      ],
-      "body": [
-        "ABVO, de bond voor ambtenaren op Curaçao, heeft een beroep gedaan op de verantwoordelijken om in te grijpen bij de belastingdienst in Willemstad. Volgens het bericht gaat een publieke woordenstrijd in de pers en op sociale media door, wat binnen de organisatie voor irritatie en spanning zorgt.",
-        "De belastingdienst int een groot deel van de overheidsinkomsten. Een slepend conflict binnen de dienst raakt daarom aan het dagelijks functioneren en aan het vertrouwen van het publiek. Het bericht meldt niet wie erbij betrokken zijn, waar het conflict over gaat en hoe de verantwoordelijken hebben gereageerd.",
-        "Of de oproep leidt tot bemiddeling of tot een andere aanpak van het beheer van de dienst, moet nog blijken."
-      ]
-    }
-  },
-  {
     "id": "829c1e38fc46",
     "slug": "avp-defends-delaying-aruba-s-minimum-wage-rise-after-de-meza-quits-its-caucus-829c1e",
     "island": "aruba",
@@ -4185,52 +4187,6 @@
     }
   },
   {
-    "id": "24ade1861799",
-    "slug": "mp-de-meza-quits-avp-caucus-after-minimum-wage-motion-is-amended-24ade1",
-    "island": "aruba",
-    "topic": "politics",
-    "published_at": "2026-11-07T21:24:37.000Z",
-    "source_id": "24ora",
-    "source_name": "24ora",
-    "source_url": "https://24ora.com/mike-de-meza-mi-no-ta-reconoce-e-partido-aki-mas/",
-    "also_covered": [
-      "https://24ora.com/avp-e-decision-pa-bay-ta-di-de-meza-y-nos-ta-respete/",
-      "https://masnoticia.com/declaracion-di-avp-e-decision-pa-bay-ta-di-de-meza-y-nos-ta-respete/",
-      "https://diario.aw/categories/noticia/politica/e-decision-pa-bay-ta-di-mike-de-meza-y-nan-ta-respet-e",
-      "https://extra.cw/salida-di-de-meza-di-avp-ta-laga-coalicion-un-asiento-for-di-perde-su-mayoria"
-    ],
-    "en": {
-      "title": "MP De Meza quits AVP caucus after minimum wage motion is amended",
-      "standfirst": "Aruban MP Mike De Meza has left the AVP parliamentary group and will sit as an independent. He ties the move to how a motion on raising the minimum wage was handled.",
-      "keypoints": [
-        "De Meza leaves the AVP caucus and distances himself from the party; he keeps his seat as an independent.",
-        "His original motion urged the government to raise the minimum wage immediately.",
-        "After talks in the AVP-Futuro coalition, the introduction date was moved to 1 March 2027.",
-        "He suggests Partido Futuro pressed for the change, using the word 'apparently'."
-      ],
-      "body": [
-        "Mike De Meza told reporters after a parliamentary session that he is withdrawing from the AVP group. He will notify the Speaker of Parliament and the AVP leader by letter, and says he will continue in parliament as an independent member.",
-        "The trigger was the handling of his motion on the minimum wage. As he first tabled it, the motion called on the government to introduce a higher minimum wage without delay. After discussion within the AVP-Futuro coalition, the motion was changed so that the increase would take effect on 1 March 2027.",
-        "De Meza said he had backed the AVP leader in the debate out of principle, but that the changes went beyond what he could accept. He suggested that Partido Futuro had pressed AVP to rework the motion, though he stressed the word 'apparently'. The exit shows tension inside the coalition over the timing of a wage measure that affects workers on the lowest pay."
-      ]
-    },
-    "nl": {
-      "title": "Parlementariër De Meza verlaat AVP-fractie na aanpassing motie minimumloon",
-      "standfirst": "De Arubaanse Statenlid Mike De Meza heeft de AVP-fractie verlaten en gaat als onafhankelijk lid verder. Hij koppelt dit aan de behandeling van een motie over verhoging van het minimumloon.",
-      "keypoints": [
-        "De Meza verlaat de AVP-fractie en distantieert zich van de partij; hij behoudt zijn zetel als onafhankelijke.",
-        "Zijn oorspronkelijke motie drong aan op een onmiddellijke verhoging van het minimumloon.",
-        "Na overleg in de coalitie van AVP en Futuro is de invoerdatum verschoven naar 1 maart 2027.",
-        "Hij suggereert dat Partido Futuro op de wijziging aandrong en gebruikt daarbij het woord 'blijkbaar'."
-      ],
-      "body": [
-        "Na afloop van een Statenvergadering liet Mike De Meza weten dat hij zich terugtrekt uit de AVP-fractie. Hij informeert de Statenvoorzitter en de AVP-leider per brief en blijft als onafhankelijk lid in het parlement zitten.",
-        "Aanleiding is de behandeling van zijn motie over het minimumloon. In de oorspronkelijke vorm riep de motie de regering op het minimumloon zonder uitstel te verhogen. Na overleg binnen de coalitie van AVP en Futuro is de motie aangepast: de verhoging gaat pas in op 1 maart 2027.",
-        "De Meza zei dat hij de AVP-leider in het debat uit principe had gesteund, maar dat de wijzigingen verder gingen dan hij kon accepteren. Hij suggereerde dat Partido Futuro bij AVP had aangedrongen op aanpassing, al benadrukte hij het woord 'blijkbaar'. Zijn vertrek laat spanning in de coalitie zien over het tijdstip van een maatregel die werknemers met de laagste lonen raakt."
-      ]
-    }
-  },
-  {
     "id": "09bc93caead1",
     "slug": "aruba-coalition-says-it-remains-stable-after-mp-quits-over-minimum-wage-rise-09bc93",
     "island": "aruba",
@@ -4239,7 +4195,9 @@
     "source_id": "24ora",
     "source_name": "24ora",
     "source_url": "https://24ora.com/ruthlin-lindor-futuro-coalicion-ta-stabiel-y-salida-di-de-meza-no-tabata-necesario/",
-    "also_covered": [],
+    "also_covered": [
+      "https://24ora.com/mike-de-meza-mi-no-ta-reconoce-e-partido-aki-mas/"
+    ],
     "en": {
       "title": "Aruba coalition says it remains stable after MP quits over minimum wage rise",
       "standfirst": "FUTURO MP Ruthlin Lindor says the governing coalition is stable after Mike de Meza left the AVP faction to sit as an independent. The split followed a dispute over how and when to raise the minimum wage.",
@@ -4850,47 +4808,6 @@
     }
   },
   {
-    "id": "b79aadc559cc",
-    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
-    "island": "curacao",
-    "topic": "economy",
-    "published_at": "2026-11-07T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
-    "also_covered": [],
-    "en": {
-      "title": "Aqualectra signs agreement to expand battery energy storage",
-      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
-      "keypoints": [
-        "Aqualectra has signed an agreement to expand its battery energy storage system.",
-        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
-        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
-        "The full report is behind a paywall at Extra."
-      ],
-      "body": [
-        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
-        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
-        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
-      ]
-    },
-    "nl": {
-      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
-      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
-      "keypoints": [
-        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
-        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
-        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
-        "Het volledige bericht van Extra staat achter een betaalmuur."
-      ],
-      "body": [
-        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
-        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
-        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
-      ]
-    }
-  },
-  {
     "id": "6223f31ac4bf",
     "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
     "island": "curacao",
@@ -4928,6 +4845,47 @@
         "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
         "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
         "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
+      ]
+    }
+  },
+  {
+    "id": "b79aadc559cc",
+    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
+    "island": "curacao",
+    "topic": "economy",
+    "published_at": "2026-11-07T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
+    "also_covered": [],
+    "en": {
+      "title": "Aqualectra signs agreement to expand battery energy storage",
+      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
+      "keypoints": [
+        "Aqualectra has signed an agreement to expand its battery energy storage system.",
+        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
+        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
+        "The full report is behind a paywall at Extra."
+      ],
+      "body": [
+        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
+        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
+        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
+      ]
+    },
+    "nl": {
+      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
+      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
+      "keypoints": [
+        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
+        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
+        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
+        "Het volledige bericht van Extra staat achter een betaalmuur."
+      ],
+      "body": [
+        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
+        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
+        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
       ]
     }
   },
