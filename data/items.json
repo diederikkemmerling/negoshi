@@ -84,6 +84,47 @@
     }
   },
   {
+    "id": "47325076d1d1",
+    "slug": "aruba-s-audit-office-seeks-more-independence-and-plans-four-reports-on-past-annu-473250",
+    "island": "aruba",
+    "topic": "politics",
+    "published_at": "2026-11-10T22:34:18.000Z",
+    "source_id": "bondia",
+    "source_name": "Bon Dia Aruba",
+    "source_url": "https://www.bondia.com/algemene-rekenkamer-ta-busca-mas-independencia-y-ta-prepara-varios-investigacion-pa-2027",
+    "also_covered": [],
+    "en": {
+      "title": "Aruba's audit office seeks more independence and plans four reports on past annual accounts in 2027",
+      "standfirst": "The Algemene Rekenkamer Aruba (ARA) wants more control over its own administration and has budgeted Afl. 4.15 million for 2027. It plans to work through a backlog of government annual accounts.",
+      "keypoints": [
+        "ARA's 2027 budget rises by Afl. 265,000, from Afl. 3,885,000 to Afl. 4,150,000, about 6.8%.",
+        "Its requests for more authority over administrative rules and staffing were not approved in 2025, and the 2026 request is still unanswered.",
+        "Four investigation reports are planned on the country's annual accounts for 2021 to 2025, to reduce the backlog.",
+        "The proposed HOFA sustainable public finance law could add duties for ARA, but the task division is still unclear."
+      ],
+      "body": [
+        "The explanatory memorandum to the 2027 budget shows the audit office wants to run its own affairs with less need for ministerial sign-off. Although the constitution makes ARA independent, some administrative decisions still depend on government approval. ARA first asked the Minister of General Affairs for more authority over administrative rules and personnel management in 2025. That request was not granted, and a repeat request in 2026 has not yet been approved. ARA links the issue to INTOSAI standards on the independence of supreme audit institutions.",
+        "On the work programme, ARA plans to publish four reports on the country's annual accounts for 2021 to 2025. The aim is to shorten the delay in oversight and make government accountability more current. The reviews will test not only the figures but also whether public money was spent in line with the law and whether information given to Parliament is clear. Other work includes a study of arm's-length government bodies.",
+        "ARA also notes that the proposed Kingdom law on sustainable public finances (HOFA) may give it extra duties. It has commented on the draft, citing norms that are not fully worked out, and says local legislation must set out how the added oversight would work."
+      ]
+    },
+    "nl": {
+      "title": "Rekenkamer Aruba wil meer onafhankelijkheid en plant in 2027 vier rapporten over oude jaarrekeningen",
+      "standfirst": "De Algemene Rekenkamer Aruba (ARA) wil meer zeggenschap over de eigen bedrijfsvoering en heeft voor 2027 Afl. 4,15 miljoen begroot. Ze wil een achterstand in de controle van jaarrekeningen van de overheid wegwerken.",
+      "keypoints": [
+        "De begroting van ARA voor 2027 stijgt met Afl. 265.000, van Afl. 3.885.000 naar Afl. 4.150.000, ruim 6,8%.",
+        "Verzoeken om meer bevoegdheid over bestuurlijke regels en personeelsbeleid zijn in 2025 niet goedgekeurd; het verzoek van 2026 ligt nog open.",
+        "Er zijn vier onderzoeksrapporten gepland over de jaarrekeningen van het land over 2021 tot en met 2025, om de achterstand te verkleinen.",
+        "De voorgestelde rijkswet houdbare overheidsfinanciën (HOFA) kan extra taken voor ARA meebrengen, maar de taakverdeling is nog onduidelijk."
+      ],
+      "body": [
+        "Uit de memorie van toelichting bij de begroting 2027 blijkt dat de Rekenkamer haar eigen zaken met minder ministeriële goedkeuring wil regelen. Hoewel ARA volgens de staatsregeling onafhankelijk is, hangen sommige bestuurlijke besluiten nog af van goedkeuring door de regering. In 2025 vroeg ARA de minister van Algemene Zaken om meer bevoegdheid over bestuurlijke regels en personeelsbeheer. Dat verzoek werd niet ingewilligd, en een herhaald verzoek in 2026 is nog niet goedgekeurd. ARA koppelt dit aan de INTOSAI-normen voor onafhankelijke rekenkamers.",
+        "In het werkprogramma staan vier rapporten over de jaarrekeningen van het land over 2021 tot en met 2025. Het doel is de vertraging in het toezicht te verkleinen en de verantwoording actueler te maken. Het onderzoek toetst niet alleen de cijfers, maar ook of publiek geld volgens de wet is besteed en of de informatie aan het parlement duidelijk is. Daarnaast staat een onderzoek naar verzelfstandigde overheidsorganisaties gepland.",
+        "ARA wijst er ook op dat de ontwerp-rijkswet houdbare overheidsfinanciën (HOFA) extra taken kan meebrengen. Ze heeft commentaar op het ontwerp geleverd, onder meer over normen die nog onvoldoende zijn uitgewerkt, en stelt dat lokale wetgeving moet bepalen hoe het extra toezicht in de praktijk werkt."
+      ]
+    }
+  },
+  {
     "id": "92b0089b5376",
     "slug": "aruba-s-income-tax-return-goes-fully-digital-from-16-november-with-last-help-ses-92b008",
     "island": "aruba",
@@ -4816,47 +4857,6 @@
     }
   },
   {
-    "id": "b79aadc559cc",
-    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
-    "island": "curacao",
-    "topic": "economy",
-    "published_at": "2026-11-07T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
-    "also_covered": [],
-    "en": {
-      "title": "Aqualectra signs agreement to expand battery energy storage",
-      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
-      "keypoints": [
-        "Aqualectra has signed an agreement to expand its battery energy storage system.",
-        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
-        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
-        "The full report is behind a paywall at Extra."
-      ],
-      "body": [
-        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
-        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
-        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
-      ]
-    },
-    "nl": {
-      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
-      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
-      "keypoints": [
-        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
-        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
-        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
-        "Het volledige bericht van Extra staat achter een betaalmuur."
-      ],
-      "body": [
-        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
-        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
-        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
-      ]
-    }
-  },
-  {
     "id": "6223f31ac4bf",
     "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
     "island": "curacao",
@@ -4894,6 +4894,47 @@
         "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
         "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
         "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
+      ]
+    }
+  },
+  {
+    "id": "b79aadc559cc",
+    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
+    "island": "curacao",
+    "topic": "economy",
+    "published_at": "2026-11-07T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
+    "also_covered": [],
+    "en": {
+      "title": "Aqualectra signs agreement to expand battery energy storage",
+      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
+      "keypoints": [
+        "Aqualectra has signed an agreement to expand its battery energy storage system.",
+        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
+        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
+        "The full report is behind a paywall at Extra."
+      ],
+      "body": [
+        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
+        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
+        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
+      ]
+    },
+    "nl": {
+      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
+      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
+      "keypoints": [
+        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
+        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
+        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
+        "Het volledige bericht van Extra staat achter een betaalmuur."
+      ],
+      "body": [
+        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
+        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
+        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
       ]
     }
   },
