@@ -93,7 +93,8 @@
     "source_name": "Curaçao Chronicle",
     "source_url": "https://www.curacaochronicle.com/post/unknown/prime-minister-pisas-says-government-cannot-compensate-quickpromo-victims-urges-them-to-file-police-reports",
     "also_covered": [
-      "https://www.curacao.nu/nieuws/politiek-bestuur/98384/pisas-overheid-kan-gedupeerden-quick-promo-niet-helpen"
+      "https://www.curacao.nu/nieuws/politiek-bestuur/98384/pisas-overheid-kan-gedupeerden-quick-promo-niet-helpen",
+      "https://noticiacla.com/news/42343"
     ],
     "en": {
       "title": "Curaçao government rules out compensation for QuickPromo losses",
@@ -178,7 +179,9 @@
     "source_id": "curacao-nu",
     "source_name": "Curacao.nu",
     "source_url": "https://www.curacao.nu/nieuws/economie/98387/taxi-en-buschauffeurs-leren-toeristen-meer-over-curacao-te-vertellen",
-    "also_covered": [],
+    "also_covered": [
+      "https://www.curacaochronicle.com/post/unknown/curacao-taxi-and-bus-drivers-explore-islands-history-and-culture-through-special-training-excursion"
+    ],
     "en": {
       "title": "Curaçao trains taxi and bus drivers to act as island ambassadors for visitors",
       "standfirst": "Curaçao's traffic authority, tourist board and a training firm are teaching taxi and bus drivers about local history, culture and sights. The aim is to raise service quality for tourists and residents alike.",
@@ -426,47 +429,6 @@
     }
   },
   {
-    "id": "671e991c60ed",
-    "slug": "mfk-lawmaker-monte-sends-curacao-s-labour-minister-nine-questions-on-2027-minimu-671e99",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-11T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/ishahier-monte-ku-9-pregunta-relashona-ku-oumento-salario-minimo-2027",
-    "also_covered": [],
-    "en": {
-      "title": "MFK lawmaker Monte sends Curaçao's labour minister nine questions on 2027 minimum wage rise",
-      "standfirst": "Member of Parliament Ishahier Monte of the MFK faction has put nine written questions to Minister Charetti America-Francisca about a planned rise in Curaçao's minimum wage for 2027.",
-      "keypoints": [
-        "Ishahier Monte (MFK) sent a letter with nine questions to the Minister of Social Development, Labour and Welfare.",
-        "The questions concern the minimum wage increase for 2027.",
-        "The minister is Charetti America-Francisca.",
-        "The detailed questions were not available in the accessible text."
-      ],
-      "body": [
-        "Ishahier Monte, a member of Curaçao's Parliament for the MFK faction, has formally asked the government to explain its plans for the minimum wage in 2027. He sent a letter with nine questions to Charetti America-Francisca, the Minister of Social Development, Labour and Welfare.",
-        "The accessible part of the report does not set out the questions themselves, nor the size or timing of any increase. The report sits behind a paywall, so the specific points raised by the MFK lawmaker cannot be confirmed here.",
-        "Written parliamentary questions oblige the minister to reply on the record. The answers could show how the government intends to approach wage policy for workers and employers on the island. The minimum wage is also under debate on neighbouring Aruba."
-      ]
-    },
-    "nl": {
-      "title": "Parlementariër Monte (MFK) stelt Curaçaose arbeidsminister negen vragen over verhoging minimumloon 2027",
-      "standfirst": "Parlementslid Ishahier Monte van de MFK heeft minister Charetti America-Francisca negen schriftelijke vragen gesteld over een voorgenomen verhoging van het Curaçaose minimumloon in 2027.",
-      "keypoints": [
-        "Ishahier Monte (MFK) stuurde een brief met negen vragen aan de minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
-        "De vragen gaan over de verhoging van het minimumloon voor 2027.",
-        "De minister is Charetti America-Francisca.",
-        "De inhoud van de vragen was in de toegankelijke tekst niet te zien."
-      ],
-      "body": [
-        "Ishahier Monte, Statenlid voor de MFK-fractie op Curaçao, vraagt de regering om uitleg over de plannen voor het minimumloon in 2027. Hij stuurde een brief met negen vragen aan Charetti America-Francisca, minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
-        "In het toegankelijke deel van het bericht staan de vragen zelf niet, evenmin als de omvang of het tijdstip van een verhoging. Het bericht staat achter een betaalmuur, dus de precieze punten van het Statenlid zijn hier niet te bevestigen.",
-        "Schriftelijke Statenvragen verplichten de minister om op de feiten te antwoorden. De antwoorden kunnen laten zien hoe de regering het loonbeleid voor werknemers en werkgevers op het eiland wil aanpakken. Ook op buureiland Aruba is het minimumloon onderwerp van debat."
-      ]
-    }
-  },
-  {
     "id": "a9f9dddfe6ce",
     "slug": "curacao-welcomes-68-162-stayover-tourists-in-october-2026-up-12-on-a-year-earlie-a9f9dd",
     "island": "curacao",
@@ -512,6 +474,47 @@
     }
   },
   {
+    "id": "671e991c60ed",
+    "slug": "mfk-lawmaker-monte-sends-curacao-s-labour-minister-nine-questions-on-2027-minimu-671e99",
+    "island": "curacao",
+    "topic": "politics",
+    "published_at": "2026-11-11T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/ishahier-monte-ku-9-pregunta-relashona-ku-oumento-salario-minimo-2027",
+    "also_covered": [],
+    "en": {
+      "title": "MFK lawmaker Monte sends Curaçao's labour minister nine questions on 2027 minimum wage rise",
+      "standfirst": "Member of Parliament Ishahier Monte of the MFK faction has put nine written questions to Minister Charetti America-Francisca about a planned rise in Curaçao's minimum wage for 2027.",
+      "keypoints": [
+        "Ishahier Monte (MFK) sent a letter with nine questions to the Minister of Social Development, Labour and Welfare.",
+        "The questions concern the minimum wage increase for 2027.",
+        "The minister is Charetti America-Francisca.",
+        "The detailed questions were not available in the accessible text."
+      ],
+      "body": [
+        "Ishahier Monte, a member of Curaçao's Parliament for the MFK faction, has formally asked the government to explain its plans for the minimum wage in 2027. He sent a letter with nine questions to Charetti America-Francisca, the Minister of Social Development, Labour and Welfare.",
+        "The accessible part of the report does not set out the questions themselves, nor the size or timing of any increase. The report sits behind a paywall, so the specific points raised by the MFK lawmaker cannot be confirmed here.",
+        "Written parliamentary questions oblige the minister to reply on the record. The answers could show how the government intends to approach wage policy for workers and employers on the island. The minimum wage is also under debate on neighbouring Aruba."
+      ]
+    },
+    "nl": {
+      "title": "Parlementariër Monte (MFK) stelt Curaçaose arbeidsminister negen vragen over verhoging minimumloon 2027",
+      "standfirst": "Parlementslid Ishahier Monte van de MFK heeft minister Charetti America-Francisca negen schriftelijke vragen gesteld over een voorgenomen verhoging van het Curaçaose minimumloon in 2027.",
+      "keypoints": [
+        "Ishahier Monte (MFK) stuurde een brief met negen vragen aan de minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
+        "De vragen gaan over de verhoging van het minimumloon voor 2027.",
+        "De minister is Charetti America-Francisca.",
+        "De inhoud van de vragen was in de toegankelijke tekst niet te zien."
+      ],
+      "body": [
+        "Ishahier Monte, Statenlid voor de MFK-fractie op Curaçao, vraagt de regering om uitleg over de plannen voor het minimumloon in 2027. Hij stuurde een brief met negen vragen aan Charetti America-Francisca, minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
+        "In het toegankelijke deel van het bericht staan de vragen zelf niet, evenmin als de omvang of het tijdstip van een verhoging. Het bericht staat achter een betaalmuur, dus de precieze punten van het Statenlid zijn hier niet te bevestigen.",
+        "Schriftelijke Statenvragen verplichten de minister om op de feiten te antwoorden. De antwoorden kunnen laten zien hoe de regering het loonbeleid voor werknemers en werkgevers op het eiland wil aanpakken. Ook op buureiland Aruba is het minimumloon onderwerp van debat."
+      ]
+    }
+  },
+  {
     "id": "fd00a0b1493f",
     "slug": "new-unda-app-lets-aruba-shoppers-compare-supermarket-prices-by-scanning-barcodes-fd00a0",
     "island": "aruba",
@@ -521,7 +524,8 @@
     "source_name": "24ora",
     "source_url": "https://24ora.com/lansamento-di-e-aplicacion-unda-pe-consumidor-na-aruba-scan-y-compara-prijs-pa-descubri-unda-ta-mas-barata/",
     "also_covered": [
-      "https://extra.cw/scan-compara-prijs-y-descubri-na-unda-bo-compras-ta-mas-barata"
+      "https://extra.cw/scan-compara-prijs-y-descubri-na-unda-bo-compras-ta-mas-barata",
+      "https://noticiacla.com/news/42322"
     ],
     "en": {
       "title": "New Unda app lets Aruba shoppers compare supermarket prices by scanning barcodes",
@@ -735,7 +739,8 @@
     "source_url": "https://24ora.com/dialogo-nacional-perspectiva-pa-futuro-aruba/",
     "also_covered": [
       "https://www.aruba.nu/nieuws/politiek-bestuur/98369/meer-zeggenschap-voor-arubanen-over-de-toekomst-van-hun-eiland-",
-      "https://diario.aw/categories/noticia/general/papiando-riba-dialogo-nacional-perspectiva-pa-futuro-aruba"
+      "https://diario.aw/categories/noticia/general/papiando-riba-dialogo-nacional-perspectiva-pa-futuro-aruba",
+      "https://noticiacla.com/news/42319"
     ],
     "en": {
       "title": "Aruba's premier backs a long-term national dialogue model for policy-making",
@@ -819,7 +824,8 @@
     "source_name": "24ora",
     "source_url": "https://24ora.com/aruba-tun-di-e-paisnan-lider-den-uzo-di-tecnologia-moderno-di-aviacion-y-control-fronteriso/",
     "also_covered": [
-      "https://diario.aw/categories/noticia/general/aruba-posicionando-como-pais-lider-den-uzo-di-tecnologia-moderno-den-aviacion-y-control-di-frontera"
+      "https://diario.aw/categories/noticia/general/aruba-posicionando-como-pais-lider-den-uzo-di-tecnologia-moderno-den-aviacion-y-control-di-frontera",
+      "https://noticiacla.com/news/42325"
     ],
     "en": {
       "title": "Aruba cited as regional leader in airport and border technology",
@@ -861,7 +867,9 @@
     "source_id": "curacao-chronicle",
     "source_name": "Curaçao Chronicle",
     "source_url": "https://www.curacaochronicle.com/post/unknown/dutch-representative-gerbert-kunst-to-leave-caribbean-post-early-due-to-personal-circumstances",
-    "also_covered": [],
+    "also_covered": [
+      "https://noticiacla.com/news/42328"
+    ],
     "en": {
       "title": "Kingdom representative Kunst to leave Caribbean post early in 2027",
       "standfirst": "The Netherlands' Representative in Aruba, Curaçao and Sint Maarten, Gerbert Kunst, will leave on 1 March 2027, less than two years into his term. The Dutch Interior and Kingdom Relations ministry cites personal circumstances.",
@@ -1458,7 +1466,9 @@
     "source_id": "bonaire-nu",
     "source_name": "Bonaire.nu",
     "source_url": "https://www.bonaire.nu/nieuws/luchtvaart-reizen/98357/nieuwe-vliegverbindingen-tui-via-aruba-curacao-en-punta-cana-naar-bonaire",
-    "also_covered": [],
+    "also_covered": [
+      "https://noticiacla.com/news/42340"
+    ],
     "en": {
       "title": "TUI to fly Bonaire daily from Amsterdam in 2027 summer schedule",
       "standfirst": "TUI fly will connect Bonaire to Amsterdam seven days a week from the 2027 summer season. The flights will be paired with Aruba, Curaçao and Punta Cana in the Dominican Republic.",
@@ -5338,47 +5348,6 @@
     }
   },
   {
-    "id": "b79aadc559cc",
-    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
-    "island": "curacao",
-    "topic": "economy",
-    "published_at": "2026-11-07T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
-    "also_covered": [],
-    "en": {
-      "title": "Aqualectra signs agreement to expand battery energy storage",
-      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
-      "keypoints": [
-        "Aqualectra has signed an agreement to expand its battery energy storage system.",
-        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
-        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
-        "The full report is behind a paywall at Extra."
-      ],
-      "body": [
-        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
-        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
-        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
-      ]
-    },
-    "nl": {
-      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
-      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
-      "keypoints": [
-        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
-        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
-        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
-        "Het volledige bericht van Extra staat achter een betaalmuur."
-      ],
-      "body": [
-        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
-        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
-        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
-      ]
-    }
-  },
-  {
     "id": "6223f31ac4bf",
     "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
     "island": "curacao",
@@ -5416,6 +5385,47 @@
         "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
         "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
         "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
+      ]
+    }
+  },
+  {
+    "id": "b79aadc559cc",
+    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
+    "island": "curacao",
+    "topic": "economy",
+    "published_at": "2026-11-07T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
+    "also_covered": [],
+    "en": {
+      "title": "Aqualectra signs agreement to expand battery energy storage",
+      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
+      "keypoints": [
+        "Aqualectra has signed an agreement to expand its battery energy storage system.",
+        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
+        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
+        "The full report is behind a paywall at Extra."
+      ],
+      "body": [
+        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
+        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
+        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
+      ]
+    },
+    "nl": {
+      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
+      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
+      "keypoints": [
+        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
+        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
+        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
+        "Het volledige bericht van Extra staat achter een betaalmuur."
+      ],
+      "body": [
+        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
+        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
+        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
       ]
     }
   },
