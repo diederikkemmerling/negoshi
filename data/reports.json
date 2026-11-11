@@ -1,136 +1,31 @@
 [
   {
-    "id": "ef68bbeb72",
-    "island": "aruba",
-    "publisher": "Aruba Tourism Authority",
-    "url": "https://aruba.bynder.com/asset/2708bf31-48e4-4ec5-8c0c-3f9a1972e0c1/Annual-Report-2025.pdf",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Annual Report 2025",
-      "category": "Annual report"
-    },
-    "nl": {
-      "title": "Jaarverslag 2025",
-      "category": "Jaarverslag"
-    }
-  },
-  {
-    "id": "ba5d35349b",
-    "island": "bonaire",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/doorgeleiding-derde-vastgestelde-begrotingswijziging-2026-bonaire/cft-202600103-doorgeleiding-derde-vastgestelde-begrotingswijziging-2026-bonaire/",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Forwarding of the third adopted budget amendment 2026, Bonaire",
-      "category": "Public finance"
-    },
-    "nl": {
-      "title": "Doorgeleiding derde vastgestelde begrotingswijziging 2026 Bonaire",
-      "category": "Overheidsfinanciën"
-    }
-  },
-  {
-    "id": "55dc1c2772",
-    "island": "bonaire",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/advies-bij-de-ontwerpbegroting-2027-bonaire/cft-202600105-advies-bij-de-ontwerpbegroting-2027-bonaire/",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Advice on the draft 2027 budget, Bonaire",
-      "category": "Public finance"
-    },
-    "nl": {
-      "title": "Advies bij de ontwerpbegroting 2027 Bonaire",
-      "category": "Overheidsfinanciën"
-    }
-  },
-  {
-    "id": "edc00894bb",
-    "island": "kingdom",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/doorgeleiding-tweede-vastgestelde-begrotingswijziging-2026-saba/cft-202600104-doorgeleiding-vastgestelde-tweede-begrotingswijziging-2026-saba/",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Forwarding of the second adopted budget amendment 2026, Saba",
-      "category": "Public finance"
-    },
-    "nl": {
-      "title": "Doorgeleiding tweede vastgestelde begrotingswijziging 2026 Saba",
-      "category": "Overheidsfinanciën"
-    }
-  },
-  {
-    "id": "33f7547e36",
-    "island": "bonaire",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/advies-bij-de-vierde-ontwerpbegrotingswijziging-2026-bonaire/cft-202600106-advies-bij-de-vierde-ontwerpbegrotingswijziging-2026-bonaire/",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Advice on the fourth draft budget amendment 2026, Bonaire",
-      "category": "Public finance"
-    },
-    "nl": {
-      "title": "Advies bij de vierde ontwerpbegrotingswijziging 2026 Bonaire",
-      "category": "Overheidsfinanciën"
-    }
-  },
-  {
-    "id": "838cc6574f",
-    "island": "bonaire",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/herziene-begroting-bonaire-een-stap-in-de-goede-richting-maar-zorgen-niet-weggenomen/persbericht-bonaire-nl/",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Revised Bonaire budget a step in the right direction, but concerns remain",
-      "category": "Public finance"
-    },
-    "nl": {
-      "title": "Herziene begroting Bonaire een stap in de goede richting, maar zorgen niet weggenomen",
-      "category": "Overheidsfinanciën"
-    }
-  },
-  {
-    "id": "e806d681e2",
-    "island": "kingdom",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/advies-bij-de-vastgestelde-begroting-2026-sint-maarten/cft-202600105-advies-bij-de-vastgestelde-begroting-2026-sint-maarten/",
-    "published_at": "2026-11-07",
-    "en": {
-      "title": "Advice on the adopted 2026 budget, Sint Maarten",
-      "category": "Public finance"
-    },
-    "nl": {
-      "title": "Advies bij de vastgestelde begroting 2026 Sint Maarten",
-      "category": "Overheidsfinanciën"
-    }
-  },
-  {
-    "id": "0692424a21",
+    "id": "0e64613aff",
     "island": "curacao",
     "publisher": "CBS Curaçao",
-    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Publication%20Civil%20status%20of%20residents%20of%20Cura%C3%A7ao_0.pdf?cb=8_1Xlu8e",
-    "published_at": "2026-11-07",
+    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/11112026%20-%20Komunikado%20CBS%20Publikashon%20Education%20in%20Cura%C3%A7ao.pdf?cb=MbAppwZE",
+    "published_at": "2026-11-11",
     "en": {
-      "title": "Civil status of residents of Curaçao, 2025",
+      "title": "Updated Educational Attainment of Curaçao's Population",
       "category": "Statistics"
     },
     "nl": {
-      "title": "Burgerlijke staat van inwoners van Curaçao, 2025",
+      "title": "Geactualiseerd opleidingsniveau van de bevolking van Curaçao",
       "category": "Statistiek"
     }
   },
   {
-    "id": "f983b41e53",
+    "id": "d65f6813a2",
     "island": "curacao",
     "publisher": "CBS Curaçao",
-    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Change%20of%20the%20annual%20consumer%20price%20index%20by%20expenditure%20category%20since%202001%20Cura%C3%A7ao%20(4).pdf?cb=us5G49oX",
+    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Monthly%20consumer%20price%20index%20and%20inflation%20rates%20for%20Cura%C3%A7ao%20since%201970.pdf?cb=fJ3c-3uC",
     "published_at": "2026-11-07",
     "en": {
-      "title": "Annual CPI change by expenditure category for Curaçao since 2001",
+      "title": "Monthly consumer price index and inflation rates for Curaçao since 1970",
       "category": "Statistics"
     },
     "nl": {
-      "title": "Jaarlijkse CPI-verandering per uitgavencategorie voor Curaçao sinds 2001",
+      "title": "Maandelijkse consumentenprijsindex en inflatiecijfers voor Curaçao sinds 1970",
       "category": "Statistiek"
     }
   },
@@ -150,18 +45,138 @@
     }
   },
   {
-    "id": "d65f6813a2",
+    "id": "f983b41e53",
     "island": "curacao",
     "publisher": "CBS Curaçao",
-    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Monthly%20consumer%20price%20index%20and%20inflation%20rates%20for%20Cura%C3%A7ao%20since%201970.pdf?cb=fJ3c-3uC",
+    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Change%20of%20the%20annual%20consumer%20price%20index%20by%20expenditure%20category%20since%202001%20Cura%C3%A7ao%20(4).pdf?cb=us5G49oX",
     "published_at": "2026-11-07",
     "en": {
-      "title": "Monthly consumer price index and inflation rates for Curaçao since 1970",
+      "title": "Annual CPI change by expenditure category for Curaçao since 2001",
       "category": "Statistics"
     },
     "nl": {
-      "title": "Maandelijkse consumentenprijsindex en inflatiecijfers voor Curaçao sinds 1970",
+      "title": "Jaarlijkse CPI-verandering per uitgavencategorie voor Curaçao sinds 2001",
       "category": "Statistiek"
+    }
+  },
+  {
+    "id": "0692424a21",
+    "island": "curacao",
+    "publisher": "CBS Curaçao",
+    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Publication%20Civil%20status%20of%20residents%20of%20Cura%C3%A7ao_0.pdf?cb=8_1Xlu8e",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Civil status of residents of Curaçao, 2025",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Burgerlijke staat van inwoners van Curaçao, 2025",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "e806d681e2",
+    "island": "kingdom",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/advies-bij-de-vastgestelde-begroting-2026-sint-maarten/cft-202600105-advies-bij-de-vastgestelde-begroting-2026-sint-maarten/",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Advice on the adopted 2026 budget, Sint Maarten",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Advies bij de vastgestelde begroting 2026 Sint Maarten",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "838cc6574f",
+    "island": "bonaire",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/herziene-begroting-bonaire-een-stap-in-de-goede-richting-maar-zorgen-niet-weggenomen/persbericht-bonaire-nl/",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Revised Bonaire budget a step in the right direction, but concerns remain",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Herziene begroting Bonaire een stap in de goede richting, maar zorgen niet weggenomen",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "33f7547e36",
+    "island": "bonaire",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/advies-bij-de-vierde-ontwerpbegrotingswijziging-2026-bonaire/cft-202600106-advies-bij-de-vierde-ontwerpbegrotingswijziging-2026-bonaire/",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Advice on the fourth draft budget amendment 2026, Bonaire",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Advies bij de vierde ontwerpbegrotingswijziging 2026 Bonaire",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "edc00894bb",
+    "island": "kingdom",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/doorgeleiding-tweede-vastgestelde-begrotingswijziging-2026-saba/cft-202600104-doorgeleiding-vastgestelde-tweede-begrotingswijziging-2026-saba/",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Forwarding of the second adopted budget amendment 2026, Saba",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Doorgeleiding tweede vastgestelde begrotingswijziging 2026 Saba",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "55dc1c2772",
+    "island": "bonaire",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/advies-bij-de-ontwerpbegroting-2027-bonaire/cft-202600105-advies-bij-de-ontwerpbegroting-2027-bonaire/",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Advice on the draft 2027 budget, Bonaire",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Advies bij de ontwerpbegroting 2027 Bonaire",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "ba5d35349b",
+    "island": "bonaire",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/doorgeleiding-derde-vastgestelde-begrotingswijziging-2026-bonaire/cft-202600103-doorgeleiding-derde-vastgestelde-begrotingswijziging-2026-bonaire/",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Forwarding of the third adopted budget amendment 2026, Bonaire",
+      "category": "Public finance"
+    },
+    "nl": {
+      "title": "Doorgeleiding derde vastgestelde begrotingswijziging 2026 Bonaire",
+      "category": "Overheidsfinanciën"
+    }
+  },
+  {
+    "id": "ef68bbeb72",
+    "island": "aruba",
+    "publisher": "Aruba Tourism Authority",
+    "url": "https://aruba.bynder.com/asset/2708bf31-48e4-4ec5-8c0c-3f9a1972e0c1/Annual-Report-2025.pdf",
+    "published_at": "2026-11-07",
+    "en": {
+      "title": "Annual Report 2025",
+      "category": "Annual report"
+    },
+    "nl": {
+      "title": "Jaarverslag 2025",
+      "category": "Jaarverslag"
     }
   },
   {
@@ -210,18 +225,18 @@
     }
   },
   {
-    "id": "f3b56cf52c",
+    "id": "82ed099a1d",
     "island": "curacao",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/cft-groei-toerisme-vraagt-om-keuzes-voor-duurzame-toekomst/ned-komunikado-pa-prensa-261028-ned-curacao/",
+    "publisher": "SER Curaçao",
+    "url": "https://ser.cw/en/2026/10/30/curacao-plans-a-tourism-tax-overhaul-as-ser-issues-report-on-entry-tax/",
     "published_at": "2026-10-28",
     "en": {
-      "title": "CFT: \"Tourism growth calls for choices for a sustainable future\", October 2026",
-      "category": "Tourism"
+      "title": "SER advice on the proposed tourist entry tax",
+      "category": "Policy"
     },
     "nl": {
-      "title": "CFT: \"Groei toerisme vraagt om keuzes voor duurzame toekomst\", oktober 2026",
-      "category": "Toerisme"
+      "title": "SER-advies over de voorgestelde entreebelasting voor toeristen",
+      "category": "Beleid"
     }
   },
   {
@@ -240,18 +255,18 @@
     }
   },
   {
-    "id": "82ed099a1d",
+    "id": "f3b56cf52c",
     "island": "curacao",
-    "publisher": "SER Curaçao",
-    "url": "https://ser.cw/en/2026/10/30/curacao-plans-a-tourism-tax-overhaul-as-ser-issues-report-on-entry-tax/",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/cft-groei-toerisme-vraagt-om-keuzes-voor-duurzame-toekomst/ned-komunikado-pa-prensa-261028-ned-curacao/",
     "published_at": "2026-10-28",
     "en": {
-      "title": "SER advice on the proposed tourist entry tax",
-      "category": "Policy"
+      "title": "CFT: \"Tourism growth calls for choices for a sustainable future\", October 2026",
+      "category": "Tourism"
     },
     "nl": {
-      "title": "SER-advies over de voorgestelde entreebelasting voor toeristen",
-      "category": "Beleid"
+      "title": "CFT: \"Groei toerisme vraagt om keuzes voor duurzame toekomst\", oktober 2026",
+      "category": "Toerisme"
     }
   },
   {
@@ -285,21 +300,6 @@
     }
   },
   {
-    "id": "66587e2e90",
-    "island": "aruba",
-    "publisher": "CBS Aruba",
-    "url": "https://cbs.aw/wp/wp-content/uploads/2026/03/08-Aug-2026-1.pdf",
-    "published_at": "2026-10-21",
-    "en": {
-      "title": "Consumer Price Index, August 2026",
-      "category": "Statistics"
-    },
-    "nl": {
-      "title": "Consumentenprijsindex, augustus 2026",
-      "category": "Statistiek"
-    }
-  },
-  {
     "id": "872007e4a3",
     "island": "bonaire",
     "publisher": "CBS Netherlands",
@@ -311,6 +311,21 @@
     },
     "nl": {
       "title": "Inflatie Caribisch Nederland, Q3 2026: Bonaire 5,9%",
+      "category": "Statistiek"
+    }
+  },
+  {
+    "id": "66587e2e90",
+    "island": "aruba",
+    "publisher": "CBS Aruba",
+    "url": "https://cbs.aw/wp/wp-content/uploads/2026/03/08-Aug-2026-1.pdf",
+    "published_at": "2026-10-21",
+    "en": {
+      "title": "Consumer Price Index, August 2026",
+      "category": "Statistics"
+    },
+    "nl": {
+      "title": "Consumentenprijsindex, augustus 2026",
       "category": "Statistiek"
     }
   },
@@ -405,17 +420,17 @@
     }
   },
   {
-    "id": "55adfcb0db",
+    "id": "1ccc442dfc",
     "island": "aruba",
-    "publisher": "Centrale Bank van Aruba",
-    "url": "https://www.cbaruba.org/readBlob.do?id=19206",
+    "publisher": "College financieel toezicht",
+    "url": "https://www.cft.cw/publication/advies-bij-de-ontwerpbegroting-2027-aruba/cft-202600071-advies-bij-de-ontwerpbegroting-2027-aruba/",
     "published_at": "2026-09-03",
     "en": {
-      "title": "Quarterly Economic Bulletin: Government Sector, 2026-II",
+      "title": "CAft advice on the draft 2027 budget of Aruba",
       "category": "Public finance"
     },
     "nl": {
-      "title": "Kwartaalbulletin: overheidssector, 2026-II",
+      "title": "CAft-advies bij de ontwerpbegroting 2027 Aruba",
       "category": "Overheidsfinanciën"
     }
   },
@@ -435,33 +450,18 @@
     }
   },
   {
-    "id": "1ccc442dfc",
+    "id": "55adfcb0db",
     "island": "aruba",
-    "publisher": "College financieel toezicht",
-    "url": "https://www.cft.cw/publication/advies-bij-de-ontwerpbegroting-2027-aruba/cft-202600071-advies-bij-de-ontwerpbegroting-2027-aruba/",
+    "publisher": "Centrale Bank van Aruba",
+    "url": "https://www.cbaruba.org/readBlob.do?id=19206",
     "published_at": "2026-09-03",
     "en": {
-      "title": "CAft advice on the draft 2027 budget of Aruba",
+      "title": "Quarterly Economic Bulletin: Government Sector, 2026-II",
       "category": "Public finance"
     },
     "nl": {
-      "title": "CAft-advies bij de ontwerpbegroting 2027 Aruba",
+      "title": "Kwartaalbulletin: overheidssector, 2026-II",
       "category": "Overheidsfinanciën"
-    }
-  },
-  {
-    "id": "9dd5474d21",
-    "island": "aruba",
-    "publisher": "Aruba Tourism Authority",
-    "url": "https://aruba.bynder.com/asset/93860d71-0e68-43e6-b8b2-2398fb7fcbb1/ATA-MONTLHY-REPORT-SEPT-2026.pdf",
-    "published_at": "2026-09-01",
-    "en": {
-      "title": "Monthly Tourism Report, September 2026",
-      "category": "Tourism"
-    },
-    "nl": {
-      "title": "Maandrapport Toerisme, september 2026",
-      "category": "Toerisme"
     }
   },
   {
@@ -476,6 +476,21 @@
     },
     "nl": {
       "title": "Bezoekersaankomsten, september 2026",
+      "category": "Toerisme"
+    }
+  },
+  {
+    "id": "9dd5474d21",
+    "island": "aruba",
+    "publisher": "Aruba Tourism Authority",
+    "url": "https://aruba.bynder.com/asset/93860d71-0e68-43e6-b8b2-2398fb7fcbb1/ATA-MONTLHY-REPORT-SEPT-2026.pdf",
+    "published_at": "2026-09-01",
+    "en": {
+      "title": "Monthly Tourism Report, September 2026",
+      "category": "Tourism"
+    },
+    "nl": {
+      "title": "Maandrapport Toerisme, september 2026",
       "category": "Toerisme"
     }
   },
@@ -540,33 +555,18 @@
     }
   },
   {
-    "id": "8c2b6d8cc1",
-    "island": "aruba",
-    "publisher": "Aruba Tourism Authority",
-    "url": "https://aruba.bynder.com/asset/5228215c-bf5a-4ec4-b713-b27be4207d49/Monthly-Report-August-2026-REVISED.pdf",
-    "published_at": "2026-08-01",
-    "en": {
-      "title": "Monthly Tourism Report, August 2026 (Revised)",
-      "category": "Tourism"
-    },
-    "nl": {
-      "title": "Maandrapport Toerisme, augustus 2026 (herzien)",
-      "category": "Toerisme"
-    }
-  },
-  {
-    "id": "0838f1527c",
+    "id": "487fc41421",
     "island": "curacao",
-    "publisher": "Curaçao Tourist Board",
-    "url": "https://www.curacaotouristboard.com/wp-content/uploads/2026/09/Curacao-Visitor-Arrivals-Aug-2026.pdf",
+    "publisher": "CBS Curaçao",
+    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Change%20of%20the%20monthly%20consumer%20price%20index%20by%20expenditure%20category%20CUR%20Jan%202025%20-%20Aug%202026.pdf?cb=LX4XBm-c",
     "published_at": "2026-08-01",
     "en": {
-      "title": "Visitor Arrivals, August 2026",
-      "category": "Tourism"
+      "title": "Monthly CPI change by expenditure category, January 2025 – August 2026",
+      "category": "Statistics"
     },
     "nl": {
-      "title": "Bezoekersaankomsten, augustus 2026",
-      "category": "Toerisme"
+      "title": "Maandelijkse CPI-verandering per uitgavencategorie, januari 2025 – augustus 2026",
+      "category": "Statistiek"
     }
   },
   {
@@ -585,18 +585,33 @@
     }
   },
   {
-    "id": "487fc41421",
+    "id": "0838f1527c",
     "island": "curacao",
-    "publisher": "CBS Curaçao",
-    "url": "https://cuatro.sim-cdn.nl/cbscuracao/uploads/Change%20of%20the%20monthly%20consumer%20price%20index%20by%20expenditure%20category%20CUR%20Jan%202025%20-%20Aug%202026.pdf?cb=LX4XBm-c",
+    "publisher": "Curaçao Tourist Board",
+    "url": "https://www.curacaotouristboard.com/wp-content/uploads/2026/09/Curacao-Visitor-Arrivals-Aug-2026.pdf",
     "published_at": "2026-08-01",
     "en": {
-      "title": "Monthly CPI change by expenditure category, January 2025 – August 2026",
-      "category": "Statistics"
+      "title": "Visitor Arrivals, August 2026",
+      "category": "Tourism"
     },
     "nl": {
-      "title": "Maandelijkse CPI-verandering per uitgavencategorie, januari 2025 – augustus 2026",
-      "category": "Statistiek"
+      "title": "Bezoekersaankomsten, augustus 2026",
+      "category": "Toerisme"
+    }
+  },
+  {
+    "id": "8c2b6d8cc1",
+    "island": "aruba",
+    "publisher": "Aruba Tourism Authority",
+    "url": "https://aruba.bynder.com/asset/5228215c-bf5a-4ec4-b713-b27be4207d49/Monthly-Report-August-2026-REVISED.pdf",
+    "published_at": "2026-08-01",
+    "en": {
+      "title": "Monthly Tourism Report, August 2026 (Revised)",
+      "category": "Tourism"
+    },
+    "nl": {
+      "title": "Maandrapport Toerisme, augustus 2026 (herzien)",
+      "category": "Toerisme"
     }
   },
   {
@@ -660,21 +675,6 @@
     }
   },
   {
-    "id": "66c6f6ddc6",
-    "island": "aruba",
-    "publisher": "Aruba Tourism Authority",
-    "url": "https://aruba.bynder.com/asset/c311eb15-b328-4605-a5f9-cd8f06508444/ATA-MONTHLY-REPORT-JUL-26.pdf",
-    "published_at": "2026-07-01",
-    "en": {
-      "title": "Monthly Tourism Report, July 2026",
-      "category": "Tourism"
-    },
-    "nl": {
-      "title": "Maandrapport Toerisme, juli 2026",
-      "category": "Toerisme"
-    }
-  },
-  {
     "id": "4cc3fd06d7",
     "island": "curacao",
     "publisher": "Curaçao Tourist Board",
@@ -686,6 +686,21 @@
     },
     "nl": {
       "title": "Bezoekersaankomsten, juli 2026",
+      "category": "Toerisme"
+    }
+  },
+  {
+    "id": "66c6f6ddc6",
+    "island": "aruba",
+    "publisher": "Aruba Tourism Authority",
+    "url": "https://aruba.bynder.com/asset/c311eb15-b328-4605-a5f9-cd8f06508444/ATA-MONTHLY-REPORT-JUL-26.pdf",
+    "published_at": "2026-07-01",
+    "en": {
+      "title": "Monthly Tourism Report, July 2026",
+      "category": "Tourism"
+    },
+    "nl": {
+      "title": "Maandrapport Toerisme, juli 2026",
       "category": "Toerisme"
     }
   },
@@ -720,21 +735,6 @@
     }
   },
   {
-    "id": "74d22ca730",
-    "island": "aruba",
-    "publisher": "Aruba Tourism Authority",
-    "url": "https://aruba.bynder.com/asset/d72e8151-63f7-4754-812b-4f79f07ad3e8/ATA-MONTLHY-REPORT-JUNE-26-Final-Version-2.pdf",
-    "published_at": "2026-06-01",
-    "en": {
-      "title": "Monthly Tourism Report, June 2026",
-      "category": "Tourism"
-    },
-    "nl": {
-      "title": "Maandrapport Toerisme, juni 2026",
-      "category": "Toerisme"
-    }
-  },
-  {
     "id": "8a5fc58121",
     "island": "curacao",
     "publisher": "Curaçao Tourist Board",
@@ -746,6 +746,21 @@
     },
     "nl": {
       "title": "Toeristische prestaties, juni 2026",
+      "category": "Toerisme"
+    }
+  },
+  {
+    "id": "74d22ca730",
+    "island": "aruba",
+    "publisher": "Aruba Tourism Authority",
+    "url": "https://aruba.bynder.com/asset/d72e8151-63f7-4754-812b-4f79f07ad3e8/ATA-MONTLHY-REPORT-JUNE-26-Final-Version-2.pdf",
+    "published_at": "2026-06-01",
+    "en": {
+      "title": "Monthly Tourism Report, June 2026",
+      "category": "Tourism"
+    },
+    "nl": {
+      "title": "Maandrapport Toerisme, juni 2026",
       "category": "Toerisme"
     }
   },
@@ -765,21 +780,6 @@
     }
   },
   {
-    "id": "c6179faccb",
-    "island": "aruba",
-    "publisher": "Aruba Tourism Authority",
-    "url": "https://aruba.bynder.com/asset/dbdd89fd-05f0-4dd8-ac84-a090ec8eb598/ATA-MONTHLY-REPORT-MAY-2026.pdf",
-    "published_at": "2026-05-01",
-    "en": {
-      "title": "Monthly Tourism Report, May 2026",
-      "category": "Tourism"
-    },
-    "nl": {
-      "title": "Maandrapport Toerisme, mei 2026",
-      "category": "Toerisme"
-    }
-  },
-  {
     "id": "bc831384b4",
     "island": "curacao",
     "publisher": "Curaçao Tourist Board",
@@ -795,17 +795,17 @@
     }
   },
   {
-    "id": "adafde3c1e",
+    "id": "c6179faccb",
     "island": "aruba",
     "publisher": "Aruba Tourism Authority",
-    "url": "https://aruba.bynder.com/asset/cd00839f-4735-42c4-8e9d-8686dbc4109b/ATA-MONTHLY-REPORT-APRIL-Excl-Cruise-2026-overall.pdf",
-    "published_at": "2026-04-01",
+    "url": "https://aruba.bynder.com/asset/dbdd89fd-05f0-4dd8-ac84-a090ec8eb598/ATA-MONTHLY-REPORT-MAY-2026.pdf",
+    "published_at": "2026-05-01",
     "en": {
-      "title": "Monthly Tourism Report, April 2026 (excluding cruise)",
+      "title": "Monthly Tourism Report, May 2026",
       "category": "Tourism"
     },
     "nl": {
-      "title": "Maandrapport Toerisme, april 2026 (exclusief cruise)",
+      "title": "Maandrapport Toerisme, mei 2026",
       "category": "Toerisme"
     }
   },
@@ -821,6 +821,21 @@
     },
     "nl": {
       "title": "Bezoekersaankomsten, april 2026",
+      "category": "Toerisme"
+    }
+  },
+  {
+    "id": "adafde3c1e",
+    "island": "aruba",
+    "publisher": "Aruba Tourism Authority",
+    "url": "https://aruba.bynder.com/asset/cd00839f-4735-42c4-8e9d-8686dbc4109b/ATA-MONTHLY-REPORT-APRIL-Excl-Cruise-2026-overall.pdf",
+    "published_at": "2026-04-01",
+    "en": {
+      "title": "Monthly Tourism Report, April 2026 (excluding cruise)",
+      "category": "Tourism"
+    },
+    "nl": {
+      "title": "Maandrapport Toerisme, april 2026 (exclusief cruise)",
       "category": "Toerisme"
     }
   },
