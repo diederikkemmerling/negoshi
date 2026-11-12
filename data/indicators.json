@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T18:03:48.232Z",
+  "updated_at": "2026-11-12T18:36:27.308Z",
   "items": [
     {
       "id": "usd-eur",
@@ -11,10 +11,10 @@
       "url": "https://www.ecb.europa.eu",
       "note_en": null,
       "note_nl": null,
-      "value": "0.899",
-      "period": "2026-11-11",
+      "value": "0.902",
+      "period": "2026-11-12",
       "change": null,
-      "updated_at": "2026-11-11T18:03:48.232Z"
+      "updated_at": "2026-11-12T18:36:27.308Z"
     },
     {
       "id": "eur-awg",
@@ -26,10 +26,10 @@
       "url": "https://www.cbaruba.org",
       "note_en": null,
       "note_nl": null,
-      "value": "1.992",
-      "period": "2026-11-11",
+      "value": "1.983",
+      "period": "2026-11-12",
       "change": null,
-      "updated_at": "2026-11-11T18:03:48.232Z"
+      "updated_at": "2026-11-12T18:36:27.308Z"
     },
     {
       "id": "usd-cop",
@@ -41,10 +41,10 @@
       "url": "https://www.exchangerate-api.com",
       "note_en": null,
       "note_nl": null,
-      "value": "3,277",
-      "period": "2026-11-11",
+      "value": "3,302",
+      "period": "2026-11-12",
       "change": null,
-      "updated_at": "2026-11-11T18:03:48.232Z"
+      "updated_at": "2026-11-12T18:36:27.308Z"
     },
     {
       "id": "brent",
@@ -59,7 +59,7 @@
       "value": "107.03",
       "period": "2026-11-03",
       "change": null,
-      "updated_at": "2026-11-11T18:03:48.232Z"
+      "updated_at": "2026-11-12T18:36:27.308Z"
     },
     {
       "id": "cpi-aw",
@@ -88,7 +88,7 @@
       "value": "1.5",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-11T18:03:48.232Z"
+      "updated_at": "2026-11-12T18:36:27.308Z"
     },
     {
       "id": "arrivals-aw",
