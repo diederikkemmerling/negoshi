@@ -1,45 +1,85 @@
 [
   {
-    "id": "3615db060927",
-    "slug": "curacao-mps-ask-if-the-aviation-regulator-has-the-staff-and-money-to-enforce-a-n-3615db",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-13T17:28:18.072Z",
-    "source_id": "curacao-chronicle",
-    "source_name": "Curaçao Chronicle",
-    "source_url": "https://www.curacaochronicle.com/post/unknown/parliament-questions-whether-curacao-aviation-authority-has-enough-inspectors-and-funding",
+    "id": "28360bb61f8f",
+    "slug": "aruba-finance-minister-hosts-venezuela-s-falcon-governor-to-discuss-trade-and-me-28360b",
+    "island": "aruba",
+    "topic": "economy",
+    "published_at": "2026-11-13T18:00:00.000Z",
+    "source_id": "gov-aw",
+    "source_name": "Gobierno di Aruba",
+    "source_url": "https://www.gobierno.aw/gobierno-y-gobernador-di-estado-falcon-ta-fortalece-cooperacion-economico-entre-aruba-y-venezuela",
     "also_covered": [
-      "https://www.curacaochronicle.com/post/unknown/par-demands-explanation-for-nearly-seven-year-delay-in-curacaos-aviation-legislation",
-      "https://www.curacaochronicle.com/post/unknown/curacao-parliament-demands-answers-on-faa-category-1-progress-as-2027-audit-approaches"
+      "https://www.curacaochronicle.com/post/unknown/curacao-and-venezuelas-falcon-state-explore-stronger-trade-air-connections-and-medical-cooperation"
     ],
     "en": {
-      "title": "Curaçao MPs ask if the aviation regulator has the staff and money to enforce a new law",
-      "standfirst": "Parliamentary factions say the planned Aviation Ordinance will mean little unless the Curaçao Civil Aviation Authority (CBA) can afford to enforce it. They want staffing and budget figures before they finish reviewing the bill.",
+      "title": "Aruba finance minister hosts Venezuela's Falcón governor to discuss trade and medical tourism",
+      "standfirst": "Finance and Economic Affairs Minister Geoffrey Wever received Falcón State Governor Víctor Clark on an official visit to Aruba. The two discussed trade missions, import and export options and medical care for Aruban residents.",
       "keypoints": [
-        "MAN-PIN wants figures on CBA staffing, vacancies, available inspectors and the annual cost of oversight, plus an assessment of its IT systems and expertise.",
-        "PAR asks for a five-year financial and implementation plan and doubts the claim that the law will put no extra pressure on public finances.",
-        "MFK asks whether the aviation safety charge brings in enough to fund international oversight, and whether the CBA is building reserves for a future downturn.",
-        "The committee report gives no current staffing, vacancy or reserve figures."
+        "Governor Clark's visit is the first official visit by a Venezuelan governor since the border between Aruba and Venezuela reopened in August 2026, according to the government.",
+        "Talks covered organising trade missions and widening import and export possibilities.",
+        "Medical tourism was also discussed, with Falcón offering Aruban residents access to specialist treatment again, as it did before.",
+        "Both sides agreed to keep up regular contact and coordination."
       ],
       "body": [
-        "A parliamentary committee report on the proposed Aviation Ordinance shows that several factions doubt the CBA can take on its wider duties. Their shared view is that tougher rules only work if the regulator has people, money and independence to apply them.",
-        "MAN-PIN wants to know how many staff the CBA has, how many posts are vacant and whether enough qualified inspectors are available. It also asks what a full programme of inspection, certification, supervision and enforcement costs each year. PAR stresses that inspectors must be able to halt an unsafe operation, even when that costs an airline or airport operator money, and it challenges the government's claim that the law needs no extra spending.",
-        "MFK, a governing party, focuses on funding. It asks whether the aviation safety charge covers the demands of international oversight and whether the CBA is setting money aside for shocks like the COVID-19 pandemic. Parliament wants these answers before it completes its consideration of the bill."
+        "Minister Wever met Governor Clark to strengthen ties between Aruba and Venezuela. The government describes it as the first official visit by a Venezuelan governor since the border reopened in August 2026.",
+        "On the economic side, both men highlighted trade missions and broader import and export opportunities. They spoke of coordinated, consistent work to find new openings and to address obstacles that could hold back growth. The government did not announce concrete agreements, dates or figures.",
+        "The governor also briefed the minister on improvements in Venezuela's medical sector, particularly in Falcón State. He said Falcón wants to offer Aruban residents specialist treatment again, as it did in the past. Both sides agreed to keep communication open to support what the government calls stable bilateral cooperation. For Aruban businesses, the talks signal possible renewed trade with Venezuela, but nothing has yet been formalised."
       ]
     },
     "nl": {
-      "title": "Curaçaose Staten vragen of luchtvaartautoriteit genoeg mensen en geld heeft voor nieuwe wet",
-      "standfirst": "Fracties in de Staten stellen dat de voorgestelde Luchtvaartlandsverordening weinig waard is als de Curaçaose luchtvaartautoriteit (CBA) de naleving niet kan bekostigen. Zij willen cijfers over personeel en budget voordat ze de behandeling afronden.",
+      "title": "Arubaanse minister van Financiën ontvangt gouverneur van Falcón voor gesprek over handel en medisch toerisme",
+      "standfirst": "Minister van Financiën en Economische Zaken Geoffrey Wever ontving de gouverneur van de Venezolaanse staat Falcón, Víctor Clark, op officieel bezoek. Ze spraken over handelsmissies, import en export en medische zorg voor inwoners van Aruba.",
       "keypoints": [
-        "MAN-PIN wil cijfers over personeelsbezetting, vacatures, beschikbare inspecteurs en de jaarlijkse kosten van toezicht, plus een beoordeling van IT-systemen en expertise.",
-        "PAR vraagt om een financieel en implementatieplan voor vijf jaar en trekt de stelling in twijfel dat de wet geen extra druk op de overheidsfinanciën geeft.",
-        "MFK vraagt of de opbrengst van de luchtvaartveiligheidsheffing volstaat voor internationaal toezicht en of de CBA reserves opbouwt voor een volgende terugval.",
-        "Het commissieverslag noemt geen actuele cijfers over personeel, vacatures of reserves."
+        "Volgens de regering is dit het eerste officiële bezoek van een Venezolaanse gouverneur sinds de heropening van de grens tussen Aruba en Venezuela in augustus 2026.",
+        "Besproken werden handelsmissies en meer mogelijkheden voor import en export.",
+        "Ook medisch toerisme kwam aan bod: Falcón wil Arubanen weer toegang bieden tot gespecialiseerde behandelingen, zoals eerder.",
+        "Beide partijen willen regelmatig contact en afstemming houden."
       ],
       "body": [
-        "Uit een verslag van een Statencommissie over de ontwerp-Luchtvaartlandsverordening blijkt dat meerdere fracties twijfelen of de CBA haar uitgebreide taken aankan. Zij vinden dat strengere regels alleen werken als de toezichthouder over mensen, middelen en onafhankelijkheid beschikt.",
-        "MAN-PIN wil weten hoeveel medewerkers de CBA heeft, hoeveel vacatures openstaan en of er genoeg gekwalificeerde inspecteurs zijn. Ook vraagt de fractie wat inspectie, certificering, toezicht en handhaving jaarlijks kosten. PAR benadrukt dat inspecteurs een onveilige operatie moeten kunnen stilleggen, ook als dat een luchtvaartmaatschappij of luchthavenexploitant geld kost, en betwist dat de wet geen extra uitgaven vergt.",
-        "MFK, een regeringspartij, richt zich op de financiering. De fractie vraagt of de veiligheidsheffing volstaat voor internationaal toezicht en of de CBA geld opzijzet voor schokken zoals de coronapandemie. De Staten willen deze antwoorden voordat zij het wetsvoorstel afronden."
+        "Minister Wever sprak met gouverneur Clark om de banden tussen Aruba en Venezuela te versterken. De regering noemt het de eerste officiële visite van een Venezolaanse gouverneur sinds de grens in augustus 2026 weer openging.",
+        "Op economisch vlak benadrukten beiden handelsmissies en bredere mogelijkheden voor import en export. Ze spraken over gecoördineerd en consistent werken om nieuwe kansen te vinden en obstakels voor groei aan te pakken. De regering maakte geen concrete afspraken, data of cijfers bekend.",
+        "De gouverneur lichtte ook verbeteringen in de Venezolaanse medische sector toe, vooral in Falcón. Hij zei dat Falcón inwoners van Aruba weer gespecialiseerde behandelingen wil bieden, zoals in het verleden. Beide partijen willen het contact openhouden voor wat de regering een stabiele bilaterale samenwerking noemt. Voor Arubaanse bedrijven wijzen de gesprekken op mogelijk hernieuwde handel met Venezuela, maar er is nog niets formeel vastgelegd."
+      ]
+    }
+  },
+  {
+    "id": "3a7e342d78f6",
+    "slug": "aruba-opposition-mp-says-minister-spent-on-events-before-parliament-approved-the-3a7e34",
+    "island": "aruba",
+    "topic": "politics",
+    "published_at": "2026-11-13T17:46:14.000Z",
+    "source_id": "masnoticia",
+    "source_name": "Masnoticia",
+    "source_url": "https://masnoticia.com/endy-croes-mep-minister-gerlien-ta-gasta-placa-prome-despues-bin-pidi-aprobacion-di-parlamento/",
+    "also_covered": [],
+    "en": {
+      "title": "Aruba opposition MP says minister spent on events before Parliament approved the money",
+      "standfirst": "MEP lawmaker Endy Croes says Minister Gerlien Croes' office increased its spending, and that the money for events was spent before it was put to Parliament. He says the minister did not answer his questions during the supplementary budget debate.",
+      "keypoints": [
+        "Endy Croes (MEP) says his questions on higher spending at the minister's bureau went unanswered in the supplementary budget debate.",
+        "The increase is described as sizeable and linked to events the bureau had either planned or already held.",
+        "He says the money was spent first and approval sought afterwards, which he calls a 'new policy'.",
+        "He argues that under parliamentary rules a minister needs approval before spending on events."
+      ],
+      "body": [
+        "At the weekly MEP press conference, opposition MP Endy Croes criticised how Minister Gerlien Croes handled spending at her bureau. During the parliamentary debate on the supplementary budget he asked about a sizeable rise in the bureau's costs. He says the minister did not answer.",
+        "According to Croes, the extra amounts relate to events the bureau wanted to organise or had already organised. He wanted to know whether those events had taken place and why Parliament was asked to approve the money afterwards, when it had already been spent.",
+        "He argues this runs against the rules, under which a minister must obtain Parliament's approval before committing funds to events. The claims come from an opposition politician, and the source gives no response from the minister or the government. No amounts were given."
+      ]
+    },
+    "nl": {
+      "title": "Arubaanse oppositiepoliticus: minister gaf geld uit aan evenementen vóór goedkeuring van het Parlement",
+      "standfirst": "MEP-Statenlid Endy Croes zegt dat het bureau van minister Gerlien Croes meer uitgaf en dat het geld voor evenementen al was besteed voordat het aan het Parlement werd voorgelegd. Volgens hem beantwoordde de minister zijn vragen tijdens het debat over de aanvullende begroting niet.",
+      "keypoints": [
+        "Endy Croes (MEP) zegt dat zijn vragen over hogere uitgaven bij het bureau van de minister onbeantwoord bleven in het debat over de aanvullende begroting.",
+        "De stijging wordt omschreven als aanzienlijk en gekoppeld aan evenementen die het bureau had gepland of al had gehouden.",
+        "Volgens hem werd eerst geld uitgegeven en daarna goedkeuring gevraagd, wat hij een 'nieuw beleid' noemt.",
+        "Hij stelt dat een minister volgens de parlementaire regels vooraf toestemming nodig heeft voor uitgaven aan evenementen."
+      ],
+      "body": [
+        "Tijdens de wekelijkse persconferentie van de MEP bekritiseerde oppositielid Endy Croes hoe minister Gerlien Croes omgaat met uitgaven van haar bureau. In het parlementaire debat over de aanvullende begroting vroeg hij naar een forse stijging van de kosten. Volgens hem kwam er geen antwoord van de minister.",
+        "Het gaat volgens Croes om extra bedragen voor evenementen die het bureau wilde organiseren of al had georganiseerd. Hij wilde weten of die evenementen al hadden plaatsgevonden en waarom het Parlement achteraf om goedkeuring werd gevraagd terwijl het geld al was uitgegeven.",
+        "Hij stelt dat dit tegen de regels ingaat: een minister moet eerst toestemming van het Parlement krijgen voordat zij geld vastlegt voor evenementen. De beweringen zijn afkomstig van een oppositiepoliticus; de bron vermeldt geen reactie van de minister of de regering. Er werden geen bedragen genoemd."
       ]
     }
   },
@@ -415,47 +455,6 @@
     }
   },
   {
-    "id": "7c8dcc7023e4",
-    "slug": "curacao-and-venezuela-s-falcon-state-explore-trade-air-links-and-medical-coopera-7c8dcc",
-    "island": "curacao",
-    "topic": "economy",
-    "published_at": "2026-11-13T13:48:52.036Z",
-    "source_id": "curacao-chronicle",
-    "source_name": "Curaçao Chronicle",
-    "source_url": "https://www.curacaochronicle.com/post/unknown/curacao-and-venezuelas-falcon-state-explore-stronger-trade-air-connections-and-medical-cooperation",
-    "also_covered": [],
-    "en": {
-      "title": "Curaçao and Venezuela's Falcón State explore trade, air links and medical cooperation",
-      "standfirst": "Prime Minister Gilmar Pisas and Falcón governor Víctor Clark Boscán discussed ways to expand maritime trade, flights, tourism and healthcare ties. No agreements or timelines were announced.",
-      "keypoints": [
-        "Talks covered sea trade, air connections, tourism and healthcare cooperation with Falcón State.",
-        "Pisas showed particular interest in medical tourism and in exchanging healthcare professionals.",
-        "Governor Clark said he wants more trade in goods between Falcón and the ABC islands.",
-        "No commitments on shipping routes, airlines, trade deals or patient referrals were made public."
-      ],
-      "body": [
-        "Prime Minister Gilmar Pisas met the governor of Venezuela's Falcón State, Víctor Clark Boscán, to discuss closer economic ties between Curaçao and the neighbouring region. Topics included maritime trade, air links, tourism and healthcare. Clark thanked Curaçao for the help it gave after the earthquake that hit Falcón.",
-        "Clark outlined recent developments in sea trade between Falcón and Aruba, Bonaire and Curaçao, and said he wants to increase the flow of products and merchandise. Pisas said Curaçao is looking at more options for patients who need treatment abroad, and raised the idea of exchanging medical professionals. Better connections could benefit importers, exporters, transport firms and travellers.",
-        "The meeting produced no announced agreements on new shipping routes, airline services, trade arrangements, patient referrals or staff exchanges. Both sides described the talks as exploratory, leaving any concrete cooperation to later discussions."
-      ]
-    },
-    "nl": {
-      "title": "Curaçao en de Venezolaanse staat Falcón verkennen handel, vliegverbindingen en medische samenwerking",
-      "standfirst": "Premier Gilmar Pisas en Falcón-gouverneur Víctor Clark Boscán bespraken uitbreiding van zeehandel, vluchten, toerisme en zorgsamenwerking. Er zijn geen afspraken of tijdlijnen bekendgemaakt.",
-      "keypoints": [
-        "Het gesprek ging over zeehandel, luchtverbindingen, toerisme en zorgsamenwerking met Falcón.",
-        "Pisas toonde vooral interesse in medisch toerisme en uitwisseling van zorgprofessionals.",
-        "Gouverneur Clark wil meer goederenhandel tussen Falcón en de ABC-eilanden.",
-        "Over vaarroutes, luchtvaartmaatschappijen, handelsakkoorden of patiëntverwijzingen is niets openbaar toegezegd."
-      ],
-      "body": [
-        "Premier Gilmar Pisas heeft de gouverneur van de Venezolaanse staat Falcón, Víctor Clark Boscán, ontmoet om nauwere economische banden tussen Curaçao en de buurregio te bespreken. Onderwerpen waren zeehandel, luchtverbindingen, toerisme en gezondheidszorg. Clark bedankte Curaçao voor de hulp na de aardbeving in Falcón.",
-        "Clark schetste de ontwikkelingen in de zeehandel tussen Falcón en Aruba, Bonaire en Curaçao en wil de uitwisseling van producten en goederen vergroten. Pisas zei dat Curaçao extra opties onderzoekt voor patiënten die in het buitenland behandeld moeten worden, en opperde de uitwisseling van medische professionals. Betere verbindingen kunnen importeurs, exporteurs, transportbedrijven en reizigers ten goede komen.",
-        "De bijeenkomst leverde geen aangekondigde afspraken op over nieuwe vaarroutes, vliegdiensten, handelsregelingen, patiëntverwijzingen of personeelsuitwisseling. Beide kanten noemden het gesprek verkennend; concrete samenwerking is aan vervolggesprekken."
-      ]
-    }
-  },
-  {
     "id": "d7ff19c5edd2",
     "slug": "carnival-cruise-line-schedules-39-aruba-calling-sailings-for-2028-2029-d7ff19",
     "island": "aruba",
@@ -629,7 +628,8 @@
     "source_name": "Curacao.nu",
     "source_url": "https://www.curacao.nu/nieuws/politiek-bestuur/98460/staten-vragen-opheldering-over-forse-verlaging-luchtvaartveiligheidsheffing-curacao",
     "also_covered": [
-      "https://www.curacaochronicle.com/post/unknown/aviation-safety-fee-cut-from-xcg-311-to-xcg-091-raises-questions-about-curacaos-oversight-budget"
+      "https://www.curacaochronicle.com/post/unknown/aviation-safety-fee-cut-from-xcg-311-to-xcg-091-raises-questions-about-curacaos-oversight-budget",
+      "https://www.curacaochronicle.com/post/unknown/parliament-questions-whether-curacao-aviation-authority-has-enough-inspectors-and-funding"
     ],
     "en": {
       "title": "Curaçao lawmakers question steep cut in aviation safety charge",
@@ -704,84 +704,46 @@
     }
   },
   {
-    "id": "bed8c7f81b4d",
-    "slug": "bonaire-teachers-unions-threaten-tougher-action-over-labour-benefits-bed8c7",
-    "island": "bonaire",
-    "topic": "economy",
+    "id": "a760f3100a4e",
+    "slug": "aruba-s-health-minister-no-blank-cheque-for-the-hospital-without-an-investigatio-a760f3",
+    "island": "aruba",
+    "topic": "politics",
     "published_at": "2026-11-13T08:00:00.000Z",
     "source_id": "extra",
     "source_name": "Extra",
-    "source_url": "https://extra.cw/menasa-di-akshon-den-ensenansa",
-    "also_covered": [],
+    "source_url": "https://extra.cw/wyatt-ras-gobierno-no-por-duna-hospital-un-cheque-blanco-sin-investigacion",
+    "also_covered": [
+      "https://noticiacla.com/news/42365",
+      "https://masnoticia.com/evelyn-wever-croes-gobierno-no-por-laga-pueblo-paga-e-prijs-di-crisis-di-hospital/"
+    ],
     "en": {
-      "title": "Bonaire teachers' unions threaten tougher action over labour benefits",
-      "standfirst": "Education unions ABVO and SIMABO say they are prepared to step up their action on Bonaire. They want education staff to receive the labour benefits they are seeking.",
+      "title": "Aruba's health minister: no blank cheque for the hospital without an investigation",
+      "standfirst": "Health Minister Mervin Wyatt-Ras has spoken publicly for the first time on the financial crisis at Hospital Dr. Horacio E. Oduber (HOH). She says the government cannot hand the hospital open-ended funding before the causes are examined.",
       "keypoints": [
-        "ABVO and SIMABO, two unions in Bonaire's education sector, are ready to intensify their action.",
-        "The goal is for education workers to receive labour benefits.",
-        "The report does not say what form the action could take.",
-        "A tougher stance could disrupt schools if talks stall."
+        "Wyatt-Ras made her first public comments on the HOH financial crisis.",
+        "Her message is that the government will not give the hospital a blank cheque.",
+        "She ties any further support to an investigation into the hospital's finances.",
+        "The statement adds to the dispute over hospital funding, which has already involved management, unions and the opposition."
       ],
       "body": [
-        "Two unions representing Bonaire's education workers, ABVO and SIMABO, have signalled that they will escalate their action. Their aim is to secure labour benefits for staff in the sector, according to a report from Kralendijk.",
-        "The available text of the report is brief. It does not list which benefits are in dispute, name the employer or authority involved, or say what measures the unions are considering. Those details are not confirmed here.",
-        "The warning matters because education is one of the largest public-service employers on the island, and any escalation could affect schools, pupils and parents. It also adds to pressure on the island government over public-sector working conditions. Further developments will show whether the dispute is resolved through talks or turns into formal industrial action."
+        "Health Minister Mervin Wyatt-Ras has broken her silence on the financial problems at Aruba's main hospital, HOH. Her stance is that the government cannot simply cover the hospital's gap without first establishing what went wrong.",
+        "The comments come as pressure on the funding arrangement has grown. Hospital management, staff unions and the opposition have all weighed in on the dispute in recent days. The minister's position signals that the government wants scrutiny of the hospital's finances before committing more public money.",
+        "Only the opening of the article was available, so the amount at stake, the form the investigation would take and any timeline are not yet known. Patients, hospital staff and the public purse all stand to be affected by how the dispute is resolved."
       ]
     },
     "nl": {
-      "title": "Onderwijsbonden Bonaire dreigen met scherpere acties om arbeidsvoorwaarden",
-      "standfirst": "De onderwijsbonden ABVO en SIMABO zijn bereid hun acties op Bonaire op te voeren. Zij willen dat onderwijspersoneel de gevraagde arbeidsvoorwaarden krijgt.",
+      "title": "Minister van Volksgezondheid Aruba: geen blanco cheque voor ziekenhuis zonder onderzoek",
+      "standfirst": "Minister van Volksgezondheid Mervin Wyatt-Ras heeft voor het eerst publiekelijk gereageerd op de financiële crisis bij Hospital Dr. Horacio E. Oduber (HOH). Volgens haar kan de regering het ziekenhuis geen onbeperkte financiering geven voordat de oorzaken zijn onderzocht.",
       "keypoints": [
-        "ABVO en SIMABO, twee bonden in het Bonairiaanse onderwijs, willen hun acties intensiveren.",
-        "Het doel is dat onderwijspersoneel arbeidsvoorwaardelijke voordelen ontvangt.",
-        "Het bericht meldt niet welke vorm de acties kunnen krijgen.",
-        "Een hardere opstelling kan scholen raken als het overleg stokt."
+        "Wyatt-Ras deed haar eerste openbare uitspraken over de financiële crisis bij HOH.",
+        "Haar boodschap: de regering geeft het ziekenhuis geen blanco cheque.",
+        "Verdere steun koppelt zij aan een onderzoek naar de financiën van het ziekenhuis.",
+        "De uitspraak komt bovenop het geschil over de ziekenhuisfinanciering, waarin directie, vakbonden en oppositie zich al hebben gemengd."
       ],
       "body": [
-        "Twee bonden die het Bonairiaanse onderwijspersoneel vertegenwoordigen, ABVO en SIMABO, geven aan hun acties te willen opvoeren. Ze willen dat medewerkers in de sector arbeidsvoorwaardelijke voordelen krijgen, meldt een bericht uit Kralendijk.",
-        "De beschikbare tekst van het bericht is kort. Er staat niet in om welke voordelen het precies gaat, welke werkgever of overheidsinstantie betrokken is of welke maatregelen de bonden overwegen. Die details zijn hier niet bevestigd.",
-        "De waarschuwing is relevant omdat onderwijs een van de grootste publieke werkgevers op het eiland is. Opvoering van de acties kan gevolgen hebben voor scholen, leerlingen en ouders. Ook zet het de eilandelijke overheid onder druk als het gaat om arbeidsvoorwaarden in de publieke sector. Vervolgontwikkelingen zullen uitwijzen of het geschil via overleg wordt opgelost of uitmondt in formele acties."
-      ]
-    }
-  },
-  {
-    "id": "5b0bfdd2bf76",
-    "slug": "bonaire-s-playa-pabou-fishing-harbour-restoration-is-finished-and-handed-to-the--5b0bfd",
-    "island": "bonaire",
-    "topic": "economy",
-    "published_at": "2026-11-13T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/waf-di-piskado-entrega-na-entidat-publiko",
-    "also_covered": [],
-    "en": {
-      "title": "Bonaire's Playa Pabou fishing harbour restoration is finished and handed to the island government",
-      "standfirst": "After eight months of work, the restoration of the fishing harbour at Playa Pabou has been completed and handed over to the Public Entity of Bonaire.",
-      "keypoints": [
-        "The Playa Pabou fishing harbour restoration took eight months.",
-        "The finished project was handed over to the Public Entity of Bonaire.",
-        "The island government now takes over the facility.",
-        "The available text gives no cost, contractor or scope details."
-      ],
-      "body": [
-        "The restoration of the fishing harbour at Playa Pabou, on Bonaire, is complete. According to Extra, the work took eight months, and the project has now been formally delivered to the Public Entity, the island's government.",
-        "The handover means the Public Entity now takes responsibility for the facility. A working harbour is basic infrastructure for Bonaire's fishers, who depend on safe landing and mooring places for their livelihoods.",
-        "The report is behind a paywall, and the available text does not say what the project cost, who carried it out or what exactly was repaired or rebuilt. It also does not say when the harbour will be fully back in use. Those details will determine how much the project helps local fishers and the wider coastal economy."
-      ]
-    },
-    "nl": {
-      "title": "Herstel van de vissershaven bij Playa Pabou op Bonaire klaar en overgedragen aan het eilandbestuur",
-      "standfirst": "Na acht maanden werk is de restauratie van de vissershaven bij Playa Pabou afgerond en overgedragen aan het Openbaar Lichaam Bonaire.",
-      "keypoints": [
-        "De restauratie van de vissershaven bij Playa Pabou duurde acht maanden.",
-        "Het opgeleverde project is overgedragen aan het Openbaar Lichaam Bonaire.",
-        "Het eilandbestuur neemt de voorziening nu over.",
-        "De beschikbare tekst noemt geen kosten, aannemer of omvang van de werkzaamheden."
-      ],
-      "body": [
-        "De restauratie van de vissershaven bij Playa Pabou op Bonaire is voltooid. Volgens Extra duurde het werk acht maanden en is het project inmiddels formeel opgeleverd aan het Openbaar Lichaam, het eilandbestuur.",
-        "Met de overdracht neemt het Openbaar Lichaam de verantwoordelijkheid voor de voorziening over. Een werkende haven is basisinfrastructuur voor de vissers van Bonaire, die afhankelijk zijn van veilige aanlegplaatsen voor hun inkomen.",
-        "Het artikel zit achter een betaalmuur en de beschikbare tekst vermeldt niet wat het project kostte, wie het uitvoerde of wat precies is hersteld of vernieuwd. Ook is niet bekend wanneer de haven weer volledig in gebruik is. Die details bepalen hoeveel het project de lokale vissers en de bredere kusteconomie oplevert."
+        "Minister van Volksgezondheid Mervin Wyatt-Ras heeft haar stilte doorbroken over de financiële problemen bij het grootste ziekenhuis van Aruba, HOH. Zij vindt dat de regering het tekort niet zomaar kan dekken zonder eerst vast te stellen wat er is misgegaan.",
+        "De opmerkingen komen op een moment dat de druk op de financieringsregeling groeit. Ziekenhuisdirectie, vakbonden en oppositie hebben zich de afgelopen dagen in het geschil gemengd. Het standpunt van de minister laat zien dat de regering het ziekenhuis eerst wil doorlichten voordat er meer publiek geld wordt toegezegd.",
+        "Van het artikel was alleen de aanhef beschikbaar. Het bedrag dat op het spel staat, de vorm van het onderzoek en de planning zijn daarom nog niet bekend. Patiënten, ziekenhuispersoneel en de overheidskas worden geraakt door de manier waarop het geschil wordt opgelost."
       ]
     }
   },
@@ -831,45 +793,84 @@
     }
   },
   {
-    "id": "a760f3100a4e",
-    "slug": "aruba-s-health-minister-no-blank-cheque-for-the-hospital-without-an-investigatio-a760f3",
-    "island": "aruba",
-    "topic": "politics",
+    "id": "5b0bfdd2bf76",
+    "slug": "bonaire-s-playa-pabou-fishing-harbour-restoration-is-finished-and-handed-to-the--5b0bfd",
+    "island": "bonaire",
+    "topic": "economy",
     "published_at": "2026-11-13T08:00:00.000Z",
     "source_id": "extra",
     "source_name": "Extra",
-    "source_url": "https://extra.cw/wyatt-ras-gobierno-no-por-duna-hospital-un-cheque-blanco-sin-investigacion",
-    "also_covered": [
-      "https://noticiacla.com/news/42365"
-    ],
+    "source_url": "https://extra.cw/waf-di-piskado-entrega-na-entidat-publiko",
+    "also_covered": [],
     "en": {
-      "title": "Aruba's health minister: no blank cheque for the hospital without an investigation",
-      "standfirst": "Health Minister Mervin Wyatt-Ras has spoken publicly for the first time on the financial crisis at Hospital Dr. Horacio E. Oduber (HOH). She says the government cannot hand the hospital open-ended funding before the causes are examined.",
+      "title": "Bonaire's Playa Pabou fishing harbour restoration is finished and handed to the island government",
+      "standfirst": "After eight months of work, the restoration of the fishing harbour at Playa Pabou has been completed and handed over to the Public Entity of Bonaire.",
       "keypoints": [
-        "Wyatt-Ras made her first public comments on the HOH financial crisis.",
-        "Her message is that the government will not give the hospital a blank cheque.",
-        "She ties any further support to an investigation into the hospital's finances.",
-        "The statement adds to the dispute over hospital funding, which has already involved management, unions and the opposition."
+        "The Playa Pabou fishing harbour restoration took eight months.",
+        "The finished project was handed over to the Public Entity of Bonaire.",
+        "The island government now takes over the facility.",
+        "The available text gives no cost, contractor or scope details."
       ],
       "body": [
-        "Health Minister Mervin Wyatt-Ras has broken her silence on the financial problems at Aruba's main hospital, HOH. Her stance is that the government cannot simply cover the hospital's gap without first establishing what went wrong.",
-        "The comments come as pressure on the funding arrangement has grown. Hospital management, staff unions and the opposition have all weighed in on the dispute in recent days. The minister's position signals that the government wants scrutiny of the hospital's finances before committing more public money.",
-        "Only the opening of the article was available, so the amount at stake, the form the investigation would take and any timeline are not yet known. Patients, hospital staff and the public purse all stand to be affected by how the dispute is resolved."
+        "The restoration of the fishing harbour at Playa Pabou, on Bonaire, is complete. According to Extra, the work took eight months, and the project has now been formally delivered to the Public Entity, the island's government.",
+        "The handover means the Public Entity now takes responsibility for the facility. A working harbour is basic infrastructure for Bonaire's fishers, who depend on safe landing and mooring places for their livelihoods.",
+        "The report is behind a paywall, and the available text does not say what the project cost, who carried it out or what exactly was repaired or rebuilt. It also does not say when the harbour will be fully back in use. Those details will determine how much the project helps local fishers and the wider coastal economy."
       ]
     },
     "nl": {
-      "title": "Minister van Volksgezondheid Aruba: geen blanco cheque voor ziekenhuis zonder onderzoek",
-      "standfirst": "Minister van Volksgezondheid Mervin Wyatt-Ras heeft voor het eerst publiekelijk gereageerd op de financiële crisis bij Hospital Dr. Horacio E. Oduber (HOH). Volgens haar kan de regering het ziekenhuis geen onbeperkte financiering geven voordat de oorzaken zijn onderzocht.",
+      "title": "Herstel van de vissershaven bij Playa Pabou op Bonaire klaar en overgedragen aan het eilandbestuur",
+      "standfirst": "Na acht maanden werk is de restauratie van de vissershaven bij Playa Pabou afgerond en overgedragen aan het Openbaar Lichaam Bonaire.",
       "keypoints": [
-        "Wyatt-Ras deed haar eerste openbare uitspraken over de financiële crisis bij HOH.",
-        "Haar boodschap: de regering geeft het ziekenhuis geen blanco cheque.",
-        "Verdere steun koppelt zij aan een onderzoek naar de financiën van het ziekenhuis.",
-        "De uitspraak komt bovenop het geschil over de ziekenhuisfinanciering, waarin directie, vakbonden en oppositie zich al hebben gemengd."
+        "De restauratie van de vissershaven bij Playa Pabou duurde acht maanden.",
+        "Het opgeleverde project is overgedragen aan het Openbaar Lichaam Bonaire.",
+        "Het eilandbestuur neemt de voorziening nu over.",
+        "De beschikbare tekst noemt geen kosten, aannemer of omvang van de werkzaamheden."
       ],
       "body": [
-        "Minister van Volksgezondheid Mervin Wyatt-Ras heeft haar stilte doorbroken over de financiële problemen bij het grootste ziekenhuis van Aruba, HOH. Zij vindt dat de regering het tekort niet zomaar kan dekken zonder eerst vast te stellen wat er is misgegaan.",
-        "De opmerkingen komen op een moment dat de druk op de financieringsregeling groeit. Ziekenhuisdirectie, vakbonden en oppositie hebben zich de afgelopen dagen in het geschil gemengd. Het standpunt van de minister laat zien dat de regering het ziekenhuis eerst wil doorlichten voordat er meer publiek geld wordt toegezegd.",
-        "Van het artikel was alleen de aanhef beschikbaar. Het bedrag dat op het spel staat, de vorm van het onderzoek en de planning zijn daarom nog niet bekend. Patiënten, ziekenhuispersoneel en de overheidskas worden geraakt door de manier waarop het geschil wordt opgelost."
+        "De restauratie van de vissershaven bij Playa Pabou op Bonaire is voltooid. Volgens Extra duurde het werk acht maanden en is het project inmiddels formeel opgeleverd aan het Openbaar Lichaam, het eilandbestuur.",
+        "Met de overdracht neemt het Openbaar Lichaam de verantwoordelijkheid voor de voorziening over. Een werkende haven is basisinfrastructuur voor de vissers van Bonaire, die afhankelijk zijn van veilige aanlegplaatsen voor hun inkomen.",
+        "Het artikel zit achter een betaalmuur en de beschikbare tekst vermeldt niet wat het project kostte, wie het uitvoerde of wat precies is hersteld of vernieuwd. Ook is niet bekend wanneer de haven weer volledig in gebruik is. Die details bepalen hoeveel het project de lokale vissers en de bredere kusteconomie oplevert."
+      ]
+    }
+  },
+  {
+    "id": "bed8c7f81b4d",
+    "slug": "bonaire-teachers-unions-threaten-tougher-action-over-labour-benefits-bed8c7",
+    "island": "bonaire",
+    "topic": "economy",
+    "published_at": "2026-11-13T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/menasa-di-akshon-den-ensenansa",
+    "also_covered": [],
+    "en": {
+      "title": "Bonaire teachers' unions threaten tougher action over labour benefits",
+      "standfirst": "Education unions ABVO and SIMABO say they are prepared to step up their action on Bonaire. They want education staff to receive the labour benefits they are seeking.",
+      "keypoints": [
+        "ABVO and SIMABO, two unions in Bonaire's education sector, are ready to intensify their action.",
+        "The goal is for education workers to receive labour benefits.",
+        "The report does not say what form the action could take.",
+        "A tougher stance could disrupt schools if talks stall."
+      ],
+      "body": [
+        "Two unions representing Bonaire's education workers, ABVO and SIMABO, have signalled that they will escalate their action. Their aim is to secure labour benefits for staff in the sector, according to a report from Kralendijk.",
+        "The available text of the report is brief. It does not list which benefits are in dispute, name the employer or authority involved, or say what measures the unions are considering. Those details are not confirmed here.",
+        "The warning matters because education is one of the largest public-service employers on the island, and any escalation could affect schools, pupils and parents. It also adds to pressure on the island government over public-sector working conditions. Further developments will show whether the dispute is resolved through talks or turns into formal industrial action."
+      ]
+    },
+    "nl": {
+      "title": "Onderwijsbonden Bonaire dreigen met scherpere acties om arbeidsvoorwaarden",
+      "standfirst": "De onderwijsbonden ABVO en SIMABO zijn bereid hun acties op Bonaire op te voeren. Zij willen dat onderwijspersoneel de gevraagde arbeidsvoorwaarden krijgt.",
+      "keypoints": [
+        "ABVO en SIMABO, twee bonden in het Bonairiaanse onderwijs, willen hun acties intensiveren.",
+        "Het doel is dat onderwijspersoneel arbeidsvoorwaardelijke voordelen ontvangt.",
+        "Het bericht meldt niet welke vorm de acties kunnen krijgen.",
+        "Een hardere opstelling kan scholen raken als het overleg stokt."
+      ],
+      "body": [
+        "Twee bonden die het Bonairiaanse onderwijspersoneel vertegenwoordigen, ABVO en SIMABO, geven aan hun acties te willen opvoeren. Ze willen dat medewerkers in de sector arbeidsvoorwaardelijke voordelen krijgen, meldt een bericht uit Kralendijk.",
+        "De beschikbare tekst van het bericht is kort. Er staat niet in om welke voordelen het precies gaat, welke werkgever of overheidsinstantie betrokken is of welke maatregelen de bonden overwegen. Die details zijn hier niet bevestigd.",
+        "De waarschuwing is relevant omdat onderwijs een van de grootste publieke werkgevers op het eiland is. Opvoering van de acties kan gevolgen hebben voor scholen, leerlingen en ouders. Ook zet het de eilandelijke overheid onder druk als het gaat om arbeidsvoorwaarden in de publieke sector. Vervolgontwikkelingen zullen uitwijzen of het geschil via overleg wordt opgelost of uitmondt in formele acties."
       ]
     }
   },
@@ -1222,7 +1223,9 @@
     "source_id": "curacao-chronicle",
     "source_name": "Curaçao Chronicle",
     "source_url": "https://www.curacaochronicle.com/post/unknown/par-demands-urgent-parliamentary-debate-as-curacao-pharmacies-face-compensation-dispute",
-    "also_covered": [],
+    "also_covered": [
+      "https://www.curacaochronicle.com/post/unknown/advent-hospital-warns-of-financial-pressure-staff-shortages-and-outdated-tariffs-during-governors-visit"
+    ],
     "en": {
       "title": "PAR presses Curaçao health minister over pharmacy dispensing fee unchanged since 2001",
       "standfirst": "Opposition MP Shaheen Elhage has filed ten parliamentary questions to Health Minister Tyron Boekhoudt on how pharmacies are paid for dispensing medication. He warns the long-running dispute could put patients and continuity of pharmaceutical care at risk.",
@@ -1305,7 +1308,9 @@
     "source_name": "Curaçao Chronicle",
     "source_url": "https://www.curacaochronicle.com/post/unknown/curacao-government-confirms-december-bonuses-will-not-be-paid-as-pisas-announces-regular-press-conferences",
     "also_covered": [
-      "https://www.curacaochronicle.com/post/unknown/pisas-blames-opposition-for-delaying-year-end-bonuses-as-curacao-government-confirms-december-payments-are-no-longer-possible"
+      "https://www.curacaochronicle.com/post/unknown/pisas-blames-opposition-for-delaying-year-end-bonuses-as-curacao-government-confirms-december-payments-are-no-longer-possible",
+      "https://www.curacaochronicle.com/post/unknown/par-blames-pisas-government-for-year-end-bonus-controversy-demands-proof-of-accusations-against-opposition",
+      "https://extra.cw/gobiernu-tin-sen-pa-paga-bonus-paso-no-mester-indeksa-salario-di-amtenarnan"
     ],
     "en": {
       "title": "Pisas confirms no December bonus for Curaçao civil servants",
@@ -1458,50 +1463,6 @@
         "De Curaçaose ministers kregen woensdag 11 november een eerste inkijk in de uitkomsten van het programma Rib'e Lugá. Ongedocumenteerde vreemdelingen op het eiland konden zich laten registreren, waarna werd bekeken of zij voor legalisatie in aanmerking komen. De registratie stond zes maanden open, van 1 mei tot en met 31 oktober 2026.",
         "In de presentatie kwam aan bod wie zich meldde, uitgesplitst naar nationaliteit en leeftijdsgroep, en waar het proces op praktische of administratieve problemen stuitte. Ook werden vervolgstappen voorgesteld. De concrete aantallen houdt de regering vooralsnog achter: het totaal aantal geregistreerden, de meest voorkomende nationaliteiten en het aantal mogelijke kandidaten voor legalisatie.",
         "Volgens de regering moet de informatie helpen bij een completer migratiebeleid, gebaseerd op de werkelijke omvang en samenstelling van de ongedocumenteerde bevolking. Meer details worden snel beloofd, maar er is geen datum genoemd voor het volledige rapport en evenmin voor besluiten over de status van de deelnemers. Deelnemers en werkgevers die op ongedocumenteerde arbeid steunen, wachten die aankondiging af."
-      ]
-    }
-  },
-  {
-    "id": "198db47d5f2b",
-    "slug": "aruba-opposition-leader-wever-croes-urges-lasting-fix-to-azv-hospital-funding-ro-198db4",
-    "island": "aruba",
-    "topic": "politics",
-    "published_at": "2026-11-12T15:50:00.000Z",
-    "source_id": "masnoticia",
-    "source_name": "Masnoticia",
-    "source_url": "https://masnoticia.com/evelyn-wever-croes-gobierno-no-por-laga-pueblo-paga-e-prijs-di-crisis-di-hospital/",
-    "also_covered": [
-      "https://24ora.com/crisis-financiero-di-hospital-gobierno-mester-actua-prome-cu-e-situacion-bira-insostenibel/",
-      "https://diario.aw/categories/noticia/general/gobierno-no-por-laga-pueblo-paga-e-prijs-di-e-crisis-di-hospital"
-    ],
-    "en": {
-      "title": "Aruba opposition leader Wever-Croes urges lasting fix to AZV–hospital funding row",
-      "standfirst": "Opposition leader Evelyn Wever-Croes says the government is not acting urgently enough on the financial dispute between health insurer AZV and Horacio Oduber Hospital (HOH). She wants a structural solution rather than another stopgap.",
-      "keypoints": [
-        "Wever-Croes says hospital staff felt forced to protest because the funding gap is affecting their work and continuity of care.",
-        "She argues patients and health workers should not bear the cost of the AZV–HOH dispute.",
-        "She rejects temporary advances and shifting the problem from one budget to another.",
-        "She calls for a transparent, sustainable arrangement between the government, AZV and HOH."
-      ],
-      "body": [
-        "Aruba's opposition leader, Evelyn Wever-Croes, has weighed in on the funding dispute between AZV and HOH. She says the situation has become alarming, with hospital staff protesting over the lack of a financial solution and its effect on care.",
-        "In her statement she accuses the government of showing too little urgency and responsibility in protecting the health system. She stresses that the dispute is not the fault of patients who depend on treatment, or of the nurses, doctors and other professionals who work in the hospital.",
-        "Wever-Croes says the government should act immediately and stop relying on temporary advances or moving the problem between budgets. She wants a structural, transparent and sustainable arrangement involving the government, AZV and HOH. She adds that a government should be judged not only on its financial figures but also on how it looks after its people."
-      ]
-    },
-    "nl": {
-      "title": "Arubaanse oppositieleider Wever-Croes wil blijvende oplossing voor financieringsruzie AZV en ziekenhuis",
-      "standfirst": "Oppositieleider Evelyn Wever-Croes vindt dat de regering te weinig urgentie toont in het financiële geschil tussen zorgverzekeraar AZV en het Horacio Oduber Hospitaal (HOH). Ze wil een structurele oplossing in plaats van weer een noodgreep.",
-      "keypoints": [
-        "Wever-Croes zegt dat ziekenhuispersoneel zich genoodzaakt voelde te protesteren omdat het financiële gat het werk en de continuïteit van zorg raakt.",
-        "Volgens haar mogen patiënten en zorgmedewerkers niet de rekening betalen van het geschil tussen AZV en HOH.",
-        "Ze wijst tijdelijke voorschotten en het doorschuiven van het probleem van de ene begroting naar de andere af.",
-        "Ze pleit voor een transparante, duurzame regeling tussen regering, AZV en HOH."
-      ],
-      "body": [
-        "De Arubaanse oppositieleider Evelyn Wever-Croes heeft gereageerd op het financiële geschil tussen AZV en het HOH. Ze noemt de situatie alarmerend: ziekenhuispersoneel protesteert omdat een financiële oplossing uitblijft, en dat raakt de zorg.",
-        "In haar verklaring verwijt ze de regering te weinig urgentie en verantwoordelijkheid bij het beschermen van het zorgstelsel. Ze benadrukt dat het geschil niet de schuld is van patiënten die van behandeling afhankelijk zijn, noch van de verpleegkundigen, artsen en andere professionals in het ziekenhuis.",
-        "Wever-Croes vindt dat de regering direct moet handelen en niet langer moet leunen op tijdelijke voorschotten of het verschuiven van het probleem tussen begrotingen. Ze wil een structurele, transparante en duurzame regeling waarbij regering, AZV en HOH betrokken zijn. Een regering moet volgens haar niet alleen worden afgerekend op financiële cijfers, maar ook op hoe ze voor haar bevolking zorgt."
       ]
     }
   },
@@ -1721,47 +1682,6 @@
     }
   },
   {
-    "id": "eaf829fe2da4",
-    "slug": "curacao-starts-checking-carnival-2027-street-structures-against-permits-eaf829",
-    "island": "curacao",
-    "topic": "business",
-    "published_at": "2026-11-12T14:17:31.458Z",
-    "source_id": "curacao-chronicle",
-    "source_name": "Curaçao Chronicle",
-    "source_url": "https://www.curacaochronicle.com/post/unknown/curacao-begins-street-inspections-ahead-of-carnival-2027-to-ensure-compliance-with-permit-requirements",
-    "also_covered": [],
-    "en": {
-      "title": "Curaçao starts checking Carnival 2027 street structures against permits",
-      "standfirst": "Inspectors from Prekario, Curaçao's street-space permit service, have begun field visits to check that structures on public roads match what their permits allow. The checks come months ahead of the Carnival 2027 season.",
-      "keypoints": [
-        "Field inspections began last Saturday as part of government preparations for Carnival 2027.",
-        "Technicians compare the actual size of each installation with the measurements authorised in the permit.",
-        "Authorities have not said how many sites have been checked or whether any violations were found.",
-        "No enforcement measures for non-compliant permit holders have been announced."
-      ],
-      "body": [
-        "Prekario inspectors in Curaçao have started visiting sites along public roads to confirm that installations are built to the dimensions set out in the permits issued to individual clients. The work started last Saturday and is part of the government's preparation for Carnival 2027.",
-        "By checking early, the authorities want to find discrepancies before the festivities start, rather than during the busiest weeks. The inspections are also part of the wider monitoring and supervision of Prekario 2027, and the technical teams are expected to keep working in the coming weeks and months.",
-        "For permit holders, mainly operators who set up structures along parade routes, the message is that approved measurements will be enforced. The announcement leaves open how many locations have been inspected, whether any breaches were found and what penalties could follow. Those details will show how strict the oversight will be."
-      ]
-    },
-    "nl": {
-      "title": "Curaçao controleert constructies voor Carnaval 2027 op vergunningen",
-      "standfirst": "Inspecteurs van Prekario, de dienst voor vergunningen voor straatruimte op Curaçao, zijn begonnen met controles ter plaatse. Ze kijken of constructies langs openbare wegen overeenkomen met wat de vergunning toestaat. De controles beginnen ruim voor het Carnavalsseizoen 2027.",
-      "keypoints": [
-        "De controles startten afgelopen zaterdag als onderdeel van de overheidsvoorbereidingen op Carnaval 2027.",
-        "Technici vergelijken de werkelijke afmetingen van elke constructie met de in de vergunning goedgekeurde maten.",
-        "De autoriteiten zeggen niet hoeveel locaties al zijn gecontroleerd of er overtredingen zijn vastgesteld.",
-        "Over handhaving tegen vergunninghouders die zich niet aan de regels houden is niets bekendgemaakt."
-      ],
-      "body": [
-        "Inspecteurs van Prekario op Curaçao zijn begonnen met bezoeken aan locaties langs openbare wegen. Zij controleren of installaties zijn gebouwd volgens de afmetingen in de vergunningen die aan individuele klanten zijn verleend. Het werk begon afgelopen zaterdag en maakt deel uit van de voorbereiding van de overheid op Carnaval 2027.",
-        "Door vroeg te controleren willen de autoriteiten afwijkingen opsporen voordat de festiviteiten beginnen, en niet pas in de drukste weken. De inspecties horen ook bij het bredere toezicht op Prekario 2027. De technische teams gaan de komende weken en maanden door.",
-        "Voor vergunninghouders, vooral exploitanten die constructies langs de optochtroutes plaatsen, is de boodschap dat de goedgekeurde maten worden gehandhaafd. Onduidelijk blijft hoeveel locaties al zijn bezocht, of er overtredingen zijn gevonden en welke sancties kunnen volgen. Die antwoorden bepalen hoe streng het toezicht wordt."
-      ]
-    }
-  },
-  {
     "id": "364769da1618",
     "slug": "curacao-tourist-board-rolls-out-claude-ai-says-no-jobs-at-risk-364769",
     "island": "curacao",
@@ -1799,51 +1719,6 @@
         "De Curaçao Tourist Board moderniseert de interne werkwijze met Claude, het AI-platform van Anthropic. In een interview met Curaçao Chronicle zei directeur Muryad de Bruin dat de uitrol start bij managers en coördinatoren en zich stapsgewijs uitbreidt. Hij volgt zelf ook de training, omdat leidinggevenden volgens hem moeten gebruiken wat ze van medewerkers vragen.",
         "De Bruin benadrukte dat de technologie medewerkers moet helpen om beter en sneller te werken, en niet bedoeld is om banen te schrappen. Hij erkende dat de langetermijngevolgen van AI lastig te voorspellen zijn. Vertrouwdheid met AI geldt al als relevante kwalificatie voor nieuwe medewerkers. Sommigen zijn sceptisch en niet iedereen went even snel, dus heeft hij een conceptvisie op AI opgesteld, die nog niet is verspreid. Die bespreekt hij eerst met managers en werkt hij daarna samen met het team uit. Hij verwacht dat het proces langer duurt dan 2026.",
         "CTB ziet al productiviteitswinst bij marketing, maar volgens De Bruin zijn toezicht, intern beleid en duidelijke normen nodig. Hij hoopt dat CTB een voorbeeld kan zijn voor andere bedrijven en overheidsinstellingen op Curaçao, nu de organisatie zich na ongeveer 37 jaar voorbereidt op de komende decennia."
-      ]
-    }
-  },
-  {
-    "id": "c6d049e17611",
-    "slug": "curacao-opposition-par-says-government-caused-the-year-end-bonus-delay-itself-c6d049",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-12T14:16:47.156Z",
-    "source_id": "curacao-chronicle",
-    "source_name": "Curaçao Chronicle",
-    "source_url": "https://www.curacaochronicle.com/post/unknown/par-blames-pisas-government-for-year-end-bonus-controversy-demands-proof-of-accusations-against-opposition",
-    "also_covered": [
-      "https://extra.cw/par-ta-rechasa-intento-di-prome-minister-pisas-pa-kulpa-oposishon",
-      "https://www.curacao.nu/nieuws/politiek-bestuur/98442/par-pisas-moet-eindejaarsbonus-ambtenaren-loskoppelen-van-geschrapte-bonus-politici",
-      "https://www.curacaochronicle.com/post/unknown/par-blames-pisas-government-for-year-end-bonus-dispute-and-demands-payments-to-public-employees"
-    ],
-    "en": {
-      "title": "Curaçao opposition PAR says government caused the year-end bonus delay itself",
-      "standfirst": "Opposition party PAR rejects Prime Minister Gilmar Pisas' claim that the opposition is to blame for no bonuses being paid to public-sector staff in December. It says the government created the problem by linking the workers' payment to extra pay for ministers and MPs.",
-      "keypoints": [
-        "The government has said it cannot pay year-end bonuses to civil servants in December, citing missing documents and institutional advice.",
-        "PAR says the legal trouble came from bundling payments for political officeholders with the workers' bonuses.",
-        "It stresses that the governor's refusal to sign the decree on ministers' and MPs' payments did not reject the civil servants' bonuses.",
-        "No new payment date has been announced, leaving public-sector workers uncertain."
-      ],
-      "body": [
-        "In a statement dated 11 November, PAR's parliamentary group answered Pisas, who had said opposition scrutiny complicated the bonus process. PAR argues the government made the mistake by putting extra compensation for ministers and parliamentarians in the same package as the workers' bonuses. It says including political officeholders was contrary to the law.",
-        "The party points out that the governor declined to sign the decree covering ministers and MPs. In its view, that decision does not affect the proposed bonuses for ordinary civil servants, and the two payments should have been handled separately from the start. It asks the government to split them now and tell staff clearly where their bonuses stand.",
-        "PAR also challenged Pisas to name the former PAR politicians he reportedly said had become millionaires in office, and to provide evidence. The statement was signed by the four-member faction. Pisas says the government is still assessing how the bonuses can be paid, but the delay leaves workers who counted on year-end money without a date."
-      ]
-    },
-    "nl": {
-      "title": "Curaçaose oppositiepartij PAR: regering veroorzaakte zelf vertraging eindejaarsuitkering",
-      "standfirst": "Oppositiepartij PAR wijst de bewering van premier Gilmar Pisas af dat de oppositie schuldig is aan het uitblijven van bonussen voor overheidspersoneel in december. Volgens PAR schiep de regering het probleem zelf door de uitkering voor werknemers te koppelen aan extra vergoedingen voor ministers en Statenleden.",
-      "keypoints": [
-        "De regering heeft laten weten dat de eindejaarsuitkering voor ambtenaren in december niet kan worden betaald, omdat nog documenten en adviezen ontbreken.",
-        "PAR zegt dat het juridische probleem ontstond doordat betalingen aan politieke ambtsdragers aan de bonus voor werknemers werden gekoppeld.",
-        "De partij benadrukt dat de weigering van de gouverneur om het besluit over ministers en Statenleden te tekenen niet betekent dat de bonus voor ambtenaren is afgewezen.",
-        "Er is nog geen nieuwe betaaldatum, waardoor overheidspersoneel in onzekerheid zit."
-      ],
-      "body": [
-        "In een verklaring van 11 november reageert de PAR-fractie op Pisas, die zei dat de kritiek van de oppositie het betalingsproces ingewikkeld maakte. PAR stelt dat de regering de fout maakte door extra vergoedingen voor ministers en Statenleden in hetzelfde pakket te stoppen als de bonus voor werknemers. Het opnemen van politieke ambtsdragers was volgens de partij in strijd met de wet.",
-        "PAR wijst erop dat de gouverneur het besluit over ministers en Statenleden niet wilde ondertekenen. Dat raakt volgens de partij niet de voorgestelde bonus voor gewone ambtenaren. De twee betalingen hadden van het begin af aan gescheiden moeten worden behandeld. De regering moet dat nu alsnog doen en het personeel duidelijk informeren over de stand van zaken.",
-        "PAR daagde Pisas ook uit om de voormalige PAR-politici te noemen die volgens hem miljonair zouden zijn geworden tijdens hun bewind, en bewijs te leveren. De verklaring is ondertekend door de vierkoppige fractie. Pisas zegt dat de regering nog bekijkt hoe de bonus kan worden uitgekeerd, maar werknemers die op eindejaarsgeld rekenden, hebben geen datum."
       ]
     }
   },
@@ -2144,47 +2019,6 @@
     }
   },
   {
-    "id": "1fc9eb378d45",
-    "slug": "bonaire-s-upb-asks-the-hague-to-hand-over-the-kas-di-regata-building-1fc9eb",
-    "island": "bonaire",
-    "topic": "politics",
-    "published_at": "2026-11-12T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/petishon-pa-hulanda-pasa-kas-di-regata-pa-boneiru",
-    "also_covered": [],
-    "en": {
-      "title": "Bonaire's UPB asks The Hague to hand over the Kas di Regata building",
-      "standfirst": "The UPB faction in Bonaire's Island Council has tabled a motion urging the Dutch interior ministry (BZK) to transfer the Kas di Regata building to the island.",
-      "keypoints": [
-        "UPB lawmakers filed a motion in the Island Council in Kralendijk.",
-        "It calls on the Dutch government, through the BZK ministry, to transfer the Kas di Regata property.",
-        "The request concerns who owns and controls a public building on Bonaire.",
-        "The full text of the motion and any government response were not available, as the source article is paywalled."
-      ],
-      "body": [
-        "The UPB faction in Bonaire's Island Council has presented a motion that urges the Dutch government to pass the Kas di Regata building to Bonaire. The call is addressed to the Ministry of the Interior and Kingdom Relations (BZK).",
-        "The motion belongs to a wider discussion on Bonaire about which public assets are held by the Dutch state and which by the island. A transfer would give the island government control over how the building is used and maintained.",
-        "The motion's reasoning, whether it has majority support in the council and how The Hague will respond were not available in the published excerpt. The Island Council's vote and any answer from BZK will show how far the request goes."
-      ]
-    },
-    "nl": {
-      "title": "Bonaire's UPB vraagt Den Haag het pand Kas di Regata over te dragen",
-      "standfirst": "De UPB-fractie in de Bonairiaanse eilandsraad heeft een motie ingediend waarin ze het Nederlandse ministerie van BZK oproept het gebouw Kas di Regata aan het eiland over te dragen.",
-      "keypoints": [
-        "UPB-raadsleden dienden in Kralendijk een motie in bij de eilandsraad.",
-        "De motie roept de Nederlandse regering, via BZK, op het pand Kas di Regata over te dragen.",
-        "Het verzoek gaat over eigendom en beheer van een publiek gebouw op Bonaire.",
-        "De volledige motietekst en een reactie van de regering zijn onbekend, omdat het bronartikel achter een betaalmuur staat."
-      ],
-      "body": [
-        "De UPB-fractie in de eilandsraad van Bonaire heeft een motie ingediend die de Nederlandse regering oproept het gebouw Kas di Regata aan Bonaire over te dragen. De oproep is gericht aan het ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK).",
-        "De motie past in een bredere discussie op Bonaire over welke publieke bezittingen in handen zijn van de Nederlandse staat en welke van het eiland. Bij een overdracht kan het eilandbestuur zelf bepalen hoe het gebouw wordt gebruikt en onderhouden.",
-        "De motivering van de motie, de vraag of er een meerderheid voor is en de reactie van Den Haag zijn uit het beschikbare fragment niet op te maken. De stemming in de eilandsraad en een eventueel antwoord van BZK zullen duidelijk maken hoe ver het verzoek komt."
-      ]
-    }
-  },
-  {
     "id": "cdae1eeae039",
     "slug": "selibon-faces-leadership-gap-as-acting-director-winklaar-will-not-continue-cdae1e",
     "island": "bonaire",
@@ -2226,45 +2060,43 @@
     }
   },
   {
-    "id": "28ad012e8b88",
-    "slug": "curacao-finance-minister-cooper-says-money-is-there-for-a-civil-servant-bonus-be-28ad01",
-    "island": "curacao",
+    "id": "1fc9eb378d45",
+    "slug": "bonaire-s-upb-asks-the-hague-to-hand-over-the-kas-di-regata-building-1fc9eb",
+    "island": "bonaire",
     "topic": "politics",
     "published_at": "2026-11-12T08:00:00.000Z",
     "source_id": "extra",
     "source_name": "Extra",
-    "source_url": "https://extra.cw/gobiernu-tin-sen-pa-paga-bonus-paso-no-mester-indeksa-salario-di-amtenarnan",
-    "also_covered": [
-      "https://extra.cw/pago-di-bonus-na-amtenarnan-ta-na-peliger"
-    ],
+    "source_url": "https://extra.cw/petishon-pa-hulanda-pasa-kas-di-regata-pa-boneiru",
+    "also_covered": [],
     "en": {
-      "title": "Curaçao finance minister Cooper says money is there for a civil servant bonus because salaries need no indexation",
-      "standfirst": "Finance Minister Charles Cooper says the government has room to pay a bonus to civil servants because it does not have to index their salaries. He also struck a cautious note about what comes next.",
+      "title": "Bonaire's UPB asks The Hague to hand over the Kas di Regata building",
+      "standfirst": "The UPB faction in Bonaire's Island Council has tabled a motion urging the Dutch interior ministry (BZK) to transfer the Kas di Regata building to the island.",
       "keypoints": [
-        "Cooper links the bonus directly to the absence of a salary indexation obligation.",
-        "In his view, the funds not needed for indexation can cover a bonus.",
-        "He is cautious and does not treat the matter as settled.",
-        "The statement bears on public-sector pay and on the government's wage bill."
+        "UPB lawmakers filed a motion in the Island Council in Kralendijk.",
+        "It calls on the Dutch government, through the BZK ministry, to transfer the Kas di Regata property.",
+        "The request concerns who owns and controls a public building on Bonaire.",
+        "The full text of the motion and any government response were not available, as the source article is paywalled."
       ],
       "body": [
-        "Curaçao's Finance Minister, Charles Cooper, says the government has the money to pay a bonus to civil servants. His reasoning is that it does not have to index their salaries, so the budget is not committed to that cost.",
-        "The remark adds a financial argument to the debate over public-sector pay. Civil servants are the group most directly affected by whether a bonus is paid and when. The comment also matters for the wider public finances, because pay measures feed straight into the government's spending.",
-        "Cooper was cautious, though, and did not present the bonus as a done deal. The source article is behind a paywall and only a short excerpt is available. Details such as the size of the bonus, the payment date and the conditions Cooper attached are therefore not confirmed here."
+        "The UPB faction in Bonaire's Island Council has presented a motion that urges the Dutch government to pass the Kas di Regata building to Bonaire. The call is addressed to the Ministry of the Interior and Kingdom Relations (BZK).",
+        "The motion belongs to a wider discussion on Bonaire about which public assets are held by the Dutch state and which by the island. A transfer would give the island government control over how the building is used and maintained.",
+        "The motion's reasoning, whether it has majority support in the council and how The Hague will respond were not available in the published excerpt. The Island Council's vote and any answer from BZK will show how far the request goes."
       ]
     },
     "nl": {
-      "title": "Curaçaose minister Cooper: geld voor bonus ambtenaren is er omdat salarissen niet geïndexeerd hoeven te worden",
-      "standfirst": "Minister van Financiën Charles Cooper zegt dat de regering ruimte heeft om ambtenaren een bonus te betalen, omdat hun salarissen niet geïndexeerd hoeven te worden. Tegelijk toont hij zich voorzichtig over het vervolg.",
+      "title": "Bonaire's UPB vraagt Den Haag het pand Kas di Regata over te dragen",
+      "standfirst": "De UPB-fractie in de Bonairiaanse eilandsraad heeft een motie ingediend waarin ze het Nederlandse ministerie van BZK oproept het gebouw Kas di Regata aan het eiland over te dragen.",
       "keypoints": [
-        "Cooper koppelt de bonus aan het ontbreken van een verplichting tot salarisindexering.",
-        "Volgens hem kan het geld dat niet naar indexering gaat een bonus dekken.",
-        "Hij is voorzichtig en presenteert de zaak niet als beklonken.",
-        "De uitspraak raakt de arbeidsvoorwaarden van ambtenaren en de loonkosten van de overheid."
+        "UPB-raadsleden dienden in Kralendijk een motie in bij de eilandsraad.",
+        "De motie roept de Nederlandse regering, via BZK, op het pand Kas di Regata over te dragen.",
+        "Het verzoek gaat over eigendom en beheer van een publiek gebouw op Bonaire.",
+        "De volledige motietekst en een reactie van de regering zijn onbekend, omdat het bronartikel achter een betaalmuur staat."
       ],
       "body": [
-        "De Curaçaose minister van Financiën, Charles Cooper, zegt dat de regering het geld heeft om ambtenaren een bonus te betalen. Zijn redenering is dat de salarissen niet geïndexeerd hoeven te worden, waardoor de begroting niet aan die kosten vastzit.",
-        "De opmerking voegt een financieel argument toe aan het debat over de beloning in de publieke sector. Ambtenaren worden het meest direct geraakt door de vraag of en wanneer een bonus wordt uitgekeerd. Ook voor de overheidsfinanciën is het van belang, omdat loonmaatregelen direct doorwerken in de uitgaven.",
-        "Cooper was echter voorzichtig en presenteerde de bonus niet als een gelopen race. Het bronartikel zit achter een betaalmuur en alleen een korte inleiding is beschikbaar. Details zoals de hoogte van de bonus, het uitbetalingsmoment en de voorwaarden die Cooper noemde zijn daarom hier niet bevestigd."
+        "De UPB-fractie in de eilandsraad van Bonaire heeft een motie ingediend die de Nederlandse regering oproept het gebouw Kas di Regata aan Bonaire over te dragen. De oproep is gericht aan het ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK).",
+        "De motie past in een bredere discussie op Bonaire over welke publieke bezittingen in handen zijn van de Nederlandse staat en welke van het eiland. Bij een overdracht kan het eilandbestuur zelf bepalen hoe het gebouw wordt gebruikt en onderhouden.",
+        "De motivering van de motie, de vraag of er een meerderheid voor is en de reactie van Den Haag zijn uit het beschikbare fragment niet op te maken. De stemming in de eilandsraad en een eventueel antwoord van BZK zullen duidelijk maken hoe ver het verzoek komt."
       ]
     }
   },
@@ -2408,7 +2240,8 @@
     "source_url": "https://www.bondia.com/directie-infrastructuur-en-planning-ta-anuncia-fecha-pa-peticion-di-kavel-den-ana-2027",
     "also_covered": [
       "https://diario.aw/categories/noticia/general/directie-infrastructuur-en-planning-ta-anuncia-fecha-pa-peticion-di-kavel-den-ana-2027",
-      "https://24ora.com/directie-infrastructuur-en-planning-peticion-di-kavel-pa-carnaval-2027-ta-extendi-te-cu-diasabra/"
+      "https://24ora.com/directie-infrastructuur-en-planning-peticion-di-kavel-pa-carnaval-2027-ta-extendi-te-cu-diasabra/",
+      "https://masnoticia.com/dip-habri-mayan-diasabra-te-1or-merdia-pa-peticion-di-kavel/"
     ],
     "en": {
       "title": "Aruba sets 16 November draw for 231 Carnival 2027 street plots",
@@ -2492,7 +2325,8 @@
     "source_name": "Noticia Cla",
     "source_url": "https://noticiacla.com/news/42362",
     "also_covered": [
-      "https://masnoticia.com/sindicato-di-enfermeronan-minister-no-kier-ehecuta-landsverordering-articulo-2-a/"
+      "https://masnoticia.com/sindicato-di-enfermeronan-minister-no-kier-ehecuta-landsverordering-articulo-2-a/",
+      "https://24ora.com/sindicato-di-personal-di-hospital-ta-sostene-gerencia-lo-reuni-awe-mainta/"
     ],
     "en": {
       "title": "Aruba hospital director backs staff work stoppage as AZV funding dispute drags on",
@@ -2624,7 +2458,9 @@
     "source_id": "curacao-chronicle",
     "source_name": "Curaçao Chronicle",
     "source_url": "https://www.curacaochronicle.com/post/unknown/carnival-2027-permit-registration-office-opens-at-world-trade-center-curacao",
-    "also_covered": [],
+    "also_covered": [
+      "https://www.curacaochronicle.com/post/unknown/curacao-begins-street-inspections-ahead-of-carnival-2027-to-ensure-compliance-with-permit-requirements"
+    ],
     "en": {
       "title": "Curaçao opens walk-in office for Carnival 2027 street-space permits",
       "standfirst": "Curaçao's government has opened a registration office at the World Trade Center for precario permits, which vendors and businesses need to operate along the Carnival 2027 parade routes. Applications close on 30 November 2026.",
@@ -2821,49 +2657,6 @@
         "Oppositiepartij MAN-PIN heeft vragen gesteld over de ontwerpbegroting 2027. Zij wil weten waarom de Huurcommissie slechts XCG 16 meer krijgt dan in 2026. De commissie helpt geschillen tussen huurders en verhuurders op te lossen. De vragen zijn gericht aan premier Gilmar Pisas, als minister van Algemene Zaken, die moet uitleggen hoe dit bedrag tot stand is gekomen.",
         "Het verschil met eerdere uitgaven is groot. Volgens voorlopige cijfers gaf de commissie in 2025 XCG 19.835 uit. Dat is XCG 17.535 meer dan de toewijzing voor 2027. De daling hangt samen met een bestuurlijke herstructurering waarbij de commissie onder het ministerie van BPD is gebracht. Haar activiteiten en kosten worden daardoor anders verantwoord.",
         "Uit de cijfers alleen blijkt niet of de operationele behoeften elders in de BPD-begroting zijn gedekt. Bij het onderzoek van het BPD-hoofdstuk in het parlement stelde niemand vragen over de commissie, hoewel het ministerie er nu verantwoordelijk voor is. Het antwoord van de regering moet duidelijk maken of XCG 2.300 het volledige operationele budget is of slechts één post binnen een ruimere toewijzing."
-      ]
-    }
-  },
-  {
-    "id": "d30aa9b41166",
-    "slug": "aruba-hospital-unions-rally-behind-management-as-deficit-grows-d30aa9",
-    "island": "aruba",
-    "topic": "economy",
-    "published_at": "2026-11-11T13:47:14.000Z",
-    "source_id": "24ora",
-    "source_name": "24ora",
-    "source_url": "https://24ora.com/sindicato-di-personal-di-hospital-ta-sostene-gerencia-lo-reuni-awe-mainta/",
-    "also_covered": [
-      "https://noticiacla.com/news/42359"
-    ],
-    "en": {
-      "title": "Aruba hospital unions rally behind management as deficit grows",
-      "standfirst": "Union ABV and hospital workers held a two-hour demonstration over the financial situation at Horacio Oduber Hospital. The union says the shortfall keeps growing and wants the minister to act.",
-      "keypoints": [
-        "ABV and hospital staff demonstrated for two hours in support of hospital management.",
-        "ABV president Gina Maduro says the deficit has grown and the union is updated on it every month.",
-        "The union has met management, the Supervisory Board and the minister, and told the minister the situation cannot continue.",
-        "Maduro says the minister could place the hospital under curatele and instruct AZV to release funds."
-      ],
-      "body": [
-        "Union ABV and hospital workers held a two-hour demonstration over the financial position of Horacio Oduber Hospital. The union backs the hospital's management, and a meeting was announced for this morning.",
-        "ABV president Gina Maduro said the union has met management since the start of the year and receives monthly updates on the finances. According to her, the shortfall has become larger and the amount keeps rising. The union has also met the Supervisory Board, which explained the situation, and the minister, who was told the position cannot go on like this.",
-        "Maduro said she asked the minister why he is not acting, given that article 2a lets him place the hospital under curatele. She added that the national ordinance belongs to AZV and protects patients, and that the minister can instruct AZV to allocate funds so the hospital can operate responsibly. The article gives no figures for the deficit."
-      ]
-    },
-    "nl": {
-      "title": "Vakbonden Arubaans ziekenhuis steunen directie bij groeiend tekort",
-      "standfirst": "Vakbond ABV en ziekenhuismedewerkers hielden twee uur lang een demonstratie over de financiële situatie van het Horacio Oduber Hospital. De bond zegt dat het tekort blijft groeien en wil dat de minister ingrijpt.",
-      "keypoints": [
-        "ABV en ziekenhuispersoneel demonstreerden twee uur lang ter ondersteuning van de ziekenhuisdirectie.",
-        "ABV-voorzitter Gina Maduro zegt dat het tekort is gegroeid en dat de bond er maandelijks over wordt geïnformeerd.",
-        "De bond sprak met de directie, de Raad van Toezicht en de minister en zei de minister dat het zo niet kan doorgaan.",
-        "Volgens Maduro kan de minister het ziekenhuis onder curatele stellen en AZV opdragen geld vrij te maken."
-      ],
-      "body": [
-        "Vakbond ABV en ziekenhuismedewerkers hielden twee uur lang een demonstratie over de financiële positie van het Horacio Oduber Hospital. De bond steunt de directie van het ziekenhuis; voor vanochtend is een overleg aangekondigd.",
-        "ABV-voorzitter Gina Maduro zei dat de bond sinds het begin van het jaar met de directie overlegt en maandelijks over de financiën wordt bijgepraat. Volgens haar is het tekort groter geworden en loopt het bedrag op. De bond sprak ook met de Raad van Toezicht, die de situatie toelichtte, en met de minister, aan wie is gezegd dat het zo niet kan doorgaan.",
-        "Maduro zei de minister te hebben gevraagd waarom hij niet ingrijpt, terwijl artikel 2a hem de mogelijkheid geeft het ziekenhuis onder curatele te stellen. Ze voegde toe dat de landsverordening bij AZV hoort en patiënten beschermt, en dat de minister AZV kan opdragen geld toe te wijzen zodat het ziekenhuis verantwoord kan functioneren. Het artikel noemt geen bedragen voor het tekort."
       ]
     }
   },
@@ -3349,6 +3142,50 @@
     }
   },
   {
+    "id": "671e991c60ed",
+    "slug": "mfk-lawmaker-monte-sends-curacao-s-labour-minister-nine-questions-on-2027-minimu-671e99",
+    "island": "curacao",
+    "topic": "politics",
+    "published_at": "2026-11-11T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/ishahier-monte-ku-9-pregunta-relashona-ku-oumento-salario-minimo-2027",
+    "also_covered": [
+      "https://www.curacaochronicle.com/post/unknown/curacaos-economy-is-booming-but-workers-are-still-struggling-mp-monte-warns",
+      "https://www.curacaochronicle.com/post/unknown/mp-ishahier-monte-demands-answers-on-2027-minimum-wage-increase-as-government-considers-more-than-14-cents"
+    ],
+    "en": {
+      "title": "MFK lawmaker Monte sends Curaçao's labour minister nine questions on 2027 minimum wage rise",
+      "standfirst": "Member of Parliament Ishahier Monte of the MFK faction has put nine written questions to Minister Charetti America-Francisca about a planned rise in Curaçao's minimum wage for 2027.",
+      "keypoints": [
+        "Ishahier Monte (MFK) sent a letter with nine questions to the Minister of Social Development, Labour and Welfare.",
+        "The questions concern the minimum wage increase for 2027.",
+        "The minister is Charetti America-Francisca.",
+        "The detailed questions were not available in the accessible text."
+      ],
+      "body": [
+        "Ishahier Monte, a member of Curaçao's Parliament for the MFK faction, has formally asked the government to explain its plans for the minimum wage in 2027. He sent a letter with nine questions to Charetti America-Francisca, the Minister of Social Development, Labour and Welfare.",
+        "The accessible part of the report does not set out the questions themselves, nor the size or timing of any increase. The report sits behind a paywall, so the specific points raised by the MFK lawmaker cannot be confirmed here.",
+        "Written parliamentary questions oblige the minister to reply on the record. The answers could show how the government intends to approach wage policy for workers and employers on the island. The minimum wage is also under debate on neighbouring Aruba."
+      ]
+    },
+    "nl": {
+      "title": "Parlementariër Monte (MFK) stelt Curaçaose arbeidsminister negen vragen over verhoging minimumloon 2027",
+      "standfirst": "Parlementslid Ishahier Monte van de MFK heeft minister Charetti America-Francisca negen schriftelijke vragen gesteld over een voorgenomen verhoging van het Curaçaose minimumloon in 2027.",
+      "keypoints": [
+        "Ishahier Monte (MFK) stuurde een brief met negen vragen aan de minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
+        "De vragen gaan over de verhoging van het minimumloon voor 2027.",
+        "De minister is Charetti America-Francisca.",
+        "De inhoud van de vragen was in de toegankelijke tekst niet te zien."
+      ],
+      "body": [
+        "Ishahier Monte, Statenlid voor de MFK-fractie op Curaçao, vraagt de regering om uitleg over de plannen voor het minimumloon in 2027. Hij stuurde een brief met negen vragen aan Charetti America-Francisca, minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
+        "In het toegankelijke deel van het bericht staan de vragen zelf niet, evenmin als de omvang of het tijdstip van een verhoging. Het bericht staat achter een betaalmuur, dus de precieze punten van het Statenlid zijn hier niet te bevestigen.",
+        "Schriftelijke Statenvragen verplichten de minister om op de feiten te antwoorden. De antwoorden kunnen laten zien hoe de regering het loonbeleid voor werknemers en werkgevers op het eiland wil aanpakken. Ook op buureiland Aruba is het minimumloon onderwerp van debat."
+      ]
+    }
+  },
+  {
     "id": "a9f9dddfe6ce",
     "slug": "curacao-welcomes-68-162-stayover-tourists-in-october-2026-up-12-on-a-year-earlie-a9f9dd",
     "island": "curacao",
@@ -3390,50 +3227,6 @@
         "Verblijfstoeristen worden apart geteld van cruisepassagiers. Zij boeken accommodatie, huren auto's en geven meerdere nachten geld uit in restaurants en winkels, waardoor ze meer opleveren voor de lokale economie dan korte havenbezoeken.",
         "Volgens het bericht kwamen de bezoekers uit verschillende markten. Het volledige artikel zit achter een betaalmuur, dus een uitsplitsing per land en een vergelijking met eerdere maanden zijn hier niet beschikbaar.",
         "De cijfers komen op een moment dat op Curaçao wordt gediscussieerd over hoe sterk het eiland op toerisme moet leunen en wie ervan profiteert, onder meer voor banen, woningen en voorzieningen zoals het elektriciteitsnet."
-      ]
-    }
-  },
-  {
-    "id": "671e991c60ed",
-    "slug": "mfk-lawmaker-monte-sends-curacao-s-labour-minister-nine-questions-on-2027-minimu-671e99",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-11T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/ishahier-monte-ku-9-pregunta-relashona-ku-oumento-salario-minimo-2027",
-    "also_covered": [
-      "https://www.curacaochronicle.com/post/unknown/curacaos-economy-is-booming-but-workers-are-still-struggling-mp-monte-warns",
-      "https://www.curacaochronicle.com/post/unknown/mp-ishahier-monte-demands-answers-on-2027-minimum-wage-increase-as-government-considers-more-than-14-cents"
-    ],
-    "en": {
-      "title": "MFK lawmaker Monte sends Curaçao's labour minister nine questions on 2027 minimum wage rise",
-      "standfirst": "Member of Parliament Ishahier Monte of the MFK faction has put nine written questions to Minister Charetti America-Francisca about a planned rise in Curaçao's minimum wage for 2027.",
-      "keypoints": [
-        "Ishahier Monte (MFK) sent a letter with nine questions to the Minister of Social Development, Labour and Welfare.",
-        "The questions concern the minimum wage increase for 2027.",
-        "The minister is Charetti America-Francisca.",
-        "The detailed questions were not available in the accessible text."
-      ],
-      "body": [
-        "Ishahier Monte, a member of Curaçao's Parliament for the MFK faction, has formally asked the government to explain its plans for the minimum wage in 2027. He sent a letter with nine questions to Charetti America-Francisca, the Minister of Social Development, Labour and Welfare.",
-        "The accessible part of the report does not set out the questions themselves, nor the size or timing of any increase. The report sits behind a paywall, so the specific points raised by the MFK lawmaker cannot be confirmed here.",
-        "Written parliamentary questions oblige the minister to reply on the record. The answers could show how the government intends to approach wage policy for workers and employers on the island. The minimum wage is also under debate on neighbouring Aruba."
-      ]
-    },
-    "nl": {
-      "title": "Parlementariër Monte (MFK) stelt Curaçaose arbeidsminister negen vragen over verhoging minimumloon 2027",
-      "standfirst": "Parlementslid Ishahier Monte van de MFK heeft minister Charetti America-Francisca negen schriftelijke vragen gesteld over een voorgenomen verhoging van het Curaçaose minimumloon in 2027.",
-      "keypoints": [
-        "Ishahier Monte (MFK) stuurde een brief met negen vragen aan de minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
-        "De vragen gaan over de verhoging van het minimumloon voor 2027.",
-        "De minister is Charetti America-Francisca.",
-        "De inhoud van de vragen was in de toegankelijke tekst niet te zien."
-      ],
-      "body": [
-        "Ishahier Monte, Statenlid voor de MFK-fractie op Curaçao, vraagt de regering om uitleg over de plannen voor het minimumloon in 2027. Hij stuurde een brief met negen vragen aan Charetti America-Francisca, minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
-        "In het toegankelijke deel van het bericht staan de vragen zelf niet, evenmin als de omvang of het tijdstip van een verhoging. Het bericht staat achter een betaalmuur, dus de precieze punten van het Statenlid zijn hier niet te bevestigen.",
-        "Schriftelijke Statenvragen verplichten de minister om op de feiten te antwoorden. De antwoorden kunnen laten zien hoe de regering het loonbeleid voor werknemers en werkgevers op het eiland wil aanpakken. Ook op buureiland Aruba is het minimumloon onderwerp van debat."
       ]
     }
   },
@@ -8328,47 +8121,6 @@
     }
   },
   {
-    "id": "6223f31ac4bf",
-    "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-07T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/lo-firma-pa-ehekushon-fase-4-proyekto-kunstrook-marie-pampoen",
-    "also_covered": [],
-    "en": {
-      "title": "Curaçao cabinet approves signing for phase 4 of Kunstrook Marie Pampoen project",
-      "standfirst": "Curaçao's Council of Ministers has cleared the way for the fourth phase of the Kunstrook Marie Pampoen project to be carried out. The decision was among those taken by the cabinet this week.",
-      "keypoints": [
-        "The Council of Ministers decided this week to allow signing for execution of phase 4.",
-        "The project is known as Kunstrook Marie Pampoen.",
-        "The step moves the project from planning toward implementation.",
-        "The available report does not give a contract value, contractor or timeline."
-      ],
-      "body": [
-        "Curaçao's Council of Ministers has agreed to the signing needed to carry out phase 4 of the Kunstrook Marie Pampoen project. The approval was one of several decisions announced after the cabinet's weekly meeting.",
-        "Signing for execution normally means the government is ready to commit to the work of a project phase. The fourth phase suggests the project is already well advanced.",
-        "The report available to Negoshi is only a short extract from a subscription article. It does not state the cost of this phase, who will carry it out, when work starts or how it is funded. Those details are needed to judge the effect on public finances and on local contractors, and Negoshi will update the story when they are published."
-      ]
-    },
-    "nl": {
-      "title": "Curaçaose ministerraad stemt in met ondertekening fase 4 project Kunstrook Marie Pampoen",
-      "standfirst": "De Curaçaose Raad van Ministers heeft de weg vrijgemaakt voor de uitvoering van de vierde fase van het project Kunstrook Marie Pampoen. Het besluit was een van de beslissingen die het kabinet deze week nam.",
-      "keypoints": [
-        "De Raad van Ministers besloot deze week tot ondertekening voor de uitvoering van fase 4.",
-        "Het project staat bekend als Kunstrook Marie Pampoen.",
-        "Met deze stap gaat het project van planning naar uitvoering.",
-        "Het beschikbare bericht noemt geen contractwaarde, aannemer of tijdlijn."
-      ],
-      "body": [
-        "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
-        "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
-        "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
-      ]
-    }
-  },
-  {
     "id": "b79aadc559cc",
     "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
     "island": "curacao",
@@ -8406,6 +8158,47 @@
         "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
         "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
         "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
+      ]
+    }
+  },
+  {
+    "id": "6223f31ac4bf",
+    "slug": "curacao-cabinet-approves-signing-for-phase-4-of-kunstrook-marie-pampoen-project-6223f3",
+    "island": "curacao",
+    "topic": "politics",
+    "published_at": "2026-11-07T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/lo-firma-pa-ehekushon-fase-4-proyekto-kunstrook-marie-pampoen",
+    "also_covered": [],
+    "en": {
+      "title": "Curaçao cabinet approves signing for phase 4 of Kunstrook Marie Pampoen project",
+      "standfirst": "Curaçao's Council of Ministers has cleared the way for the fourth phase of the Kunstrook Marie Pampoen project to be carried out. The decision was among those taken by the cabinet this week.",
+      "keypoints": [
+        "The Council of Ministers decided this week to allow signing for execution of phase 4.",
+        "The project is known as Kunstrook Marie Pampoen.",
+        "The step moves the project from planning toward implementation.",
+        "The available report does not give a contract value, contractor or timeline."
+      ],
+      "body": [
+        "Curaçao's Council of Ministers has agreed to the signing needed to carry out phase 4 of the Kunstrook Marie Pampoen project. The approval was one of several decisions announced after the cabinet's weekly meeting.",
+        "Signing for execution normally means the government is ready to commit to the work of a project phase. The fourth phase suggests the project is already well advanced.",
+        "The report available to Negoshi is only a short extract from a subscription article. It does not state the cost of this phase, who will carry it out, when work starts or how it is funded. Those details are needed to judge the effect on public finances and on local contractors, and Negoshi will update the story when they are published."
+      ]
+    },
+    "nl": {
+      "title": "Curaçaose ministerraad stemt in met ondertekening fase 4 project Kunstrook Marie Pampoen",
+      "standfirst": "De Curaçaose Raad van Ministers heeft de weg vrijgemaakt voor de uitvoering van de vierde fase van het project Kunstrook Marie Pampoen. Het besluit was een van de beslissingen die het kabinet deze week nam.",
+      "keypoints": [
+        "De Raad van Ministers besloot deze week tot ondertekening voor de uitvoering van fase 4.",
+        "Het project staat bekend als Kunstrook Marie Pampoen.",
+        "Met deze stap gaat het project van planning naar uitvoering.",
+        "Het beschikbare bericht noemt geen contractwaarde, aannemer of tijdlijn."
+      ],
+      "body": [
+        "De Curaçaose Raad van Ministers heeft ingestemd met de ondertekening die nodig is om fase 4 van het project Kunstrook Marie Pampoen uit te voeren. De goedkeuring was een van de besluiten die na de wekelijkse vergadering van het kabinet bekend werden.",
+        "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
+        "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
       ]
     }
   },
