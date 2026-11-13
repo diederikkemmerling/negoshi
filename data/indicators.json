@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:36:27.308Z",
+  "updated_at": "2026-11-13T18:04:15.182Z",
   "items": [
     {
       "id": "usd-eur",
@@ -11,10 +11,10 @@
       "url": "https://www.ecb.europa.eu",
       "note_en": null,
       "note_nl": null,
-      "value": "0.902",
-      "period": "2026-11-12",
+      "value": "0.905",
+      "period": "2026-11-13",
       "change": null,
-      "updated_at": "2026-11-12T18:36:27.308Z"
+      "updated_at": "2026-11-13T18:04:15.182Z"
     },
     {
       "id": "eur-awg",
@@ -26,10 +26,10 @@
       "url": "https://www.cbaruba.org",
       "note_en": null,
       "note_nl": null,
-      "value": "1.983",
-      "period": "2026-11-12",
+      "value": "1.978",
+      "period": "2026-11-13",
       "change": null,
-      "updated_at": "2026-11-12T18:36:27.308Z"
+      "updated_at": "2026-11-13T18:04:15.182Z"
     },
     {
       "id": "usd-cop",
@@ -41,10 +41,10 @@
       "url": "https://www.exchangerate-api.com",
       "note_en": null,
       "note_nl": null,
-      "value": "3,302",
-      "period": "2026-11-12",
+      "value": "3,289",
+      "period": "2026-11-13",
       "change": null,
-      "updated_at": "2026-11-12T18:36:27.308Z"
+      "updated_at": "2026-11-13T18:04:15.182Z"
     },
     {
       "id": "brent",
@@ -56,10 +56,10 @@
       "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "note_en": null,
       "note_nl": null,
-      "value": "107.03",
-      "period": "2026-11-03",
+      "value": "92.14",
+      "period": "2026-11-11",
       "change": null,
-      "updated_at": "2026-11-12T18:36:27.308Z"
+      "updated_at": "2026-11-13T18:04:15.182Z"
     },
     {
       "id": "cpi-aw",
@@ -88,7 +88,7 @@
       "value": "1.5",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-12T18:36:27.308Z"
+      "updated_at": "2026-11-13T18:04:15.182Z"
     },
     {
       "id": "arrivals-aw",
@@ -103,7 +103,7 @@
       "value": "+17.1",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-11T18:03:48.232Z"
+      "updated_at": "2026-11-13T18:04:15.182Z"
     },
     {
       "id": "arrivals-cw",
@@ -118,7 +118,7 @@
       "value": "+9.2",
       "period": "Aug 2026",
       "change": null,
-      "updated_at": "2026-11-11T18:03:48.232Z"
+      "updated_at": "2026-11-13T18:04:15.182Z"
     },
     {
       "id": "fuel-aw",
