@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:44:09.912Z",
+  "updated_at": "2026-11-15T17:24:14.820Z",
   "items": [
     {
       "id": "usd-eur",
@@ -14,7 +14,7 @@
       "value": "0.905",
       "period": "2026-11-13",
       "change": null,
-      "updated_at": "2026-11-14T16:44:09.912Z"
+      "updated_at": "2026-11-15T17:24:14.820Z"
     },
     {
       "id": "eur-awg",
@@ -29,7 +29,7 @@
       "value": "1.978",
       "period": "2026-11-13",
       "change": null,
-      "updated_at": "2026-11-14T16:44:09.912Z"
+      "updated_at": "2026-11-15T17:24:14.820Z"
     },
     {
       "id": "usd-cop",
@@ -41,10 +41,10 @@
       "url": "https://www.exchangerate-api.com",
       "note_en": null,
       "note_nl": null,
-      "value": "3,286",
-      "period": "2026-11-14",
+      "value": "3,285",
+      "period": "2026-11-15",
       "change": null,
-      "updated_at": "2026-11-14T16:44:09.912Z"
+      "updated_at": "2026-11-15T17:24:14.820Z"
     },
     {
       "id": "brent",
@@ -59,7 +59,7 @@
       "value": "92.14",
       "period": "2026-11-11",
       "change": null,
-      "updated_at": "2026-11-14T16:44:09.912Z"
+      "updated_at": "2026-11-15T17:24:14.820Z"
     },
     {
       "id": "cpi-aw",
@@ -88,7 +88,7 @@
       "value": "1.5",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-14T16:44:09.912Z"
+      "updated_at": "2026-11-15T17:24:14.820Z"
     },
     {
       "id": "arrivals-aw",
@@ -103,7 +103,7 @@
       "value": "+17.1",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-14T16:44:09.912Z"
+      "updated_at": "2026-11-15T17:24:14.820Z"
     },
     {
       "id": "arrivals-cw",
@@ -118,7 +118,7 @@
       "value": "+11.7",
       "period": "Oct 2026",
       "change": null,
-      "updated_at": "2026-11-14T16:44:09.912Z"
+      "updated_at": "2026-11-15T17:24:14.820Z"
     },
     {
       "id": "fuel-aw",
