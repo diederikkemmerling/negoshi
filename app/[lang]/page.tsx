@@ -3,8 +3,8 @@ import { connection } from "next/server";
 import { cookies, headers } from "next/headers";
 import { Ticker, Masthead, Footer, Newsletter } from "@/components/Chrome";
 import { Story, SkylineArt, BarsArt, LineArt, ParliamentArt, DocumentArt, PenArt, IslandLine } from "@/components/Story";
-import { allItems, allReports, bandIndicators, itemsByIsland, loc, relTime, sourcesByIsland } from "@/lib/data";
-import { isLang, ISLANDS, t, extra, type Lang } from "@/lib/i18n";
+import { allItems, allReports, bandIndicators, itemsByIsland, loc, relTime, sourcesByIsland, locReport, indicatorLabel } from "@/lib/data";
+import { isLang, ISLANDS, t, extra, type Lang, pick } from "@/lib/i18n";
 import { analysisFor } from "@/lib/analysis";
 
 const COUNTRY_ISLAND: Record<string, "aruba" | "curacao" | "bonaire"> = { AW: "aruba", CW: "curacao", BQ: "bonaire" };
@@ -69,7 +69,7 @@ export default async function Home({ params, searchParams }: { params: Promise<{
                 </span>
               </a>
             ))}
-            <a className="more" href="#subscribe">{lang === "nl" ? "Elke maandag in je inbox →" : "Get this in your inbox every Monday →"}</a>
+            <a className="more" href="#subscribe">{pick(lang, "Get this in your inbox every Monday →", "Elke maandag in je inbox →", "Recíbelo en tu correo cada lunes →")}</a>
           </aside>
         </section>
 
@@ -95,8 +95,8 @@ export default async function Home({ params, searchParams }: { params: Promise<{
                     ))}
                   </ul>
                   <div className="f">
-                    <span><strong>{sourcesByIsland(i).length}</strong> {lang === "nl" ? "bronnen" : "sources"}</span>
-                    <span><strong>{list.length}</strong> {lang === "nl" ? "berichten" : "briefs"}</span>
+                    <span><strong>{sourcesByIsland(i).length}</strong> {pick(lang, "sources", "bronnen", "fuentes")}</span>
+                    <span><strong>{list.length}</strong> {pick(lang, "briefs", "berichten", "notas")}</span>
                     <a className="go" href={`/${lang}/${i}`}>{d.open} {d.islands[i]} →</a>
                   </div>
                 </div>
@@ -151,13 +151,13 @@ export default async function Home({ params, searchParams }: { params: Promise<{
           </div>
           <div className="numgrid">
             {(band.length
-              ? band.map((i) => [i[lang], `${i.value}${i.unit.startsWith("%") ? "%" : ""}`, `${i.unit.startsWith("%") ? i.unit.slice(1).trim() : i.unit}${i.period ? (i.unit.startsWith("%") ? ", " : " ") + i.period : ""} · ${i.source}`])
+              ? band.map((i) => [indicatorLabel(i, lang), `${i.value}${i.unit.startsWith("%") ? "%" : ""}`, `${i.unit.startsWith("%") ? i.unit.slice(1).trim() : i.unit}${i.period ? (i.unit.startsWith("%") ? ", " : " ") + i.period : ""} · ${i.source}`])
               : [
-                  [lang === "nl" ? "Inflatie Aruba" : "Aruba inflation", "…", "CBS"],
-                  [lang === "nl" ? "Inflatie Curaçao" : "Curaçao inflation", "…", "CBS"],
-                  [lang === "nl" ? "Verblijfsgasten Aruba" : "Aruba stay-over arrivals", "…", "ATA"],
-                  [lang === "nl" ? "Verblijfsgasten Curaçao" : "Curaçao stay-over arrivals", "…", "CTB"],
-                  [lang === "nl" ? "Benzine Aruba" : "Aruba gasoline", "…", lang === "nl" ? "Overheid" : "Government"],
+                  [pick(lang, "Aruba inflation", "Inflatie Aruba", "Inflación Aruba"), "…", "CBS"],
+                  [pick(lang, "Curaçao inflation", "Inflatie Curaçao", "Inflación Curaçao"), "…", "CBS"],
+                  [pick(lang, "Aruba stay-over arrivals", "Verblijfsgasten Aruba", "Turistas con estadía, Aruba"), "…", "ATA"],
+                  [pick(lang, "Curaçao stay-over arrivals", "Verblijfsgasten Curaçao", "Turistas con estadía, Curaçao"), "…", "CTB"],
+                  [pick(lang, "Aruba gasoline", "Benzine Aruba", "Gasolina Aruba"), "…", pick(lang, "Government", "Overheid", "Gobierno")],
                 ]
             ).map(([k, v, u]) => (
               <div className="num" key={k}><span className="k">{k}</span><span className="v">{v}</span><span className="u">{u}</span></div>
@@ -176,8 +176,8 @@ export default async function Home({ params, searchParams }: { params: Promise<{
                 <div className="cover">
                   <DocumentArt island={r.island} seed={r.id} />
                 </div>
-                <span className="k">{d.islands[r.island]} · {r[lang].category}</span>
-                <span className="t">{r[lang].title}</span>
+                <span className="k">{d.islands[r.island]} · {locReport(r, lang).category}</span>
+                <span className="t">{locReport(r, lang).title}</span>
                 <span className="m">{r.publisher}{/imf\.org|cbs\.nl|ser\.cw/.test(r.url) ? "" : " · PDF"}</span>
               </a>
             ))}
