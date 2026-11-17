@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { Ticker, Masthead, Footer } from "@/components/Chrome";
 import { DocumentArt } from "@/components/Art";
-import { allReports, fmtDate } from "@/lib/data";
+import { allReports, fmtDate, locReport } from "@/lib/data";
 import { isLang, t, type Lang } from "@/lib/i18n";
 
 export default async function ReportsPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -28,8 +28,8 @@ export default async function ReportsPage({ params }: { params: Promise<{ lang: 
               <div className="cover">
                 <DocumentArt island={r.island} seed={r.id} />
               </div>
-              <span className="k">{d.islands[r.island]} · {r[lang].category}</span>
-              <span className="t">{r[lang].title}</span>
+              <span className="k">{d.islands[r.island]} · {locReport(r, lang).category}</span>
+              <span className="t">{locReport(r, lang).title}</span>
               <span className="m">{r.publisher} · {fmtDate(r.published_at, lang)}{/imf\.org|cbs\.nl|ser\.cw/.test(r.url) ? "" : " · PDF"}</span>
             </a>
           ))}
