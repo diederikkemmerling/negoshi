@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Ticker, Masthead, Footer } from "@/components/Chrome";
 import { Illo, topicIcon } from "@/components/Art";
 import { allItems, itemBySlug, fmtDate, loc, itemsByIsland } from "@/lib/data";
-import { isLang, LANGS, t, type Lang } from "@/lib/i18n";
+import { isLang, LANGS, t, type Lang, pick, OG_LOCALE } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => allItems().map((i) => ({ lang, slug: i.slug })));
@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   return {
     title: `${l.title} · Negoshi`,
     description: l.standfirst,
-    alternates: { canonical: `/${lang}/brief/${slug}` },
-    openGraph: { type: "article", siteName: "Negoshi", title: l.title, description: l.standfirst, url: `/${lang}/brief/${slug}`, publishedTime: item.published_at, locale: lang === "nl" ? "nl_NL" : "en_US" },
+    alternates: { canonical: `/${lang}/brief/${slug}`, languages: { en: `/en/brief/${slug}`, nl: `/nl/brief/${slug}`, es: `/es/brief/${slug}` } },
+    openGraph: { type: "article", siteName: "Negoshi", title: l.title, description: l.standfirst, url: `/${lang}/brief/${slug}`, publishedTime: item.published_at, locale: OG_LOCALE[lang] },
     twitter: { card: "summary_large_image", title: l.title, description: l.standfirst },
   };
 }
@@ -70,8 +70,8 @@ export default async function BriefPage({ params }: { params: Promise<{ lang: st
           </article>
           <aside className="side">
             <div className="box dark">
-              <span className="k">{d.islands[item.island]} · {lang === "nl" ? "maandagbrief" : "Monday brief"}</span>
-              <h2>{lang === "nl" ? "Elke maandag de vijf berichten die ertoe doen." : "Every Monday: the five stories that matter."}</h2>
+              <span className="k">{d.islands[item.island]} · {pick(lang, "Monday brief", "maandagbrief", "resumen del lunes")}</span>
+              <h2>{pick(lang, "Every Monday: the five stories that matter.", "Elke maandag de vijf berichten die ertoe doen.", "Cada lunes: las cinco noticias que importan.")}</h2>
               <form action="/api/subscribe" method="post" style={{ display: "flex", flexDirection: "column", gap: 8 }}>
                 <input type="hidden" name="lang" value={lang} />
                 <input type="hidden" name="island" value={item.island} />
@@ -80,7 +80,7 @@ export default async function BriefPage({ params }: { params: Promise<{ lang: st
               </form>
             </div>
             <div className="box">
-              <h2>{lang === "nl" ? "Gerelateerd" : "Related"}</h2>
+              <h2>{pick(lang, "Related", "Gerelateerd", "Relacionado")}</h2>
               {related.map((r) => (
                 <a key={r.id} href={`/${lang}/brief/${r.slug}`} style={{ display: "flex", flexDirection: "column", gap: 4, paddingBottom: 12, borderBottom: "1px solid var(--line)" }}>
                   <span style={{ fontSize: 11, fontWeight: 600, letterSpacing: ".06em", textTransform: "uppercase", color: "var(--muted)" }}>{d.topics[r.topic]}</span>
