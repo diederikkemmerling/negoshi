@@ -28,7 +28,7 @@ export async function analysisFor(lang: Lang): Promise<PubAnalysis[]> {
   if (live.length) return live;
   return allAnalysis().map((a) => ({
     id: a.id, slug: a.slug, sample: a.sample, island: a.island, published_at: a.published_at, lang,
-    title: a[lang].title, standfirst: a[lang].standfirst, paragraphs: a[lang].body,
+    title: (lang === "nl" ? a.nl : a.en).title, standfirst: (lang === "nl" ? a.nl : a.en).standfirst, paragraphs: (lang === "nl" ? a.nl : a.en).body,
     author: { name: a.author.name, title: lang === "nl" ? a.author.title_nl : a.author.title_en, bio: lang === "nl" ? a.author.bio_nl : a.author.bio_en },
   }));
 }
@@ -38,6 +38,7 @@ export async function analysisBySlugFor(lang: Lang, slug: string) {
 }
 
 export const ORIGINAL_NOTE = {
-  en: { nl: "Written in Dutch by the author.", en: "" },
-  nl: { en: "Door de auteur in het Engels geschreven.", nl: "" },
+  en: { nl: "Written in Dutch by the author.", en: "", es: "" },
+  nl: { en: "Door de auteur in het Engels geschreven.", nl: "", es: "" },
+  es: { en: "Escrito en inglés por el autor.", nl: "Escrito en neerlandés por el autor.", es: "" },
 } as const;

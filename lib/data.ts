@@ -2,7 +2,7 @@ import items from "@/data/items.json";
 import reports from "@/data/reports.json";
 import sources from "@/data/sources.json";
 import indicators from "@/data/indicators.json";
-import type { Island, Lang, Topic } from "./i18n";
+import { CATEGORY_ES, INDICATOR_ES, LOCALE, pick, type Island, type Lang, type Topic } from "./i18n";
 
 export type Localized = {
   title: string;
@@ -24,6 +24,7 @@ export type Item = {
   also_covered: string[];
   en: Localized;
   nl: Localized;
+  es?: Localized;
 };
 
 export type Report = {
@@ -35,6 +36,7 @@ export type Report = {
   published_at: string;
   en: { title: string; category: string };
   nl: { title: string; category: string };
+  es?: { title: string; category: string };
 };
 
 export type Source = {
@@ -68,20 +70,28 @@ export function sourcesByIsland(island: Island): Source[] {
   return allSources().filter((s) => s.island === island);
 }
 export function loc(item: Item, lang: Lang): Localized {
-  return item[lang];
+  return item[lang] ?? item.en;
+}
+/** Report title and category in the site language; Spanish falls back to the English title until translated. */
+export function locReport(r: Report, lang: Lang): { title: string; category: string } {
+  if (lang !== "es") return r[lang];
+  return r.es ?? { title: r.en.title, category: CATEGORY_ES[r.en.category] ?? r.en.category };
+}
+export function indicatorLabel(i: Indicator, lang: Lang): string {
+  return lang === "es" ? INDICATOR_ES[i.id] ?? i.en : i[lang];
 }
 
 export function relTime(iso: string, lang: Lang, now = new Date()): string {
   const d = new Date(iso);
   const h = Math.max(0, Math.round((now.getTime() - d.getTime()) / 36e5));
-  if (h < 1) return lang === "nl" ? "zojuist" : "just now";
-  if (h < 24) return `${h}${lang === "nl" ? "u" : "h"}`;
+  if (h < 1) return pick(lang, "just now", "zojuist", "ahora");
+  if (h < 24) return `${h}${pick(lang, "h", "u", "h")}`;
   const days = Math.round(h / 24);
-  return `${days}${lang === "nl" ? "d" : "d"}`;
+  return `${days}d`;
 }
 
 export function fmtDate(iso: string, lang: Lang): string {
-  return new Date(iso).toLocaleDateString(lang === "nl" ? "nl-NL" : "en-GB", {
+  return new Date(iso).toLocaleDateString(LOCALE[lang], {
     day: "numeric",
     month: "long",
     year: "numeric",
