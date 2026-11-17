@@ -1,13 +1,13 @@
 import { Logo } from "./Logo";
 import { MailArt } from "./Art";
-import { ISLANDS, type Island, type Lang, t, extra } from "@/lib/i18n";
-import { liveIndicators } from "@/lib/data";
+import { ISLANDS, LANGS, LANG_NAME, type Island, type Lang, t, extra, pick, LOCALE } from "@/lib/i18n";
+import { indicatorLabel, liveIndicators } from "@/lib/data";
 
 export function Ticker({ lang }: { lang: Lang }) {
   const d = t(lang);
   const live = liveIndicators();
   const rows: [string, string, string][] = live.length
-    ? live.map((i) => [i[lang], `${i.value}${i.unit && !i.unit.startsWith("%") && i.unit !== "" ? " " + i.unit : i.unit.startsWith("%") ? "%" : ""}`, (lang === "nl" ? i.note_nl : i.note_en) || i.period || ""])
+    ? live.map((i) => [indicatorLabel(i, lang), `${i.value}${i.unit && !i.unit.startsWith("%") && i.unit !== "" ? " " + i.unit : i.unit.startsWith("%") ? "%" : ""}`, (lang === "nl" ? i.note_nl : lang === "en" ? i.note_en : null) || i.period || ""])
     : [
         ["USD/EUR", "", ""],
       ];
@@ -32,7 +32,7 @@ export function Ticker({ lang }: { lang: Lang }) {
 export function Masthead({ lang, island, path, geo }: { lang: Lang; island?: Island; path: string; geo?: { island: Island; scoped: boolean } }) {
   const d = t(lang);
   const x = extra[lang];
-  const date = new Date().toLocaleDateString(lang === "nl" ? "nl-NL" : "en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  const date = new Date().toLocaleDateString(LOCALE[lang], { weekday: "long", day: "numeric", month: "long", year: "numeric" });
   return (
     <header className="masthead">
       <div className="wrap top">
@@ -43,8 +43,9 @@ export function Masthead({ lang, island, path, geo }: { lang: Lang; island?: Isl
         <div className="right">
           <span className="date">{date}</span>
           <div className="langs" aria-label="Language">
-            <a href={`/en${path}`} className={lang === "en" ? "on" : ""}>EN</a>
-            <a href={`/nl${path}`} className={lang === "nl" ? "on" : ""}>NL</a>
+            {LANGS.map((l) => (
+              <a key={l} href={`/${l}${path}`} hrefLang={l} className={lang === l ? "on" : ""}>{LANG_NAME[l]}</a>
+            ))}
           </div>
           <a href={`/${lang}#subscribe`} className="btn sub"><span className="long">{d.subscribe}</span><span className="short">{d.subscribeShort}</span></a>
         </div>
@@ -85,7 +86,7 @@ export function Footer({ lang }: { lang: Lang }) {
           {ISLANDS.map((i) => <a key={i} href={`/${lang}/${i}`}>{d.islands[i]}</a>)}
         </div>
         <div className="col">
-          <b>{lang === "nl" ? "Secties" : "Sections"}</b>
+          <b>{pick(lang, "Sections", "Secties", "Secciones")}</b>
           <a href={`/${lang}#business`}>{d.topics.business}</a>
           <a href={`/${lang}#economy`}>{d.topics.economy}</a>
           <a href={`/${lang}#politics`}>{d.topics.politics}</a>
@@ -93,16 +94,16 @@ export function Footer({ lang }: { lang: Lang }) {
           <a href={`/${lang}/reports`}>{d.topics.reports}</a>
         </div>
         <div className="col">
-          <b>{lang === "nl" ? "Over" : "About"}</b>
+          <b>{pick(lang, "About", "Over", "Acerca de")}</b>
           <a href={`/${lang}/about`}>{d.nav.about}</a>
-          <a href="/studio">{lang === "nl" ? "Auteurs login" : "Contributor login"}</a>
+          <a href="/studio">{pick(lang, "Contributor login", "Auteurs login", "Acceso de autores")}</a>
           <a href={`/${lang}/analysis#contribute`}>{x.contribute}</a>
           <a href="mailto:hello@negoshi.news">Contact</a>
         </div>
       </div>
       <div className="wrap legal">
         <span>© {new Date().getFullYear()} Negoshi · negoshi.news</span>
-        <span>{lang === "nl" ? "Oranjestad · Willemstad · Kralendijk" : "Oranjestad · Willemstad · Kralendijk"}</span>
+        <span>{pick(lang, "Oranjestad · Willemstad · Kralendijk", "Oranjestad · Willemstad · Kralendijk", "Oranjestad · Willemstad · Kralendijk")}</span>
       </div>
     </footer>
   );
@@ -114,7 +115,7 @@ export function Newsletter({ lang }: { lang: Lang }) {
     <section className="nl" id="subscribe">
       <div className="nl-art"><MailArt /></div>
       <div className="nl-text">
-        <span className="k">{lang === "nl" ? "De maandagbrief" : "The Monday brief"}</span>
+        <span className="k">{pick(lang, "The Monday brief", "De maandagbrief", "El resumen del lunes")}</span>
         <h2>{d.newsletterTitle}</h2>
         <p>{d.newsletterSub}</p>
       </div>
