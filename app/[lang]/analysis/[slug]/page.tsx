@@ -5,7 +5,7 @@ import { Ticker, Masthead, Footer } from "@/components/Chrome";
 import { PenArt } from "@/components/Art";
 import { fmtDate } from "@/lib/data";
 import { analysisBySlugFor, ORIGINAL_NOTE } from "@/lib/analysis";
-import { isLang, t, extra, type Lang } from "@/lib/i18n";
+import { isLang, t, extra, type Lang, pick } from "@/lib/i18n";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string; slug: string }> }): Promise<Metadata> {
   const { lang, slug } = await params;
@@ -51,9 +51,9 @@ export default async function AnalysisArticle({ params }: { params: Promise<{ la
               <div className="keypoints author-box">
                 {a.author.photo && <img src={a.author.photo} alt="" className="avatar lg" />}
                 <div>
-                  <span className="k">{lang === "nl" ? "Over de auteur" : "About the author"}</span>
+                  <span className="k">{pick(lang, "About the author", "Over de auteur", "Sobre el autor")}</span>
                   <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6 }}>{a.author.bio}</p>
-                  {a.author.slug && <a href={`/${lang}/analysis/author/${a.author.slug}`} style={{ fontSize: 14 }}>{lang === "nl" ? "Meer van deze auteur →" : "More from this author →"}</a>}
+                  {a.author.slug && <a href={`/${lang}/analysis/author/${a.author.slug}`} style={{ fontSize: 14 }}>{pick(lang, "More from this author →", "Meer van deze auteur →", "Más de este autor →")}</a>}
                 </div>
               </div>
             )}
