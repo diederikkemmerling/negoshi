@@ -1,5 +1,64 @@
 [
   {
+    "id": "0113630a405c",
+    "slug": "bonaire-police-to-take-quickpromo-fraud-complaints-011363",
+    "island": "bonaire",
+    "topic": "economy",
+    "published_at": "2026-11-17T19:24:23.000Z",
+    "source_id": "masnoticia",
+    "source_name": "Masnoticia",
+    "source_url": "https://masnoticia.com/cuerpo-policial-na-boneiro-lo-tuma-denuncia-relaciona-cu-quickpromo/",
+    "also_covered": [],
+    "en": {
+      "title": "Bonaire police to take QuickPromo fraud complaints",
+      "standfirst": "The Caribbean Netherlands police force KPCN says anyone on Bonaire who suspects they were defrauded in connection with QuickPromo can file a complaint. Each report will be assessed to see whether it points to a criminal offence.",
+      "keypoints": [
+        "People who suspect they were scammed can report it to KPCN.",
+        "Each complaint is reviewed with due care for signs of a punishable offence.",
+        "A voluntary payment does not in itself rule out a criminal offence.",
+        "Cases may lead to a deeper criminal investigation in consultation with the Public Prosecution Service."
+      ],
+      "body": [
+        "The Caribbean Netherlands police force (KPCN) has said it will accept complaints from people on Bonaire who believe they fell victim to fraud linked to QuickPromo. The announcement gives potential victims a formal route to report losses.",
+        "KPCN says it will examine every report carefully to decide whether there are indications of a criminal offence. It stressed that having taken part voluntarily does not automatically mean no offence occurred. The outcome depends on the facts and circumstances of each case.",
+        "Depending on those facts, a complaint could grow into a wider criminal investigation, which would be run in consultation with the Public Prosecution Service. The police repeated that anyone who suspects they are the victim of a punishable act can report it.",
+        "The statement comes as QuickPromo is drawing scrutiny on other islands, where its activities have raised questions about consumer protection and financial oversight."
+      ]
+    },
+    "nl": {
+      "title": "Politie Bonaire neemt aangiftes over QuickPromo in ontvangst",
+      "standfirst": "Het Korps Politie Caribisch Nederland (KPCN) laat weten dat wie op Bonaire vermoedt oplichting te zijn overkomen in verband met QuickPromo, aangifte kan doen. Elke melding wordt beoordeeld op aanwijzingen voor een strafbaar feit.",
+      "keypoints": [
+        "Mensen die vermoeden te zijn opgelicht, kunnen dit melden bij het KPCN.",
+        "Elke melding wordt zorgvuldig beoordeeld op tekenen van een strafbaar feit.",
+        "Vrijwillige deelname sluit een strafbaar feit niet vooraf uit.",
+        "Zaken kunnen leiden tot een breder strafrechtelijk onderzoek in overleg met het Openbaar Ministerie."
+      ],
+      "body": [
+        "Het Korps Politie Caribisch Nederland (KPCN) neemt meldingen in ontvangst van mensen op Bonaire die denken slachtoffer te zijn geworden van oplichting rond QuickPromo. Daarmee krijgen mogelijke gedupeerden een formele route om hun verlies te melden.",
+        "Het KPCN zegt elke melding zorgvuldig te beoordelen om vast te stellen of er aanwijzingen zijn voor een strafbaar feit. Het benadrukt dat vrijwillige deelname niet automatisch betekent dat er geen strafbaar feit is gepleegd. Dat hangt af van de feiten en omstandigheden van het geval.",
+        "Afhankelijk daarvan kan een aangifte uitgroeien tot een breder strafrechtelijk onderzoek, in overleg met het Openbaar Ministerie. De politie herhaalde dat iedereen die vermoedt slachtoffer te zijn van een strafbaar feit, dit kan melden.",
+        "De mededeling komt op een moment dat QuickPromo ook op andere eilanden onder de loep ligt, waar vragen zijn gerezen over consumentenbescherming en financieel toezicht."
+      ]
+    },
+    "es": {
+      "title": "Policía de Bonaire recibirá denuncias por QuickPromo",
+      "standfirst": "El cuerpo policial del Caribe neerlandés (KPCN) informa que quien en Bonaire sospeche haber sido víctima de estafa en relación con QuickPromo puede presentar una denuncia. Cada caso se evaluará para determinar si hay indicios de un delito.",
+      "keypoints": [
+        "Quienes sospechen haber sido estafados pueden denunciarlo ante el KPCN.",
+        "Cada denuncia se revisa con cautela para detectar señales de un hecho punible.",
+        "La participación voluntaria no excluye de antemano que haya un delito.",
+        "Los casos pueden derivar en una investigación penal más profunda, en consulta con el Ministerio Público."
+      ],
+      "body": [
+        "El cuerpo policial del Caribe neerlandés (KPCN) recibirá denuncias de personas en Bonaire que crean haber sido víctimas de estafa vinculada a QuickPromo. Con ello, los posibles afectados cuentan con una vía formal para reportar sus pérdidas.",
+        "El KPCN indica que analizará cada denuncia con cuidado para determinar si existen indicios de un hecho punible. Subrayó que haber participado de forma voluntaria no significa automáticamente que no haya delito. Todo depende de los hechos y las circunstancias de cada caso.",
+        "Según esos elementos, una denuncia podría convertirse en una investigación penal más amplia, en consulta con el Ministerio Público. La policía reiteró que cualquier persona que sospeche ser víctima de un hecho punible puede reportarlo.",
+        "El anuncio llega mientras QuickPromo también está bajo escrutinio en otras islas, donde ha suscitado dudas sobre la protección del consumidor y la supervisión financiera."
+      ]
+    }
+  },
+  {
     "id": "11095b870ef8",
     "slug": "aruba-publishes-latest-supermarket-price-check-on-basic-goods-11095b",
     "island": "aruba",
@@ -123,7 +182,9 @@
     "source_id": "24ora",
     "source_name": "24ora",
     "source_url": "https://24ora.com/shailiny-tromp-lee-mep-pueblo-merece-claridad-ribe-peliger-di-subida-di-awa-coriente-y-gas-na-comienso-di-2027/",
-    "also_covered": [],
+    "also_covered": [
+      "https://masnoticia.com/shailiny-tromp-lee-mep-nos-pueblo-merece-claridad-peliger-di-subida-di-awa-coriente-y-gas-na-comienso-di-2027-ta-menasa-cartera-di-cada-famia/"
+    ],
     "en": {
       "title": "Aruba MP warns water and power tariffs may rise in early 2027 as fuel hedging expires",
       "standfirst": "Opposition MEP lawmaker Shailiny Tromp-Lee says households face likely increases in water, electricity and possibly gas prices from January 2027. She wants Minister Geoffrey Wever to present a concrete plan.",
@@ -3198,6 +3259,64 @@
     }
   },
   {
+    "id": "9297aaa7b9ff",
+    "slug": "ground-broken-on-alternative-road-link-to-bullenbaai-9297aa",
+    "island": "curacao",
+    "topic": "economy",
+    "published_at": "2026-11-14T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/groundbreaking-di-kot-bai-bullenbaai",
+    "also_covered": [
+      "https://www.curacaochronicle.com/post/unknown/construction-begins-on-xcg-117-million-bullenbaaibanda-bou-road-but-questions-remain-about-traffic-benefits"
+    ],
+    "en": {
+      "title": "Ground broken on alternative road link to Bullenbaai",
+      "standfirst": "A groundbreaking ceremony was held in Curaçao for a new alternative route between the Banda Abou district and Bullenbaai. The road is meant to give traffic another way to reach the bay.",
+      "keypoints": [
+        "Groundbreaking for the 'Kòt bai Bullenbaai' road took place the day before the report.",
+        "The route is an alternative connection from Banda Abou to Bullenbaai.",
+        "The available text gives no cost, contractor or completion date.",
+        "The full article is behind a paywall."
+      ],
+      "body": [
+        "Curaçao marked the start of work on a new road project known as 'Kòt bai Bullenbaai' with a groundbreaking ceremony. The local outlet Extra describes it as an alternative route linking the Banda Abou side of the island with Bullenbaai.",
+        "Bullenbaai is an important site on the island, so a second approach could matter for local traffic and access in the area. Residents of Banda Abou and road users heading to the bay are the most obvious groups affected.",
+        "The part of the report that was accessible does not say what the project will cost, who is building it, who is paying or when it should be finished. Those details, and the exact start and end points of the road, are in the subscriber-only part of the article and could not be confirmed here."
+      ]
+    },
+    "nl": {
+      "title": "Eerste spade in de grond voor alternatieve weg naar Bullenbaai",
+      "standfirst": "Op Curaçao is met een officiële ceremonie gestart met de aanleg van een alternatieve route tussen Banda Abou en Bullenbaai. De weg moet het verkeer een extra route naar de baai geven.",
+      "keypoints": [
+        "De symbolische eerste handeling voor de weg 'Kòt bai Bullenbaai' vond plaats op de dag voor de publicatie.",
+        "De route is een alternatieve verbinding van Banda Abou naar Bullenbaai.",
+        "De beschikbare tekst noemt geen kosten, aannemer of opleverdatum.",
+        "Het volledige artikel zit achter een betaalmuur."
+      ],
+      "body": [
+        "Curaçao is begonnen met een nieuw wegenproject onder de naam 'Kòt bai Bullenbaai'. De start werd gemarkeerd met een groundbreaking-ceremonie. Volgens het lokale medium Extra gaat het om een alternatieve route tussen Banda Abou en Bullenbaai.",
+        "Bullenbaai is een belangrijke locatie op het eiland, dus een tweede toegangsroute kan van belang zijn voor het lokale verkeer en de bereikbaarheid van het gebied. Inwoners van Banda Abou en weggebruikers op weg naar de baai worden het meest direct geraakt.",
+        "In het toegankelijke deel van het bericht staat niet wat het project kost, wie het uitvoert, wie het betaalt of wanneer het klaar moet zijn. Die gegevens, en de precieze begin- en eindpunten van de weg, staan in het deel voor abonnees en konden hier niet worden bevestigd."
+      ]
+    },
+    "es": {
+      "title": "Arrancan las obras de una vía alternativa hacia Bullenbaai",
+      "standfirst": "En Curaçao se realizó una ceremonia de inicio de obras de una nueva ruta alternativa entre el distrito de Banda Abou y Bullenbaai. La vía busca ofrecer al tráfico otra forma de llegar a la bahía.",
+      "keypoints": [
+        "El inicio de obras de la vía «Kòt bai Bullenbaai» tuvo lugar el día antes de la publicación de la nota.",
+        "La ruta es una conexión alternativa desde Banda Abou hasta Bullenbaai.",
+        "El texto disponible no indica el costo, el contratista ni la fecha de finalización.",
+        "El artículo completo está detrás de un muro de pago."
+      ],
+      "body": [
+        "Curaçao marcó el comienzo de un nuevo proyecto vial conocido como «Kòt bai Bullenbaai» con una ceremonia de inicio de obras. El medio local Extra lo describe como una ruta alternativa que une el lado de Banda Abou de la isla con Bullenbaai.",
+        "Bullenbaai es un sitio importante de la isla, por lo que un segundo acceso podría ser relevante para el tráfico local y el acceso a la zona. Los residentes de Banda Abou y los usuarios de la vía que se dirigen a la bahía son los grupos más claramente afectados.",
+        "La parte accesible de la nota no dice cuánto costará el proyecto, quién lo construye, quién lo financia ni cuándo debería terminar. Esos datos, así como los puntos exactos de inicio y fin de la vía, están en la parte del artículo reservada a suscriptores y no pudieron confirmarse aquí."
+      ]
+    }
+  },
+  {
     "id": "be0522ef2b4f",
     "slug": "curacao-government-orders-quick-scan-of-soab-and-svb-meets-nine-care-institution-be0522",
     "island": "curacao",
@@ -3253,64 +3372,6 @@
         "El primer ministro de Curazao, Gilmar Pisas, ha conversado sobre el sector con un grupo de nueve instituciones de salud. Estuvo acompañado por el ministro de Finanzas, Cooper, y otro ministro. La presencia del ministro de Finanzas sugiere que el financiamiento y las finanzas públicas formaron parte de la discusión.",
         "En paralelo, el gobierno está haciendo realizar un «Quick Scan» a SOAB y SVB. Un quick scan es normalmente una revisión rápida y de alto nivel de cómo se gestiona y financia una organización. La fuente no indica qué abarcará la revisión, quién la realizará ni cuándo se esperan los resultados.",
         "El único texto disponible es un breve adelanto, ya que el reportaje completo es para suscriptores. No se conocen los acuerdos alcanzados con las instituciones ni cifras alguna. Se necesitan más detalles para evaluar qué significa esto para los prestadores de salud y las personas que dependen de ellos."
-      ]
-    }
-  },
-  {
-    "id": "9297aaa7b9ff",
-    "slug": "ground-broken-on-alternative-road-link-to-bullenbaai-9297aa",
-    "island": "curacao",
-    "topic": "economy",
-    "published_at": "2026-11-14T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/groundbreaking-di-kot-bai-bullenbaai",
-    "also_covered": [
-      "https://www.curacaochronicle.com/post/unknown/construction-begins-on-xcg-117-million-bullenbaaibanda-bou-road-but-questions-remain-about-traffic-benefits"
-    ],
-    "en": {
-      "title": "Ground broken on alternative road link to Bullenbaai",
-      "standfirst": "A groundbreaking ceremony was held in Curaçao for a new alternative route between the Banda Abou district and Bullenbaai. The road is meant to give traffic another way to reach the bay.",
-      "keypoints": [
-        "Groundbreaking for the 'Kòt bai Bullenbaai' road took place the day before the report.",
-        "The route is an alternative connection from Banda Abou to Bullenbaai.",
-        "The available text gives no cost, contractor or completion date.",
-        "The full article is behind a paywall."
-      ],
-      "body": [
-        "Curaçao marked the start of work on a new road project known as 'Kòt bai Bullenbaai' with a groundbreaking ceremony. The local outlet Extra describes it as an alternative route linking the Banda Abou side of the island with Bullenbaai.",
-        "Bullenbaai is an important site on the island, so a second approach could matter for local traffic and access in the area. Residents of Banda Abou and road users heading to the bay are the most obvious groups affected.",
-        "The part of the report that was accessible does not say what the project will cost, who is building it, who is paying or when it should be finished. Those details, and the exact start and end points of the road, are in the subscriber-only part of the article and could not be confirmed here."
-      ]
-    },
-    "nl": {
-      "title": "Eerste spade in de grond voor alternatieve weg naar Bullenbaai",
-      "standfirst": "Op Curaçao is met een officiële ceremonie gestart met de aanleg van een alternatieve route tussen Banda Abou en Bullenbaai. De weg moet het verkeer een extra route naar de baai geven.",
-      "keypoints": [
-        "De symbolische eerste handeling voor de weg 'Kòt bai Bullenbaai' vond plaats op de dag voor de publicatie.",
-        "De route is een alternatieve verbinding van Banda Abou naar Bullenbaai.",
-        "De beschikbare tekst noemt geen kosten, aannemer of opleverdatum.",
-        "Het volledige artikel zit achter een betaalmuur."
-      ],
-      "body": [
-        "Curaçao is begonnen met een nieuw wegenproject onder de naam 'Kòt bai Bullenbaai'. De start werd gemarkeerd met een groundbreaking-ceremonie. Volgens het lokale medium Extra gaat het om een alternatieve route tussen Banda Abou en Bullenbaai.",
-        "Bullenbaai is een belangrijke locatie op het eiland, dus een tweede toegangsroute kan van belang zijn voor het lokale verkeer en de bereikbaarheid van het gebied. Inwoners van Banda Abou en weggebruikers op weg naar de baai worden het meest direct geraakt.",
-        "In het toegankelijke deel van het bericht staat niet wat het project kost, wie het uitvoert, wie het betaalt of wanneer het klaar moet zijn. Die gegevens, en de precieze begin- en eindpunten van de weg, staan in het deel voor abonnees en konden hier niet worden bevestigd."
-      ]
-    },
-    "es": {
-      "title": "Arrancan las obras de una vía alternativa hacia Bullenbaai",
-      "standfirst": "En Curaçao se realizó una ceremonia de inicio de obras de una nueva ruta alternativa entre el distrito de Banda Abou y Bullenbaai. La vía busca ofrecer al tráfico otra forma de llegar a la bahía.",
-      "keypoints": [
-        "El inicio de obras de la vía «Kòt bai Bullenbaai» tuvo lugar el día antes de la publicación de la nota.",
-        "La ruta es una conexión alternativa desde Banda Abou hasta Bullenbaai.",
-        "El texto disponible no indica el costo, el contratista ni la fecha de finalización.",
-        "El artículo completo está detrás de un muro de pago."
-      ],
-      "body": [
-        "Curaçao marcó el comienzo de un nuevo proyecto vial conocido como «Kòt bai Bullenbaai» con una ceremonia de inicio de obras. El medio local Extra lo describe como una ruta alternativa que une el lado de Banda Abou de la isla con Bullenbaai.",
-        "Bullenbaai es un sitio importante de la isla, por lo que un segundo acceso podría ser relevante para el tráfico local y el acceso a la zona. Los residentes de Banda Abou y los usuarios de la vía que se dirigen a la bahía son los grupos más claramente afectados.",
-        "La parte accesible de la nota no dice cuánto costará el proyecto, quién lo construye, quién lo financia ni cuándo debería terminar. Esos datos, así como los puntos exactos de inicio y fin de la vía, están en la parte del artículo reservada a suscriptores y no pudieron confirmarse aquí."
       ]
     }
   },
@@ -4870,61 +4931,114 @@
     }
   },
   {
-    "id": "a760f3100a4e",
-    "slug": "aruba-s-health-minister-no-blank-cheque-for-the-hospital-without-an-investigatio-a760f3",
-    "island": "aruba",
-    "topic": "politics",
+    "id": "bed8c7f81b4d",
+    "slug": "bonaire-teachers-unions-threaten-tougher-action-over-labour-benefits-bed8c7",
+    "island": "bonaire",
+    "topic": "economy",
     "published_at": "2026-11-13T08:00:00.000Z",
     "source_id": "extra",
     "source_name": "Extra",
-    "source_url": "https://extra.cw/wyatt-ras-gobierno-no-por-duna-hospital-un-cheque-blanco-sin-investigacion",
-    "also_covered": [
-      "https://noticiacla.com/news/42365",
-      "https://masnoticia.com/evelyn-wever-croes-gobierno-no-por-laga-pueblo-paga-e-prijs-di-crisis-di-hospital/"
-    ],
+    "source_url": "https://extra.cw/menasa-di-akshon-den-ensenansa",
+    "also_covered": [],
     "en": {
-      "title": "Aruba's health minister: no blank cheque for the hospital without an investigation",
-      "standfirst": "Health Minister Mervin Wyatt-Ras has spoken publicly for the first time on the financial crisis at Hospital Dr. Horacio E. Oduber (HOH). She says the government cannot hand the hospital open-ended funding before the causes are examined.",
+      "title": "Bonaire teachers' unions threaten tougher action over labour benefits",
+      "standfirst": "Education unions ABVO and SIMABO say they are prepared to step up their action on Bonaire. They want education staff to receive the labour benefits they are seeking.",
       "keypoints": [
-        "Wyatt-Ras made her first public comments on the HOH financial crisis.",
-        "Her message is that the government will not give the hospital a blank cheque.",
-        "She ties any further support to an investigation into the hospital's finances.",
-        "The statement adds to the dispute over hospital funding, which has already involved management, unions and the opposition."
+        "ABVO and SIMABO, two unions in Bonaire's education sector, are ready to intensify their action.",
+        "The goal is for education workers to receive labour benefits.",
+        "The report does not say what form the action could take.",
+        "A tougher stance could disrupt schools if talks stall."
       ],
       "body": [
-        "Health Minister Mervin Wyatt-Ras has broken her silence on the financial problems at Aruba's main hospital, HOH. Her stance is that the government cannot simply cover the hospital's gap without first establishing what went wrong.",
-        "The comments come as pressure on the funding arrangement has grown. Hospital management, staff unions and the opposition have all weighed in on the dispute in recent days. The minister's position signals that the government wants scrutiny of the hospital's finances before committing more public money.",
-        "Only the opening of the article was available, so the amount at stake, the form the investigation would take and any timeline are not yet known. Patients, hospital staff and the public purse all stand to be affected by how the dispute is resolved."
+        "Two unions representing Bonaire's education workers, ABVO and SIMABO, have signalled that they will escalate their action. Their aim is to secure labour benefits for staff in the sector, according to a report from Kralendijk.",
+        "The available text of the report is brief. It does not list which benefits are in dispute, name the employer or authority involved, or say what measures the unions are considering. Those details are not confirmed here.",
+        "The warning matters because education is one of the largest public-service employers on the island, and any escalation could affect schools, pupils and parents. It also adds to pressure on the island government over public-sector working conditions. Further developments will show whether the dispute is resolved through talks or turns into formal industrial action."
       ]
     },
     "nl": {
-      "title": "Minister van Volksgezondheid Aruba: geen blanco cheque voor ziekenhuis zonder onderzoek",
-      "standfirst": "Minister van Volksgezondheid Mervin Wyatt-Ras heeft voor het eerst publiekelijk gereageerd op de financiële crisis bij Hospital Dr. Horacio E. Oduber (HOH). Volgens haar kan de regering het ziekenhuis geen onbeperkte financiering geven voordat de oorzaken zijn onderzocht.",
+      "title": "Onderwijsbonden Bonaire dreigen met scherpere acties om arbeidsvoorwaarden",
+      "standfirst": "De onderwijsbonden ABVO en SIMABO zijn bereid hun acties op Bonaire op te voeren. Zij willen dat onderwijspersoneel de gevraagde arbeidsvoorwaarden krijgt.",
       "keypoints": [
-        "Wyatt-Ras deed haar eerste openbare uitspraken over de financiële crisis bij HOH.",
-        "Haar boodschap: de regering geeft het ziekenhuis geen blanco cheque.",
-        "Verdere steun koppelt zij aan een onderzoek naar de financiën van het ziekenhuis.",
-        "De uitspraak komt bovenop het geschil over de ziekenhuisfinanciering, waarin directie, vakbonden en oppositie zich al hebben gemengd."
+        "ABVO en SIMABO, twee bonden in het Bonairiaanse onderwijs, willen hun acties intensiveren.",
+        "Het doel is dat onderwijspersoneel arbeidsvoorwaardelijke voordelen ontvangt.",
+        "Het bericht meldt niet welke vorm de acties kunnen krijgen.",
+        "Een hardere opstelling kan scholen raken als het overleg stokt."
       ],
       "body": [
-        "Minister van Volksgezondheid Mervin Wyatt-Ras heeft haar stilte doorbroken over de financiële problemen bij het grootste ziekenhuis van Aruba, HOH. Zij vindt dat de regering het tekort niet zomaar kan dekken zonder eerst vast te stellen wat er is misgegaan.",
-        "De opmerkingen komen op een moment dat de druk op de financieringsregeling groeit. Ziekenhuisdirectie, vakbonden en oppositie hebben zich de afgelopen dagen in het geschil gemengd. Het standpunt van de minister laat zien dat de regering het ziekenhuis eerst wil doorlichten voordat er meer publiek geld wordt toegezegd.",
-        "Van het artikel was alleen de aanhef beschikbaar. Het bedrag dat op het spel staat, de vorm van het onderzoek en de planning zijn daarom nog niet bekend. Patiënten, ziekenhuispersoneel en de overheidskas worden geraakt door de manier waarop het geschil wordt opgelost."
+        "Twee bonden die het Bonairiaanse onderwijspersoneel vertegenwoordigen, ABVO en SIMABO, geven aan hun acties te willen opvoeren. Ze willen dat medewerkers in de sector arbeidsvoorwaardelijke voordelen krijgen, meldt een bericht uit Kralendijk.",
+        "De beschikbare tekst van het bericht is kort. Er staat niet in om welke voordelen het precies gaat, welke werkgever of overheidsinstantie betrokken is of welke maatregelen de bonden overwegen. Die details zijn hier niet bevestigd.",
+        "De waarschuwing is relevant omdat onderwijs een van de grootste publieke werkgevers op het eiland is. Opvoering van de acties kan gevolgen hebben voor scholen, leerlingen en ouders. Ook zet het de eilandelijke overheid onder druk als het gaat om arbeidsvoorwaarden in de publieke sector. Vervolgontwikkelingen zullen uitwijzen of het geschil via overleg wordt opgelost of uitmondt in formele acties."
       ]
     },
     "es": {
-      "title": "Ministra de Salud de Aruba: no habrá cheque en blanco para el hospital sin una investigación",
-      "standfirst": "La ministra de Salud, Mervin Wyatt-Ras, habló públicamente por primera vez sobre la crisis financiera del Hospital Dr. Horacio E. Oduber (HOH). Afirma que el gobierno no puede entregar al hospital financiamiento ilimitado antes de examinar las causas.",
+      "title": "Los sindicatos docentes de Bonaire amenazan con endurecer sus acciones por beneficios laborales",
+      "standfirst": "Los sindicatos de educación ABVO y SIMABO dicen estar dispuestos a intensificar sus acciones en Bonaire. Quieren que el personal educativo reciba los beneficios laborales que reclaman.",
       "keypoints": [
-        "Wyatt-Ras hizo sus primeras declaraciones públicas sobre la crisis financiera del HOH.",
-        "Su mensaje es que el gobierno no dará un cheque en blanco al hospital.",
-        "Condiciona cualquier apoyo adicional a una investigación de las finanzas del hospital.",
-        "La declaración se suma a la disputa por el financiamiento del hospital, en la que ya han intervenido la dirección, los sindicatos y la oposición."
+        "ABVO y SIMABO, dos sindicatos del sector educativo de Bonaire, están listos para intensificar sus acciones.",
+        "El objetivo es que los trabajadores de la educación reciban beneficios laborales.",
+        "El reporte no indica qué forma podrían tomar las acciones.",
+        "Una postura más dura podría afectar el funcionamiento de las escuelas si las conversaciones se estancan."
       ],
       "body": [
-        "La ministra de Salud, Mervin Wyatt-Ras, rompió su silencio sobre los problemas financieros del principal hospital de Aruba, el HOH. Su postura es que el gobierno no puede simplemente cubrir el déficit del hospital sin establecer primero qué salió mal.",
-        "Los comentarios surgen en un momento en que ha aumentado la presión sobre el esquema de financiamiento. La dirección del hospital, los sindicatos del personal y la oposición han opinado sobre la disputa en los últimos días. La posición de la ministra indica que el gobierno quiere escrutinio de las finanzas del hospital antes de comprometer más dinero público.",
-        "Solo estaba disponible el inicio del artículo, por lo que aún se desconocen el monto en juego, la forma que tendría la investigación y cualquier calendario. Los pacientes, el personal del hospital y las arcas públicas se verán afectados por la manera en que se resuelva la disputa."
+        "Dos sindicatos que representan a los trabajadores de la educación de Bonaire, ABVO y SIMABO, han señalado que escalarán sus acciones. Su objetivo es obtener beneficios laborales para el personal del sector, según un reporte desde Kralendijk.",
+        "El texto disponible del reporte es breve. No enumera qué beneficios están en disputa, no nombra al empleador ni a la autoridad involucrada, ni indica qué medidas consideran los sindicatos. Esos detalles no están confirmados aquí.",
+        "La advertencia es relevante porque la educación es uno de los mayores empleadores del servicio público en la isla, y cualquier escalada podría afectar a escuelas, alumnos y padres. También se suma a la presión sobre el gobierno de la isla en torno a las condiciones laborales en el sector público. Los próximos acontecimientos mostrarán si la disputa se resuelve mediante el diálogo o se convierte en una acción laboral formal."
+      ]
+    }
+  },
+  {
+    "id": "5b0bfdd2bf76",
+    "slug": "bonaire-s-playa-pabou-fishing-harbour-restoration-is-finished-and-handed-to-the--5b0bfd",
+    "island": "bonaire",
+    "topic": "economy",
+    "published_at": "2026-11-13T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/waf-di-piskado-entrega-na-entidat-publiko",
+    "also_covered": [],
+    "en": {
+      "title": "Bonaire's Playa Pabou fishing harbour restoration is finished and handed to the island government",
+      "standfirst": "After eight months of work, the restoration of the fishing harbour at Playa Pabou has been completed and handed over to the Public Entity of Bonaire.",
+      "keypoints": [
+        "The Playa Pabou fishing harbour restoration took eight months.",
+        "The finished project was handed over to the Public Entity of Bonaire.",
+        "The island government now takes over the facility.",
+        "The available text gives no cost, contractor or scope details."
+      ],
+      "body": [
+        "The restoration of the fishing harbour at Playa Pabou, on Bonaire, is complete. According to Extra, the work took eight months, and the project has now been formally delivered to the Public Entity, the island's government.",
+        "The handover means the Public Entity now takes responsibility for the facility. A working harbour is basic infrastructure for Bonaire's fishers, who depend on safe landing and mooring places for their livelihoods.",
+        "The report is behind a paywall, and the available text does not say what the project cost, who carried it out or what exactly was repaired or rebuilt. It also does not say when the harbour will be fully back in use. Those details will determine how much the project helps local fishers and the wider coastal economy."
+      ]
+    },
+    "nl": {
+      "title": "Herstel van de vissershaven bij Playa Pabou op Bonaire klaar en overgedragen aan het eilandbestuur",
+      "standfirst": "Na acht maanden werk is de restauratie van de vissershaven bij Playa Pabou afgerond en overgedragen aan het Openbaar Lichaam Bonaire.",
+      "keypoints": [
+        "De restauratie van de vissershaven bij Playa Pabou duurde acht maanden.",
+        "Het opgeleverde project is overgedragen aan het Openbaar Lichaam Bonaire.",
+        "Het eilandbestuur neemt de voorziening nu over.",
+        "De beschikbare tekst noemt geen kosten, aannemer of omvang van de werkzaamheden."
+      ],
+      "body": [
+        "De restauratie van de vissershaven bij Playa Pabou op Bonaire is voltooid. Volgens Extra duurde het werk acht maanden en is het project inmiddels formeel opgeleverd aan het Openbaar Lichaam, het eilandbestuur.",
+        "Met de overdracht neemt het Openbaar Lichaam de verantwoordelijkheid voor de voorziening over. Een werkende haven is basisinfrastructuur voor de vissers van Bonaire, die afhankelijk zijn van veilige aanlegplaatsen voor hun inkomen.",
+        "Het artikel zit achter een betaalmuur en de beschikbare tekst vermeldt niet wat het project kostte, wie het uitvoerde of wat precies is hersteld of vernieuwd. Ook is niet bekend wanneer de haven weer volledig in gebruik is. Die details bepalen hoeveel het project de lokale vissers en de bredere kusteconomie oplevert."
+      ]
+    },
+    "es": {
+      "title": "Concluye la restauración del puerto pesquero de Playa Pabou, en Bonaire, y se entrega al gobierno de la isla",
+      "standfirst": "Tras ocho meses de trabajos, se completó la restauración del puerto pesquero de Playa Pabou y fue entregada a la Entidad Pública de Bonaire.",
+      "keypoints": [
+        "La restauración del puerto pesquero de Playa Pabou tomó ocho meses.",
+        "El proyecto terminado fue entregado a la Entidad Pública de Bonaire.",
+        "El gobierno de la isla asume ahora la instalación.",
+        "El texto disponible no ofrece detalles de costo, contratista ni alcance."
+      ],
+      "body": [
+        "La restauración del puerto pesquero de Playa Pabou, en Bonaire, está completa. Según Extra, los trabajos duraron ocho meses y el proyecto fue entregado formalmente a la Entidad Pública, el gobierno de la isla.",
+        "La entrega significa que la Entidad Pública asume ahora la responsabilidad de la instalación. Un puerto en funcionamiento es infraestructura básica para los pescadores de Bonaire, que dependen de lugares seguros de desembarque y amarre para su sustento.",
+        "El reporte está tras un muro de pago y el texto disponible no indica cuánto costó el proyecto, quién lo ejecutó ni qué se reparó o reconstruyó exactamente. Tampoco señala cuándo volverá a estar plenamente en uso el puerto. Esos detalles determinarán cuánto beneficia el proyecto a los pescadores locales y a la economía costera en general."
       ]
     }
   },
@@ -4989,114 +5103,61 @@
     }
   },
   {
-    "id": "5b0bfdd2bf76",
-    "slug": "bonaire-s-playa-pabou-fishing-harbour-restoration-is-finished-and-handed-to-the--5b0bfd",
-    "island": "bonaire",
-    "topic": "economy",
+    "id": "a760f3100a4e",
+    "slug": "aruba-s-health-minister-no-blank-cheque-for-the-hospital-without-an-investigatio-a760f3",
+    "island": "aruba",
+    "topic": "politics",
     "published_at": "2026-11-13T08:00:00.000Z",
     "source_id": "extra",
     "source_name": "Extra",
-    "source_url": "https://extra.cw/waf-di-piskado-entrega-na-entidat-publiko",
-    "also_covered": [],
+    "source_url": "https://extra.cw/wyatt-ras-gobierno-no-por-duna-hospital-un-cheque-blanco-sin-investigacion",
+    "also_covered": [
+      "https://noticiacla.com/news/42365",
+      "https://masnoticia.com/evelyn-wever-croes-gobierno-no-por-laga-pueblo-paga-e-prijs-di-crisis-di-hospital/"
+    ],
     "en": {
-      "title": "Bonaire's Playa Pabou fishing harbour restoration is finished and handed to the island government",
-      "standfirst": "After eight months of work, the restoration of the fishing harbour at Playa Pabou has been completed and handed over to the Public Entity of Bonaire.",
+      "title": "Aruba's health minister: no blank cheque for the hospital without an investigation",
+      "standfirst": "Health Minister Mervin Wyatt-Ras has spoken publicly for the first time on the financial crisis at Hospital Dr. Horacio E. Oduber (HOH). She says the government cannot hand the hospital open-ended funding before the causes are examined.",
       "keypoints": [
-        "The Playa Pabou fishing harbour restoration took eight months.",
-        "The finished project was handed over to the Public Entity of Bonaire.",
-        "The island government now takes over the facility.",
-        "The available text gives no cost, contractor or scope details."
+        "Wyatt-Ras made her first public comments on the HOH financial crisis.",
+        "Her message is that the government will not give the hospital a blank cheque.",
+        "She ties any further support to an investigation into the hospital's finances.",
+        "The statement adds to the dispute over hospital funding, which has already involved management, unions and the opposition."
       ],
       "body": [
-        "The restoration of the fishing harbour at Playa Pabou, on Bonaire, is complete. According to Extra, the work took eight months, and the project has now been formally delivered to the Public Entity, the island's government.",
-        "The handover means the Public Entity now takes responsibility for the facility. A working harbour is basic infrastructure for Bonaire's fishers, who depend on safe landing and mooring places for their livelihoods.",
-        "The report is behind a paywall, and the available text does not say what the project cost, who carried it out or what exactly was repaired or rebuilt. It also does not say when the harbour will be fully back in use. Those details will determine how much the project helps local fishers and the wider coastal economy."
+        "Health Minister Mervin Wyatt-Ras has broken her silence on the financial problems at Aruba's main hospital, HOH. Her stance is that the government cannot simply cover the hospital's gap without first establishing what went wrong.",
+        "The comments come as pressure on the funding arrangement has grown. Hospital management, staff unions and the opposition have all weighed in on the dispute in recent days. The minister's position signals that the government wants scrutiny of the hospital's finances before committing more public money.",
+        "Only the opening of the article was available, so the amount at stake, the form the investigation would take and any timeline are not yet known. Patients, hospital staff and the public purse all stand to be affected by how the dispute is resolved."
       ]
     },
     "nl": {
-      "title": "Herstel van de vissershaven bij Playa Pabou op Bonaire klaar en overgedragen aan het eilandbestuur",
-      "standfirst": "Na acht maanden werk is de restauratie van de vissershaven bij Playa Pabou afgerond en overgedragen aan het Openbaar Lichaam Bonaire.",
+      "title": "Minister van Volksgezondheid Aruba: geen blanco cheque voor ziekenhuis zonder onderzoek",
+      "standfirst": "Minister van Volksgezondheid Mervin Wyatt-Ras heeft voor het eerst publiekelijk gereageerd op de financiële crisis bij Hospital Dr. Horacio E. Oduber (HOH). Volgens haar kan de regering het ziekenhuis geen onbeperkte financiering geven voordat de oorzaken zijn onderzocht.",
       "keypoints": [
-        "De restauratie van de vissershaven bij Playa Pabou duurde acht maanden.",
-        "Het opgeleverde project is overgedragen aan het Openbaar Lichaam Bonaire.",
-        "Het eilandbestuur neemt de voorziening nu over.",
-        "De beschikbare tekst noemt geen kosten, aannemer of omvang van de werkzaamheden."
+        "Wyatt-Ras deed haar eerste openbare uitspraken over de financiële crisis bij HOH.",
+        "Haar boodschap: de regering geeft het ziekenhuis geen blanco cheque.",
+        "Verdere steun koppelt zij aan een onderzoek naar de financiën van het ziekenhuis.",
+        "De uitspraak komt bovenop het geschil over de ziekenhuisfinanciering, waarin directie, vakbonden en oppositie zich al hebben gemengd."
       ],
       "body": [
-        "De restauratie van de vissershaven bij Playa Pabou op Bonaire is voltooid. Volgens Extra duurde het werk acht maanden en is het project inmiddels formeel opgeleverd aan het Openbaar Lichaam, het eilandbestuur.",
-        "Met de overdracht neemt het Openbaar Lichaam de verantwoordelijkheid voor de voorziening over. Een werkende haven is basisinfrastructuur voor de vissers van Bonaire, die afhankelijk zijn van veilige aanlegplaatsen voor hun inkomen.",
-        "Het artikel zit achter een betaalmuur en de beschikbare tekst vermeldt niet wat het project kostte, wie het uitvoerde of wat precies is hersteld of vernieuwd. Ook is niet bekend wanneer de haven weer volledig in gebruik is. Die details bepalen hoeveel het project de lokale vissers en de bredere kusteconomie oplevert."
+        "Minister van Volksgezondheid Mervin Wyatt-Ras heeft haar stilte doorbroken over de financiële problemen bij het grootste ziekenhuis van Aruba, HOH. Zij vindt dat de regering het tekort niet zomaar kan dekken zonder eerst vast te stellen wat er is misgegaan.",
+        "De opmerkingen komen op een moment dat de druk op de financieringsregeling groeit. Ziekenhuisdirectie, vakbonden en oppositie hebben zich de afgelopen dagen in het geschil gemengd. Het standpunt van de minister laat zien dat de regering het ziekenhuis eerst wil doorlichten voordat er meer publiek geld wordt toegezegd.",
+        "Van het artikel was alleen de aanhef beschikbaar. Het bedrag dat op het spel staat, de vorm van het onderzoek en de planning zijn daarom nog niet bekend. Patiënten, ziekenhuispersoneel en de overheidskas worden geraakt door de manier waarop het geschil wordt opgelost."
       ]
     },
     "es": {
-      "title": "Concluye la restauración del puerto pesquero de Playa Pabou, en Bonaire, y se entrega al gobierno de la isla",
-      "standfirst": "Tras ocho meses de trabajos, se completó la restauración del puerto pesquero de Playa Pabou y fue entregada a la Entidad Pública de Bonaire.",
+      "title": "Ministra de Salud de Aruba: no habrá cheque en blanco para el hospital sin una investigación",
+      "standfirst": "La ministra de Salud, Mervin Wyatt-Ras, habló públicamente por primera vez sobre la crisis financiera del Hospital Dr. Horacio E. Oduber (HOH). Afirma que el gobierno no puede entregar al hospital financiamiento ilimitado antes de examinar las causas.",
       "keypoints": [
-        "La restauración del puerto pesquero de Playa Pabou tomó ocho meses.",
-        "El proyecto terminado fue entregado a la Entidad Pública de Bonaire.",
-        "El gobierno de la isla asume ahora la instalación.",
-        "El texto disponible no ofrece detalles de costo, contratista ni alcance."
+        "Wyatt-Ras hizo sus primeras declaraciones públicas sobre la crisis financiera del HOH.",
+        "Su mensaje es que el gobierno no dará un cheque en blanco al hospital.",
+        "Condiciona cualquier apoyo adicional a una investigación de las finanzas del hospital.",
+        "La declaración se suma a la disputa por el financiamiento del hospital, en la que ya han intervenido la dirección, los sindicatos y la oposición."
       ],
       "body": [
-        "La restauración del puerto pesquero de Playa Pabou, en Bonaire, está completa. Según Extra, los trabajos duraron ocho meses y el proyecto fue entregado formalmente a la Entidad Pública, el gobierno de la isla.",
-        "La entrega significa que la Entidad Pública asume ahora la responsabilidad de la instalación. Un puerto en funcionamiento es infraestructura básica para los pescadores de Bonaire, que dependen de lugares seguros de desembarque y amarre para su sustento.",
-        "El reporte está tras un muro de pago y el texto disponible no indica cuánto costó el proyecto, quién lo ejecutó ni qué se reparó o reconstruyó exactamente. Tampoco señala cuándo volverá a estar plenamente en uso el puerto. Esos detalles determinarán cuánto beneficia el proyecto a los pescadores locales y a la economía costera en general."
-      ]
-    }
-  },
-  {
-    "id": "bed8c7f81b4d",
-    "slug": "bonaire-teachers-unions-threaten-tougher-action-over-labour-benefits-bed8c7",
-    "island": "bonaire",
-    "topic": "economy",
-    "published_at": "2026-11-13T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/menasa-di-akshon-den-ensenansa",
-    "also_covered": [],
-    "en": {
-      "title": "Bonaire teachers' unions threaten tougher action over labour benefits",
-      "standfirst": "Education unions ABVO and SIMABO say they are prepared to step up their action on Bonaire. They want education staff to receive the labour benefits they are seeking.",
-      "keypoints": [
-        "ABVO and SIMABO, two unions in Bonaire's education sector, are ready to intensify their action.",
-        "The goal is for education workers to receive labour benefits.",
-        "The report does not say what form the action could take.",
-        "A tougher stance could disrupt schools if talks stall."
-      ],
-      "body": [
-        "Two unions representing Bonaire's education workers, ABVO and SIMABO, have signalled that they will escalate their action. Their aim is to secure labour benefits for staff in the sector, according to a report from Kralendijk.",
-        "The available text of the report is brief. It does not list which benefits are in dispute, name the employer or authority involved, or say what measures the unions are considering. Those details are not confirmed here.",
-        "The warning matters because education is one of the largest public-service employers on the island, and any escalation could affect schools, pupils and parents. It also adds to pressure on the island government over public-sector working conditions. Further developments will show whether the dispute is resolved through talks or turns into formal industrial action."
-      ]
-    },
-    "nl": {
-      "title": "Onderwijsbonden Bonaire dreigen met scherpere acties om arbeidsvoorwaarden",
-      "standfirst": "De onderwijsbonden ABVO en SIMABO zijn bereid hun acties op Bonaire op te voeren. Zij willen dat onderwijspersoneel de gevraagde arbeidsvoorwaarden krijgt.",
-      "keypoints": [
-        "ABVO en SIMABO, twee bonden in het Bonairiaanse onderwijs, willen hun acties intensiveren.",
-        "Het doel is dat onderwijspersoneel arbeidsvoorwaardelijke voordelen ontvangt.",
-        "Het bericht meldt niet welke vorm de acties kunnen krijgen.",
-        "Een hardere opstelling kan scholen raken als het overleg stokt."
-      ],
-      "body": [
-        "Twee bonden die het Bonairiaanse onderwijspersoneel vertegenwoordigen, ABVO en SIMABO, geven aan hun acties te willen opvoeren. Ze willen dat medewerkers in de sector arbeidsvoorwaardelijke voordelen krijgen, meldt een bericht uit Kralendijk.",
-        "De beschikbare tekst van het bericht is kort. Er staat niet in om welke voordelen het precies gaat, welke werkgever of overheidsinstantie betrokken is of welke maatregelen de bonden overwegen. Die details zijn hier niet bevestigd.",
-        "De waarschuwing is relevant omdat onderwijs een van de grootste publieke werkgevers op het eiland is. Opvoering van de acties kan gevolgen hebben voor scholen, leerlingen en ouders. Ook zet het de eilandelijke overheid onder druk als het gaat om arbeidsvoorwaarden in de publieke sector. Vervolgontwikkelingen zullen uitwijzen of het geschil via overleg wordt opgelost of uitmondt in formele acties."
-      ]
-    },
-    "es": {
-      "title": "Los sindicatos docentes de Bonaire amenazan con endurecer sus acciones por beneficios laborales",
-      "standfirst": "Los sindicatos de educación ABVO y SIMABO dicen estar dispuestos a intensificar sus acciones en Bonaire. Quieren que el personal educativo reciba los beneficios laborales que reclaman.",
-      "keypoints": [
-        "ABVO y SIMABO, dos sindicatos del sector educativo de Bonaire, están listos para intensificar sus acciones.",
-        "El objetivo es que los trabajadores de la educación reciban beneficios laborales.",
-        "El reporte no indica qué forma podrían tomar las acciones.",
-        "Una postura más dura podría afectar el funcionamiento de las escuelas si las conversaciones se estancan."
-      ],
-      "body": [
-        "Dos sindicatos que representan a los trabajadores de la educación de Bonaire, ABVO y SIMABO, han señalado que escalarán sus acciones. Su objetivo es obtener beneficios laborales para el personal del sector, según un reporte desde Kralendijk.",
-        "El texto disponible del reporte es breve. No enumera qué beneficios están en disputa, no nombra al empleador ni a la autoridad involucrada, ni indica qué medidas consideran los sindicatos. Esos detalles no están confirmados aquí.",
-        "La advertencia es relevante porque la educación es uno de los mayores empleadores del servicio público en la isla, y cualquier escalada podría afectar a escuelas, alumnos y padres. También se suma a la presión sobre el gobierno de la isla en torno a las condiciones laborales en el sector público. Los próximos acontecimientos mostrarán si la disputa se resuelve mediante el diálogo o se convierte en una acción laboral formal."
+        "La ministra de Salud, Mervin Wyatt-Ras, rompió su silencio sobre los problemas financieros del principal hospital de Aruba, el HOH. Su postura es que el gobierno no puede simplemente cubrir el déficit del hospital sin establecer primero qué salió mal.",
+        "Los comentarios surgen en un momento en que ha aumentado la presión sobre el esquema de financiamiento. La dirección del hospital, los sindicatos del personal y la oposición han opinado sobre la disputa en los últimos días. La posición de la ministra indica que el gobierno quiere escrutinio de las finanzas del hospital antes de comprometer más dinero público.",
+        "Solo estaba disponible el inicio del artículo, por lo que aún se desconocen el monto en juego, la forma que tendría la investigación y cualquier calendario. Los pacientes, el personal del hospital y las arcas públicas se verán afectados por la manera en que se resuelva la disputa."
       ]
     }
   },
@@ -6714,62 +6775,6 @@
     }
   },
   {
-    "id": "cdae1eeae039",
-    "slug": "selibon-faces-leadership-gap-as-acting-director-winklaar-will-not-continue-cdae1e",
-    "island": "bonaire",
-    "topic": "business",
-    "published_at": "2026-11-12T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/nombramentu-direktor-selibon-ta-lanta-pregunta",
-    "also_covered": [],
-    "en": {
-      "title": "Selibon faces leadership gap as acting director Winklaar will not continue",
-      "standfirst": "Bonaire's waste company Selibon N.V. is set to be without a director within weeks. Acting director Edsel Winklaar will not stay on, and the question of who will be appointed is drawing scrutiny.",
-      "keypoints": [
-        "Selibon N.V. is expected to have no director in a few weeks.",
-        "Edsel Winklaar, currently acting director, will not continue in the role.",
-        "The appointment of a successor is raising questions, according to Extra.",
-        "The full report is behind a paywall, so details of the reasons and candidates are not available."
-      ],
-      "body": [
-        "Selibon N.V., the waste management company on Bonaire, is heading for a gap at the top. Extra reports that within a few weeks the company will have no director, because Edsel Winklaar, who currently serves as acting director, will not continue.",
-        "The paper says the handling of the director's appointment is prompting questions. The accessible part of the article does not explain what the questions are, who is asking them, or whether a successor has been named.",
-        "Selibon handles waste services on the island, so the choice of a permanent director matters for residents and businesses that depend on them. Further detail on the process and timing has not yet been made public in the part of the report available to us."
-      ]
-    },
-    "nl": {
-      "title": "Selibon krijgt directievacature: interim-directeur Winklaar blijft niet",
-      "standfirst": "Het Bonairiaanse afvalbedrijf Selibon N.V. heeft over enkele weken geen directeur meer. Interim-directeur Edsel Winklaar gaat niet door en de benoeming van een opvolger roept vragen op.",
-      "keypoints": [
-        "Selibon N.V. heeft naar verwachting over enkele weken geen directeur.",
-        "Edsel Winklaar, nu interim-directeur, zet zijn functie niet voort.",
-        "De benoeming van een opvolger roept vragen op, meldt Extra.",
-        "Het volledige artikel zit achter een betaalmuur, dus over de redenen en kandidaten is niets bekend."
-      ],
-      "body": [
-        "Selibon N.V., het afvalbedrijf van Bonaire, krijgt een gat in de top. Volgens Extra heeft het bedrijf over enkele weken geen directeur meer, omdat Edsel Winklaar, de huidige interim-directeur, niet doorgaat.",
-        "De krant meldt dat de manier waarop de directeur wordt benoemd vragen oproept. Het vrij toegankelijke deel van het artikel maakt niet duidelijk welke vragen dat zijn, wie ze stelt en of er al een opvolger is aangewezen.",
-        "Selibon verzorgt afvalvoorzieningen op het eiland, dus de keuze van een vaste directeur is van belang voor inwoners en bedrijven die van die diensten afhankelijk zijn. Meer details over de procedure en de planning zijn in het beschikbare deel van het bericht nog niet openbaar gemaakt."
-      ]
-    },
-    "es": {
-      "title": "Selibon enfrenta un vacío de liderazgo porque el director interino Winklaar no continuará",
-      "standfirst": "La empresa de residuos de Bonaire, Selibon N.V., se quedará sin director en pocas semanas. El director interino Edsel Winklaar no seguirá en el cargo, y el nombramiento de su sucesor está siendo objeto de escrutinio.",
-      "keypoints": [
-        "Se espera que Selibon N.V. no tenga director en unas semanas.",
-        "Edsel Winklaar, actualmente director interino, no continuará en el cargo.",
-        "El nombramiento de un sucesor genera interrogantes, según Extra.",
-        "El reportaje completo está tras un muro de pago, por lo que no se conocen detalles sobre los motivos ni los candidatos."
-      ],
-      "body": [
-        "Selibon N.V., la empresa de gestión de residuos de Bonaire, se encamina a un vacío en su dirección. Extra informa que en pocas semanas la empresa no tendrá director, porque Edsel Winklaar, quien actualmente ejerce como director interino, no continuará.",
-        "El diario indica que la forma en que se está manejando el nombramiento del director genera interrogantes. La parte accesible del artículo no explica cuáles son esos interrogantes, quién los plantea ni si ya se ha designado a un sucesor.",
-        "Selibon se encarga de los servicios de residuos en la isla, por lo que la elección de un director permanente es importante para los residentes y las empresas que dependen de ellos. En la parte del reportaje a la que tenemos acceso aún no se han divulgado más detalles sobre el proceso ni los plazos."
-      ]
-    }
-  },
-  {
     "id": "1fc9eb378d45",
     "slug": "bonaire-s-upb-asks-the-hague-to-hand-over-the-kas-di-regata-building-1fc9eb",
     "island": "bonaire",
@@ -6822,6 +6827,62 @@
         "La facción UPB del Consejo Insular de Bonaire presentó una moción que insta al gobierno neerlandés a ceder el edificio Kas di Regata a Bonaire. El llamado está dirigido al Ministerio del Interior y Relaciones del Reino (BZK).",
         "La moción forma parte de una discusión más amplia en Bonaire sobre cuáles bienes públicos pertenecen al Estado neerlandés y cuáles a la isla. Una transferencia daría al gobierno insular el control sobre el uso y el mantenimiento del edificio.",
         "En el extracto publicado no se conocían los argumentos de la moción, si cuenta con el apoyo de la mayoría del consejo ni cómo responderá La Haya. La votación del Consejo Insular y cualquier respuesta del BZK mostrarán hasta dónde llega la solicitud."
+      ]
+    }
+  },
+  {
+    "id": "cdae1eeae039",
+    "slug": "selibon-faces-leadership-gap-as-acting-director-winklaar-will-not-continue-cdae1e",
+    "island": "bonaire",
+    "topic": "business",
+    "published_at": "2026-11-12T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/nombramentu-direktor-selibon-ta-lanta-pregunta",
+    "also_covered": [],
+    "en": {
+      "title": "Selibon faces leadership gap as acting director Winklaar will not continue",
+      "standfirst": "Bonaire's waste company Selibon N.V. is set to be without a director within weeks. Acting director Edsel Winklaar will not stay on, and the question of who will be appointed is drawing scrutiny.",
+      "keypoints": [
+        "Selibon N.V. is expected to have no director in a few weeks.",
+        "Edsel Winklaar, currently acting director, will not continue in the role.",
+        "The appointment of a successor is raising questions, according to Extra.",
+        "The full report is behind a paywall, so details of the reasons and candidates are not available."
+      ],
+      "body": [
+        "Selibon N.V., the waste management company on Bonaire, is heading for a gap at the top. Extra reports that within a few weeks the company will have no director, because Edsel Winklaar, who currently serves as acting director, will not continue.",
+        "The paper says the handling of the director's appointment is prompting questions. The accessible part of the article does not explain what the questions are, who is asking them, or whether a successor has been named.",
+        "Selibon handles waste services on the island, so the choice of a permanent director matters for residents and businesses that depend on them. Further detail on the process and timing has not yet been made public in the part of the report available to us."
+      ]
+    },
+    "nl": {
+      "title": "Selibon krijgt directievacature: interim-directeur Winklaar blijft niet",
+      "standfirst": "Het Bonairiaanse afvalbedrijf Selibon N.V. heeft over enkele weken geen directeur meer. Interim-directeur Edsel Winklaar gaat niet door en de benoeming van een opvolger roept vragen op.",
+      "keypoints": [
+        "Selibon N.V. heeft naar verwachting over enkele weken geen directeur.",
+        "Edsel Winklaar, nu interim-directeur, zet zijn functie niet voort.",
+        "De benoeming van een opvolger roept vragen op, meldt Extra.",
+        "Het volledige artikel zit achter een betaalmuur, dus over de redenen en kandidaten is niets bekend."
+      ],
+      "body": [
+        "Selibon N.V., het afvalbedrijf van Bonaire, krijgt een gat in de top. Volgens Extra heeft het bedrijf over enkele weken geen directeur meer, omdat Edsel Winklaar, de huidige interim-directeur, niet doorgaat.",
+        "De krant meldt dat de manier waarop de directeur wordt benoemd vragen oproept. Het vrij toegankelijke deel van het artikel maakt niet duidelijk welke vragen dat zijn, wie ze stelt en of er al een opvolger is aangewezen.",
+        "Selibon verzorgt afvalvoorzieningen op het eiland, dus de keuze van een vaste directeur is van belang voor inwoners en bedrijven die van die diensten afhankelijk zijn. Meer details over de procedure en de planning zijn in het beschikbare deel van het bericht nog niet openbaar gemaakt."
+      ]
+    },
+    "es": {
+      "title": "Selibon enfrenta un vacío de liderazgo porque el director interino Winklaar no continuará",
+      "standfirst": "La empresa de residuos de Bonaire, Selibon N.V., se quedará sin director en pocas semanas. El director interino Edsel Winklaar no seguirá en el cargo, y el nombramiento de su sucesor está siendo objeto de escrutinio.",
+      "keypoints": [
+        "Se espera que Selibon N.V. no tenga director en unas semanas.",
+        "Edsel Winklaar, actualmente director interino, no continuará en el cargo.",
+        "El nombramiento de un sucesor genera interrogantes, según Extra.",
+        "El reportaje completo está tras un muro de pago, por lo que no se conocen detalles sobre los motivos ni los candidatos."
+      ],
+      "body": [
+        "Selibon N.V., la empresa de gestión de residuos de Bonaire, se encamina a un vacío en su dirección. Extra informa que en pocas semanas la empresa no tendrá director, porque Edsel Winklaar, quien actualmente ejerce como director interino, no continuará.",
+        "El diario indica que la forma en que se está manejando el nombramiento del director genera interrogantes. La parte accesible del artículo no explica cuáles son esos interrogantes, quién los plantea ni si ya se ha designado a un sucesor.",
+        "Selibon se encarga de los servicios de residuos en la isla, por lo que la elección de un director permanente es importante para los residentes y las empresas que dependen de ellos. En la parte del reportaje a la que tenemos acceso aún no se han divulgado más detalles sobre el proceso ni los plazos."
       ]
     }
   },
@@ -8233,65 +8294,6 @@
     }
   },
   {
-    "id": "671e991c60ed",
-    "slug": "mfk-lawmaker-monte-sends-curacao-s-labour-minister-nine-questions-on-2027-minimu-671e99",
-    "island": "curacao",
-    "topic": "politics",
-    "published_at": "2026-11-11T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/ishahier-monte-ku-9-pregunta-relashona-ku-oumento-salario-minimo-2027",
-    "also_covered": [
-      "https://www.curacaochronicle.com/post/unknown/curacaos-economy-is-booming-but-workers-are-still-struggling-mp-monte-warns",
-      "https://www.curacaochronicle.com/post/unknown/mp-ishahier-monte-demands-answers-on-2027-minimum-wage-increase-as-government-considers-more-than-14-cents"
-    ],
-    "en": {
-      "title": "MFK lawmaker Monte sends Curaçao's labour minister nine questions on 2027 minimum wage rise",
-      "standfirst": "Member of Parliament Ishahier Monte of the MFK faction has put nine written questions to Minister Charetti America-Francisca about a planned rise in Curaçao's minimum wage for 2027.",
-      "keypoints": [
-        "Ishahier Monte (MFK) sent a letter with nine questions to the Minister of Social Development, Labour and Welfare.",
-        "The questions concern the minimum wage increase for 2027.",
-        "The minister is Charetti America-Francisca.",
-        "The detailed questions were not available in the accessible text."
-      ],
-      "body": [
-        "Ishahier Monte, a member of Curaçao's Parliament for the MFK faction, has formally asked the government to explain its plans for the minimum wage in 2027. He sent a letter with nine questions to Charetti America-Francisca, the Minister of Social Development, Labour and Welfare.",
-        "The accessible part of the report does not set out the questions themselves, nor the size or timing of any increase. The report sits behind a paywall, so the specific points raised by the MFK lawmaker cannot be confirmed here.",
-        "Written parliamentary questions oblige the minister to reply on the record. The answers could show how the government intends to approach wage policy for workers and employers on the island. The minimum wage is also under debate on neighbouring Aruba."
-      ]
-    },
-    "nl": {
-      "title": "Parlementariër Monte (MFK) stelt Curaçaose arbeidsminister negen vragen over verhoging minimumloon 2027",
-      "standfirst": "Parlementslid Ishahier Monte van de MFK heeft minister Charetti America-Francisca negen schriftelijke vragen gesteld over een voorgenomen verhoging van het Curaçaose minimumloon in 2027.",
-      "keypoints": [
-        "Ishahier Monte (MFK) stuurde een brief met negen vragen aan de minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
-        "De vragen gaan over de verhoging van het minimumloon voor 2027.",
-        "De minister is Charetti America-Francisca.",
-        "De inhoud van de vragen was in de toegankelijke tekst niet te zien."
-      ],
-      "body": [
-        "Ishahier Monte, Statenlid voor de MFK-fractie op Curaçao, vraagt de regering om uitleg over de plannen voor het minimumloon in 2027. Hij stuurde een brief met negen vragen aan Charetti America-Francisca, minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
-        "In het toegankelijke deel van het bericht staan de vragen zelf niet, evenmin als de omvang of het tijdstip van een verhoging. Het bericht staat achter een betaalmuur, dus de precieze punten van het Statenlid zijn hier niet te bevestigen.",
-        "Schriftelijke Statenvragen verplichten de minister om op de feiten te antwoorden. De antwoorden kunnen laten zien hoe de regering het loonbeleid voor werknemers en werkgevers op het eiland wil aanpakken. Ook op buureiland Aruba is het minimumloon onderwerp van debat."
-      ]
-    },
-    "es": {
-      "title": "El parlamentario de MFK Monte envía nueve preguntas a la ministra de Trabajo de Curazao sobre el aumento del salario mínimo en 2027",
-      "standfirst": "El miembro del Parlamento Ishahier Monte, de la facción MFK, ha dirigido nueve preguntas por escrito a la ministra Charetti America-Francisca sobre un aumento previsto del salario mínimo en Curazao para 2027.",
-      "keypoints": [
-        "Ishahier Monte (MFK) envió una carta con nueve preguntas a la ministra de Desarrollo Social, Trabajo y Bienestar.",
-        "Las preguntas se refieren al aumento del salario mínimo para 2027.",
-        "La ministra es Charetti America-Francisca.",
-        "Las preguntas detalladas no estaban disponibles en el texto accesible."
-      ],
-      "body": [
-        "Ishahier Monte, miembro del Parlamento de Curazao por la facción MFK, ha pedido formalmente al gobierno que explique sus planes sobre el salario mínimo en 2027. Envió una carta con nueve preguntas a Charetti America-Francisca, ministra de Desarrollo Social, Trabajo y Bienestar.",
-        "La parte accesible de la información no expone las preguntas en sí, ni el monto ni el calendario de un eventual aumento. La nota está tras un muro de pago, por lo que los puntos concretos planteados por el parlamentario de MFK no pueden confirmarse aquí.",
-        "Las preguntas parlamentarias por escrito obligan a la ministra a responder de manera oficial. Las respuestas podrían mostrar cómo piensa el gobierno abordar la política salarial para trabajadores y empleadores en la isla. El salario mínimo también está en debate en la vecina Aruba."
-      ]
-    }
-  },
-  {
     "id": "a9f9dddfe6ce",
     "slug": "curacao-welcomes-68-162-stayover-tourists-in-october-2026-up-12-on-a-year-earlie-a9f9dd",
     "island": "curacao",
@@ -8349,6 +8351,65 @@
         "Los visitantes con pernoctación se contabilizan por separado de los pasajeros de cruceros. Reservan alojamiento, alquilan autos y gastan en restaurantes y tiendas durante varias noches, por lo que generan más ingresos para la economía local que las breves escalas en puerto.",
         "La nota indica que los visitantes provinieron de varios mercados distintos. El artículo completo está tras un muro de pago, por lo que no se dispone aquí de un desglose por país ni de comparaciones con meses anteriores.",
         "Las cifras llegan en momentos en que Curazao debate hasta qué punto debe depender del crecimiento turístico y quién se beneficia de él, incluidos los efectos sobre el empleo, la vivienda y la infraestructura, como la red eléctrica."
+      ]
+    }
+  },
+  {
+    "id": "671e991c60ed",
+    "slug": "mfk-lawmaker-monte-sends-curacao-s-labour-minister-nine-questions-on-2027-minimu-671e99",
+    "island": "curacao",
+    "topic": "politics",
+    "published_at": "2026-11-11T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/ishahier-monte-ku-9-pregunta-relashona-ku-oumento-salario-minimo-2027",
+    "also_covered": [
+      "https://www.curacaochronicle.com/post/unknown/curacaos-economy-is-booming-but-workers-are-still-struggling-mp-monte-warns",
+      "https://www.curacaochronicle.com/post/unknown/mp-ishahier-monte-demands-answers-on-2027-minimum-wage-increase-as-government-considers-more-than-14-cents"
+    ],
+    "en": {
+      "title": "MFK lawmaker Monte sends Curaçao's labour minister nine questions on 2027 minimum wage rise",
+      "standfirst": "Member of Parliament Ishahier Monte of the MFK faction has put nine written questions to Minister Charetti America-Francisca about a planned rise in Curaçao's minimum wage for 2027.",
+      "keypoints": [
+        "Ishahier Monte (MFK) sent a letter with nine questions to the Minister of Social Development, Labour and Welfare.",
+        "The questions concern the minimum wage increase for 2027.",
+        "The minister is Charetti America-Francisca.",
+        "The detailed questions were not available in the accessible text."
+      ],
+      "body": [
+        "Ishahier Monte, a member of Curaçao's Parliament for the MFK faction, has formally asked the government to explain its plans for the minimum wage in 2027. He sent a letter with nine questions to Charetti America-Francisca, the Minister of Social Development, Labour and Welfare.",
+        "The accessible part of the report does not set out the questions themselves, nor the size or timing of any increase. The report sits behind a paywall, so the specific points raised by the MFK lawmaker cannot be confirmed here.",
+        "Written parliamentary questions oblige the minister to reply on the record. The answers could show how the government intends to approach wage policy for workers and employers on the island. The minimum wage is also under debate on neighbouring Aruba."
+      ]
+    },
+    "nl": {
+      "title": "Parlementariër Monte (MFK) stelt Curaçaose arbeidsminister negen vragen over verhoging minimumloon 2027",
+      "standfirst": "Parlementslid Ishahier Monte van de MFK heeft minister Charetti America-Francisca negen schriftelijke vragen gesteld over een voorgenomen verhoging van het Curaçaose minimumloon in 2027.",
+      "keypoints": [
+        "Ishahier Monte (MFK) stuurde een brief met negen vragen aan de minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
+        "De vragen gaan over de verhoging van het minimumloon voor 2027.",
+        "De minister is Charetti America-Francisca.",
+        "De inhoud van de vragen was in de toegankelijke tekst niet te zien."
+      ],
+      "body": [
+        "Ishahier Monte, Statenlid voor de MFK-fractie op Curaçao, vraagt de regering om uitleg over de plannen voor het minimumloon in 2027. Hij stuurde een brief met negen vragen aan Charetti America-Francisca, minister van Sociale Ontwikkeling, Arbeid en Welzijn.",
+        "In het toegankelijke deel van het bericht staan de vragen zelf niet, evenmin als de omvang of het tijdstip van een verhoging. Het bericht staat achter een betaalmuur, dus de precieze punten van het Statenlid zijn hier niet te bevestigen.",
+        "Schriftelijke Statenvragen verplichten de minister om op de feiten te antwoorden. De antwoorden kunnen laten zien hoe de regering het loonbeleid voor werknemers en werkgevers op het eiland wil aanpakken. Ook op buureiland Aruba is het minimumloon onderwerp van debat."
+      ]
+    },
+    "es": {
+      "title": "El parlamentario de MFK Monte envía nueve preguntas a la ministra de Trabajo de Curazao sobre el aumento del salario mínimo en 2027",
+      "standfirst": "El miembro del Parlamento Ishahier Monte, de la facción MFK, ha dirigido nueve preguntas por escrito a la ministra Charetti America-Francisca sobre un aumento previsto del salario mínimo en Curazao para 2027.",
+      "keypoints": [
+        "Ishahier Monte (MFK) envió una carta con nueve preguntas a la ministra de Desarrollo Social, Trabajo y Bienestar.",
+        "Las preguntas se refieren al aumento del salario mínimo para 2027.",
+        "La ministra es Charetti America-Francisca.",
+        "Las preguntas detalladas no estaban disponibles en el texto accesible."
+      ],
+      "body": [
+        "Ishahier Monte, miembro del Parlamento de Curazao por la facción MFK, ha pedido formalmente al gobierno que explique sus planes sobre el salario mínimo en 2027. Envió una carta con nueve preguntas a Charetti America-Francisca, ministra de Desarrollo Social, Trabajo y Bienestar.",
+        "La parte accesible de la información no expone las preguntas en sí, ni el monto ni el calendario de un eventual aumento. La nota está tras un muro de pago, por lo que los puntos concretos planteados por el parlamentario de MFK no pueden confirmarse aquí.",
+        "Las preguntas parlamentarias por escrito obligan a la ministra a responder de manera oficial. Las respuestas podrían mostrar cómo piensa el gobierno abordar la política salarial para trabajadores y empleadores en la isla. El salario mínimo también está en debate en la vecina Aruba."
       ]
     }
   },
@@ -14007,6 +14068,21 @@
         "Pisas wijt de vertraging aan het aantal te raadplegen stakeholders en de verwerking van hun opmerkingen. Ook wachtte de regering op de aandeelhoudersvergaderingen van Integrated Utility Holding (moederbedrijf van Aqualectra), brandstofleverancier Curoil en infrastructuurbeheerder 2BAYS. Die waren op 3 november afgerond, de dag van de eerste Energy Summit van het eiland. Door de conclusies moeten delen van het concept worden herzien voordat de Raad van Ministers het kan vaststellen.",
         "Een prioriteit is de langetermijnrichting van de energiesector duidelijker te koppelen aan de rol van de drie staatsbedrijven. Het volledige beleid gaat nog niet naar het parlement, maar volgens Pisas schetsen de ministers de hoofdlijnen tijdens het begrotingsdebat. Parlementsleden krijgen zo vroeg een beeld, terwijl de formele bespreking openstaat."
       ]
+    },
+    "es": {
+      "title": "Curazao pide al Parlamento aplazar hasta 2027 el debate sobre política energética",
+      "standfirst": "El primer ministro Gilmar Pisas quiere que el debate parlamentario sobre la estrategia energética del Gobierno se posponga hasta principios de 2027. El Gobierno afirma que necesita más tiempo para concluir una política que prometió por primera vez en marzo.",
+      "keypoints": [
+        "Pisas ha pedido al Parlamento que posponga hasta principios del próximo año la reanudación de la reunión de la Comisión Central, prevista para el 6 de noviembre.",
+        "La reunión se suspendió el 20 de marzo para que el Gobierno elaborara una política energética formal; el borrador sigue sin terminarse.",
+        "Las juntas de accionistas de IUH, matriz de Aqualectra, de Curoil y de 2BAYS concluyeron el 3 de noviembre, el mismo día de la primera Cumbre de Energía de Curazao, y sus conclusiones exigen cambios en el borrador.",
+        "Los ministros expondrán las principales orientaciones de la política durante el próximo debate presupuestario, pero no se ha dado una fecha de finalización."
+      ],
+      "body": [
+        "El primer ministro Gilmar Pisas ha escrito al presidente del Parlamento, Fergino Brownbill, para pedirle que se aplace hasta comienzos de 2027 la continuación del debate sobre política energética. El debate comenzó en marzo, cuando el propio Gobierno solicitó una reunión sobre la crisis energética internacional y lo que significa para Curazao. Se suspendió para que los ministros elaboraran una política formal. Casi ocho meses después, ese documento no está listo.",
+        "Pisas atribuye el retraso a la cantidad de partes interesadas a las que hay que consultar y a la necesidad de reflejar sus comentarios. El Gobierno también esperó a las juntas de accionistas de Integrated Utility Holding (matriz de Aqualectra), del proveedor de combustible Curoil y del administrador de infraestructura 2BAYS. Estas terminaron el 3 de noviembre, el día de la primera Cumbre de Energía de la isla. Sus conclusiones implican que partes del borrador deben reelaborarse antes de que el Consejo de Ministros pueda adoptarlo.",
+        "Una prioridad declarada es vincular con mayor claridad la orientación a largo plazo del sector energético con las funciones de las tres empresas estatales. Aunque la política completa aún no llegará al Parlamento, Pisas afirma que los ministros expondrán las líneas principales durante el debate presupuestario. Así, los legisladores tendrán una visión anticipada, mientras la discusión formal sigue abierta."
+      ]
     }
   },
   {
@@ -14050,6 +14126,21 @@
         "Om naleving af te dwingen zette de toezichthouder een last onder dwangsom in. Per apotheek gold een bedrag van XCG 10.000 voor elke dag of dagdeel overtreding, tot maximaal XCG 100.000. Inspecteurs bezochten vervolgens apotheken om dit te controleren en troffen alle 33 geopend aan.",
         "De inspectie zegt de naleving te blijven volgen, zodat medicijnen beschikbaar blijven. Volgens de bron speelt de kwestie tegen de achtergrond van bredere spanningen in de zorgsector over vergoedingsafspraken en werkomstandigheden van zorgverleners, een probleem dat nog niet is opgelost."
       ]
+    },
+    "es": {
+      "title": "Todas las farmacias de Curazao reabren tras una orden coercitiva de la Inspectorate",
+      "standfirst": "Las 33 farmacias de Curazao vuelven a estar abiertas después de que la Inspectorate of Medicines ordenara a 25 de ellas retomar el horario legal o enfrentar sanciones. El caso apunta a una tensión más amplia en el sector de la salud de la isla por los reembolsos y las condiciones de trabajo.",
+      "keypoints": [
+        "La Inspectorate emitió órdenes coercitivas a 25 farmacias que no habían respetado el horario exigido por ley, de 8:00 a. m. a 7:00 p. m.",
+        "Las farmacias que no abrieran a la 1:00 p. m. del viernes 6 de noviembre enfrentaban una multa de XCG 10.000 por día, con un tope de XCG 100.000 cada una.",
+        "Los inspectores revisaron farmacias en toda la isla y confirmaron que las 33 estaban abiertas.",
+        "No se indica si se llegó a cobrar alguna sanción."
+      ],
+      "body": [
+        "La Inspectorate of Medicines ha confirmado que todas las farmacias de Curazao vuelven a funcionar. La interrupción se debió a la negativa de 25 farmacias a mantenerse abiertas durante el horario establecido por ley, lo que dejó a los pacientes sin acceso regular a medicamentos.",
+        "Para forzar la reanudación, el regulador recurrió a un instrumento legal conocido en neerlandés como 'last onder dwangsom', una orden respaldada por una sanción económica. Cada farmacia enfrentaba un cobro de XCG 10.000 por cada día o fracción de día de incumplimiento, hasta un máximo de XCG 100.000. Luego los inspectores visitaron farmacias para verificar el cumplimiento y encontraron las 33 abiertas.",
+        "La Inspectorate indicó que seguirá vigilando el cumplimiento para que los medicamentos continúen disponibles. La fuente vincula el episodio con una fricción más amplia en el sector de la salud por los acuerdos de reembolso y las condiciones laborales de los profesionales médicos, un asunto que sigue sin resolverse."
+      ]
     }
   },
   {
@@ -14090,6 +14181,21 @@
         "Het Curaçao Tourist Board (CTB) heeft het Blue Wave Impact Report 2026 uitgebracht. Het beslaat de periode vanaf de WK-kwalificatie van het elftal op 18 november 2025 tot de groepswedstrijden in juni 2026. CTB-directeur Muryad de Bruin overhandigde het aan minister Roderick Middelhof.",
         "Volgens het rapport werkte CTB samen met PR-bureaus, mediapartners, de reisbranche en eigen teams in het buitenland om de aandacht voor het elftal om te zetten in berichtgeving en campagnes over het eiland als bestemming. De online belangstelling steeg sterk: Curacao.com telde 83,5 miljoen vertoningen in Google Search en het verkeer piekte op 14 en 15 juni na de wedstrijd tegen Duitsland. Vermeldingen van Curaçao in AI-tools zoals ChatGPT en Gemini stegen tijdens het toernooi met 10,6%.",
         "Het rapport noemt geen cijfers over boekingen of bestedingen van bezoekers, dus het effect op het werkelijke aantal aankomsten blijkt er nog niet uit. CTB wil voortbouwen op de mediacontacten, het webverkeer en de relaties met de reisbranche."
+      ]
+    },
+    "es": {
+      "title": "El Tourist Board afirma que la campaña mundialista dio a Curazao un alcance mediático estimado de 29.500 millones",
+      "standfirst": "El Curaçao Tourist Board ha publicado un informe de impacto sobre la exposición que le dio a la isla la participación de la selección nacional de fútbol en el Mundial. El informe fue entregado al ministro de Desarrollo Económico, Roderick Middelhof.",
+      "keypoints": [
+        "El CTB contabiliza 30.400 menciones en medios de Norteamérica, Latinoamérica y Europa, con un alcance combinado estimado de 29.500 millones; la cifra mide la exposición potencial y puede contar más de una vez a la misma persona.",
+        "Curacao.com registró 3,75 millones de sesiones, y Brasil fue la mayor fuente, con el 32,1 % de las visitas.",
+        "El CTB organizó más de 15 viajes de prensa y un evento para aficionados en Houston que reunió a 1.200 personas.",
+        "La junta considera que la visibilidad es una base sobre la cual construir, no un resultado terminado."
+      ],
+      "body": [
+        "El Curaçao Tourist Board (CTB) ha publicado el Blue Wave Impact Report 2026, que abarca el período desde la clasificación del equipo al Mundial, el 18 de noviembre de 2025, hasta los partidos de la fase de grupos en junio de 2026. El director general del CTB, Muryad de Bruin, lo presentó al ministro Roderick Middelhof.",
+        "Según el informe, el CTB trabajó con agencias de relaciones públicas, medios aliados, el sector turístico y sus propios equipos en el exterior para convertir la atención sobre la selección en cobertura y campañas sobre la isla como destino. El interés en línea aumentó notablemente: Curacao.com registró 83,5 millones de impresiones en la Búsqueda de Google y el tráfico alcanzó su punto máximo el 14 y 15 de junio, tras el partido contra Alemania. Las menciones de Curazao en herramientas de IA como ChatGPT y Gemini aumentaron un 10,6 % durante el torneo.",
+        "El informe no ofrece cifras sobre reservas ni gasto de los visitantes, por lo que el efecto en las llegadas reales aún no está demostrado. El CTB afirma que aprovechará sus relaciones con los medios, los patrones de tráfico web y los contactos del sector."
       ]
     }
   },
@@ -14134,6 +14240,21 @@
         "Volgens Lindor paste de coalitie twee onderdelen van de oorspronkelijke motie van De Meza aan. De verhoging van het minimumloon moet permanent zijn en niet tijdelijk, en de ingangsdatum schuift naar 1 maart 2027. Hij zei dat de coalitie nooit betwistte dat het minimumloon omhoog moet en dat de regering weet dat veel inwoners onder het sociaal minimum leven.",
         "Lindor voegde toe dat de net goedgekeurde suppletoire begroting meerdere projecten mogelijk maakt, zoals woningen voor ouderen, wegenonderhoud, scholen en openbare infrastructuur. Interne discussie noemde hij een gezond onderdeel van de politiek en hij zei dat de regering blijft werken voor de bevolking."
       ]
+    },
+    "es": {
+      "title": "La coalición de Aruba asegura que sigue estable tras la salida de un diputado por el aumento del salario mínimo",
+      "standfirst": "Ruthlin Lindor, diputado de FUTURO, afirma que la coalición de gobierno es estable después de que Mike de Meza dejara la bancada del AVP para actuar como independiente. La ruptura siguió a una disputa sobre cómo y cuándo subir el salario mínimo.",
+      "keypoints": [
+        "Mike de Meza se convirtió en diputado independiente tras discrepar con la coalición sobre la moción del salario mínimo.",
+        "La coalición cambió dos puntos: el aumento será permanente en lugar de temporal y comenzará el 1 de marzo de 2027 en vez del 1 de enero.",
+        "El Gobierno dice que prepara medidas complementarias para evitar que el costo de vida se dispare.",
+        "El presupuesto suplementario aprobado financiará viviendas para personas de 55 años o más, mejoras de carreteras, escuelas e infraestructura pública."
+      ],
+      "body": [
+        "Ruthlin Lindor, diputado de FUTURO, habló tras una sesión parlamentaria que se prolongó hasta la madrugada. Lamentó que De Meza pasara a las bancas independientes y rechazó las afirmaciones de que FUTURO domina al AVP o está cambiando su ideología.",
+        "Según Lindor, la coalición modificó dos elementos de la moción original de De Meza. El aumento salarial debe ser permanente, no temporal, y la fecha de inicio pasa al 1 de marzo de 2027. Afirmó que la coalición nunca discutió que el salario mínimo deba subir y que el Gobierno sabe que muchos residentes viven por debajo del mínimo de subsistencia.",
+        "Lindor añadió que el presupuesto suplementario recién aprobado permite varios proyectos, entre ellos viviendas para residentes mayores, mejoras de carreteras, escuelas e infraestructura pública. Describió el debate interno como una parte saludable de la política y dijo que el Gobierno seguirá trabajando para la ciudadanía."
+      ]
     }
   },
   {
@@ -14174,6 +14295,21 @@
         "Het Parlement van Aruba heeft de suppletoire begroting van Land Aruba unaniem goedgekeurd na een lang en intensief debat. Volgens de regering biedt de stemming ruimte om haar beleid en projecten voort te zetten, die gericht zijn op betere levensomstandigheden en versterking van diverse groepen in de samenleving.",
         "Minister van Arbeid Wendrick Cicilia was tevreden met de uitkomst en feliciteerde het kabinet en de coalitieleden in het Parlement. Hij zei dat de regering hiermee koers kan houden op de prioriteiten sinds haar aantreden: het dagelijks leven van burgers verbeteren en Aruba sterker maken door te investeren in de gemeenschap.",
         "Cicilia noemde de verhoging van 500 florin voor gepensioneerden een van de belangrijkste prestaties van het kabinet en sprak van een historische stap. Volgens hem raakt de maatregel direct het huishoudbudget van ouderen en helpt die bij dagelijkse kosten, basisbehoeften en uitgaven voor medicijnen en zorg. De bron noemt geen totaalbedragen van de suppletoire begroting."
+      ]
+    },
+    "es": {
+      "title": "El Parlamento de Aruba aprueba por unanimidad el presupuesto suplementario",
+      "standfirst": "El Parlamento de Aruba ha aprobado con apoyo unánime el presupuesto suplementario del Gobierno. El Ejecutivo afirma que esto le permite continuar su programa de inversiones y sus medidas sociales, incluido un aumento de las pensiones.",
+      "keypoints": [
+        "El Parlamento aprobó por unanimidad el presupuesto suplementario de Pais Aruba tras una larga e intensa sesión.",
+        "El Gobierno planea seguir invirtiendo, ampliar la asistencia financiera y renovar la infraestructura.",
+        "El ministro de Trabajo, Wendrick Cicilia, agradeció al gabinete y a los diputados de la coalición por su apoyo.",
+        "Destacó un aumento de 500 florines para los pensionados, que calificó de histórico."
+      ],
+      "body": [
+        "El Parlamento de Aruba ha aprobado por unanimidad el presupuesto suplementario de Pais Aruba, tras un largo e intenso debate parlamentario. El Gobierno afirma que la votación le da margen para seguir ejecutando su política y los proyectos destinados a mejorar las condiciones de vida y fortalecer distintos sectores de la comunidad.",
+        "El ministro de Trabajo, Wendrick Cicilia, celebró el resultado y felicitó al gabinete y a los diputados de la coalición. Dijo que la aprobación permite al Gobierno mantener el rumbo de las prioridades que fijó al asumir: mejorar la vida cotidiana de los ciudadanos y hacer más fuerte a Aruba mediante la inversión en la comunidad.",
+        "Cicilia señaló el aumento de 500 florines en las pensiones como uno de los principales logros del gabinete y lo calificó de histórico. A su juicio, la medida incide directamente en los presupuestos familiares de los residentes mayores y les ayuda a cubrir los gastos diarios, las necesidades básicas y los costos de medicinas y atención médica. La fuente no ofrece cifras globales del presupuesto suplementario."
       ]
     }
   },
@@ -14216,6 +14352,21 @@
         "Oppositieparlementariër Dangui Oduber van MEP bekritiseerde de AVP na afloop van de vergadering. Hij zei dat de coalitiepartners AVP en FUTURO het oneens waren over de vraag of extra onderzoek nodig was, voordat zij uiteindelijk instemden met de latere datum. Volgens hem is de verhoging dringend omdat de prijzen blijven stijgen.",
         "Oduber stelde verder dat de regering haar eigen kosten voor personeel en reizen heeft verhoogd, terwijl gewone huishoudens moeite hebben om basisbehoeften te betalen. Hij noemde het vertrek van De Meza uit de AVP betreurenswaardig en zei dat de coalitie daardoor een krappe meerderheid heeft. Dit zijn uitspraken van een oppositiepoliticus in het politieke debat over het loonbesluit."
       ]
+    },
+    "es": {
+      "title": "La coalición de Aruba fija el aumento del salario mínimo para marzo de 2027; la oposición dice que es demasiado tarde",
+      "standfirst": "La coalición de gobierno de Aruba votó por subir el salario mínimo a partir del 1 de marzo de 2027 en lugar de enero. El diputado opositor Dangui Oduber (MEP) afirma que la demora muestra que el Gobierno no se toma en serio la caída del poder adquisitivo de los hogares.",
+      "keypoints": [
+        "La coalición votó por aplicar el aumento del salario mínimo el 1 de marzo de 2027, y no el 1 de enero, como proponía la moción de un diputado independiente.",
+        "Mike de Meza, antes segundo en la lista del AVP, presentó la moción y ahora es diputado independiente.",
+        "Oduber dice que el costo de vida sigue subiendo y que el poder adquisitivo de las familias se erosiona, y acusa al Gobierno de aumentar los gastos de personal y de viajes.",
+        "Según Oduber, la coalición queda con una mayoría estrecha."
+      ],
+      "body": [
+        "La coalición de Aruba ha fijado el 1 de marzo de 2027 como fecha de inicio de un salario mínimo más alto. Un diputado independiente, Mike de Meza, había pedido que el aumento entrara en vigor antes de enero de 2027. Su moción no obtuvo el respaldo de su antiguo partido, el AVP.",
+        "El diputado opositor Dangui Oduber, del MEP, criticó al AVP tras la sesión parlamentaria. Dijo que los socios de la coalición, AVP y FUTURO, discrepaban sobre si hacía falta más estudio antes de acordar finalmente la fecha posterior. En su opinión, el aumento es urgente porque los precios siguen subiendo.",
+        "Oduber también sostuvo que el Gobierno ha aumentado sus propios gastos de personal y de viajes mientras los hogares comunes luchan por cubrir sus necesidades básicas. Calificó de lamentable la salida de De Meza del AVP y dijo que deja a la coalición con una mayoría escasa. Los comentarios son los de un político de oposición y reflejan el debate político en torno a la decisión salarial."
+      ]
     }
   },
   {
@@ -14256,6 +14407,21 @@
         "Muzaninn Wever, Parlementslid van FUTURO, verdedigde het besluit van de coalitie om de verhoging van het minimumloon uit te stellen tot 1 maart 2027. Hij sprak na een openbare vergadering van het Parlement die tot in de vroege ochtend duurde. Volgens hem moet de verhoging verantwoord worden ingevoerd, zodat de kosten van levensonderhoud op Aruba niet verder stijgen.",
         "Wever zei dat de coalitiepartners AVP en FUTURO het erover eens zijn dat het minimumloon omhoog moet. De twee extra maanden geven de regering volgens hem tijd om te overleggen met het bedrijfsleven en andere betrokkenen en om compensatie en ondersteunende maatregelen voor te bereiden die de economische impact beperken. Ook betreurde hij het vertrek van Mike de Meza bij AVP, waarbij FUTURO naar eigen zeggen niet betrokken was.",
         "Hij noemde het tegenstrijdig dat de oppositie, met name MEP, de zaal verliet tijdens de stemming, terwijl zij zegt een hoger minimumloon te steunen. Ook was hij tevreden met de goedkeuring van de aanvullende begroting, waarin een lening voor FCCA is opgenomen om woningbouw te faciliteren. De prioriteit van de coalitie is volgens hem de inkomens te verhogen zonder extra inflatie te veroorzaken."
+      ]
+    },
+    "es": {
+      "title": "La coalición de Aruba defiende marzo de 2027 como inicio del aumento del salario mínimo",
+      "standfirst": "El diputado de FUTURO Muzaninn Wever afirma que la coalición aplazó el aumento del salario mínimo al 1 de marzo de 2027 para que el gobierno pueda preparar medidas de compensación y evitar que se alimente la inflación. El Parlamento también aprobó un presupuesto suplementario que incluye un préstamo para FCCA con el fin de apoyar la construcción de viviendas.",
+      "keypoints": [
+        "La coalición fijó el 1 de marzo de 2027 como fecha de inicio del aumento del salario mínimo, en lugar del 1 de enero.",
+        "Wever dice que los dos meses adicionales permiten conversar con las asociaciones empresariales y otros actores interesados, y dan tiempo para preparar medidas de compensación.",
+        "Criticó a MEP por abandonar la sala durante la votación pese a decir que respalda un aumento; sostiene que la principal diferencia entre las propuestas era la fecha de inicio.",
+        "Se aprobó el presupuesto suplementario, que incluye un préstamo para FCCA destinado a ayudar a financiar la construcción de viviendas y otros proyectos."
+      ],
+      "body": [
+        "Muzaninn Wever, miembro del Parlamento por FUTURO, defendió la decisión de la coalición de aplazar el aumento del salario mínimo al 1 de marzo de 2027. Habló tras una sesión parlamentaria pública que se prolongó hasta la madrugada. A su juicio, el aumento debe introducirse de manera responsable para que el costo de vida en Aruba no siga subiendo.",
+        "Wever dijo que los socios de la coalición, AVP y FUTURO, coinciden en que el salario mínimo debe subir. Los dos meses adicionales, argumentó, dan al gobierno tiempo para negociar con los grupos empresariales y otros actores interesados, y para preparar medidas de compensación y apoyo que limiten el impacto económico. También lamentó la salida de Mike de Meza del AVP, y dijo que FUTURO no tuvo parte en ella.",
+        "Dijo que la oposición, en particular MEP, abandonó la sala durante la votación pese a afirmar que apoya un salario mínimo más alto, algo que calificó de contradictorio. También celebró la aprobación del presupuesto suplementario, que incluye un préstamo para FCCA con el fin de facilitar la construcción de viviendas. La prioridad de la coalición, afirmó, es aumentar los ingresos sin añadir inflación."
       ]
     }
   },
@@ -14298,6 +14464,21 @@
         "Een kernonderdeel is een compensatieregeling voor werkgevers in het bedrijfsleven. Als mogelijkheid noemt de motie betalingen via de BBO-, BAZV- en BAVP-premies, met een evenredige berekening voor parttimers en een mechanisme zoals verrekening of teruggave voor bedrijven met te weinig belastingplicht. Het doel is banen, bedrijfscontinuïteit en prijsstabiliteit te beschermen.",
         "De tekst vraagt om actualisering van het bestaansminimum van het CBS, met oktober 2010 als basisperiode, en een gefaseerd beleidsvoorstel waarin de economische draagkracht en de kosten van levensonderhoud worden meegewogen. Eman zegt dat de coalitie heeft afgesproken dit niveau binnen drie jaar te bereiken, maar de motie bevat die garantie niet. Het parlement wil ook structureel overleg met werkgevers en vakbonden en vooraf inzicht in de gevolgen voor begroting, belastinginkomsten en publieke voorzieningen. De regering moet nu de wettelijke en financiële basis uitwerken."
       ]
+    },
+    "es": {
+      "title": "El Parlamento de Aruba respalda por unanimidad un aumento de Afl. 200 al salario mínimo para marzo de 2027",
+      "standfirst": "El Parlamento adoptó por unanimidad una moción que insta al gobierno a aumentar el salario mínimo mensual en Afl. 200 netos a más tardar el 1 de marzo de 2027. La moción también pide una compensación para los empleadores, de modo que el costo no se traslade a los consumidores mediante precios más altos.",
+      "keypoints": [
+        "La moción solicita un aumento neto de Afl. 200 al mes, de unos Afl. 2,007 a Afl. 2,207, a más tardar el 1 de marzo de 2027.",
+        "La coalición de AVP y Futuro modificó la propuesta original de Mike de Meza, que pedía un aumento inmediato, y fijó una fecha posterior.",
+        "Los empleadores serían compensados, por ejemplo mediante pagos mensuales de BBO, BAZV y BAVP, con un trato proporcional para el personal de tiempo parcial.",
+        "El primer ministro Mike Eman cita un acuerdo de coalición para alcanzar el bestaansminimum en tres años, pero esto no figura en el texto de la moción."
+      ],
+      "body": [
+        "El Parlamento de Aruba aprobó una moción que pide al gobierno preparar las medidas legales para un aumento neto de Afl. 200 mensuales en el salario mínimo, que entraría en vigor a más tardar el 1 de marzo de 2027. La moción sitúa el aumento en aproximadamente de Afl. 2,007 a Afl. 2,207 al mes y lo describe como un primer paso hacia un salario que cubra las necesidades básicas.",
+        "Un elemento central es un esquema de compensación para los empleadores del sector empresarial. La moción menciona como una opción los pagos mediante las contribuciones BBO, BAZV y BAVP, con cálculo proporcional para el personal de tiempo parcial y un mecanismo, como la compensación o la devolución, para las empresas con una obligación tributaria insuficiente. El objetivo es proteger los empleos, la continuidad de los negocios y la estabilidad de los precios.",
+        "El texto pide actualizar el bestaansminimum del CBS, con octubre de 2010 como período base, y una propuesta de política por fases que tenga en cuenta la capacidad económica y el costo de vida. El señor Eman afirma que la coalición acordó alcanzar ese nivel en tres años, pero la moción no contiene ninguna garantía en ese sentido. El Parlamento también quiere un diálogo estructurado con empleadores y sindicatos, e información previa sobre los efectos en el presupuesto, los ingresos fiscales y los servicios públicos. Ahora el gobierno debe elaborar la base legal y financiera."
+      ]
     }
   },
   {
@@ -14338,6 +14519,21 @@
         "Vrolijk schreef aan de Parlementsvoorzitter naar aanleiding van de openbare vergadering van 6 november, waarin de motie van AVP en Futuro over verhoging van het wettelijk minimumloon als aangenomen werd verklaard. De motie kreeg 10 stemmen voor, terwijl 11 leden zich van stemming onthielden.",
         "Zijn bezwaar betreft de berekening van het quorum. Hij verwijst naar precedenten uit eerdere zittingsperioden, onder leden als Misha Raymond, Rycond Santo do Nascimento en Ady Thijsen. Daarin werd een lid dat wel in de zaal was maar niet stemde, voor het quorum als afwezig behandeld. Volgens die lezing namen slechts 10 leden deel, waardoor de vraag rijst of er een geldige stemming was.",
         "Vrolijk vraagt de voorzitter de uitslag opnieuw te toetsen aan het Reglement van Orde en die precedenten, en aan te geven of de 11 leden die zich onthielden buiten het quorum moeten blijven. Ontbrak het quorum, dan wil hij dat de verklaring van aanneming wordt gecorrigeerd en de parlementaire registratie wordt aangepast. Ook benadrukt hij dat de regels voor alle fracties gelijk moeten gelden. Het blijft vooralsnog bij een verzoek; een besluit is niet gemeld."
+      ]
+    },
+    "es": {
+      "title": "Diputado de MEP cuestiona el quórum de la moción sobre el salario mínimo de Aruba",
+      "standfirst": "El parlamentario de MEP Edgard Vrolijk quiere que el presidente del Parlamento revise la votación del 6 de noviembre sobre una moción para aumentar el salario mínimo legal de Aruba. Cuestiona si participaron suficientes miembros para que la moción se considere adoptada.",
+      "keypoints": [
+        "La moción de AVP y Futuro sobre el salario mínimo recibió 10 votos a favor, con 11 miembros que se abstuvieron.",
+        "Vrolijk sostiene que, según la práctica parlamentaria anterior, los miembros presentes que se abstienen no se cuentan para el quórum.",
+        "Pide al presidente del Parlamento que reexamine el resultado y explique por escrito su fundamento legal y procedimental.",
+        "Su carta no afirma que el resultado haya sido anulado ni que la moción sea inválida."
+      ],
+      "body": [
+        "Vrolijk escribió al presidente del Parlamento tras la sesión pública del 6 de noviembre, en la que se declaró adoptada la moción presentada por AVP y Futuro sobre el aumento del salario mínimo legal. La moción recibió 10 votos a favor, mientras que 11 miembros se abstuvieron.",
+        "Su objeción se refiere a cómo se calcula el quórum. Cita precedentes de legislaturas anteriores, con miembros como Misha Raymond, Rycond Santo do Nascimento y Ady Thijsen. En esos casos, un miembro que estaba en la sala pero no votaba era tratado como ausente para efectos del quórum. Bajo esa lectura, solo participaron 10 miembros, lo que plantearía la duda de si se llevó a cabo una votación válida.",
+        "Vrolijk pide al presidente del Parlamento que reevalúe el resultado conforme al reglamento y a esos precedentes, y que indique si los 11 que se abstuvieron deben excluirse del recuento. Si faltó el quórum, quiere que se corrija la declaración de adopción y se modifique el acta parlamentaria. También subraya que las reglas deben aplicarse por igual a todas las facciones. La revisión sigue siendo una solicitud y no se ha informado de ninguna decisión."
       ]
     }
   },
@@ -14380,6 +14576,21 @@
         "Het bericht meldt dat de parlementen van Aruba en Sint Maarten het voorstel al hebben goedgekeurd. Het verzoek van Curaçao roept daarom de vraag op of de tekst opnieuw besproken moet worden en hoe de andere landen reageren.",
         "Alleen de inleiding van het artikel was toegankelijk. De precieze wijzigingen, de planning en de standpunten van regering en parlement van Curaçao zijn daardoor nog onduidelijk. De uitkomst is belangrijk voor de manier waarop toekomstige meningsverschillen tussen de landen van het Koninkrijk worden aangepakt."
       ]
+    },
+    "es": {
+      "title": "Curazao busca cambios en el proyecto de ley del Reino sobre solución de controversias",
+      "standfirst": "Curazao quiere que se modifique el texto del proyecto de ley del Reino sobre la solución de controversias entre los países. Los parlamentos de Aruba y Sint Maarten ya aprobaron el proyecto.",
+      "keypoints": [
+        "Curazao dice que se necesitan cambios en la redacción del proyecto de ley sobre solución de controversias.",
+        "Los parlamentos de Aruba y Sint Maarten ya aprobaron la propuesta.",
+        "Cualquier enmienda podría reabrir un texto que dos países ya respaldaron.",
+        "El artículo completo está tras un muro de pago, por lo que no se conocen los cambios específicos que Curazao desea."
+      ],
+      "body": [
+        "Curazao ha indicado que quiere introducir ajustes al proyecto de ley que establecería un mecanismo para resolver controversias dentro del Reino. Según la información, el texto debe cambiar antes de que Curazao pueda avanzar con él.",
+        "La información señala que los parlamentos de Aruba y Sint Maarten ya aprobaron la propuesta. Por lo tanto, la solicitud de cambios de Curazao plantea la pregunta de si habrá que revisar el texto y cómo responderán los otros países.",
+        "Solo fue accesible la introducción del artículo, por lo que aún no están claros las enmiendas exactas, el calendario ni las posturas del gobierno y el parlamento de Curazao. El resultado es importante para la forma en que se manejen los futuros desacuerdos entre los países del Reino."
+      ]
     }
   },
   {
@@ -14421,6 +14632,21 @@
         "Tegen die achtergrond heeft Van der Burg toegezegd de banden binnen het Koninkrijk te versterken. Het zichtbare deel van het bericht vermeldt niet welke concrete stappen, middelen of beleidswijzigingen hij op het oog heeft, en ook niet of de bezuinigingen programma's of personeel raken die verband houden met Aruba, Curaçao, Bonaire en Sint Maarten.",
         "Voor de eilanden is de vraag of de Nederlandse bezuinigingen doorwerken in steun, samenwerking en toezicht. Zolang het volledige artikel of officiële uitspraken ontbreken, blijven de praktische gevolgen onduidelijk."
       ]
+    },
+    "es": {
+      "title": "Van der Burg se compromete a fortalecer los lazos del Reino mientras La Haya planea recortes de €3.5 mil millones",
+      "standfirst": "El político neerlandés Van der Burg se ha comprometido a reforzar las relaciones dentro del Reino, incluso cuando el gobierno neerlandés planea recortes profundos a sus propios costos de funcionamiento.",
+      "keypoints": [
+        "El gobierno neerlandés tiene la intención de recortar €3.5 mil millones del gasto operativo en el sector público.",
+        "Van der Burg dice que está comprometido con fortalecer los lazos dentro del Reino.",
+        "El artículo aún no aclara cómo podría afectar la campaña de ahorro a la cooperación dentro del Reino.",
+        "El informe completo está tras un muro de pago, por lo que no hay más detalles disponibles."
+      ],
+      "body": [
+        "Un informe desde Curazao señala que el gobierno neerlandés quiere recortar €3.5 mil millones de los costos operativos de la administración pública. La campaña de ahorro es una medida fiscal significativa en La Haya, y llega mientras las relaciones del Reino siguen siendo un tema delicado para los países caribeños.",
+        "En este contexto, Van der Burg se ha comprometido a fortalecer los vínculos dentro del Reino. La parte visible del informe no dice qué medidas concretas, financiamiento o cambios de política tiene en mente, ni si los recortes alcanzarían a programas o personal vinculados con Aruba, Curazao, Bonaire y Sint Maarten.",
+        "Para las islas, la pregunta clave es si la austeridad neerlandesa influirá en los acuerdos de apoyo, cooperación y supervisión. Hasta que se disponga del artículo completo o de declaraciones oficiales, las consecuencias prácticas siguen sin estar claras."
+      ]
     }
   },
   {
@@ -14461,6 +14687,21 @@
         "Curaçao en de Nederlandse regering voeren gesprekken over de voorwaarden voor voortzetting van het landspakket, het hervormingsprogramma dat het eiland en Den Haag zijn overeengekomen. Het overleg draait om een wederzijdse afspraak over zowel de hervormingen als het pakket zelf.",
         "Staatssecretaris van Koninkrijksrelaties Eric van der Burg heeft aangegeven hoe het ervoor staat. Uit het beschikbare fragment van het bericht blijkt niet wat de voorwaarden precies zijn, hoe ver de gesprekken zijn gevorderd of wanneer een besluit wordt verwacht.",
         "De uitkomst is van belang voor de Curaçaose regering, die de afgesproken hervormingen moet uitvoeren, en voor Nederland, dat zijn steun aan die toezeggingen koppelt. De wijze waarop de voorwaarden worden vastgelegd bepaalt mede de overheidsfinanciën, het beleid en de verhouding tussen het eiland en het Koninkrijk in de komende periode."
+      ]
+    },
+    "es": {
+      "title": "Curazao y La Haya discuten las condiciones para continuar con el paquete país",
+      "standfirst": "Curazao y los Países Bajos mantienen conversaciones sobre las condiciones en las que continuará el paquete país de reformas. El secretario de Estado de Relaciones del Reino, Eric van der Burg, ha comentado el acuerdo mutuo.",
+      "keypoints": [
+        "Curazao y los Países Bajos deliberan sobre las condiciones para continuar con el paquete país.",
+        "Las conversaciones se refieren a un acuerdo mutuo sobre las reformas y el paquete.",
+        "El secretario de Estado Eric van der Burg, responsable de las Relaciones del Reino, se ha pronunciado públicamente sobre el proceso.",
+        "Las condiciones específicas no se han hecho públicas en el informe disponible."
+      ],
+      "body": [
+        "Curazao y el gobierno neerlandés mantienen conversaciones sobre los términos para continuar con el paquete país, el programa de reformas acordado entre la isla y La Haya. La discusión se centra en un acuerdo mutuo que abarca tanto las reformas como el propio paquete.",
+        "El secretario de Estado de Relaciones del Reino, Eric van der Burg, ha hablado sobre el estado de las conversaciones. El extracto disponible del informe no detalla cuáles son las condiciones, cuánto han avanzado las conversaciones ni cuándo se espera una decisión.",
+        "El resultado es importante para el gobierno de Curazao, que debe cumplir con las reformas acordadas, y para los Países Bajos, que vinculan su apoyo a esos compromisos. La manera en que se fijen las condiciones marcará las finanzas públicas, las decisiones de política y la relación entre la isla y el Reino en el período venidero."
       ]
     }
   },
@@ -14505,6 +14746,22 @@
         "Over vervoer zegt hij dat sommige werknemers tussen Afl. 300 en 450 per maand kwijt zijn, een groot deel van het gezinsbudget. Investeren in openbaar vervoer zou die last direct verlagen. Bij huisvesting wijst hij op de prijs van bouwmaterialen, reparaties en onderhoud, die zowel eigenaren als woningzoekenden raken.",
         "Zijn conclusie is dat de regering belasting, vervoer en huisvesting tegelijk moet aanpakken om echt verlichting te bieden."
       ]
+    },
+    "es": {
+      "title": "El líder de la oposición de Aruba insta al Gobierno a atacar el costo de vida desde su origen",
+      "standfirst": "El líder del PPA, Otmar Oduber, afirma que el Gobierno se centra demasiado en aumentar los ingresos y demasiado poco en reducir lo que los hogares deben gastar. Señala el gravamen BBO, el transporte y la vivienda como los principales puntos de presión.",
+      "keypoints": [
+        "Oduber sostiene que las medidas salariales por sí solas no aliviarán la presión sobre los hogares.",
+        "Cuestiona cómo afecta el gravamen BBO a los precios y a los costos de las empresas en una economía dependiente de las importaciones, y quiere que se evalúen alternativas fiscales.",
+        "Dice que algunos trabajadores gastan entre Afl. 300 y 450 al mes en transporte y pide un transporte público eficiente y asequible.",
+        "Cita los materiales de construcción, las reparaciones y el mantenimiento como costos clave de la vivienda y quiere que el Gobierno actúe de forma conjunta en impuestos, transporte y vivienda."
+      ],
+      "body": [
+        "El partido de oposición PPA presiona al Gobierno de Aruba para que aborde los factores estructurales del costo de vida en lugar de concentrarse en el apoyo a los ingresos. Su líder, Otmar Oduber, afirma que un aumento salarial significa poco si los precios siguen absorbiéndolo.",
+        "Oduber señala en particular el gravamen BBO, y sostiene que aumenta el costo de hacer negocios y los precios al consumidor en una isla que depende en gran medida de las importaciones. Quiere que Aruba evalúe alternativas fiscales que alivien la carga tanto de los hogares como de las empresas.",
+        "En cuanto al transporte, dice que algunos trabajadores gastan entre Afl. 300 y 450 al mes, una parte considerable del presupuesto familiar, y sostiene que invertir en transporte público reduciría directamente este costo. En materia de vivienda, apunta al precio de los materiales de construcción, las reparaciones y el mantenimiento, que afectan tanto a los propietarios como a quienes buscan una vivienda asequible.",
+        "Su conclusión es que el Gobierno debe trabajar en impuestos, transporte y vivienda al mismo tiempo para que el alivio llegue a los hogares."
+      ]
     }
   },
   {
@@ -14545,6 +14802,21 @@
         "Volgens Sevinger, lid van de AVP-fractie, is een hoger minimumloon nodig omdat huishoudens met één kostwinner huur of hypotheek, voeding, nutsvoorzieningen, vervoer, school en kinderopvang uit één inkomen moeten betalen. Zij wijst op CBS-cijfers die een duidelijke kloof laten zien tussen het minimumloon en het bestaansminimum.",
         "Ze erkent dat de regering de toeslagen voor gezinnen heeft verhoogd, maar zegt dat deze steun de druk van de hogere kosten van levensonderhoud voor sommige huishoudens niet volledig opvangt. Een hoger inkomen zou volgens haar ook de economische onafhankelijkheid van vrouwen vergroten, vooral van alleenstaande moeders.",
         "Sevinger ziet een verhoging van het minimumloon als een sociale en economische investering, omdat huishoudens met meer koopkracht lokale bedrijven kunnen steunen. Ze zegt ook dat bedrijven de verandering moeten kunnen dragen en dat de invoering rekening moet houden met hun situatie. Een concreet bedrag of tijdpad noemt zij niet."
+      ]
+    },
+    "es": {
+      "title": "La legisladora del AVP Sevinger respalda un aumento del salario mínimo en Aruba",
+      "standfirst": "La parlamentaria del AVP Stephany Sevinger apoya subir el salario mínimo de Aruba para que se ajuste mejor al costo de vida real. Sostiene que un empleo de tiempo completo debería bastar para sostener a un hogar.",
+      "keypoints": [
+        "Sevinger cita cifras de la CBS que sitúan el mínimo de subsistencia para un hogar de un adulto y un hijo en unos Afl. 3,509 al mes.",
+        "El salario mínimo mensual para una semana de 40 horas es de unos Afl. 2,007, muy por debajo de esa referencia antes de contar cualquier subsidio.",
+        "Valora que el Gobierno haya aumentado los subsidios familiares (toeslagen), pero dice que aún no son suficientes para algunos hogares.",
+        "Afirma que los empleadores deben poder absorber un aumento, por lo que este debería prepararse mediante el diálogo."
+      ],
+      "body": [
+        "Sevinger, integrante del grupo parlamentario del AVP, afirma que es necesario subir el salario mínimo porque los hogares con un solo ingreso enfrentan con él los costos de alquiler o hipoteca, alimentación, servicios públicos, transporte, escuela y cuidado infantil. Señala cifras de la CBS que muestran una brecha clara entre el salario mínimo y el mínimo de subsistencia.",
+        "Reconoce que el Gobierno ha aumentado los subsidios familiares, pero dice que este apoyo no compensa del todo la presión del costo de vida para algunos hogares. A su juicio, un mayor salario también fortalecería la independencia económica de las mujeres, en especial de las madres solteras.",
+        "Sevinger describe un aumento salarial como una inversión social y económica, ya que los hogares con más poder adquisitivo pueden apoyar a los negocios locales. También dice que las empresas deben poder asumir el cambio y que su implementación debe tener en cuenta sus circunstancias. No se indica ningún aumento concreto ni calendario."
       ]
     }
   },
@@ -14587,6 +14859,21 @@
         "Over brandstof vroeg zij hoe de Afl. 5 miljoen de zwaarst getroffenen bereikt en hoe het effect wordt gemeten. Ook vroeg ze of nutsbedrijf WEB hedging overweegt om de gevolgen van prijsschommelingen te beperken. Bij de pensioenen wil ze weten of de lagere heffing ook geldt voor gepensioneerden die nog werken en welke inkomsten eronder vallen.",
         "Daarnaast vroeg ze om het aantal woningen, de startdatum en de toelatingscriteria voor de FCCA-lening, en om het plan, het onderhoud en de toegankelijkheid van het busstation in San Nicolas, inclusief ruimte voor de farmers market. Ze wees erop dat de begroting ook civiele vorderingen tot Afl. 73.865 voor cliënten van Trampolin pa Trabao kwijtscheldt, en benadrukte het belang van financiële discipline gezien het verwachte overschot."
       ]
+    },
+    "es": {
+      "title": "La legisladora del AVP pide al Gobierno detalles sobre el presupuesto suplementario de Aruba",
+      "standfirst": "La parlamentaria del AVP Jennifer Arends-Reyes respalda el apoyo del presupuesto suplementario a los pensionados, los costos de combustible y la vivienda social, pero pide al Gobierno que explique cómo llegará el dinero a las personas. El presupuesto proyecta un superávit de Afl. 80.8 millones.",
+      "keypoints": [
+        "Ajuste de Afl. 5 millones vinculado a los altos precios del combustible; pregunta cómo se focalizará la ayuda y si WEB utilizará coberturas de combustible",
+        "La reparatietoeslag sube Afl. 150 al mes para unos 21,000 beneficiarios; el gravamen sobre los primeros Afl. 30,000 de ingresos de los pensionados baja del 5% al 0%",
+        "Préstamo de hasta Afl. 23 millones a la FCCA al 2% para viviendas sociales de alquiler para personas de 55 años o más",
+        "Afl. 2,943,800 para la estación de autobuses de San Nicolas y Afl. 300,000 adicionales para cuadrillas de contratistas del DOW"
+      ],
+      "body": [
+        "En su intervención en el Parlamento, Arends-Reyes dijo que el presupuesto suplementario debe juzgarse por lo que significa para los hogares, los trabajadores, los pensionados y las empresas. Valoró las medidas sobre el costo de vida, la vivienda y el transporte público, pero quiere claridad sobre su ejecución.",
+        "Sobre el combustible, preguntó cómo llegará el ajuste de Afl. 5 millones a los más afectados y cómo se evaluará su efecto. También preguntó si la empresa de servicios públicos WEB está considerando coberturas para limitar la exposición a las fluctuaciones del precio del combustible. En cuanto a las pensiones, preguntó si el gravamen reducido también se aplica a los pensionados que aún trabajan y qué tipos de ingresos abarca.",
+        "También pidió conocer el número de viviendas, la fecha de inicio y los criterios de elegibilidad del préstamo de vivienda de la FCCA, así como el plan, el mantenimiento y los acuerdos de acceso para la estación de autobuses de San Nicolas, incluido el espacio para el mercado de agricultores. Señaló que el presupuesto también condona reclamaciones civiles de hasta Afl. 73,865 a clientes de Trampolin pa Trabao, y dijo que la disciplina financiera es importante dado el superávit proyectado."
+      ]
     }
   },
   {
@@ -14627,6 +14914,21 @@
         "In het debat over de suppletoire begroting zei Heyliger dat uitgaven moeten aansluiten op de dagelijkse behoeften en gepaard moeten gaan met duidelijke prioriteiten, termijnen en resultaten. Over wonen vroeg hij of de geplande 140 woningen voor 55-plussers deel zijn van een bredere aanpak van betaalbare huisvesting en wanneer woningen voor andere leeftijdsgroepen kunnen volgen.",
         "Over de raffinaderij herinnerde hij eraan dat tijdens het werkbezoek van de Energiecommissie de noodzaak werd benadrukt om een schoorsteen om veiligheidsredenen te ontmantelen. Volgens hem is dat risico nog niet weggenomen en vroeg hij minister Dowers om uitleg over de vertraging, de geplande maatregelen en de verantwoordelijkheid.",
         "Heyliger sprak ook over de financiële positie van Arubus, na een commissievergadering met de directie, en vroeg om een plan zodat het bedrijf zijn rol kan blijven vervullen. Hij wees erop dat de regering een deel van de gestegen brandstofprijs heeft opgevangen om huishoudens te ontzien en trok de houding van de oppositie over verhoging van het minimumloon in twijfel. Hij pleitte voor gezamenlijke inzet van overheid, bedrijfsleven en maatschappelijke organisaties."
+      ]
+    },
+    "es": {
+      "title": "El legislador del AVP presiona al Gobierno sobre vivienda social, seguridad de la refinería y Arubus",
+      "standfirst": "Durante el debate del presupuesto suplementario de 2026, el parlamentario del AVP Clifford Heyliger pidió a los ministros respuestas concretas sobre la vivienda social, un riesgo de seguridad sin resolver en la refinería y el futuro de la empresa de autobuses públicos Arubus.",
+      "keypoints": [
+        "Heyliger pidió al ministro René Herdé detalles sobre el plan de la FCCA de construir 140 viviendas sociales para personas de 55 años o más, y si se prevén viviendas para todas las edades.",
+        "Preguntó al ministro Arthur Dowers por qué aún no se ha desmantelado una chimenea de la refinería y quién es responsable de los trabajos.",
+        "Quiere un plan para asegurar las finanzas y el servicio de Arubus, citando autobuses averiados y muy pocas paradas.",
+        "También preguntó cuánto aportan los negocios locales a iniciativas comunitarias como proporción de su facturación."
+      ],
+      "body": [
+        "En el debate del presupuesto suplementario, Heyliger dijo que las decisiones de gasto deben reflejar las necesidades cotidianas y venir acompañadas de prioridades, plazos y resultados esperados claros. Sobre la vivienda, preguntó si las 140 viviendas previstas para mayores de 55 años forman parte de un enfoque más amplio de vivienda asequible y cuándo podrían llegar viviendas para otros grupos de edad.",
+        "Sobre la refinería, recordó que la visita al sitio de la Comisión de Energía destacó la necesidad de derribar una chimenea por razones de seguridad. Dijo que el riesgo aún no se ha eliminado y pidió al ministro Dowers que explique la demora, las medidas previstas y quién responde por ellas.",
+        "Heyliger también planteó la situación financiera de Arubus, tras una reunión de la comisión con su dirección, y pidió un plan para que pueda seguir sirviendo al público. Señaló que el Gobierno ha absorbido parte del aumento del precio del combustible para proteger a los hogares y cuestionó la postura de la oposición sobre subir el salario mínimo. Pidió un esfuerzo compartido entre el Gobierno, las empresas y las organizaciones sociales."
       ]
     }
   },
@@ -14671,6 +14973,22 @@
         "Ouders en familieleden namen actief deel. Zij stelden vragen en deelden zorgen, waardoor de regering rechtstreeks hoorde wat gezinnen nodig hebben. De organisatoren zeiden dat inbreng uit de gemeenschap belangrijk is om steun te ontwerpen die aansluit op de praktijk.",
         "De regering bedankte de Dienst Sociale Zaken en het team van Landspakket voor het opstellen van het wetsvoorstel. Ook auteur Hans Kröber (Beperkt op Aruba) werd gewaardeerd. De catering werd verzorgd door Trampolin pa Trabao, dat werk biedt aan mensen met een beperking."
       ]
+    },
+    "es": {
+      "title": "Aruba celebra una segunda sesión pública sobre el apoyo mensual de Afl. 500 para niños que requieren cuidados intensivos",
+      "standfirst": "Ministros del Gobierno presentaron a las familias de Paradera el proyecto de ley sobre apoyo financiero para niños con necesidades de cuidados intensivos. El proyecto sigue en trámite legislativo.",
+      "keypoints": [
+        "La ministra Wyatt-Ras y el primer ministro Mike Eman encabezaron la segunda sesión informativa, celebrada en MFA Paradera.",
+        "El proyecto de ley prevé Afl. 500 al mes por cada niño elegible.",
+        "Padres y familiares hicieron preguntas y describieron sus necesidades y experiencias.",
+        "La sesión siguió a una anterior en San Nicolas y completó la ronda de dos partes."
+      ],
+      "body": [
+        "El Gobierno de Aruba celebró una segunda sesión informativa pública sobre un proyecto de ley para dar apoyo financiero a los niños que requieren cuidados intensivos. La ministra Wyatt-Ras y el primer ministro Mike Eman presentaron el plan a los residentes en MFA Paradera, tras una reunión anterior en San Nicolas.",
+        "Los funcionarios explicaron que cada niño elegible recibiría Afl. 500 al mes. También abordaron los requisitos de elegibilidad y el procedimiento de solicitud. Subrayaron que la propuesta sigue en trámite legislativo, por lo que los detalles aún podrían cambiar.",
+        "Padres y familiares participaron activamente. Plantearon preguntas y compartieron inquietudes, lo que dio al Gobierno una retroalimentación directa sobre lo que necesitan las familias. Los organizadores dijeron que el aporte de la comunidad es importante para diseñar un apoyo que se ajuste a las circunstancias reales.",
+        "El Gobierno agradeció al Departamento de Asuntos Sociales y al equipo del Landspakket por redactar el proyecto de ley. También reconoció a Hans Kröber, autor del libro Beperkt op Aruba. El servicio de catering estuvo a cargo de Trampolin pa Trabao, que crea empleos para personas con discapacidad."
+      ]
     }
   },
   {
@@ -14712,46 +15030,20 @@
         "Volgens Wever rust de aanpak van de regering op het regeerprogramma 2025-2028 van AVP-Futuro, waarin de revitalisering van San Nicolas, economische diversificatie en het stimuleren van handel een belangrijke plaats innemen. In de praktijk gaat het om fiscale prikkels voor investeerders die vastgoed in het centrum renoveren of ontwikkelen, en om een pop-upmarkt die lokale handelaren steunt en meer bezoekers moet aantrekken.",
         "De minister benadrukte dat ontwikkeling een gedeelde verantwoordelijkheid is. De overheid schept voorwaarden en faciliteert kansen, terwijl de private sector investeringen, innovatie en banen moet leveren. De bron geeft geen details over de omvang van de prikkels of het tijdstip van de markt."
       ]
-    }
-  },
-  {
-    "id": "b79aadc559cc",
-    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
-    "island": "curacao",
-    "topic": "economy",
-    "published_at": "2026-11-07T08:00:00.000Z",
-    "source_id": "extra",
-    "source_name": "Extra",
-    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
-    "also_covered": [],
-    "en": {
-      "title": "Aqualectra signs agreement to expand battery energy storage",
-      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
-      "keypoints": [
-        "Aqualectra has signed an agreement to expand its battery energy storage system.",
-        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
-        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
-        "The full report is behind a paywall at Extra."
-      ],
-      "body": [
-        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
-        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
-        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
-      ]
     },
-    "nl": {
-      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
-      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
+    "es": {
+      "title": "El Gobierno de Aruba promete incentivos fiscales y un mercado temporal para revitalizar San Nicolas",
+      "standfirst": "El ministro de Asuntos Económicos, Geoffrey Wever, aprovechó la tercera Cumbre Empresarial de San Nicolas para describir cómo planea el Gobierno atraer inversión a la localidad. Las medidas incluyen incentivos fiscales para la renovación de edificios y un mercado para comerciantes locales.",
       "keypoints": [
-        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
-        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
-        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
-        "Het volledige bericht van Extra staat achter een betaalmuur."
+        "La tercera Cumbre Empresarial de San Nicolas fue organizada por la San Nicolas Business Association (SNBA) y contó con la presencia de Wever, el primer ministro Eman y el ministro Rene Herdé.",
+        "El Gobierno ha introducido incentivos fiscales para renovar y desarrollar edificios en el centro de San Nicolas.",
+        "Un San Nicolas Pop-Up Market busca dar una plataforma a los comerciantes locales y atraer más visitantes al centro.",
+        "Wever vincula los planes con el Programa de Gobierno 2025-2028, que da prioridad a la revitalización y la diversificación económica."
       ],
       "body": [
-        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
-        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
-        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
+        "El ministro Geoffrey Wever, junto con el primer ministro Eman y el ministro Rene Herdé, asistió a la inauguración de la Cumbre Empresarial de San Nicolas de este año. El evento reúne a empresarios, inversionistas y Gobierno para debatir las perspectivas económicas de la localidad. Wever elogió a la SNBA por organizarlo.",
+        "Wever dijo que el enfoque del Gobierno se basa en el Programa de Gobierno AVP-Futuro para 2025-2028, que da un lugar destacado a revitalizar San Nicolas, diversificar la economía y fomentar el comercio. En la práctica, esto significa incentivos fiscales dirigidos a los inversionistas que renueven o desarrollen propiedades en el centro de la localidad, y un mercado temporal diseñado para apoyar a los comerciantes locales y aumentar el flujo de visitantes.",
+        "El ministro subrayó que el desarrollo es una responsabilidad compartida. El Gobierno fija las condiciones y facilita las oportunidades, mientras que se espera que el sector privado aporte inversión, innovación y empleos. La fuente no ofrece detalles sobre el monto de los incentivos ni sobre el calendario del mercado."
       ]
     }
   },
@@ -14794,6 +15086,77 @@
         "Ondertekening voor uitvoering betekent doorgaans dat de overheid zich wil verbinden aan het werk van een projectfase. De vierde fase wijst erop dat het project al ver gevorderd is.",
         "Het bericht waarover Negoshi beschikt is slechts een kort fragment uit een artikel voor abonnees. Het vermeldt niet wat deze fase kost, wie haar uitvoert, wanneer de werkzaamheden beginnen of hoe ze wordt gefinancierd. Die gegevens zijn nodig om het effect op de overheidsfinanciën en lokale aannemers te beoordelen. Negoshi vult het bericht aan zodra ze bekend zijn."
       ]
+    },
+    "es": {
+      "title": "El gabinete de Curazao aprueba la firma para la fase 4 del proyecto Kunstrook Marie Pampoen",
+      "standfirst": "El Consejo de Ministros de Curazao ha allanado el camino para que se ejecute la cuarta fase del proyecto Kunstrook Marie Pampoen. La decisión fue una de las tomadas por el gabinete esta semana.",
+      "keypoints": [
+        "Esta semana, el Consejo de Ministros decidió permitir la firma para la ejecución de la fase 4.",
+        "El proyecto se conoce como Kunstrook Marie Pampoen.",
+        "Con este paso, el proyecto pasa de la planificación a la ejecución.",
+        "El informe disponible no indica el valor del contrato, el contratista ni el calendario."
+      ],
+      "body": [
+        "El Consejo de Ministros de Curazao ha aprobado la firma necesaria para ejecutar la fase 4 del proyecto Kunstrook Marie Pampoen. La aprobación fue una de varias decisiones anunciadas tras la reunión semanal del gabinete.",
+        "La firma para la ejecución normalmente significa que el gobierno está dispuesto a comprometerse con los trabajos de una fase del proyecto. Que se trate de la cuarta fase sugiere que el proyecto ya está bastante avanzado.",
+        "El informe al que tiene acceso Negoshi es solo un breve extracto de un artículo de suscripción. No indica el costo de esta fase, quién la llevará a cabo, cuándo comenzarán los trabajos ni cómo se financia. Esos datos son necesarios para evaluar el efecto en las finanzas públicas y en los contratistas locales, y Negoshi actualizará la noticia cuando se publiquen."
+      ]
+    }
+  },
+  {
+    "id": "b79aadc559cc",
+    "slug": "aqualectra-signs-agreement-to-expand-battery-energy-storage-b79aad",
+    "island": "curacao",
+    "topic": "economy",
+    "published_at": "2026-11-07T08:00:00.000Z",
+    "source_id": "extra",
+    "source_name": "Extra",
+    "source_url": "https://extra.cw/aqualectra-a-firma-akuerdo-pa-ekspanshon-sistema-wardamentu-energia-di-bateria",
+    "also_covered": [],
+    "en": {
+      "title": "Aqualectra signs agreement to expand battery energy storage",
+      "standfirst": "Curaçao's utility company Aqualectra has signed an agreement to expand its battery-based energy storage system. The publicly available text gives no financial or technical details.",
+      "keypoints": [
+        "Aqualectra has signed an agreement to expand its battery energy storage system.",
+        "The signing involved the company's technical director, Rudolf Garmes, and a director named Neysa (surname not shown in the available text).",
+        "The counterparty, contract value, storage capacity and timeline are not disclosed in the accessible text.",
+        "The full report is behind a paywall at Extra."
+      ],
+      "body": [
+        "Aqualectra, the utility company that supplies electricity and water in Curaçao, has signed an agreement to expand its battery energy storage system. Local outlet Extra reported the signing and published a photo of the moment.",
+        "The photo caption names technical director Rudolf Garmes and a director identified as Neysa among those at the table. The accessible part of the report does not say who the other party to the agreement is, what the expansion costs, how much capacity will be added or when it is due to be operational.",
+        "Battery storage helps a utility keep the grid stable and manage swings in supply and demand, which matters more as the share of variable power sources grows. Further details from Aqualectra or the other signatory will be needed to judge the effect on the grid, costs and customers."
+      ]
+    },
+    "nl": {
+      "title": "Aqualectra tekent akkoord voor uitbreiding batterijopslag",
+      "standfirst": "Het Curaçaose nutsbedrijf Aqualectra heeft een akkoord getekend om zijn systeem voor energieopslag in batterijen uit te breiden. In de beschikbare tekst staan geen financiële of technische details.",
+      "keypoints": [
+        "Aqualectra heeft een overeenkomst getekend voor uitbreiding van het batterijopslagsysteem.",
+        "Bij de ondertekening waren technisch directeur Rudolf Garmes en een directeur genaamd Neysa betrokken (achternaam niet zichtbaar in de beschikbare tekst).",
+        "De wederpartij, de waarde van het contract, de opslagcapaciteit en de planning worden in de toegankelijke tekst niet genoemd.",
+        "Het volledige bericht van Extra staat achter een betaalmuur."
+      ],
+      "body": [
+        "Aqualectra, het bedrijf dat Curaçao van elektriciteit en water voorziet, heeft een overeenkomst getekend om zijn systeem voor energieopslag in batterijen uit te breiden. Het lokale medium Extra meldde de ondertekening en plaatste een foto van het moment.",
+        "Volgens het bijschrift zaten onder anderen technisch directeur Rudolf Garmes en een directeur met de voornaam Neysa aan tafel. Het toegankelijke deel van het bericht vermeldt niet wie de andere partij is, wat de uitbreiding kost, hoeveel capaciteit erbij komt en wanneer het systeem klaar moet zijn.",
+        "Batterijopslag helpt een netbeheerder het net stabiel te houden en schommelingen in vraag en aanbod op te vangen. Dat wordt belangrijker naarmate het aandeel variabele energiebronnen groeit. Meer informatie van Aqualectra of de andere ondertekenaar is nodig om de gevolgen voor het net, de kosten en de klanten te beoordelen."
+      ]
+    },
+    "es": {
+      "title": "Aqualectra firma un acuerdo para ampliar el almacenamiento de energía en baterías",
+      "standfirst": "La empresa de servicios públicos de Curazao, Aqualectra, ha firmado un acuerdo para ampliar su sistema de almacenamiento de energía con baterías. El texto disponible públicamente no ofrece detalles financieros ni técnicos.",
+      "keypoints": [
+        "Aqualectra ha firmado un acuerdo para ampliar su sistema de almacenamiento de energía en baterías.",
+        "En la firma participaron el director técnico de la empresa, Rudolf Garmes, y una directora llamada Neysa (el apellido no aparece en el texto disponible).",
+        "La contraparte, el valor del contrato, la capacidad de almacenamiento y el calendario no se revelan en el texto accesible.",
+        "El informe completo está detrás de un muro de pago en Extra."
+      ],
+      "body": [
+        "Aqualectra, la empresa de servicios públicos que suministra electricidad y agua en Curazao, ha firmado un acuerdo para ampliar su sistema de almacenamiento de energía en baterías. El medio local Extra informó de la firma y publicó una foto del momento.",
+        "El pie de foto nombra al director técnico Rudolf Garmes y a una directora identificada como Neysa entre quienes estaban en la mesa. La parte accesible del informe no dice quién es la otra parte del acuerdo, cuánto cuesta la ampliación, cuánta capacidad se añadirá ni cuándo estará en funcionamiento.",
+        "El almacenamiento en baterías ayuda a una empresa de servicios públicos a mantener estable la red y a manejar las oscilaciones de la oferta y la demanda, algo que cobra más importancia a medida que crece la proporción de fuentes de energía variables. Se necesitarán más detalles de Aqualectra o de la otra parte firmante para evaluar el efecto en la red, los costos y los clientes."
+      ]
     }
   },
   {
@@ -14835,6 +15198,21 @@
         "De politieke schade is mogelijk groter dan het verlies van één zetel. Het intrekken van de motie voor een onmiddellijke verhoging van het minimumloon laat zien wat het AVP intern kost om met FUTURO samen te werken. De beschuldigingen van De Meza aan het adres van FUTURO roepen bovendien vragen op over het leiderschap van AVP en het vermogen om de eigen fractie bijeen te houden. De drie zetels van FUTURO worden nog belangrijker, wat de onderhandelingspositie van die partij versterkt.",
         "Een val van het kabinet lijkt niet op handen. Op 2 november zei Gerlien Croes dat FUTURO dialoog wil en geen val van de regering. Op 4 november ontkende premier Mike Eman dat er sprake is van een impasse en sprak hij de verwachting uit dat er een akkoord komt. Beide uitspraken dateren van vóór de aankondiging van De Meza. De vraag is of de resterende 11 leden het kabinet steunen bij stemmingen over de begroting en over vertrouwensmoties."
       ]
+    },
+    "es": {
+      "title": "La coalición de Aruba pierde su escaño de reserva al declararse De Meza independiente en medio de la disputa por el salario mínimo",
+      "standfirst": "La salida de Mike De Meza de la bancada del AVP deja al gobierno AVP–FUTURO con 11 de 21 escaños, la mayoría más estrecha posible. La disputa por el salario mínimo es ahora un riesgo mayor para la estabilidad del gabinete.",
+      "keypoints": [
+        "La coalición comenzó con 12 escaños: nueve del AVP y tres de FUTURO. Ahora tiene 11.",
+        "Una salida más le costaría al gobierno su mayoría parlamentaria.",
+        "Se retiró una moción para un aumento inmediato del salario mínimo, lo que apunta a tensiones dentro de la coalición.",
+        "No está claro cómo votará De Meza sobre el presupuesto y las mociones de confianza."
+      ],
+      "body": [
+        "Mike De Meza se ha declarado miembro independiente del parlamento. Esto no hace caer automáticamente al gabinete AVP–FUTURO, pero elimina el margen de seguridad de la coalición. Con 11 de 21 escaños, el gobierno todavía puede aprobar propuestas, siempre que todos sus miembros estén presentes y voten en bloque.",
+        "El daño político podría ser mayor que la pérdida de un escaño. La retirada de la moción para un aumento inmediato del salario mínimo muestra el costo interno que tiene para el AVP seguir aliado con FUTURO. Las acusaciones de De Meza contra FUTURO también plantean dudas sobre el liderazgo del AVP y su capacidad para mantener alineada a su propia bancada. Los tres escaños de FUTURO adquieren aún más importancia, lo que refuerza su posición en las negociaciones.",
+        "Un colapso no parece inminente. El 2 de noviembre, Gerlien Croes dijo que FUTURO quería diálogo, no la caída del gobierno. El 4 de noviembre, el primer ministro Mike Eman negó que hubiera un estancamiento y dijo que esperaba un acuerdo. Ambas declaraciones se hicieron antes del anuncio de De Meza. La prueba clave será si los 11 miembros restantes respaldan al gabinete en las votaciones sobre el presupuesto y las mociones de confianza."
+      ]
     }
   },
   {
@@ -14875,6 +15253,21 @@
         "In een commentaar in Bon Dia Aruba wordt betoogd dat de regering veel initiatieven aankondigt, maar nog geen concrete, uitvoerbare plannen heeft getoond. Het regeerprogramma 2025-2028 wordt omschreven als een lijst van voornemens. De schrijver vraagt wanneer echte plannen verschijnen en worden uitgevoerd.",
         "Over wonen stelt de schrijver dat het grootste probleem niet speelt bij mensen die kunnen kopen of bouwen, maar bij de grote meerderheid die dat niet kan. Volgens hem moet de overheid zelf woningen laten bouwen en niet alleen voorwaarden voor private partijen scheppen. Ook zet hij vraagtekens bij een koopwoningenproject op natuurgebied, dat botst met de belofte in het programma om grond tegen overmatig gebruik te beschermen.",
         "Verder koppelt de schrijver het toerismeplan, dat mikt op sterke groei van het aantal verblijfstoeristen, aan een waarschijnlijke behoefte aan meer buitenlandse arbeidskrachten en extra druk op de woningmarkt. Het afvalwaterproject wordt nog geëvalueerd, en hij waarschuwt voor risico's bij een stijgend aantal bezoekers. Het gaat om een opiniestuk en niet om een verslag van officiële besluiten."
+      ]
+    },
+    "es": {
+      "title": "Un editorial cuestiona si el gobierno de Aruba tiene planes reales en vivienda, turismo y aguas residuales",
+      "standfirst": "Un artículo de opinión en Bon Dia Aruba sostiene que, a casi dos años de iniciado su mandato, el gobierno ha ofrecido sobre todo intenciones y no planes ejecutables. Señala como ejemplos la vivienda, el crecimiento del turismo y el tratamiento de aguas residuales.",
+      "keypoints": [
+        "El comentario afirma que el programa de gobierno 2025-2028 se lee como una lista de buenas intenciones y no como un conjunto de planes listos para implementarse.",
+        "En vivienda, dice que el gobierno se limita sobre todo a designar dónde pueden construir otros y hace poco por quienes no pueden permitirse comprar una casa.",
+        "Observa que el plan nacional de transformación turística se centra en un fuerte crecimiento de los visitantes que pernoctan, lo que aumentaría la demanda de mano de obra y la presión sobre la vivienda.",
+        "Dice que el proyecto de aguas residuales aún se está evaluando, incluido un posible traslado de las instalaciones de Bubali a Parkietenbos."
+      ],
+      "body": [
+        "Un comentario en Bon Dia Aruba sostiene que el gobierno ha anunciado muchas iniciativas, pero aún no ha mostrado planes concretos y ejecutables. El autor describe el programa de gobierno 2025-2028 como una lista de intenciones y pregunta cuándo se publicarán y se llevarán a cabo planes reales.",
+        "En cuanto a la vivienda, el autor señala que el principal problema no afecta a quienes pueden comprar o construir, sino a la gran mayoría que no puede. Afirma que el gobierno debería actuar directamente para construir viviendas, en lugar de limitarse a crear condiciones para los actores privados. El artículo también cuestiona un proyecto de viviendas en venta que utilizaría terrenos naturales y lo contrasta con la promesa del programa de proteger la tierra del uso excesivo.",
+        "El autor también vincula el plan de transformación turística, que apunta a un fuerte crecimiento de los visitantes que pernoctan, con una probable necesidad de más mano de obra extranjera y mayor presión sobre la vivienda. Sobre las aguas residuales, el texto dice que el proyecto aún se está evaluando y advierte del riesgo de fracaso a medida que aumenta el número de visitantes. Se trata de un artículo de opinión, no de un informe sobre decisiones oficiales."
       ]
     }
   },
@@ -14919,6 +15312,21 @@
         "De bijeenkomst draaide om het uitwisselen van standpunten en het verkennen van mogelijkheden om toeristische en recreatieve activiteiten te combineren met de bescherming van de natuur. Volgens de regering was de sfeer positief en constructief en erkenden de deelnemers het belang van een balans tussen economische activiteit en natuurbehoud.",
         "Er is nog geen besluit aangekondigd. De minister liet weten dat het overleg in komende bijeenkomsten wordt voortgezet, zodat de partijen tot een gedeeld begrip kunnen komen voordat beleid wordt vastgesteld. De uitkomst is van belang voor aanbieders van offroadexcursies en voor natuurorganisaties die zich zorgen maken over de gevolgen voor de natuur."
       ]
+    },
+    "es": {
+      "title": "Aruba reúne a operadores turísticos y grupos ambientalistas para discutir las normas sobre ATV/UTV",
+      "standfirst": "El ministro de Infraestructura, Rene Herdé, se reunió por primera vez con todas las partes interesadas en el debate sobre el uso de ATV y UTV en Aruba. Operadores turísticos y organismos de conservación discutieron cómo pueden coexistir el turismo todoterreno y la protección de la naturaleza.",
+      "keypoints": [
+        "El ministro Herdé celebró una primera reunión conjunta con todas las partes interesadas sobre el uso de ATV/UTV.",
+        "Entre los participantes estaban operadores turísticos, Aruba Birdlife Conservation, el departamento de naturaleza y medio ambiente DNM y Aruba Conservation Foundation.",
+        "Las conversaciones se describieron como positivas y constructivas, con el objetivo de equilibrar la actividad económica y la conservación.",
+        "El diálogo continuará en nuevas reuniones antes de que se tome cualquier decisión."
+      ],
+      "body": [
+        "El ministro de Infraestructura, Rene Herdé, se sentó por primera vez con todas las partes involucradas en el debate sobre los vehículos ATV y UTV en Aruba, como parte de los esfuerzos del gobierno por mejorar la forma en que se usan estos vehículos. Los operadores turísticos se reunieron con Aruba Birdlife Conservation, el Dienst Natuur en Milieu (DNM) y la Aruba Conservation Foundation.",
+        "La sesión se centró en intercambiar opiniones y explorar si las actividades recreativas y turísticas pueden coexistir con la necesidad de proteger el entorno natural de la isla. Según el gobierno, el ambiente fue positivo y constructivo, y los participantes reconocieron la importancia de equilibrar la actividad económica con la conservación ambiental.",
+        "No se ha anunciado ninguna decisión. El ministro dijo que las conversaciones continuarán en próximas reuniones para que las partes puedan construir un entendimiento común antes de fijar cualquier política. El resultado será importante para los operadores que dependen de las excursiones todoterreno y para los grupos de conservación preocupados por el impacto en la naturaleza."
+      ]
     }
   },
   {
@@ -14959,6 +15367,21 @@
         "De begroting van de Algemene Rekenkamer Aruba voor 2027 is vastgesteld bij landsverordening van 22 oktober 2026. Die is op 2 november in het Afkondigingsblad gepubliceerd. De wet stelt voor zowel uitgaven als financieringsmiddelen hetzelfde bedrag vast: Afl. 4.150.000.",
         "De begroting voor 2026 bedroeg Afl. 3.885.000, dus het nieuwe bedrag ligt Afl. 265.000 hoger. De wet voor 2026 bevatte daarnaast een apart bedrag van Afl. 15.000 voor investeringen. In de wet voor 2027 ontbreekt zo'n post. Ook wordt niet aangegeven hoe het geld wordt verdeeld over personeel, onderzoeken en overige bedrijfskosten, dus de reden van de verhoging blijkt niet uit de tekst.",
         "De wettelijke grondslag vormen artikel V.12 van de Staatsregeling en artikel 40a van de Comptabiliteitsverordening 1989. De Raad van Advies is gehoord en de begroting is vastgesteld in overleg met het Parlement. De ARA is een onafhankelijk orgaan dat toeziet op het beheer van publieke middelen, waaronder de rechtmatigheid en doelmatigheid van overheidsuitgaven."
+      ]
+    },
+    "es": {
+      "title": "La oficina de auditoría de Aruba recibe un presupuesto de Afl. 4,15 millones para 2027",
+      "standfirst": "La Algemene Rekenkamer Aruba (ARA) contará con Afl. 4,15 millones en 2027, Afl. 265.000 más que en 2026. El aumento se fijó mediante una ordenanza nacional y equivale a cerca de 6,8 %.",
+      "keypoints": [
+        "El presupuesto de 2027 es de Afl. 4.150.000, frente a Afl. 3.885.000 en 2026.",
+        "El aumento de Afl. 265.000 equivale a aproximadamente 6,8 %.",
+        "La ley de 2026 también reservó Afl. 15.000 para inversiones, mientras que la ley de 2027 no menciona un monto separado para inversiones.",
+        "La ley de 2027 no desglosa el gasto entre personal, investigaciones y otros costos operativos."
+      ],
+      "body": [
+        "El presupuesto de la Algemene Rekenkamer Aruba para 2027 fue fijado mediante una Landsverordening fechada el 22 de octubre de 2026. Se publicó en el Afkondigingsblad el 2 de noviembre. La ley establece la misma cantidad, Afl. 4.150.000, tanto para el gasto como para la financiación.",
+        "El presupuesto operativo de 2026 fue de Afl. 3.885.000, por lo que la nueva cifra es Afl. 265.000 mayor. La ley de 2026 también incluía Afl. 15.000 separados para inversiones. La ley de 2027 no tiene esa partida. Tampoco indica cómo se repartirá el dinero entre personal, investigaciones y otros costos operativos, por lo que el motivo del aumento no queda claro a partir del texto.",
+        "La base legal es el artículo V.12 de la Staatsregeling y el artículo 40a de la Comptabiliteitsverordening 1989. Se consultó al Raad van Advies y el presupuesto se fijó en consulta con el Parlamento. La ARA es un organismo independiente que verifica cómo se gestiona el dinero público, incluida la legalidad y la eficiencia del gasto del gobierno."
       ]
     }
   },
@@ -15001,6 +15424,21 @@
         "In een interview met 24ora.com zei De Meza dat hij zich niet meer herkent in de AVP. Volgens hem is het onacceptabel dat de partij FUTURO de koers bepaalt. Hij wil de voorzitter van het Parlement formeel op de hoogte stellen.",
         "De mededeling kwam tijdens een vergadering over de aanvullende begroting 2026. De motie over het minimumloon was in dat debat een zichtbaar onderwerp van loonbeleid, en het intrekken ervan heeft nu tot een breuk geleid. Volgens de bron is het verhaal nog in ontwikkeling. Het is nog niet duidelijk welk effect de wijziging heeft op de stemverhoudingen in het Parlement."
       ]
+    },
+    "es": {
+      "title": "El diputado arubano De Meza pasa a ser independiente tras la retirada por parte del AVP de la moción sobre el salario mínimo",
+      "standfirst": "El diputado Mike de Meza se declaró miembro independiente del Parlamento después de que el AVP retirara su moción a favor de un aumento inmediato del salario mínimo. La decisión se produjo durante el debate sobre el presupuesto suplementario de 2026.",
+      "keypoints": [
+        "El AVP retiró su moción que pedía un aumento inmediato del salario mínimo.",
+        "De Meza dice que ya no se identifica con el AVP y rechaza la influencia del partido FUTURO.",
+        "Tiene previsto informar de su decisión al presidente del Parlamento.",
+        "El anuncio se hizo durante el debate del presupuesto suplementario de 2026."
+      ],
+      "body": [
+        "El diputado arubano Mike de Meza anunció el viernes por la noche que deja el grupo parlamentario del AVP y que ocupará su escaño como independiente. Su decisión se produjo tras la retirada por parte del AVP de una moción que pedía un aumento inmediato del salario mínimo.",
+        "En una entrevista con 24ora.com, De Meza dijo que ya no se reconoce en el AVP. Afirmó que le resulta inaceptable que el partido FUTURO sea quien lleve la batuta. Tiene la intención de notificarlo formalmente al presidente del Parlamento.",
+        "El anuncio se hizo mientras el Parlamento sesionaba sobre el presupuesto suplementario de 2026. La moción sobre el salario mínimo había sido un tema visible de política salarial en ese debate, y su retirada ha provocado ahora una ruptura. La fuente describe la noticia como aún en desarrollo, y todavía no está claro cómo afectará el cambio a las votaciones en el Parlamento."
+      ]
     }
   },
   {
@@ -15041,6 +15479,21 @@
         "De Arubaanse dienst voor immigratie en toelating, DIMAS, wil de verwarring in het bedrijfsleven wegnemen. De stop op eerste aanvragen voor reguliere werkvergunningen voor buitenlanders is nog steeds van kracht en het einde van Hunto pa Progreso verandert daar niets aan.",
         "Er bestaat een beperkt aantal uitzonderingen op grond van een addendum bij het Handboek Toelating. Het gaat onder meer om hoogopgeleide professionals, hotelmanagers, koks en keukenpersoneel, gespecialiseerde technici, professionals in IT, onderwijs en zorg, accountants, bakkers, slagers en personeel voor bepaalde tijdelijke bouwprojecten.",
         "DIMAS benadrukt dat de uitzonderingen beperkt zijn en dat een beroep op de lijst geen vergunning verzekert. Elke aanvraag moet voldoen aan de Landsverordening toelating en uitzetting (LTU) en de geldende procedures. Werkgevers wordt geadviseerd eerst na te gaan of een functie in aanmerking komt en niet op onbevestigde informatie te vertrouwen. De stop blijft gelden totdat de regering officieel een wijziging aankondigt."
+      ]
+    },
+    "es": {
+      "title": "El servicio de inmigración de Aruba afirma que sigue vigente el congelamiento de nuevos permisos de trabajo regulares",
+      "standfirst": "DIMAS declaró que el fin del programa Hunto pa Progreso no reabre las solicitudes de permisos de trabajo regulares para trabajadores extranjeros. Solo pueden considerarse ciertas profesiones incluidas en una lista.",
+      "keypoints": [
+        "El congelamiento de las solicitudes por primera vez de permisos de trabajo regulares, conforme a la política del ministro de Justicia Arthur Dowers, se mantiene.",
+        "Surgió confusión entre el público y los empleadores, que interpretaron el fin de Hunto pa Progreso como una reapertura.",
+        "Las excepciones del anexo del Handboek Toelating abarcan profesiones como gerentes de hotel, cocineros, TI, docencia, salud y contadores.",
+        "Figurar en la lista no garantiza la aprobación; cada caso se evalúa conforme a la LTU."
+      ],
+      "body": [
+        "El departamento de inmigración y admisión de Aruba, DIMAS, salió a aclarar un malentendido en el sector empresarial. Indicó que el congelamiento de las solicitudes por primera vez de permisos de trabajo regulares para extranjeros sigue en vigor, y que la conclusión del programa Hunto pa Progreso no cambia nada al respecto.",
+        "Existe un conjunto limitado de excepciones en virtud de un anexo del Handboek Toelating. Estas incluyen profesionales con educación superior, gerentes de hotel, cocineros y personal de cocina, técnicos especializados, profesionales de TI, educación y salud, contadores, panaderos, carniceros y personal para ciertos proyectos de construcción temporales.",
+        "DIMAS subrayó que las excepciones son estrechas y que figurar en la lista no asegura un permiso. Toda solicitud debe cumplir los requisitos de la ordenanza nacional sobre admisión y expulsión (LTU) y los procedimientos vigentes. Se aconseja a los empleadores verificar si un puesto califica antes de actuar, y no basarse en información no confirmada. El congelamiento se mantiene hasta que el gobierno anuncie oficialmente un cambio."
       ]
     }
   },
@@ -15083,6 +15536,21 @@
         "In de aankondiging staan de afzonderlijke producten en bedragen niet vermeld. Consumenten en winkeliers vinden ze in de prijslijst, die op de website van de overheid te downloaden is. Wie vragen heeft over de lijst, kan het departement bellen op 521-2423.",
         "Bedrijven die hogere kosten willen doorberekenen, hebben een deadline. Aanvragen voor een prijsverhoging moeten vóór 14 november 2026 binnen zijn, zodat ze kunnen worden verwerkt voor de volgende publicatie op 21 november 2026. Uit dit ritme blijkt dat de maximumprijzen ongeveer eens per twee weken worden herzien."
       ]
+    },
+    "es": {
+      "title": "Aruba fija nuevos precios máximos a partir del 7 de noviembre de 2026",
+      "standfirst": "El Departamento de Asuntos Económicos de Aruba publicó sus últimos precios máximos para una serie de productos, válidos a partir del 7 de noviembre de 2026. Las empresas que deseen un aumento de precios en la próxima ronda deben presentar su solicitud antes del 14 de noviembre.",
+      "keypoints": [
+        "Los nuevos precios máximos rigen a partir del 7 de noviembre de 2026.",
+        "La lista completa puede descargarse del sitio web del gobierno.",
+        "Las solicitudes de aumento de precios deben presentarse antes del 14 de noviembre de 2026.",
+        "La próxima publicación está prevista para el 21 de noviembre de 2026."
+      ],
+      "body": [
+        "El Departamento de Asuntos Económicos del Gobierno de Aruba anunció los precios máximos que se aplican a varios productos a partir del 7 de noviembre de 2026. Estos topes limitan lo que los vendedores pueden cobrar a los consumidores por los productos en cuestión durante el período vigente.",
+        "El anuncio no detalla los productos ni los montos individuales. Consumidores y comerciantes pueden consultarlos en la lista de precios, disponible para descargar en el sitio web del gobierno. Quien tenga preguntas sobre la lista puede llamar al departamento al 521-2423.",
+        "Las empresas que esperan trasladar costos más altos tienen una fecha límite. Las solicitudes de aumento de precios deben llegar al departamento antes del 14 de noviembre de 2026 para poder procesarse a tiempo para la próxima publicación, prevista para el 21 de noviembre de 2026. El ciclo indica que los precios máximos se revisan aproximadamente cada dos semanas."
+      ]
     }
   },
   {
@@ -15123,6 +15591,21 @@
         "LengaGPT, een initiatief van Stichting SPLIKA, werkt sinds 2022 aan een AI-taalmodel voor het Papiamentu. Het eerste prototype, gepresenteerd in februari 2025, was slechts een proof of concept. Relatiemanager Ronald Lieuw zegt dat voor de volgende fase ongeveer 400.000 euro nodig is, verspreid over vier jaar.",
         "Volgens Lieuw draait het vooral om digitale onafhankelijkheid en niet om gebrekkige taalbeheersing van internationale modellen zoals ChatGPT, Claude en Gemini, die Papiamentu inmiddels redelijk aankunnen. Een eigen model geeft meer controle over taalgegevens, auteursrechten en de toepassing van de technologie, en moet lokale technische kennis opbouwen. Hij erkent dat het niet automatisch beter of goedkoper is dan bestaande systemen en dat het op prestaties, betrouwbaarheid, veiligheid en gebruikskosten moet worden beoordeeld.",
         "SPLIKA presenteerde het voorstel op 22 september tijdens consultaties van de Regulatory Authority Curaçao (RAC), die betrokken is bij het opstellen van de Nationale AI-strategie. De RAC deed geen toezegging om het over te nemen. Of de Curaçaose overheid wil investeren, is nog onduidelijk."
+      ]
+    },
+    "es": {
+      "title": "LengaGPT busca €400,000 para desarrollar un modelo de IA en papiamento",
+      "standfirst": "Los impulsores de LengaGPT, un proyecto de IA en papiamento en Curazao, estiman que necesitan alrededor de €400,000 a lo largo de cuatro años. Quieren que el modelo se integre en la estrategia nacional de IA de la isla y buscan financiamiento estructural.",
+      "keypoints": [
+        "Necesidad estimada de unos €400,000 a lo largo de cuatro años, es decir, aproximadamente €100,000 al año, para tecnología, datos lingüísticos, investigación, conocimientos especializados y mantenimiento.",
+        "La fundación SPLIKA afirma que hasta ahora no se ha invertido dinero en el proyecto; no se explica cómo se financió el prototipo.",
+        "Se han recopilado unos 1.5 GB de datos lingüísticos y ya funciona una plataforma para subir documentos en papiamento.",
+        "SPLIKA quiere que el proyecto se incluya en la Estrategia Nacional de IA de Curazao; se espera un primer borrador en el primer trimestre de 2027."
+      ],
+      "body": [
+        "LengaGPT, una iniciativa de Stichting SPLIKA, trabaja desde 2022 en un modelo de lenguaje de IA para el papiamento. Un primer prototipo, presentado en febrero de 2025, fue solo una prueba de concepto. El gerente de relaciones, Ronald Lieuw, dice que la siguiente fase requiere unos €400,000 repartidos en cuatro años.",
+        "Lieuw sostiene que el argumento principal es la independencia digital y no las deficiencias lingüísticas de los modelos internacionales como ChatGPT, Claude y Gemini, que según él ahora manejan el papiamento de manera razonable. Un modelo local daría más control sobre los datos lingüísticos, la protección de los derechos de autor y la forma en que se aplica la tecnología, y generaría conocimientos técnicos locales. Reconoce que no será automáticamente mejor ni más económico que los sistemas existentes y que debe evaluarse por su rendimiento, fiabilidad, seguridad y costos de operación.",
+        "SPLIKA presentó su propuesta el 22 de septiembre en las consultas organizadas por la Regulatory Authority Curaçao (RAC), que participa en la elaboración de la Estrategia Nacional de IA. La RAC no se comprometió a adoptarla. Sigue sin estar claro si el gobierno de Curazao invertirá."
       ]
     }
   },
@@ -15165,6 +15648,21 @@
         "Carnival Festivale vaart achtdaagse cruises door het zuidelijke Caribisch gebied met stops op Aruba en Curaçao, en bedient ook routes in het oostelijke Caribisch gebied. Carnival Breeze vaart tussen oktober 2028 en februari 2029 vier veertiendaagse cruises onder het merk Carnival Journeys. Die doen 13 bestemmingen in het zuidelijke Caribisch gebied aan, waaronder Aruba, Curaçao, Barbados, Grenada en Saint Lucia.",
         "Voor Aruba betekent de aankondiging dat het eiland een plek houdt in de langetermijnplanning van de rederij. Dat biedt de toeristische sector en de detailhandel kansen op extra bezoekers in het seizoen, al noemt de bron geen cijfers over passagiers of bestedingen."
       ]
+    },
+    "es": {
+      "title": "Carnival programa escalas en Aruba en sus itinerarios de crucero de 2028-2029",
+      "standfirst": "Carnival Cruise Line incluyó a Aruba en su temporada 2028-2029, como parte de un nuevo programa de más de 300 travesías desde Port Canaveral, Florida. Curazao también figura en varias de las rutas.",
+      "keypoints": [
+        "Carnival anunció el 5 de noviembre un programa de más de 300 cruceros desde Port Canaveral con cinco barcos.",
+        "El Carnival Festivale realizará cruceros de ocho días por el Caribe sur con escalas en Aruba y Curazao.",
+        "El Carnival Breeze ofrecerá cuatro travesías de 14 días de Carnival Journeys entre octubre de 2028 y febrero de 2029, con Aruba entre 13 destinos.",
+        "El programa confirma el lugar de Aruba en las rutas de Carnival, con posibilidad de más visitantes para el turismo y el comercio."
+      ],
+      "body": [
+        "Carnival Cruise Line puso a Aruba en sus itinerarios de la temporada 2028-2029. La isla forma parte de un nuevo programa de más de 300 cruceros con salida desde Port Canaveral, en Florida, operado con cinco barcos: Carnival Breeze, Carnival Firenze, Carnival Festivale, Carnival Glory y Mardi Gras. Las travesías van de tres a 14 días.",
+        "Está previsto que el Carnival Festivale realice cruceros de ocho días por el Caribe sur que incluyen paradas en Aruba y Curazao, y que también navegue rutas del Caribe oriental. El Carnival Breeze realizará cuatro cruceros de 14 días bajo la marca Carnival Journeys entre octubre de 2028 y febrero de 2029. Estos visitan 13 destinos del Caribe sur, entre ellos Aruba, Curazao, Barbados, Granada y Santa Lucía.",
+        "Para Aruba, el anuncio significa que la isla conserva su lugar en el despliegue a largo plazo de la naviera. Eso brinda a los sectores del turismo y el comercio la perspectiva de visitantes adicionales durante la temporada, aunque la fuente no ofrece cifras de pasajeros ni de gasto."
+      ]
     }
   },
   {
@@ -15205,6 +15703,21 @@
         "Impact Hub Aruba heeft twee samenwerkingsverbanden bezegeld die kansen voor handel en investeringen moeten openen voor jonge bedrijven in het Caribisch deel van het Koninkrijk. De overeenkomsten werden getekend tijdens het bezoek van minister Heleen Herbert aan Curaçao voor de opening van Curaçao Innovation Hub.",
         "De afspraak met Curaçao Innovation Hub betreft kennisuitwisseling, toegang tot zakelijke netwerken, gezamenlijke evenementen en commerciële kansen voor startups en scaleups op beide eilanden. Het tweede memorandum, met het Dutch Caribbean Innovation Fund, voorziet binnen een jaar in een Dutch Caribbean Innovation Alliance. Die alliantie moet leden bredere toegang geven tot regionale markten, strategische partners en investeerders.",
         "Directeur Mary-Ann Falconi-Rasmijn van Impact Hub Aruba zei dat regionale samenwerking cruciaal is voor bedrijven in kleine economieën. Volgens haar biedt het verbinden van ecosystemen meer ruimte voor groei, expansie en investeringen."
+      ]
+    },
+    "es": {
+      "title": "Impact Hub Aruba firma dos acuerdos para conectar startups en todo el Caribe neerlandés",
+      "standfirst": "Impact Hub Aruba acordó dos memorandos de cooperación con Curaçao Innovation Hub y el Dutch Caribbean Innovation Fund. El objetivo es conectar a emprendedores y redes de innovación en Aruba, el Caribe neerlandés y los Países Bajos.",
+      "keypoints": [
+        "Se firmaron dos memorandos de entendimiento (MoU) con Curaçao Innovation Hub y el Dutch Caribbean Innovation Fund.",
+        "La firma tuvo lugar durante la visita de la ministra de Economía de los Países Bajos, Heleen Herbert, para la inauguración de Curaçao Innovation Hub.",
+        "Se creará una Dutch Caribbean Innovation Alliance en los próximos 12 meses.",
+        "La alianza busca ampliar el acceso a mercados regionales, socios estratégicos e inversionistas."
+      ],
+      "body": [
+        "Impact Hub Aruba formalizó dos alianzas destinadas a abrir oportunidades de negocios e inversión para empresas jóvenes del Caribe neerlandés. Los memorandos se firmaron mientras la ministra de Economía de los Países Bajos, Heleen Herbert, visitaba Curazao para la inauguración de Curaçao Innovation Hub.",
+        "El acuerdo con Curaçao Innovation Hub abarca el intercambio de conocimientos, el acceso a redes empresariales, eventos conjuntos y oportunidades comerciales para startups y scaleups de ambas islas. El segundo memorando, con el Dutch Caribbean Innovation Fund, prevé la creación de una Dutch Caribbean Innovation Alliance en el plazo de un año. Esa alianza buscaría dar a sus miembros un acceso más amplio a mercados regionales, socios estratégicos e inversionistas.",
+        "La directora de Impact Hub Aruba, Mary-Ann Falconi-Rasmijn, dijo que la cooperación regional es esencial para las empresas de economías pequeñas. Sostuvo que conectar ecosistemas crea más espacio para el crecimiento, la expansión y la inversión."
       ]
     }
   },
@@ -15247,6 +15760,21 @@
         "Een deel van het personeel woont al in Corendon Hills, het voormalige Willemstad Resort, dat mede wordt gebruikt voor medewerkers die uit het buitenland zijn aangetrokken. Uslu plaatste het woningplan binnen de bredere band met de gemeenschap, waaronder steun aan lokale leveranciers, boeren, kunstenaars en sportverenigingen.",
         "Ook elders groeit de organisatie. Corendon exploiteert circa 1.150 hotelkamers en neemt in maart 2027 het beheer over van een hotel aan de Penstraat. In Scharloo bezit het vijf monumentale panden, waarvan drie gerenoveerd. Het voormalige Club Bermuda wordt een hoofdkantoor dat in december opengaat; het vijfde pand volgt volgend jaar."
       ]
+    },
+    "es": {
+      "title": "Corendon analiza construir viviendas sociales para su personal en Curazao",
+      "standfirst": "El grupo turístico Corendon está considerando construir viviendas sociales para sus propios empleados en Curazao, según el director ejecutivo Atilay Uslu. No se ha anunciado ningún calendario ni cifra de inversión.",
+      "keypoints": [
+        "Corendon emplea a unas 1.200 personas en Curazao y estudia ofrecerles vivienda.",
+        "Cuenta con unas 1.150 habitaciones de hotel y espera llegar a unas 1.300 cuando asuma la gestión de un hotel en la Penstraat en marzo de 2027.",
+        "Se prevé que una nueva sede central en el antiguo Club Bermuda, en Scharloo, abra en diciembre.",
+        "La idea de las viviendas sociales aún no tiene planificación concreta ni presupuesto."
+      ],
+      "body": [
+        "Corendon está estudiando construir viviendas sociales para su plantilla en Curazao. Así lo dijo Uslu en una entrevista con la Curaçao Maritime Association. La empresa cuenta actualmente con unos 1.200 empleados en la isla, y la idea ampliaría su papel actual en el alojamiento de trabajadores.",
+        "Parte de la plantilla ya se aloja en Corendon Hills, el antiguo Willemstad Resort, que se utiliza en parte para el personal contratado en el extranjero. Uslu presentó el plan de vivienda como parte de los vínculos más amplios de la empresa con la comunidad local, entre ellos el apoyo a proveedores, agricultores, artistas y clubes deportivos locales.",
+        "El grupo también está ampliando su presencia. Opera unas 1.150 habitaciones de hotel y asumirá en marzo de 2027 la gestión de un hotel en la Penstraat. En Scharloo es propietario de cinco edificios históricos, tres de ellos ya renovados. El antiguo Club Bermuda se está convirtiendo en una sede central que abrirá en diciembre, y la renovación del quinto edificio está programada para el próximo año."
+      ]
     }
   },
   {
@@ -15287,6 +15815,21 @@
         "Curaçao is gekozen als gastheer van het AAPA LATAM-congres in 2027, een belangrijke jaarlijkse bijeenkomst voor de haven- en maritieme sector in Latijns-Amerika en het Caribisch gebied. AAPA LATAM is de Latijns-Amerikaanse tak van de American Association of Port Authorities. Het gastheerschap wordt officieel gepresenteerd tijdens de editie van 2026 in Guatemala, van 1 tot en met 4 december.",
         "Op de agenda staan doorgaans modernisering van haveninfrastructuur, digitalisering, logistieke veiligheid, duurzaamheid en nieuwe internationale handelsroutes. Havenexploitanten, terminalbedrijven en investeerders krijgen er ook de kans om zakelijke contacten te leggen en samenwerking te zoeken.",
         "Voor Curaçao is het een kans om zich te profileren als maritiem en logistiek knooppunt, mede dankzij de ligging tussen Noord- en Zuid-Amerika en de natuurlijke diepwaterhaven. Hotels, restaurants en andere dienstverleners kunnen profiteren van extra bezoekers. Hoeveel het evenement het eiland oplevert en wat de organisatie kost, is nog onbekend."
+      ]
+    },
+    "es": {
+      "title": "Curazao será sede del congreso de puertos de América Latina en 2027",
+      "standfirst": "Curazao será anfitrión del congreso anual AAPA LATAM en diciembre de 2027, que reunirá en la isla a unos 700 representantes del sector portuario, naviero y logístico. La elección se anunciará formalmente en la edición de este año en Guatemala.",
+      "keypoints": [
+        "El congreso se celebrará del 1 al 3 de diciembre de 2027 en el World Trade Center Curaçao.",
+        "Se esperan unos 700 delegados de autoridades portuarias, navieras, empresas de logística e inversionistas.",
+        "La Curaçao Ports Authority y la Curaçao Tourist Board participan en los preparativos.",
+        "Aún no se han revelado el retorno económico esperado ni el costo de organizar el evento."
+      ],
+      "body": [
+        "Curazao fue elegida como sede del congreso AAPA LATAM 2027, una importante reunión anual de la industria portuaria y marítima de América Latina y el Caribe. AAPA LATAM es la rama latinoamericana de la American Association of Port Authorities. La designación como anfitriona se presentará formalmente en la reunión de 2026 en Guatemala, que se celebrará del 1 al 4 de diciembre.",
+        "El programa suele abarcar la modernización de la infraestructura portuaria, la digitalización, la seguridad logística, la sostenibilidad y las nuevas rutas comerciales internacionales. También ofrece a operadores portuarios, empresas de terminales e inversionistas un espacio para establecer contactos de negocios y alianzas.",
+        "Para Curazao, ser anfitriona es una oportunidad de presentarse como centro marítimo y logístico, gracias a su posición entre América del Norte y del Sur y a su puerto natural de aguas profundas. Hoteles, restaurantes y otros proveedores de servicios podrían beneficiarse de los visitantes adicionales. Aún se desconoce cuánto podría generar el evento para la isla y cuánto costará organizarlo."
       ]
     }
   },
@@ -15329,6 +15872,21 @@
         "Omdat de motoren op dat moment draaiden, verloor het eiland in één keer veel vermogen, met de blackout als gevolg. Een deel van de motoren bleef functioneren, zodat het bedrijf na ongeveer een uur kon beginnen met het herstel van productie en levering. Na twee uur en 23 minuten was de stroom volledig terug. WEB en netbeheerder ELMAR hielden het publiek via sociale media op de hoogte.",
         "Volgens WEB is een grondiger onderzoek nodig om de exacte oorzaak te achterhalen. De productie is nu stabiel, maar er wordt extra toezicht gehouden. Het bedrijf erkent de impact van stroomuitval op de bevolking en de Arubaanse economie, bood zijn excuses aan en bedankte zijn medewerkers en de ELMAR-teams voor het herstelwerk."
       ]
+    },
+    "es": {
+      "title": "WEB afirma que el apagón en Aruba comenzó con una falla durante pruebas rutinarias de alta tensión en la planta eléctrica",
+      "standfirst": "La empresa de agua y energía WEB indica que el apagón en toda la isla del jueves 5 de noviembre comenzó con una falla durante pruebas rutinarias en su planta de motores RECIP IV. El suministro completo tardó dos horas y 23 minutos en restablecerse.",
+      "keypoints": [
+        "La interrupción comenzó alrededor de las 2 p. m. durante pruebas periódicas del sistema de protección de alta tensión de la planta.",
+        "La falla cortó la conexión con dos transformadores que alimentan los motores de RECIP IV, que estaban en funcionamiento y perdieron una parte sustancial de su producción.",
+        "No todos los motores fallaron, por lo que la generación y el suministro pudieron reiniciarse en aproximadamente una hora; el 100 % del suministro volvió tras 2 horas y 23 minutos.",
+        "Una investigación más a fondo examinará la causa, y WEB afirma que la producción es estable, pero que se vigilará de cerca."
+      ],
+      "body": [
+        "WEB Aruba afirma que el apagón del jueves 5 de noviembre fue provocado por una perturbación en el sistema eléctrico. La falla ocurrió durante pruebas programadas del sistema de alta tensión que protege la planta, y cortó el enlace con dos transformadores de los que dependen los motores de RECIP IV.",
+        "Como los motores estaban en funcionamiento en ese momento, la isla perdió de golpe una gran cantidad de energía, lo que provocó el apagón. Algunos motores siguieron funcionando, lo que permitió a la empresa comenzar a restablecer la generación y el suministro tras aproximadamente una hora. El suministro completo volvió después de dos horas y 23 minutos. WEB y la distribuidora ELMAR mantuvieron informado al público a través de las redes sociales durante la recuperación.",
+        "WEB indica que se necesita una investigación más exhaustiva para establecer la causa exacta. La producción es estable por ahora, pero se ha reforzado el monitoreo. La empresa reconoció el impacto de los cortes de energía en los residentes y en la economía de Aruba, ofreció disculpas y agradeció a su personal y a las cuadrillas de ELMAR por el trabajo de restablecimiento."
+      ]
     }
   },
   {
@@ -15369,6 +15927,21 @@
         "HOH ontving de deelbetaling dinsdag. Het ziekenhuis benadrukt dat het bedrag een deel van een openstaande vergoeding voor reeds geleverde zorg aan AZV-verzekerden in 2025 afdekt en het jaarbudget niet verhoogt. Een definitieve financiële afspraak voor 2025 is er nog niet.",
         "HOH stelt al langer dat de vaste vergoeding (lumpsum) van AZV niet aansluit bij de werkelijke zorgkosten. Het externe onderzoek, op initiatief van AZV, wijst dezelfde kant op en suggereert dat de budgetten voor 2025 en 2026 tekortschieten voor wat AZV en het publiek verwachten. Het ziekenhuis weerspreekt de uitspraak van AZV dat het 31 miljoen florin aan extra voorschotten kreeg: die maakten volgens HOH deel uit van het huidige budget.",
         "AZV wil vanaf december eerdere voorschotten op haar betalingen inhouden. HOH heeft AZV en de regering laten weten dat dit niet haalbaar is zonder gevolgen voor de continuïteit van zorg en overlegt om drastische maatregelen te voorkomen. Ook is de minister van Volksgezondheid aan de verantwoordelijkheid van de overheid voor toegankelijke zorg herinnerd. Voor 2027 moeten nog afspraken over prijzen, zorgvolume en kwaliteit worden gemaakt."
+      ]
+    },
+    "es": {
+      "title": "El principal hospital de Aruba recibe un pago parcial de 15 millones de florines de AZV, pero persiste la disputa por el financiamiento",
+      "standfirst": "El Horacio Oduber Hospital (HOH) recibió un pago parcial de 15 millones de florines de la aseguradora de salud AZV por la atención prestada en 2025. El hospital afirma que el dinero solo le da tiempo y que sigue sin haber un acuerdo de financiamiento duradero.",
+      "keypoints": [
+        "Los 15 millones de florines son un pago retroactivo por atención ya prestada, no un aumento del presupuesto anual del hospital.",
+        "El pago permite a HOH cumplir sus obligaciones durante varias semanas y evita, por ahora, nuevas limitaciones a los tratamientos programados.",
+        "Los hallazgos preliminares de un estudio externo encargado por AZV sugieren que la inflación, el alza de precios y el mayor volumen de atención no se reflejaron plenamente en la suma global fija.",
+        "AZV planea comenzar a descontar anticipos anteriores desde diciembre, lo que según HOH volvería a generar un grave déficit de caja."
+      ],
+      "body": [
+        "HOH recibió el pago parcial el martes. El hospital subraya que el monto salda una parte de una compensación pendiente por la atención ya brindada en 2025 a pacientes asegurados por AZV y que no aumenta su presupuesto anual. Todavía no existe un acuerdo financiero final para 2025.",
+        "HOH sostiene desde hace tiempo que la suma global que recibe de AZV no se corresponde con el costo real de la atención. El estudio externo, iniciado por AZV, apunta en el mismo sentido y sugiere además que los presupuestos de 2025 y 2026 se quedan cortos frente a lo que esperan AZV y el público. El hospital rebate la afirmación de AZV de que recibió 31 millones de florines en anticipos adicionales y dice que estos formaban parte del presupuesto vigente.",
+        "A partir de diciembre, AZV pretende recuperar anticipos anteriores con cargo a sus pagos. HOH ha comunicado a AZV y al gobierno que esto no es viable sin afectar la continuidad de la atención, y dialoga con las partes para evitar medidas drásticas. También ha recordado al ministro de Salud la responsabilidad del gobierno en garantizar el acceso a la atención. Para 2027 aún deben acordarse los precios, los volúmenes de atención y la calidad."
       ]
     }
   }
