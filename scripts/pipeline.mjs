@@ -6,7 +6,7 @@
  * 2. Skip URLs already published (data/items.json) or already judged (data/seen.json).
  * 3. Fetch the article page, extract title / date / text.
  * 4. Ask Claude to (a) decide if the item is business / economy / politics for the ABC islands,
- *    (b) tag island + topic, (c) write an ORIGINAL brief in English and Dutch.
+ *    (b) tag island + topic, (c) write an ORIGINAL brief in English, Dutch and Spanish.
  * 5. Append accepted items to data/items.json (newest first, capped at MAX_ITEMS).
  *
  * Run: ANTHROPIC_API_KEY=... node scripts/pipeline.mjs [--dry]
@@ -151,8 +151,8 @@ const SYSTEM = `You are the editor of Negoshi, a business, economy and politics 
 You receive one article from a local source (often in Papiamento, Dutch or English).
 Decide if it is relevant: business, economy, public finance, real estate, tourism economics, labour market, energy, infrastructure, trade, regulation, or island/kingdom politics with economic consequences. Reject crime, sport, lifestyle, entertainment, weather, accidents, obituaries, advertorials, vacancies, pure party politics with no policy content. Reject anything that is not about Aruba, Curaçao, Bonaire or the Kingdom's relation to them.
 Island: the island the story is mainly about (a Kingdom-wide or Caribbean Netherlands story about Bonaire is "bonaire"; a CBCS or Cft story mainly about Curaçao is "curacao").
-If relevant, write an ORIGINAL brief in plain business English and in Dutch. Never copy or closely paraphrase sentences from the source. State what happened, what changed and who it affects. Use figures only if they appear in the source; never estimate. Standfirst: 1-2 sentences. Key points: 3-4 bullets. Body: 2-3 short paragraphs (120-220 words total per language).
-Return ONLY JSON matching: {"keep": boolean, "island": "aruba"|"curacao"|"bonaire", "topic": "business"|"economy"|"politics", "en": {"title","standfirst","keypoints":[...],"body":[...]}, "nl": {"title","standfirst","keypoints":[...],"body":[...]}}`;
+If relevant, write an ORIGINAL brief in plain business English, in Dutch and in neutral Latin American Spanish. Never copy or closely paraphrase sentences from the source. State what happened, what changed and who it affects. Use figures only if they appear in the source; never estimate. Standfirst: 1-2 sentences. Key points: 3-4 bullets. Body: 2-3 short paragraphs (120-220 words total per language).
+Return ONLY JSON matching: {"keep": boolean, "island": "aruba"|"curacao"|"bonaire", "topic": "business"|"economy"|"politics", "en": {"title","standfirst","keypoints":[...],"body":[...]}, "nl": {"title","standfirst","keypoints":[...],"body":[...]}, "es": {"title","standfirst","keypoints":[...],"body":[...]}}`;
 
 
 // Duplicate guard: the same story often appears twice (two outlets, or one site publishing a
@@ -240,7 +240,7 @@ async function brief(c) {
   if (DRY) return { keep: true, island: c.src.island, topic: "business", en: { title: c.title, standfirst: "", keypoints: [], body: [] }, nl: { title: c.title, standfirst: "", keypoints: [], body: [] } };
   const msg = await client.messages.create({
     model: MODEL,
-    max_tokens: 1800,
+    max_tokens: 2800,
     system: SYSTEM,
     messages: [{ role: "user", content: `Source: ${c.src.name} (${c.src.island}, language ${c.src.lang})\nURL: ${c.url}\nTitle: ${c.title}\n\nText:\n${c.text || "(no text; judge from the title)"}${recentList()}` }],
   });
@@ -290,7 +290,7 @@ for (const c0 of candidates) {
     items.unshift({
       id, slug, island: r.island || c.src.island, topic: r.topic,
       published_at: c.published_at || new Date().toISOString(), source_id: c.src.id, source_name: c.src.name, source_url: c.url,
-      also_covered: carried, en: r.en, nl: r.nl,
+      also_covered: carried, en: r.en, nl: r.nl, ...(r.es?.title ? { es: r.es } : {}),
     });
     known.add(c.url);
     added++;
@@ -302,8 +302,37 @@ for (const c0 of candidates) {
   }
 }
 
+/** Translates older briefs that have no Spanish version yet, a batch per run, newest first. */
+async function backfillSpanish(limit = 48) {
+  if (DRY) return 0;
+  const todo = items.filter((i) => !i.sample && !i.es?.title).sort((a, b) => (a.published_at < b.published_at ? 1 : -1)).slice(0, limit);
+  let done = 0;
+  for (let k = 0; k < todo.length; k += 6) {
+    const batch = todo.slice(k, k + 6);
+    try {
+      const out = await askJson(client, {
+        model: MODEL,
+        max_tokens: 8000,
+        system: "You translate business news briefs for Negoshi (Aruba, Curaçao, Bonaire) from English into neutral Latin American Spanish. Translate faithfully: same facts, figures, names and structure, natural newsroom Spanish, no additions. Keep institution names and currencies as written. Reply with JSON only.",
+        user: `Translate each brief. Return {"items": [{"id": "...", "es": {"title": "...", "standfirst": "...", "keypoints": ["..."], "body": ["..."]}}]} with the same ids, the same number of key points and the same number of body paragraphs.\n\n${JSON.stringify(batch.map((i) => ({ id: i.id, en: i.en })))}`,
+      });
+      for (const o of out?.items || []) {
+        const it = batch.find((i) => i.id === o.id);
+        if (it && o.es?.title && Array.isArray(o.es.body) && o.es.body.length) { it.es = { title: o.es.title, standfirst: o.es.standfirst || "", keypoints: o.es.keypoints || [], body: o.es.body }; done++; }
+      }
+    } catch (err) {
+      const m = String(err.message || err);
+      console.log(`spanish backfill failed: ${m.slice(0, 200)}`);
+      if (/credit balance|billing/i.test(m)) { billingError = true; break; }
+    }
+  }
+  if (done) console.log(`translated ${done} older briefs into Spanish`);
+  return done;
+}
+
 const pruned = pruneDuplicates() + (billingError ? 0 : await semanticDedupe());
 if (pruned) console.log(`removed ${pruned} duplicate briefs`);
+if (!billingError) await backfillSpanish();
 
 // once real items exist, drop the sample seed
 const live = items.filter((i) => !i.sample);

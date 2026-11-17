@@ -82,7 +82,7 @@ async function collect(pub) {
 }
 
 const SYSTEM = `You curate a reports library for Negoshi, a business and economy news site for Aruba, Curaçao and Bonaire. You get a list of documents (publisher, link text, URL). For each, decide if it is a substantive publication worth listing: economic bulletins, statistical reports, press releases with data, annual reports, financial stability reports, supervisory advice, budgets, outlooks, tourism statistics. Drop forms, privacy statements, brochures, job vacancies, event flyers, duplicates in another language of the same document (keep the English one if present, else Dutch), and anything older than 2023 if a year is visible.
-Return ONLY a JSON array, same order as input, one object per input: {"keep": boolean, "island": "aruba"|"curacao"|"bonaire"|"kingdom", "en": {"title": "<concise English title, include period e.g. 'Monthly Economic Bulletin, August 2026'>", "category": "<one of: Monetary, Statistics, Tourism, Supervision, Public finance, Annual report, Outlook, Policy>"}, "nl": {"title": "<Dutch title>", "category": "<Dutch: Monetair, Statistiek, Toerisme, Toezicht, Overheidsfinanciën, Jaarverslag, Vooruitzichten, Beleid>"}, "date": "<YYYY-MM-DD if a date or month is visible, else null>"}`;
+Return ONLY a JSON array, same order as input, one object per input: {"keep": boolean, "island": "aruba"|"curacao"|"bonaire"|"kingdom", "en": {"title": "<concise English title, include period e.g. 'Monthly Economic Bulletin, August 2026'>", "category": "<one of: Monetary, Statistics, Tourism, Supervision, Public finance, Annual report, Outlook, Policy>"}, "nl": {"title": "<Dutch title>", "category": "<Dutch: Monetair, Statistiek, Toerisme, Toezicht, Overheidsfinanciën, Jaarverslag, Vooruitzichten, Beleid>"}, "es": {"title": "<Spanish title>", "category": "<Spanish: Monetario, Estadísticas, Turismo, Supervisión, Finanzas públicas, Informe anual, Perspectivas, Política pública>"}, "date": "<YYYY-MM-DD if a date or month is visible, else null>"}`;
 
 let added = 0;
 for (const pub of PUBLISHERS) {
@@ -102,7 +102,7 @@ for (const pub of PUBLISHERS) {
       seen[d.url] = j?.keep ? "kept" : "skip";
       if (!j?.keep) return;
       const id = crypto.createHash("sha1").update(d.url).digest("hex").slice(0, 10);
-      reports.unshift({ id, island: j.island || ISLAND_HINT(d.url, d.title) || pub.island, publisher: pub.name, url: d.url, published_at: j.date || new Date().toISOString().slice(0, 10), en: j.en, nl: j.nl });
+      reports.unshift({ id, island: j.island || ISLAND_HINT(d.url, d.title) || pub.island, publisher: pub.name, url: d.url, published_at: j.date || new Date().toISOString().slice(0, 10), en: j.en, nl: j.nl, ...(j.es?.title ? { es: j.es } : {}) });
       known.add(d.url);
       added++;
       console.log(`  added: ${j.en.title}`);
@@ -111,6 +111,20 @@ for (const pub of PUBLISHERS) {
     console.log(`judge err ${pub.id}: ${e.message.slice(0, 200)}`);
     if (isBilling(e)) { process.exitCode = 2; break; }
   }
+}
+
+// Spanish titles for reports that do not have one yet
+const CAT_ES = { Monetary: "Monetario", Statistics: "Estadísticas", Tourism: "Turismo", Supervision: "Supervisión", "Public finance": "Finanzas públicas", "Annual report": "Informe anual", Outlook: "Perspectivas", Policy: "Política pública" };
+const noEs = reports.filter((r) => !r.sample && !r.es?.title).slice(0, 120);
+if (noEs.length && !DRY && process.exitCode !== 2) {
+  try {
+    const out = await askJson(client, { model: MODEL, max_tokens: 8000, system: "You translate titles of official economic publications from English into neutral Latin American Spanish. Keep institution names, periods and figures. Reply with JSON only.", user: `Return {"items": [{"id": "...", "title": "<Spanish title>"}]} for:\n${JSON.stringify(noEs.map((r) => ({ id: r.id, title: r.en.title })))}` });
+    for (const o of out?.items || []) {
+      const r = noEs.find((x) => x.id === o.id);
+      if (r && o.title) r.es = { title: o.title, category: CAT_ES[r.en.category] || r.en.category };
+    }
+    console.log(`translated ${noEs.filter((r) => r.es).length} report titles into Spanish`);
+  } catch (e) { console.log(`spanish titles failed: ${e.message.slice(0, 200)}`); }
 }
 
 const live = reports.filter((r) => !r.sample);
