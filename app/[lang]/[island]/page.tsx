@@ -4,7 +4,7 @@ import { Ticker, Masthead, Footer } from "@/components/Chrome";
 import { IslandLine } from "@/components/Art";
 import { FeedItem } from "@/components/Story";
 import { itemsByIsland, sourcesByIsland } from "@/lib/data";
-import { isIsland, isLang, ISLANDS, LANGS, t, type Lang } from "@/lib/i18n";
+import { isIsland, isLang, ISLANDS, LANGS, t, type Lang, pick } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => ISLANDS.map((island) => ({ lang, island })));
@@ -42,7 +42,7 @@ export default async function IslandPage({ params }: { params: Promise<{ lang: s
         </div>
       </div>
       <div className="wrap filters">
-        <span className="chip on">{lang === "nl" ? "Alles" : "All"}</span>
+        <span className="chip on">{pick(lang, "All", "Alles", "Todo")}</span>
         <span className="chip">{d.topics.business}</span>
         <span className="chip">{d.topics.economy}</span>
         <span className="chip">{d.topics.politics}</span>
@@ -57,12 +57,12 @@ export default async function IslandPage({ params }: { params: Promise<{ lang: s
                 {list.map((it) => <FeedItem key={it.id} item={it} lang={lang} />)}
               </div>
             ))}
-            {items.length === 0 && <p>{lang === "nl" ? "Nog geen berichten." : "No briefs yet."}</p>}
+            {items.length === 0 && <p>{pick(lang, "No briefs yet.", "Nog geen berichten.", "Aún no hay notas.")}</p>}
           </section>
           <aside className="side">
             <div className="box dark">
-              <span className="k">{d.islands[island]} · {lang === "nl" ? "maandagbrief" : "Monday brief"}</span>
-              <h2>{lang === "nl" ? `Elke maandag: de vijf berichten die ertoe doen voor ${d.islands[island]}.` : `Every Monday: the five stories that matter for business in ${d.islands[island]}.`}</h2>
+              <span className="k">{d.islands[island]} · {pick(lang, "Monday brief", "maandagbrief", "resumen del lunes")}</span>
+              <h2>{pick(lang, `Every Monday: the five stories that matter for business in ${d.islands[island]}.`, `Elke maandag: de vijf berichten die ertoe doen voor ${d.islands[island]}.`, `Cada lunes: las cinco noticias que importan para los negocios en ${d.islands[island]}.`)}</h2>
               <form action="/api/subscribe" method="post" style={{ display: "flex", flexDirection: "column", gap: 8 }}>
                 <input type="hidden" name="lang" value={lang} />
                 <input type="hidden" name="island" value={island} />
@@ -71,9 +71,9 @@ export default async function IslandPage({ params }: { params: Promise<{ lang: s
               </form>
             </div>
             <div className="box">
-              <h2>{lang === "nl" ? "Partner" : "Sponsored"}</h2>
+              <h2>{pick(lang, "Sponsored", "Partner", "Patrocinado")}</h2>
               <div style={{ height: 120, border: "1px dashed #cfcbc0", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, color: "var(--muted)" }}>
-                {lang === "nl" ? "Partnerplaatsing" : "Partner placement"}
+                {pick(lang, "Partner placement", "Partnerplaatsing", "Espacio patrocinado")}
               </div>
             </div>
           </aside>
