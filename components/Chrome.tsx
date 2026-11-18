@@ -65,6 +65,9 @@ export function Masthead({ lang, island, path, geo }: { lang: Lang; island?: Isl
           <a href={`/${lang}/analysis`}>{x.analysis}</a>
           <a href={`/${lang}/reports`}>{d.topics.reports}</a>
           <a href={`/${lang}/about`}>{d.nav.about}</a>
+          <form action={`/${lang}/search`} className="navsearch" role="search">
+            <input type="search" name="q" placeholder={pick(lang, "Search", "Zoeken", "Buscar")} aria-label={pick(lang, "Search briefs", "Zoek berichten", "Buscar noticias")} />
+          </form>
         </nav>
       </div>
     </header>
