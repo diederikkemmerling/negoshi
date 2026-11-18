@@ -5,6 +5,8 @@ import { Ticker, Masthead, Footer } from "@/components/Chrome";
 import { Illo, topicIcon } from "@/components/Art";
 import { allItems, itemBySlug, fmtDate, loc, itemsByIsland } from "@/lib/data";
 import { isLang, LANGS, t, type Lang, pick, OG_LOCALE } from "@/lib/i18n";
+import { HitBeacon } from "@/components/HitBeacon";
+import { MostRead } from "@/components/MostRead";
 
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => allItems().map((i) => ({ lang, slug: i.slug })));
@@ -18,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   return {
     title: `${l.title} · Negoshi`,
     description: l.standfirst,
-    alternates: { canonical: `/${lang}/brief/${slug}`, languages: { en: `/en/brief/${slug}`, nl: `/nl/brief/${slug}`, es: `/es/brief/${slug}` } },
+    alternates: { canonical: `/${lang}/brief/${slug}`, languages: { en: `/en/brief/${slug}`, nl: `/nl/brief/${slug}`, es: `/es/brief/${slug}` }, types: { "application/rss+xml": `/${lang}/rss.xml` } },
     openGraph: { type: "article", siteName: "Negoshi", title: l.title, description: l.standfirst, url: `/${lang}/brief/${slug}`, publishedTime: item.published_at, locale: OG_LOCALE[lang] },
     twitter: { card: "summary_large_image", title: l.title, description: l.standfirst },
   };
@@ -50,6 +52,15 @@ export default async function BriefPage({ params }: { params: Promise<{ lang: st
             {item.sample && <span className="sample">{d.sampleNotice}</span>}
             <div className="kicker"><span className={`tag-${item.island}`}>{d.islands[item.island]}</span><span className="sep">/</span><span style={{ color: "var(--muted)" }}>{d.topics[item.topic]}</span></div>
             <h1>{l.title}</h1>
+            {!item.sample && <HitBeacon id={item.id} />}
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org", "@type": "NewsArticle", headline: l.title, description: l.standfirst, inLanguage: lang,
+              datePublished: item.published_at, dateModified: item.published_at, articleSection: d.topics[item.topic],
+              image: [`https://negoshi.news/${lang}/brief/${item.slug}/opengraph-image`],
+              mainEntityOfPage: `https://negoshi.news/${lang}/brief/${item.slug}`,
+              author: { "@type": "Organization", name: "Negoshi", url: "https://negoshi.news" },
+              publisher: { "@type": "Organization", name: "Negoshi", logo: { "@type": "ImageObject", url: "https://negoshi.news/icon.svg" } },
+            }).replace(/</g, "\\u003c") }} />
             <p className="standfirst">{l.standfirst}</p>
             <div className="art">
               <Illo icon={topicIcon(item.topic)} island={item.island} seed={item.slug} ratio="wide" />
@@ -69,6 +80,7 @@ export default async function BriefPage({ params }: { params: Promise<{ lang: st
             </div>
           </article>
           <aside className="side">
+            <MostRead lang={lang} exclude={item.id} />
             <div className="box dark">
               <span className="k">{d.islands[item.island]} · {pick(lang, "Monday brief", "maandagbrief", "resumen del lunes")}</span>
               <h2>{pick(lang, "Every Monday: the five stories that matter.", "Elke maandag de vijf berichten die ertoe doen.", "Cada lunes: las cinco noticias que importan.")}</h2>
