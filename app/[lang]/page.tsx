@@ -5,6 +5,8 @@ import { Ticker, Masthead, Footer, Newsletter } from "@/components/Chrome";
 import { Story, SkylineArt, BarsArt, LineArt, ParliamentArt, DocumentArt, PenArt, IslandLine } from "@/components/Story";
 import { allItems, allReports, bandIndicators, itemsByIsland, loc, relTime, sourcesByIsland, locReport, indicatorLabel } from "@/lib/data";
 import { isLang, ISLANDS, t, extra, type Lang, pick } from "@/lib/i18n";
+import { Charts } from "@/components/Charts";
+import { MostReadStrip } from "@/components/MostReadStrip";
 import { analysisFor } from "@/lib/analysis";
 
 const COUNTRY_ISLAND: Record<string, "aruba" | "curacao" | "bonaire"> = { AW: "aruba", CW: "curacao", BQ: "bonaire" };
@@ -163,7 +165,10 @@ export default async function Home({ params, searchParams }: { params: Promise<{
               <div className="num" key={k}><span className="k">{k}</span><span className="v">{v}</span><span className="u">{u}</span></div>
             ))}
           </div>
+          <Charts lang={lang} />
         </section>
+
+        <MostReadStrip lang={lang} />
 
         <section>
           <div className="label-h" style={{ marginBottom: 18 }}>
