@@ -5,6 +5,8 @@ import { IslandLine } from "@/components/Art";
 import { FeedItem } from "@/components/Story";
 import { itemsByIsland, sourcesByIsland } from "@/lib/data";
 import { isIsland, isLang, ISLANDS, LANGS, t, type Lang, pick } from "@/lib/i18n";
+import { Charts } from "@/components/Charts";
+import { MostRead } from "@/components/MostRead";
 
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => ISLANDS.map((island) => ({ lang, island })));
@@ -60,6 +62,8 @@ export default async function IslandPage({ params }: { params: Promise<{ lang: s
             {items.length === 0 && <p>{pick(lang, "No briefs yet.", "Nog geen berichten.", "Aún no hay notas.")}</p>}
           </section>
           <aside className="side">
+            <MostRead lang={lang} />
+            <Charts lang={lang} island={island} />
             <div className="box dark">
               <span className="k">{d.islands[island]} · {pick(lang, "Monday brief", "maandagbrief", "resumen del lunes")}</span>
               <h2>{pick(lang, `Every Monday: the five stories that matter for business in ${d.islands[island]}.`, `Elke maandag: de vijf berichten die ertoe doen voor ${d.islands[island]}.`, `Cada lunes: las cinco noticias que importan para los negocios en ${d.islands[island]}.`)}</h2>
