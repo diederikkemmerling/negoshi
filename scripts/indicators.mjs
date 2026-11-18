@@ -36,6 +36,7 @@ const DEFS = [
 ];
 
 const results = {}; // id -> { value, period, change }
+const seriesAdd = {}; // series id -> [[period, number], ...]
 
 // 1. Market data, no key needed
 try {
@@ -58,6 +59,10 @@ try {
   const csv = await get("https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU", { accept: "text/csv,*/*" });
   const rows = csv.trim().split("\n").slice(1).map((l) => l.split(",")).filter((r) => r[1] && r[1] !== ".");
   const last = rows[rows.length - 1];
+  // monthly Brent averages for the chart, last 18 months
+  const byMonth = {};
+  for (const [d, v] of rows) { const n = Number(v); if (Number.isFinite(n)) (byMonth[d.slice(0, 7)] ||= []).push(n); }
+  seriesAdd.brent = Object.entries(byMonth).sort().slice(-18).map(([m, a]) => [m, Math.round((a.reduce((x, y) => x + y, 0) / a.length) * 10) / 10]);
   const close = Number(last?.[1]);
   if (Number.isFinite(close) && close > 0) { results.brent = { value: close.toFixed(2), period: last[0] }; console.log("ok   brent", close, last[0]); }
   else throw new Error("no value in csv");
@@ -99,12 +104,16 @@ Definitions:
 - arrivals-cw: Curaçao stay-over visitors, latest month, year-on-year % change. Prefer CTB; else tourismanalytics headline.
 - fuel-aw: Aruba maximum price of gasoline (gasolin / unleaded) per liter in AWG, from the "prijsnan maximo" page, with the date as period.
 - cpi-bq: Bonaire year-on-year consumer price change in %, latest quarter, if stated.
-Use "+" or "-" sign for % changes. value must be a plain number string like "3.4" or "+9.8".`;
+Use "+" or "-" sign for % changes. value must be a plain number string like "3.4" or "+9.8".
+Also add to each object "month": the period as "YYYY-MM" (or "YYYY-Qn" for cpi-bq), and for arrivals-aw and arrivals-cw "count": the number of stay-over visitors in that month as a plain integer if stated, else null. For fuel-aw "month" is the month the price took effect.`;
 
 if (texts.length && !DRY) {
   try {
     const j = await askJson(client, { model: MODEL, system: SYSTEM, user: texts.join("\n\n"), max_tokens: 800 });
-    for (const [k, v] of Object.entries(j)) if (v && v.value != null && v.value !== "") { results[k] = { value: String(v.value), period: v.period || null, change: v.change ?? null }; console.log("ok  ", k, v.value, v.period); }
+    for (const [k, v] of Object.entries(j)) if (v && v.value != null && v.value !== "") { results[k] = { value: String(v.value), period: v.period || null, change: v.change ?? null };
+      const m = typeof v.month === "string" && /^\d{4}-(\d{2}|Q[1-4])$/.test(v.month) ? v.month : null;
+      const num = k.startsWith("arrivals") ? Number(v.count) : Number(String(v.value).replace("+", ""));
+      if (m && Number.isFinite(num) && num !== 0) seriesAdd[k] = [[m, num]]; console.log("ok  ", k, v.value, v.period); }
   } catch (e) {
     console.log("err  claude:", e.message.slice(0, 200));
     if (isBilling(e)) process.exitCode = 2;
@@ -124,4 +133,20 @@ const items = DEFS.map((d) => {
 });
 const out = { updated_at: now, items };
 if (!DRY) fs.writeFileSync(OUT, JSON.stringify(out, null, 2) + "\n");
+
+// chart history: merge new points into data/series.json (newer value for the same period wins)
+const SERIES = new URL("../data/series.json", import.meta.url);
+try {
+  const sj = JSON.parse(fs.readFileSync(SERIES, "utf8"));
+  for (const s of sj.series) {
+    const add = seriesAdd[s.id];
+    if (!add?.length) continue;
+    const map = new Map(s.points);
+    for (const [m, v] of add) map.set(m, v);
+    s.points = [...map.entries()].sort((a, b) => (a[0] < b[0] ? -1 : 1)).slice(-36);
+    console.log("series", s.id, add.length, "point(s)");
+  }
+  sj.updated_at = now.slice(0, 10);
+  if (!DRY) fs.writeFileSync(SERIES, JSON.stringify(sj) + "\n");
+} catch (e) { console.log("err  series", e.message); }
 console.log(`done: ${items.filter((i) => i.value).length}/${items.length} indicators have a value${DRY ? " (dry run)" : ""}`);
