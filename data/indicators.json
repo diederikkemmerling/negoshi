@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T18:50:48.724Z",
+  "updated_at": "2026-11-21T17:46:21.889Z",
   "items": [
     {
       "id": "usd-eur",
@@ -14,7 +14,7 @@
       "value": "0.910",
       "period": "2026-11-20",
       "change": null,
-      "updated_at": "2026-11-20T18:50:48.724Z"
+      "updated_at": "2026-11-21T17:46:21.889Z"
     },
     {
       "id": "eur-awg",
@@ -29,7 +29,7 @@
       "value": "1.967",
       "period": "2026-11-20",
       "change": null,
-      "updated_at": "2026-11-20T18:50:48.724Z"
+      "updated_at": "2026-11-21T17:46:21.889Z"
     },
     {
       "id": "usd-cop",
@@ -44,7 +44,7 @@
       "value": "3,345",
       "period": "2026-11-20",
       "change": null,
-      "updated_at": "2026-11-20T18:50:48.724Z"
+      "updated_at": "2026-11-21T17:46:21.889Z"
     },
     {
       "id": "brent",
@@ -59,7 +59,7 @@
       "value": "92.94",
       "period": "2026-11-17",
       "change": null,
-      "updated_at": "2026-11-20T18:50:48.724Z"
+      "updated_at": "2026-11-21T17:46:21.889Z"
     },
     {
       "id": "cpi-aw",
@@ -88,7 +88,7 @@
       "value": "1.5",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-20T18:50:48.724Z"
+      "updated_at": "2026-11-21T17:46:21.889Z"
     },
     {
       "id": "arrivals-aw",
@@ -103,7 +103,7 @@
       "value": "+17.1",
       "period": "Sep 2026",
       "change": null,
-      "updated_at": "2026-11-20T18:50:48.724Z"
+      "updated_at": "2026-11-21T17:46:21.889Z"
     },
     {
       "id": "arrivals-cw",
@@ -118,7 +118,7 @@
       "value": "+11.7",
       "period": "Oct 2026",
       "change": null,
-      "updated_at": "2026-11-20T18:50:48.724Z"
+      "updated_at": "2026-11-21T17:46:21.889Z"
     },
     {
       "id": "fuel-aw",
